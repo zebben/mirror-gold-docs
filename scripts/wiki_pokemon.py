@@ -538,17 +538,17 @@ def generate_pokemon_pages(evodata_path, output_dir, mondata_path, species_path,
     print(f"Generated {len(species_list)} pages in '{output_dir}/'")
 
 generate_pokemon_pages(
-    evodata_path="../../armips/data/evodata.s",
+    evodata_path="../../hg-engine/armips/data/evodata.s",
     output_dir="../../../mirror-gold-docs/docs/pokedex",
-    mondata_path="../../armips/data/mondata.s",
-    species_path="../../include/constants/species.h",
-    form_table_path="../../data/FormToSpeciesMapping.c",
-    sprite_root="../../data/graphics/sprites",
-    levelup_path="../../armips/data/levelupdata.s",
-    encounter_path="../../armips/data/encounters.s"
+    mondata_path="../../hg-engine/armips/data/mondata.s",
+    species_path="../../hg-engine/include/constants/species.h",
+    form_table_path="../../hg-engine/data/FormToSpeciesMapping.c",
+    sprite_root="../../hg-engine/data/graphics/sprites",
+    levelup_path="../../hg-engine/armips/data/levelupdata.s",
+    encounter_path="../../hg-engine/armips/data/encounters.s"
 )
 
-def generate_index(species_path, output_path="../../docs/pokedex/index.html"):
+def generate_index(species_path, output_path="../docs/pokedex/index.html"):
     species = parse_species_header(species_path)
 
     with open(output_path, "w") as f:
@@ -585,4 +585,4 @@ def generate_index(species_path, output_path="../../docs/pokedex/index.html"):
 
 
 if __name__ == "__main__":
-    generate_index("../../include/constants/species.h")
+    generate_index("../../hg-engine/include/constants/species.h")

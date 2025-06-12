@@ -4,13 +4,13 @@ from html import escape
 from collections import defaultdict, deque
 import math
 
-TRAINER_INPUT = "../../armips/data/trainers/trainers.s"
-TRAINER_OUTPUT_DIR = "../../../mirror-gold-docs/docs/trainers"
-TRAINER_INDEX_PATH = "../../../mirror-gold-docs/docs/trainers/index.html"
+TRAINER_INPUT = "../../hg-engine/armips/data/trainers/trainers.s"
+TRAINER_OUTPUT_DIR = "../docs/trainers"
+TRAINER_INDEX_PATH = "../docs/trainers/index.html"
 POKEMON_SPRITE_PATH = "../pokedex/sprites"
-SPECIES_PATH = "../../include/constants/species.h"
-FORM_TABLE_PATH = "../../data/FormToSpeciesMapping.c"
-MON_DATA_PATH = "../../armips/data/mondata.s"
+SPECIES_PATH = "../../hg-engine/include/constants/species.h"
+FORM_TABLE_PATH = "../../hg-engine/data/FormToSpeciesMapping.c"
+MON_DATA_PATH = "../../hg-engine/armips/data/mondata.s"
 
 NATURE_MODIFIERS = {
     "NATURE_HARDY":    (None, None),
