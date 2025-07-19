@@ -3,10 +3,12 @@ import re
 from html import escape
 from collections import defaultdict, deque
 import math
+import json
 
 TRAINER_INPUT = "../../hg-engine/armips/data/trainers/trainers.s"
 TRAINER_OUTPUT_DIR = "../docs/trainers"
 TRAINER_INDEX_PATH = "../docs/trainers/index.html"
+TRAINER_AREA_MAPPING = "../data/trainer_area_mappings.json"
 POKEMON_SPRITE_PATH = "../pokedex/sprites"
 SPECIES_PATH = "../../hg-engine/include/constants/species.h"
 FORM_TABLE_PATH = "../../hg-engine/data/FormToSpeciesMapping.c"
@@ -413,8 +415,20 @@ def render_stat_bar(label, value, base):
     """
 
 
-def generate_index(trainers, output_path):
-    with open(output_path, "w") as f:
+def generate_index(trainers, output_path, id_to_area):
+    from collections import defaultdict
+
+    # Group trainers by area
+    area_to_trainers = defaultdict(list)
+    for t in trainers:
+        if t["name"] == "-":
+            continue
+        area = id_to_area.get(t["id"], "UNKNOWN / REMATCHES")
+        area_to_trainers[area].append(t)
+
+    sorted_areas = [area for area in story_order if area in area_to_trainers] + ["UNKNOWN / REMATCHES"]
+
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write("""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -428,31 +442,48 @@ def generate_index(trainers, output_path):
     <div class="center">
         <input type="text" id="searchBox" class="center" placeholder="Search Trainers..." onkeyup="filterList()" />
     </div>
-    <ul id="trainerList" class="center">
 """)
-        for t in trainers:
-            if t["name"] == "-":
-                continue
-            fname = f"./{t['name'].replace(' ', '_')}_{t['id']}.html"
-            f.write(f"        <li><a href='{fname}'>{escape(t['name'])}</a></li>\n")
 
-        f.write("""    </ul>
-    <script>
-    function filterList() {
-        const input = document.getElementById("searchBox").value.toUpperCase();
-        const ul = document.getElementById("trainerList");
-        const items = ul.getElementsByTagName("li");
+        for area in sorted_areas:
+            f.write(f"<h2 class='center'>{escape(area)}</h2>\n<ul id='trainerList'>\n")
+            for t in sorted(area_to_trainers[area], key=lambda x: x["name"]):
+                fname = f"./{t['name'].replace(' ', '_')}_{t['id']}.html"
+                f.write(f"    <li class='center'><a href='{fname}'>{escape(t['name'])}</a></li>\n")
+            f.write("</ul>\n")
+
+        f.write("""
+<script>
+function filterList() {
+    const input = document.getElementById("searchBox").value.toUpperCase();
+
+    // Loop over each section (area)
+    const sections = document.querySelectorAll("h2");
+    sections.forEach(section => {
+        const area = section.textContent.toUpperCase();
+        const list = section.nextElementSibling; // the <ul> after the <h2>
+        const items = list.getElementsByTagName("li");
+        let anyVisible = false;
+
         for (let i = 0; i < items.length; i++) {
             const a = items[i].getElementsByTagName("a")[0];
-            const txt = a.textContent || a.innerText;
-            items[i].style.display = txt.toUpperCase().includes(input) ? "" : "none";
+            const name = a.textContent || a.innerText;
+            const match = name.toUpperCase().includes(input) || area.includes(input);
+
+            items[i].style.display = match ? "" : "none";
+            if (match) anyVisible = true;
         }
-    }
-    </script>
+
+        // Hide the whole area if no trainer matches
+        section.style.display = anyVisible ? "" : "none";
+        list.style.display = anyVisible ? "" : "none";
+    });
+}
+</script>
+
 </body>
 </html>""")
 
-    print(f"Index written to {output_path}")
+    print(f"Grouped index written to {output_path}")
 
 
 if __name__ == "__main__":
@@ -462,4 +493,14 @@ if __name__ == "__main__":
     trainers = parse_trainers(TRAINER_INPUT, species_form_map)
     mondata = parse_mondata(MON_DATA_PATH)
     generate_trainer_pages(trainers, mondata, TRAINER_OUTPUT_DIR)
-    generate_index(trainers, TRAINER_INDEX_PATH)
+    with open(TRAINER_AREA_MAPPING) as f:
+        area_to_ids = json.load(f)
+
+    story_order = list(area_to_ids.keys())
+
+    id_to_area = {}
+    for area in story_order:
+        for tid in area_to_ids[area]:
+            id_to_area[tid] = area
+
+    generate_index(trainers, TRAINER_INDEX_PATH, id_to_area)
