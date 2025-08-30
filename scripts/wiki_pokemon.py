@@ -2,6 +2,9 @@ import os
 import re
 from collections import defaultdict, deque
 import shutil
+import json
+
+LEARNSETS_PATH = "../hg-engine/data/learnsets/learnsets.json"
 
 # Evolution method descriptions
 method_map = {
@@ -146,6 +149,45 @@ def parse_mondata(filepath):
                     monstats[current_species]["types"] = [t1] if t1 == t2 else [t1, t2]
 
     return monstats
+
+
+def load_learnsets(json_path=LEARNSETS_PATH):
+    with open(json_path, "r", encoding="utf-8") as f:
+        return json.load(f)  # { "SPECIES_X": { "LevelMoves": [...], "EggMoves": [...], "MachineMoves": [...] } }
+
+
+def _pretty_move(move_const: str) -> str:
+    # "MOVE_THUNDER_SHOCK" -> "Thunder Shock"
+    return move_const.replace("MOVE_", "").replace("_", " ").title()
+
+
+def get_level_moves_from_json(learnsets, species_no_prefix: str):
+    # JSON keys are "SPECIES_FOO"
+    key = f"SPECIES_{species_no_prefix}"
+    entry = learnsets.get(key, {})
+    out = []
+    for lm in entry.get("LevelMoves", []):
+        try:
+            lvl = int(lm.get("Level", 0))
+        except Exception:
+            continue
+        mv = _pretty_move(lm.get("Move", "MOVE_NONE"))
+        out.append((lvl, mv))
+    # sort just in case
+    out.sort(key=lambda x: x[0])
+    return out
+
+
+def get_egg_moves_from_json(learnsets, species_no_prefix: str):
+    key = f"SPECIES_{species_no_prefix}"
+    entry = learnsets.get(key, {})
+    return [_pretty_move(m) for m in entry.get("EggMoves", [])]
+
+
+def get_machine_moves_from_json(learnsets, species_no_prefix: str):
+    key = f"SPECIES_{species_no_prefix}"
+    entry = learnsets.get(key, {})
+    return [_pretty_move(m) for m in entry.get("MachineMoves", [])]
 
 
 def parse_species_header(filepath):
@@ -372,7 +414,7 @@ def generate_pokemon_pages(evodata_path, output_dir, mondata_path, species_path,
 
     monstats = parse_mondata(mondata_path)
     sorted_species_list = sorted(s.removeprefix("SPECIES_") for s in set(species_list))
-    levelup_moves = parse_levelup_data(levelup_path)
+    learnsets = load_learnsets(LEARNSETS_PATH)
     encounter_locations = parse_encounter_data(encounter_path, species_form_map)
     sprite_out = "sprites"
     os.makedirs(f"{output_dir}/{sprite_out}", exist_ok=True)
@@ -511,17 +553,45 @@ def generate_pokemon_pages(evodata_path, output_dir, mondata_path, species_path,
                     f.write(f"      <li><a href='{form.lower()}.html'>{form.replace('_', ' ').title()}</a></li>\n")
                 f.write("    </ul>\n")
 
-            moves = levelup_moves.get(species, [])
-
+            # Level-up moves from JSON
+            moves = get_level_moves_from_json(learnsets, species)
             if moves:
                 moves_html = "<table>\n  <tr><th>Level</th><th>Move</th></tr>\n"
                 for level, move in moves:
                     moves_html += f"  <tr><td>{level}</td><td>{move}</td></tr>\n"
                 moves_html += "</table>"
-            ...
+            else:
+                moves_html = "<p><em>Moves not found.</em></p>"
+
+            # Egg & Machine moves from JSON (tables, 1 col)
+            egg_moves = get_egg_moves_from_json(learnsets, species)
+            machine_moves = get_machine_moves_from_json(learnsets, species)
+
+            egg_html = "<table>\n  <tr><th>Egg Move</th></tr>\n"
+            if egg_moves:
+                for move in egg_moves:
+                    egg_html += f"  <tr><td>{move}</td></tr>\n"
+            else:
+                egg_html += "  <tr><td>(none)</td></tr>\n"
+            egg_html += "</table>"
+
+            machine_html = "<table>\n  <tr><th>Machine Move</th></tr>\n"
+            if machine_moves:
+                for move in machine_moves:
+                    machine_html += f"  <tr><td>{move}</td></tr>\n"
+            else:
+                machine_html += "  <tr><td>(none)</td></tr>\n"
+            machine_html += "</table>"
+
             f.write(f"""
                 <h3 class='center'>Level-Up Moves</h3>
                 {moves_html}
+            
+                <h3 class='center'>Machine Moves</h3>
+                {machine_html}
+            
+                <h3 class='center'>Egg Moves</h3>
+                {egg_html}
             """)
 
             f.write(f"""
@@ -538,17 +608,18 @@ def generate_pokemon_pages(evodata_path, output_dir, mondata_path, species_path,
     print(f"Generated {len(species_list)} pages in '{output_dir}/'")
 
 generate_pokemon_pages(
-    evodata_path="../../hg-engine/armips/data/evodata.s",
-    output_dir="../../../mirror-gold-docs/docs/pokedex",
-    mondata_path="../../hg-engine/armips/data/mondata.s",
-    species_path="../../hg-engine/include/constants/species.h",
-    form_table_path="../../hg-engine/data/FormToSpeciesMapping.c",
-    sprite_root="../../hg-engine/data/graphics/sprites",
-    levelup_path="../../hg-engine/armips/data/levelupdata.s",
-    encounter_path="../../hg-engine/armips/data/encounters.s"
+    evodata_path="../hg-engine/armips/data/evodata.s",
+    output_dir="docs/pokedex",
+    mondata_path="../hg-engine/armips/data/mondata.s",
+    species_path="../hg-engine/include/constants/species.h",
+    form_table_path="../hg-engine/data/FormToSpeciesMapping.c",
+    sprite_root="../hg-engine/data/graphics/sprites",
+    levelup_path="../hg-engine/armips/data/levelupdata.s",
+    encounter_path="../hg-engine/armips/data/encounters.s"
 )
 
-def generate_index(species_path, output_path="../docs/pokedex/index.html"):
+
+def generate_index(species_path, output_path="docs/pokedex/index.html"):
     species = parse_species_header(species_path)
 
     with open(output_path, "w") as f:
@@ -585,4 +656,4 @@ def generate_index(species_path, output_path="../docs/pokedex/index.html"):
 
 
 if __name__ == "__main__":
-    generate_index("../../hg-engine/include/constants/species.h")
+    generate_index("../hg-engine/include/constants/species.h")
