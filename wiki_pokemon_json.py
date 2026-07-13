@@ -425,7 +425,7 @@ def generate_pokemon_pages(json_path: Path, output_dir: Path, sprite_root: Path 
           <body>
             <h1 class='center'>Mirror Gold Pokédex</h1>
             <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-            <h2 class='center'>{escape(species)}</h2>
+            <h2 class='center'>{escape(species.replace("_", " ").title())}</h2>
             <div class='sprite info-line'>{img_tag}</div>
             <div class='center info-line'>
               <strong>Type:</strong>
