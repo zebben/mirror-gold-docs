@@ -419,7 +419,7 @@ def generate_pokemon_pages(json_path: Path, output_dir: Path, sprite_root: Path 
         <html lang='en'>
           <head>
             <meta charset='UTF-8'>
-            <title>{escape(species)}</title>
+            <title>{escape(species.replace("_", " ").title())}</title>
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
