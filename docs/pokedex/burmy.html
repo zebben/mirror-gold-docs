@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Burmy</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/burmy.png' alt='burmy' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,9 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Shed Skin_(Ability)' target='_blank'>Shed Skin</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Shed Skin</strong><span>The Pokémon may heal its own status problems.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,11 +75,21 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='wormadam.html'>WORMADAM</a> via EVO_LEVEL_FEMALE <strong>32</strong></li>
-      <li>Evolves into <a href='mothim.html'>MOTHIM</a> via EVO_LEVEL_MALE <strong>32</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./burmy.html'>Burmy</a><span class='evolution-arrow' title='EVO_LEVEL_FEMALE 32'>→<small>EVO_LEVEL_FEMALE 32</small></span><a class='evolution-mon' href='./wormadam.html'>Wormadam</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./burmy.html'>Burmy</a><span class='evolution-arrow' title='EVO_LEVEL_MALE 32'>→<small>EVO_LEVEL_MALE 32</small></span><a class='evolution-mon' href='./mothim.html'>Mothim</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 30</td><td>Walk</td><td>Day</td><td>3</td><td>20%</td></tr>
+<tr><td>Route 30</td><td>Walk</td><td>Morning</td><td>3</td><td>20%</td></tr>
+<tr><td>Route 2 North Above Viridian Forest</td><td>Walk</td><td>Day</td><td>65</td><td>20%</td></tr>
+<tr><td>Route 2 North Above Viridian Forest</td><td>Walk</td><td>Morning</td><td>65</td><td>20%</td></tr>
+<tr><td>Route 2 North Above Viridian Forest</td><td>Walk</td><td>Day</td><td>67</td><td>14%</td></tr>
+<tr><td>Route 2 North Above Viridian Forest</td><td>Walk</td><td>Morning</td><td>67</td><td>14%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -85,11 +102,10 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Protect</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+</tbody></table>
 
                 
 
@@ -98,19 +114,6 @@
   <tr><th>Egg Move</th></tr>
   <tr><td>(none)</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Route 2 North Above Viridian Forest</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-</ul>
-<h4 class='center'>Route 30</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

@@ -1,0 +1,1597 @@
+{
+  "ABILITY_NONE": {
+    "AbilityId": 0,
+    "Name": "None",
+    "Description": "-"
+  },
+  "ABILITY_STENCH": {
+    "AbilityId": 1,
+    "Name": "Stench",
+    "Description": "The stench helps keep wild Pokémon away."
+  },
+  "ABILITY_DRIZZLE": {
+    "AbilityId": 2,
+    "Name": "Drizzle",
+    "Description": "The Pokémon makes it rain if it appears in battle."
+  },
+  "ABILITY_SPEED_BOOST": {
+    "AbilityId": 3,
+    "Name": "Speed Boost",
+    "Description": "Its Speed stat is gradually boosted."
+  },
+  "ABILITY_BATTLE_ARMOR": {
+    "AbilityId": 4,
+    "Name": "Battle Armor",
+    "Description": "The Pokémon is protected against critical hits."
+  },
+  "ABILITY_STURDY": {
+    "AbilityId": 5,
+    "Name": "Sturdy",
+    "Description": "It is protected against 1-hit KO attacks."
+  },
+  "ABILITY_DAMP": {
+    "AbilityId": 6,
+    "Name": "Damp",
+    "Description": "Prevents combatants from self-destructing."
+  },
+  "ABILITY_LIMBER": {
+    "AbilityId": 7,
+    "Name": "Limber",
+    "Description": "The Pokémon is protected from paralysis."
+  },
+  "ABILITY_SAND_VEIL": {
+    "AbilityId": 8,
+    "Name": "Sand Veil",
+    "Description": "Boosts the Pokémon’s evasion in a sandstorm."
+  },
+  "ABILITY_STATIC": {
+    "AbilityId": 9,
+    "Name": "Static",
+    "Description": "Contact with the Pokémon may cause paralysis."
+  },
+  "ABILITY_VOLT_ABSORB": {
+    "AbilityId": 10,
+    "Name": "Volt Absorb",
+    "Description": "Restores HP if hit by an Electric-type move."
+  },
+  "ABILITY_WATER_ABSORB": {
+    "AbilityId": 11,
+    "Name": "Water Absorb",
+    "Description": "Restores HP if hit by a Water-type move."
+  },
+  "ABILITY_OBLIVIOUS": {
+    "AbilityId": 12,
+    "Name": "Oblivious",
+    "Description": "Prevents it from becoming infatuated."
+  },
+  "ABILITY_CLOUD_NINE": {
+    "AbilityId": 13,
+    "Name": "Cloud Nine",
+    "Description": "Eliminates the effects of weather."
+  },
+  "ABILITY_COMPOUND_EYES": {
+    "AbilityId": 14,
+    "Name": "Compound Eyes",
+    "Description": "The Pokémon’s accuracy is boosted."
+  },
+  "ABILITY_INSOMNIA": {
+    "AbilityId": 15,
+    "Name": "Insomnia",
+    "Description": "Prevents the Pokémon from falling asleep."
+  },
+  "ABILITY_COLOR_CHANGE": {
+    "AbilityId": 16,
+    "Name": "Color Change",
+    "Description": "Changes the Pokémon’s type to the foe’s move."
+  },
+  "ABILITY_IMMUNITY": {
+    "AbilityId": 17,
+    "Name": "Immunity",
+    "Description": "Prevents the Pokémon from getting poisoned."
+  },
+  "ABILITY_FLASH_FIRE": {
+    "AbilityId": 18,
+    "Name": "Flash Fire",
+    "Description": "It powers up Fire-type moves if it’s hit by one."
+  },
+  "ABILITY_SHIELD_DUST": {
+    "AbilityId": 19,
+    "Name": "Shield Dust",
+    "Description": "Blocks the added effects of attacks taken."
+  },
+  "ABILITY_OWN_TEMPO": {
+    "AbilityId": 20,
+    "Name": "Own Tempo",
+    "Description": "Prevents the Pokémon from becoming confused."
+  },
+  "ABILITY_SUCTION_CUPS": {
+    "AbilityId": 21,
+    "Name": "Suction Cups",
+    "Description": "Negates foes’ moves that force switching out."
+  },
+  "ABILITY_INTIMIDATE": {
+    "AbilityId": 22,
+    "Name": "Intimidate",
+    "Description": "Lowers the foe’s Attack stat."
+  },
+  "ABILITY_SHADOW_TAG": {
+    "AbilityId": 23,
+    "Name": "Shadow Tag",
+    "Description": "Prevents the foe from escaping."
+  },
+  "ABILITY_ROUGH_SKIN": {
+    "AbilityId": 24,
+    "Name": "Rough Skin",
+    "Description": "Inflicts damage to the foe on contact."
+  },
+  "ABILITY_WONDER_GUARD": {
+    "AbilityId": 25,
+    "Name": "Wonder Guard",
+    "Description": "Only supereffective moves will hit."
+  },
+  "ABILITY_LEVITATE": {
+    "AbilityId": 26,
+    "Name": "Levitate",
+    "Description": "Gives full immunity to all Ground-type moves."
+  },
+  "ABILITY_EFFECT_SPORE": {
+    "AbilityId": 27,
+    "Name": "Effect Spore",
+    "Description": "Contact may paralyze, poison, or cause sleep."
+  },
+  "ABILITY_SYNCHRONIZE": {
+    "AbilityId": 28,
+    "Name": "Synchronize",
+    "Description": "Passes a burn, poison, or paralysis to the foe."
+  },
+  "ABILITY_CLEAR_BODY": {
+    "AbilityId": 29,
+    "Name": "Clear Body",
+    "Description": "Prevents its stats from being lowered."
+  },
+  "ABILITY_NATURAL_CURE": {
+    "AbilityId": 30,
+    "Name": "Natural Cure",
+    "Description": "All status problems heal when it switches out."
+  },
+  "ABILITY_LIGHTNING_ROD": {
+    "AbilityId": 31,
+    "Name": "Lightning Rod",
+    "Description": "The Pokémon draws in all Electric-type moves."
+  },
+  "ABILITY_SERENE_GRACE": {
+    "AbilityId": 32,
+    "Name": "Serene Grace",
+    "Description": "Boosts the likelihood of added effects appearing."
+  },
+  "ABILITY_SWIFT_SWIM": {
+    "AbilityId": 33,
+    "Name": "Swift Swim",
+    "Description": "Boosts the Pokémon’s Speed in rain."
+  },
+  "ABILITY_CHLOROPHYLL": {
+    "AbilityId": 34,
+    "Name": "Chlorophyll",
+    "Description": "Boosts the Pokémon’s Speed in sunshine."
+  },
+  "ABILITY_ILLUMINATE": {
+    "AbilityId": 35,
+    "Name": "Illuminate",
+    "Description": "Raises the likelihood of meeting wild Pokémon."
+  },
+  "ABILITY_TRACE": {
+    "AbilityId": 36,
+    "Name": "Trace",
+    "Description": "The Pokémon copies the foe’s ability."
+  },
+  "ABILITY_HUGE_POWER": {
+    "AbilityId": 37,
+    "Name": "Huge Power",
+    "Description": "Raises the Pokémon’s Attack stat."
+  },
+  "ABILITY_POISON_POINT": {
+    "AbilityId": 38,
+    "Name": "Poison Point",
+    "Description": "Contact with the Pokémon may poison the foe."
+  },
+  "ABILITY_INNER_FOCUS": {
+    "AbilityId": 39,
+    "Name": "Inner Focus",
+    "Description": "The Pokémon is protected from flinching."
+  },
+  "ABILITY_MAGMA_ARMOR": {
+    "AbilityId": 40,
+    "Name": "Magma Armor",
+    "Description": "Prevents the Pokémon from becoming frozen."
+  },
+  "ABILITY_WATER_VEIL": {
+    "AbilityId": 41,
+    "Name": "Water Veil",
+    "Description": "Prevents the Pokémon from getting a burn."
+  },
+  "ABILITY_MAGNET_PULL": {
+    "AbilityId": 42,
+    "Name": "Magnet Pull",
+    "Description": "Prevents Steel-type Pokémon from escaping."
+  },
+  "ABILITY_SOUNDPROOF": {
+    "AbilityId": 43,
+    "Name": "Soundproof",
+    "Description": "Gives full immunity to all sound-based moves."
+  },
+  "ABILITY_RAIN_DISH": {
+    "AbilityId": 44,
+    "Name": "Rain Dish",
+    "Description": "The Pokémon gradually recovers HP in rain."
+  },
+  "ABILITY_SAND_STREAM": {
+    "AbilityId": 45,
+    "Name": "Sand Stream",
+    "Description": "The Pokémon summons a sandstorm in battle."
+  },
+  "ABILITY_PRESSURE": {
+    "AbilityId": 46,
+    "Name": "Pressure",
+    "Description": "The Pokémon raises the foe’s PP usage."
+  },
+  "ABILITY_THICK_FAT": {
+    "AbilityId": 47,
+    "Name": "Thick Fat",
+    "Description": "Ups resistance to Fire- and Ice-type moves."
+  },
+  "ABILITY_EARLY_BIRD": {
+    "AbilityId": 48,
+    "Name": "Early Bird",
+    "Description": "The Pokémon awakens quickly from sleep."
+  },
+  "ABILITY_FLAME_BODY": {
+    "AbilityId": 49,
+    "Name": "Flame Body",
+    "Description": "Contact with the Pokémon may burn the foe."
+  },
+  "ABILITY_RUN_AWAY": {
+    "AbilityId": 50,
+    "Name": "Run Away",
+    "Description": "Enables sure getaway from wild Pokémon."
+  },
+  "ABILITY_KEEN_EYE": {
+    "AbilityId": 51,
+    "Name": "Keen Eye",
+    "Description": "Prevents the Pokémon from losing accuracy."
+  },
+  "ABILITY_HYPER_CUTTER": {
+    "AbilityId": 52,
+    "Name": "Hyper Cutter",
+    "Description": "Prevents the Attack stat from being lowered."
+  },
+  "ABILITY_PICKUP": {
+    "AbilityId": 53,
+    "Name": "Pickup",
+    "Description": "The Pokémon may pick up items."
+  },
+  "ABILITY_TRUANT": {
+    "AbilityId": 54,
+    "Name": "Truant",
+    "Description": "Pokémon can’t attack on consecutive turns."
+  },
+  "ABILITY_HUSTLE": {
+    "AbilityId": 55,
+    "Name": "Hustle",
+    "Description": "Boosts the Attack stat, but lowers accuracy."
+  },
+  "ABILITY_CUTE_CHARM": {
+    "AbilityId": 56,
+    "Name": "Cute Charm",
+    "Description": "Contact with the Pokémon may cause infatuation."
+  },
+  "ABILITY_PLUS": {
+    "AbilityId": 57,
+    "Name": "Plus",
+    "Description": "Ups Sp. Atk if another Pokémon has Minus."
+  },
+  "ABILITY_MINUS": {
+    "AbilityId": 58,
+    "Name": "Minus",
+    "Description": "Ups Sp. Atk if another Pokémon has Plus."
+  },
+  "ABILITY_FORECAST": {
+    "AbilityId": 59,
+    "Name": "Forecast",
+    "Description": "CASTFORM transforms with the weather."
+  },
+  "ABILITY_STICKY_HOLD": {
+    "AbilityId": 60,
+    "Name": "Sticky Hold",
+    "Description": "Protects the Pokémon from item theft."
+  },
+  "ABILITY_SHED_SKIN": {
+    "AbilityId": 61,
+    "Name": "Shed Skin",
+    "Description": "The Pokémon may heal its own status problems."
+  },
+  "ABILITY_GUTS": {
+    "AbilityId": 62,
+    "Name": "Guts",
+    "Description": "Boosts Attack if there is a status problem."
+  },
+  "ABILITY_MARVEL_SCALE": {
+    "AbilityId": 63,
+    "Name": "Marvel Scale",
+    "Description": "Ups Defense if there is a status problem."
+  },
+  "ABILITY_LIQUID_OOZE": {
+    "AbilityId": 64,
+    "Name": "Liquid Ooze",
+    "Description": "Inflicts damage on foes using any draining move."
+  },
+  "ABILITY_OVERGROW": {
+    "AbilityId": 65,
+    "Name": "Overgrow",
+    "Description": "Powers up Grass-type moves in a pinch."
+  },
+  "ABILITY_BLAZE": {
+    "AbilityId": 66,
+    "Name": "Blaze",
+    "Description": "Powers up Fire-type moves in a pinch."
+  },
+  "ABILITY_TORRENT": {
+    "AbilityId": 67,
+    "Name": "Torrent",
+    "Description": "Powers up Water-type moves in a pinch."
+  },
+  "ABILITY_SWARM": {
+    "AbilityId": 68,
+    "Name": "Swarm",
+    "Description": "Powers up Bug-type moves in a pinch."
+  },
+  "ABILITY_ROCK_HEAD": {
+    "AbilityId": 69,
+    "Name": "Rock Head",
+    "Description": "Protects the Pokémon from recoil damage."
+  },
+  "ABILITY_DROUGHT": {
+    "AbilityId": 70,
+    "Name": "Drought",
+    "Description": "The Pokémon makes it sunny if it is in battle."
+  },
+  "ABILITY_ARENA_TRAP": {
+    "AbilityId": 71,
+    "Name": "Arena Trap",
+    "Description": "Prevents the foe from fleeing."
+  },
+  "ABILITY_VITAL_SPIRIT": {
+    "AbilityId": 72,
+    "Name": "Vital Spirit",
+    "Description": "Prevents the Pokémon from falling asleep."
+  },
+  "ABILITY_WHITE_SMOKE": {
+    "AbilityId": 73,
+    "Name": "White Smoke",
+    "Description": "Prevents its stats from being lowered."
+  },
+  "ABILITY_PURE_POWER": {
+    "AbilityId": 74,
+    "Name": "Pure Power",
+    "Description": "Boosts the power of physical attacks."
+  },
+  "ABILITY_SHELL_ARMOR": {
+    "AbilityId": 75,
+    "Name": "Shell Armor",
+    "Description": "The Pokémon is protected against critical hits."
+  },
+  "ABILITY_AIR_LOCK": {
+    "AbilityId": 76,
+    "Name": "Air Lock",
+    "Description": "Eliminates the effects of weather."
+  },
+  "ABILITY_TANGLED_FEET": {
+    "AbilityId": 77,
+    "Name": "Tangled Feet",
+    "Description": "Raises evasion if the Pokémon is confused."
+  },
+  "ABILITY_MOTOR_DRIVE": {
+    "AbilityId": 78,
+    "Name": "Motor Drive",
+    "Description": "Raises Speed if hit by an Electric-type move."
+  },
+  "ABILITY_RIVALRY": {
+    "AbilityId": 79,
+    "Name": "Rivalry",
+    "Description": "Raises Attack if the foe is of the same gender."
+  },
+  "ABILITY_STEADFAST": {
+    "AbilityId": 80,
+    "Name": "Steadfast",
+    "Description": "Raises Speed each time the Pokémon flinches."
+  },
+  "ABILITY_SNOW_CLOAK": {
+    "AbilityId": 81,
+    "Name": "Snow Cloak",
+    "Description": "Raises evasion in a hailstorm."
+  },
+  "ABILITY_GLUTTONY": {
+    "AbilityId": 82,
+    "Name": "Gluttony",
+    "Description": "Encourages the early use of a held Berry."
+  },
+  "ABILITY_ANGER_POINT": {
+    "AbilityId": 83,
+    "Name": "Anger Point",
+    "Description": "Raises Attack upon taking a critical hit."
+  },
+  "ABILITY_UNBURDEN": {
+    "AbilityId": 84,
+    "Name": "Unburden",
+    "Description": "Raises Speed if a held item is used."
+  },
+  "ABILITY_HEATPROOF": {
+    "AbilityId": 85,
+    "Name": "Heatproof",
+    "Description": "Weakens the power of Fire-type moves."
+  },
+  "ABILITY_SIMPLE": {
+    "AbilityId": 86,
+    "Name": "Simple",
+    "Description": "The Pokémon is prone to wild stat changes."
+  },
+  "ABILITY_DRY_SKIN": {
+    "AbilityId": 87,
+    "Name": "Dry Skin",
+    "Description": "Reduces HP if it is hot. Water restores HP."
+  },
+  "ABILITY_DOWNLOAD": {
+    "AbilityId": 88,
+    "Name": "Download",
+    "Description": "Adjusts power according to the foe’s ability."
+  },
+  "ABILITY_IRON_FIST": {
+    "AbilityId": 89,
+    "Name": "Iron Fist",
+    "Description": "Boosts the power of punching moves."
+  },
+  "ABILITY_POISON_HEAL": {
+    "AbilityId": 90,
+    "Name": "Poison Heal",
+    "Description": "Restores HP if the Pokémon is poisoned."
+  },
+  "ABILITY_ADAPTABILITY": {
+    "AbilityId": 91,
+    "Name": "Adaptability",
+    "Description": "Powers up moves of the same type."
+  },
+  "ABILITY_SKILL_LINK": {
+    "AbilityId": 92,
+    "Name": "Skill Link",
+    "Description": "Increases the frequency of multi-strike moves."
+  },
+  "ABILITY_HYDRATION": {
+    "AbilityId": 93,
+    "Name": "Hydration",
+    "Description": "Heals status problems if it is raining."
+  },
+  "ABILITY_SOLAR_POWER": {
+    "AbilityId": 94,
+    "Name": "Solar Power",
+    "Description": "Boosts Sp. Atk, but lowers HP in sunshine."
+  },
+  "ABILITY_QUICK_FEET": {
+    "AbilityId": 95,
+    "Name": "Quick Feet",
+    "Description": "Boosts Speed if there is a status problem."
+  },
+  "ABILITY_NORMALIZE": {
+    "AbilityId": 96,
+    "Name": "Normalize",
+    "Description": "All the Pokémon’s moves become the Normal type."
+  },
+  "ABILITY_SNIPER": {
+    "AbilityId": 97,
+    "Name": "Sniper",
+    "Description": "Powers up moves if they become critical hits."
+  },
+  "ABILITY_MAGIC_GUARD": {
+    "AbilityId": 98,
+    "Name": "Magic Guard",
+    "Description": "The Pokémon only takes damage from attacks."
+  },
+  "ABILITY_NO_GUARD": {
+    "AbilityId": 99,
+    "Name": "No Guard",
+    "Description": "Ensures both Pokémon’s and foe’s attacks land."
+  },
+  "ABILITY_STALL": {
+    "AbilityId": 100,
+    "Name": "Stall",
+    "Description": "The Pokémon moves after even slower foes."
+  },
+  "ABILITY_TECHNICIAN": {
+    "AbilityId": 101,
+    "Name": "Technician",
+    "Description": "Powers up the Pokémon’s weaker moves."
+  },
+  "ABILITY_LEAF_GUARD": {
+    "AbilityId": 102,
+    "Name": "Leaf Guard",
+    "Description": "Prevents problems with status in sunny weather."
+  },
+  "ABILITY_KLUTZ": {
+    "AbilityId": 103,
+    "Name": "Klutz",
+    "Description": "The Pokémon can’t use any held items."
+  },
+  "ABILITY_MOLD_BREAKER": {
+    "AbilityId": 104,
+    "Name": "Mold Breaker",
+    "Description": "Moves can be used regardless of abilities."
+  },
+  "ABILITY_SUPER_LUCK": {
+    "AbilityId": 105,
+    "Name": "Super Luck",
+    "Description": "Heightens the critical- hit ratios of moves."
+  },
+  "ABILITY_AFTERMATH": {
+    "AbilityId": 106,
+    "Name": "Aftermath",
+    "Description": "Damages the foe landing the finishing hit."
+  },
+  "ABILITY_ANTICIPATION": {
+    "AbilityId": 107,
+    "Name": "Anticipation",
+    "Description": "Senses the foe’s dangerous moves."
+  },
+  "ABILITY_FOREWARN": {
+    "AbilityId": 108,
+    "Name": "Forewarn",
+    "Description": "Determines what moves the foe has."
+  },
+  "ABILITY_UNAWARE": {
+    "AbilityId": 109,
+    "Name": "Unaware",
+    "Description": "Ignores any change in ability by the foe."
+  },
+  "ABILITY_TINTED_LENS": {
+    "AbilityId": 110,
+    "Name": "Tinted Lens",
+    "Description": "Powers up “not very effective” moves."
+  },
+  "ABILITY_FILTER": {
+    "AbilityId": 111,
+    "Name": "Filter",
+    "Description": "Reduces damage from supereffective attacks."
+  },
+  "ABILITY_SLOW_START": {
+    "AbilityId": 112,
+    "Name": "Slow Start",
+    "Description": "Temporarily halves Attack and Speed."
+  },
+  "ABILITY_SCRAPPY": {
+    "AbilityId": 113,
+    "Name": "Scrappy",
+    "Description": "Enables moves to hit Ghost-type foes."
+  },
+  "ABILITY_STORM_DRAIN": {
+    "AbilityId": 114,
+    "Name": "Storm Drain",
+    "Description": "The Pokémon draws in all Water-type moves."
+  },
+  "ABILITY_ICE_BODY": {
+    "AbilityId": 115,
+    "Name": "Ice Body",
+    "Description": "The Pokémon regains HP in a hailstorm."
+  },
+  "ABILITY_SOLID_ROCK": {
+    "AbilityId": 116,
+    "Name": "Solid Rock",
+    "Description": "Reduces damage from supereffective attacks"
+  },
+  "ABILITY_SNOW_WARNING": {
+    "AbilityId": 117,
+    "Name": "Snow Warning",
+    "Description": "The Pokémon summons a hailstorm in battle."
+  },
+  "ABILITY_HONEY_GATHER": {
+    "AbilityId": 118,
+    "Name": "Honey Gather",
+    "Description": "The Pokémon may gather Honey from somewhere."
+  },
+  "ABILITY_FRISK": {
+    "AbilityId": 119,
+    "Name": "Frisk",
+    "Description": "The Pokémon can check the foe’s held item."
+  },
+  "ABILITY_RECKLESS": {
+    "AbilityId": 120,
+    "Name": "Reckless",
+    "Description": "Powers up moves that have recoil damage."
+  },
+  "ABILITY_MULTITYPE": {
+    "AbilityId": 121,
+    "Name": "Multitype",
+    "Description": "Changes type to match the held Plate."
+  },
+  "ABILITY_FLOWER_GIFT": {
+    "AbilityId": 122,
+    "Name": "Flower Gift",
+    "Description": "Powers up party Pokémon when it is sunny."
+  },
+  "ABILITY_BAD_DREAMS": {
+    "AbilityId": 123,
+    "Name": "Bad Dreams",
+    "Description": "Reduces a sleeping foe’s HP."
+  },
+  "ABILITY_PICKPOCKET": {
+    "AbilityId": 124,
+    "Name": "Pickpocket",
+    "Description": "Steals an item when hit by another Pokémon."
+  },
+  "ABILITY_SHEER_FORCE": {
+    "AbilityId": 125,
+    "Name": "Sheer Force",
+    "Description": "Removes added effects to increase move damage."
+  },
+  "ABILITY_CONTRARY": {
+    "AbilityId": 126,
+    "Name": "Contrary",
+    "Description": "Makes stat changes have an opposite effect."
+  },
+  "ABILITY_UNNERVE": {
+    "AbilityId": 127,
+    "Name": "Unnerve",
+    "Description": "Makes the opponents unable to eat Berries."
+  },
+  "ABILITY_DEFIANT": {
+    "AbilityId": 128,
+    "Name": "Defiant",
+    "Description": "When its stats are lowered its Attack increases."
+  },
+  "ABILITY_DEFEATIST": {
+    "AbilityId": 129,
+    "Name": "Defeatist",
+    "Description": "Lowers stats when HP becomes half or less."
+  },
+  "ABILITY_CURSED_BODY": {
+    "AbilityId": 130,
+    "Name": "Cursed Body",
+    "Description": "May disable a move used on the Pokémon."
+  },
+  "ABILITY_HEALER": {
+    "AbilityId": 131,
+    "Name": "Healer",
+    "Description": "May heal an ally’s status conditions."
+  },
+  "ABILITY_FRIEND_GUARD": {
+    "AbilityId": 132,
+    "Name": "Friend Guard",
+    "Description": "Reduces damage done to allies."
+  },
+  "ABILITY_WEAK_ARMOR": {
+    "AbilityId": 133,
+    "Name": "Weak Armor",
+    "Description": "Physical attacks lower Defense and raise Speed."
+  },
+  "ABILITY_HEAVY_METAL": {
+    "AbilityId": 134,
+    "Name": "Heavy Metal",
+    "Description": "Doubles the Pokémon’s weight."
+  },
+  "ABILITY_LIGHT_METAL": {
+    "AbilityId": 135,
+    "Name": "Light Metal",
+    "Description": "Halves the Pokémon’s weight."
+  },
+  "ABILITY_MULTISCALE": {
+    "AbilityId": 136,
+    "Name": "Multiscale",
+    "Description": "Reduces damage when HP is full."
+  },
+  "ABILITY_TOXIC_BOOST": {
+    "AbilityId": 137,
+    "Name": "Toxic Boost",
+    "Description": "Powers up physical attacks when poisoned."
+  },
+  "ABILITY_FLARE_BOOST": {
+    "AbilityId": 138,
+    "Name": "Flare Boost",
+    "Description": "Powers up special attacks when burned."
+  },
+  "ABILITY_HARVEST": {
+    "AbilityId": 139,
+    "Name": "Harvest",
+    "Description": "May create another Berry after one is used."
+  },
+  "ABILITY_TELEPATHY": {
+    "AbilityId": 140,
+    "Name": "Telepathy",
+    "Description": "Anticipates an ally’s attack and dodges it."
+  },
+  "ABILITY_MOODY": {
+    "AbilityId": 141,
+    "Name": "Moody",
+    "Description": "Sharply raises one stat and lowers another."
+  },
+  "ABILITY_OVERCOAT": {
+    "AbilityId": 142,
+    "Name": "Overcoat",
+    "Description": "Protects the Pokémon from damage from weather."
+  },
+  "ABILITY_POISON_TOUCH": {
+    "AbilityId": 143,
+    "Name": "Poison Touch",
+    "Description": "May poison targets when a Pokémon makes contact."
+  },
+  "ABILITY_REGENERATOR": {
+    "AbilityId": 144,
+    "Name": "Regenerator",
+    "Description": "Restores a little HP when withdrawn from battle."
+  },
+  "ABILITY_BIG_PECKS": {
+    "AbilityId": 145,
+    "Name": "Big Pecks",
+    "Description": "Protects from Defense-lowering attacks."
+  },
+  "ABILITY_SAND_RUSH": {
+    "AbilityId": 146,
+    "Name": "Sand Rush",
+    "Description": "Boosts the Pokémon’s Speed in a sandstorm."
+  },
+  "ABILITY_WONDER_SKIN": {
+    "AbilityId": 147,
+    "Name": "Wonder Skin",
+    "Description": "Makes status moves more likely to miss."
+  },
+  "ABILITY_ANALYTIC": {
+    "AbilityId": 148,
+    "Name": "Analytic",
+    "Description": "Boosts move power when the Pokémon moves last."
+  },
+  "ABILITY_ILLUSION": {
+    "AbilityId": 149,
+    "Name": "Illusion",
+    "Description": "Comes out disguised as the Pokémon in back."
+  },
+  "ABILITY_IMPOSTER": {
+    "AbilityId": 150,
+    "Name": "Imposter",
+    "Description": "It transforms itself into the Pokémon it is facing."
+  },
+  "ABILITY_INFILTRATOR": {
+    "AbilityId": 151,
+    "Name": "Infiltrator",
+    "Description": "Passes through the foe’s barrier and strikes."
+  },
+  "ABILITY_MUMMY": {
+    "AbilityId": 152,
+    "Name": "Mummy",
+    "Description": "Contact with this Pokémon spreads this Ability."
+  },
+  "ABILITY_MOXIE": {
+    "AbilityId": 153,
+    "Name": "Moxie",
+    "Description": "Boosts Attack after knocking out any Pokémon."
+  },
+  "ABILITY_JUSTIFIED": {
+    "AbilityId": 154,
+    "Name": "Justified",
+    "Description": "Raises Attack when hit by a Dark-type move."
+  },
+  "ABILITY_RATTLED": {
+    "AbilityId": 155,
+    "Name": "Rattled",
+    "Description": "Some move types scare it and boost its Speed."
+  },
+  "ABILITY_MAGIC_BOUNCE": {
+    "AbilityId": 156,
+    "Name": "Magic Bounce",
+    "Description": "Reflects status-changing moves."
+  },
+  "ABILITY_SAP_SIPPER": {
+    "AbilityId": 157,
+    "Name": "Sap Sipper",
+    "Description": "Boosts Attack when hit by a Grass-type move."
+  },
+  "ABILITY_PRANKSTER": {
+    "AbilityId": 158,
+    "Name": "Prankster",
+    "Description": "Gives priority to a status move."
+  },
+  "ABILITY_SAND_FORCE": {
+    "AbilityId": 159,
+    "Name": "Sand Force",
+    "Description": "Boosts certain moves’ power in a sandstorm."
+  },
+  "ABILITY_IRON_BARBS": {
+    "AbilityId": 160,
+    "Name": "Iron Barbs",
+    "Description": "Inflicts damage to the Pokémon on contact."
+  },
+  "ABILITY_ZEN_MODE": {
+    "AbilityId": 161,
+    "Name": "Zen Mode",
+    "Description": "Changes the Pokémon’s shape when HP is halved."
+  },
+  "ABILITY_VICTORY_STAR": {
+    "AbilityId": 162,
+    "Name": "Victory Star",
+    "Description": "Boosts the accuracy of its allies and itself."
+  },
+  "ABILITY_TURBOBLAZE": {
+    "AbilityId": 163,
+    "Name": "Turboblaze",
+    "Description": "Moves can be used regardless of Abilities."
+  },
+  "ABILITY_TERAVOLT": {
+    "AbilityId": 164,
+    "Name": "Teravolt",
+    "Description": "Moves can be used regardless of Abilities."
+  },
+  "ABILITY_AROMA_VEIL": {
+    "AbilityId": 165,
+    "Name": "Aroma Veil",
+    "Description": "Protects against attacks that limit move choices."
+  },
+  "ABILITY_FLOWER_VEIL": {
+    "AbilityId": 166,
+    "Name": "Flower Veil",
+    "Description": "Protects Grass-type allies from stat/status effects."
+  },
+  "ABILITY_CHEEK_POUCH": {
+    "AbilityId": 167,
+    "Name": "Cheek Pouch",
+    "Description": "Restores HP as well when the Pokémon eats a Berry."
+  },
+  "ABILITY_PROTEAN": {
+    "AbilityId": 168,
+    "Name": "Protean",
+    "Description": "It changes type to that of the move it’s about to use."
+  },
+  "ABILITY_FUR_COAT": {
+    "AbilityId": 169,
+    "Name": "Fur Coat",
+    "Description": "Halves the damage from physical moves."
+  },
+  "ABILITY_MAGICIAN": {
+    "AbilityId": 170,
+    "Name": "Magician",
+    "Description": "Steals the held item of a Pokémon it hits."
+  },
+  "ABILITY_BULLETPROOF": {
+    "AbilityId": 171,
+    "Name": "Bulletproof",
+    "Description": "Protects the Pokémon from some ball and bomb moves."
+  },
+  "ABILITY_COMPETITIVE": {
+    "AbilityId": 172,
+    "Name": "Competitive",
+    "Description": "Sharply boosts Sp. Atk when a stat is lowered."
+  },
+  "ABILITY_STRONG_JAW": {
+    "AbilityId": 173,
+    "Name": "Strong Jaw",
+    "Description": "Boosts the power of biting moves."
+  },
+  "ABILITY_REFRIGERATE": {
+    "AbilityId": 174,
+    "Name": "Refrigerate",
+    "Description": "Normal-type moves become Ice-type and powered up."
+  },
+  "ABILITY_SWEET_VEIL": {
+    "AbilityId": 175,
+    "Name": "Sweet Veil",
+    "Description": "Prevents itself and allies from falling asleep."
+  },
+  "ABILITY_STANCE_CHANGE": {
+    "AbilityId": 176,
+    "Name": "Stance Change",
+    "Description": "Changes between Blade and Shield Forme with attacks."
+  },
+  "ABILITY_GALE_WINGS": {
+    "AbilityId": 177,
+    "Name": "Gale Wings",
+    "Description": "Flying-type moves gain priority when its HP is full."
+  },
+  "ABILITY_MEGA_LAUNCHER": {
+    "AbilityId": 178,
+    "Name": "Mega Launcher",
+    "Description": "Powers up aura and pulse moves."
+  },
+  "ABILITY_GRASS_PELT": {
+    "AbilityId": 179,
+    "Name": "Grass Pelt",
+    "Description": "Boosts the Defense stat on Grassy Terrain."
+  },
+  "ABILITY_SYMBIOSIS": {
+    "AbilityId": 180,
+    "Name": "Symbiosis",
+    "Description": "Passes its held item to an ally that has used theirs."
+  },
+  "ABILITY_TOUGH_CLAWS": {
+    "AbilityId": 181,
+    "Name": "Tough Claws",
+    "Description": "Powers up moves that make direct contact."
+  },
+  "ABILITY_PIXILATE": {
+    "AbilityId": 182,
+    "Name": "Pixilate",
+    "Description": "Normal-type moves become Fairy-type and powered up."
+  },
+  "ABILITY_GOOEY": {
+    "AbilityId": 183,
+    "Name": "Gooey",
+    "Description": "Contact with it lowers the attacker’s Speed stat."
+  },
+  "ABILITY_AERILATE": {
+    "AbilityId": 184,
+    "Name": "Aerilate",
+    "Description": "Normal-type moves become Flying-type and power up."
+  },
+  "ABILITY_PARENTAL_BOND": {
+    "AbilityId": 185,
+    "Name": "Parental Bond",
+    "Description": "Parent and child each attacks."
+  },
+  "ABILITY_DARK_AURA": {
+    "AbilityId": 186,
+    "Name": "Dark Aura",
+    "Description": "Powers up each Pokémon’s Dark-type moves."
+  },
+  "ABILITY_FAIRY_AURA": {
+    "AbilityId": 187,
+    "Name": "Fairy Aura",
+    "Description": "Powers up each Pokémon’s Fairy-type moves."
+  },
+  "ABILITY_AURA_BREAK": {
+    "AbilityId": 188,
+    "Name": "Aura Break",
+    "Description": "The effects of “Aura” Abilities are reversed."
+  },
+  "ABILITY_PRIMORDIAL_SEA": {
+    "AbilityId": 189,
+    "Name": "Primordial Sea",
+    "Description": "Changes the weather to nullify Fire-type moves."
+  },
+  "ABILITY_DESOLATE_LAND": {
+    "AbilityId": 190,
+    "Name": "Desolate Land",
+    "Description": "Changes the weather to nullify Water-type moves."
+  },
+  "ABILITY_DELTA_STREAM": {
+    "AbilityId": 191,
+    "Name": "Delta Stream",
+    "Description": "Alters weather to remove Flying-type’s weaknesses."
+  },
+  "ABILITY_STAMINA": {
+    "AbilityId": 192,
+    "Name": "Stamina",
+    "Description": "Boosts Defense when hit by an attack."
+  },
+  "ABILITY_WIMP_OUT": {
+    "AbilityId": 193,
+    "Name": "Wimp Out",
+    "Description": "Wimpily switches out if its HP becomes half or less."
+  },
+  "ABILITY_EMERGENCY_EXIT": {
+    "AbilityId": 194,
+    "Name": "Emergency Exit",
+    "Description": "Switches out if its HP becomes half or less."
+  },
+  "ABILITY_WATER_COMPACTION": {
+    "AbilityId": 195,
+    "Name": "Water Compaction",
+    "Description": "Sharply ups Defense when hit by a Water-type move."
+  },
+  "ABILITY_MERCILESS": {
+    "AbilityId": 196,
+    "Name": "Merciless",
+    "Description": "Its attacks are critical hits if target is poisoned."
+  },
+  "ABILITY_SHIELDS_DOWN": {
+    "AbilityId": 197,
+    "Name": "Shields Down",
+    "Description": "Its shell breaks if its HP becomes half or less."
+  },
+  "ABILITY_STAKEOUT": {
+    "AbilityId": 198,
+    "Name": "Stakeout",
+    "Description": "Deals doubles damage to a target’s replacement."
+  },
+  "ABILITY_WATER_BUBBLE": {
+    "AbilityId": 199,
+    "Name": "Water Bubble",
+    "Description": "Weakens incoming Fire-type moves and prevents burns."
+  },
+  "ABILITY_STEELWORKER": {
+    "AbilityId": 200,
+    "Name": "Steelworker",
+    "Description": "Powers up Steel-type moves."
+  },
+  "ABILITY_BERSERK": {
+    "AbilityId": 201,
+    "Name": "Berserk",
+    "Description": "Ups Sp. Atk if a hit makes its HP half or less."
+  },
+  "ABILITY_SLUSH_RUSH": {
+    "AbilityId": 202,
+    "Name": "Slush Rush",
+    "Description": "Boosts the Pokémon’s Speed stat in a hailstorm."
+  },
+  "ABILITY_LONG_REACH": {
+    "AbilityId": 203,
+    "Name": "Long Reach",
+    "Description": "Uses moves without making contact with the target."
+  },
+  "ABILITY_LIQUID_VOICE": {
+    "AbilityId": 204,
+    "Name": "Liquid Voice",
+    "Description": "Its sound-based moves become Water-type."
+  },
+  "ABILITY_TRIAGE": {
+    "AbilityId": 205,
+    "Name": "Triage",
+    "Description": "Gives priority to a healing move."
+  },
+  "ABILITY_GALVANIZE": {
+    "AbilityId": 206,
+    "Name": "Galvanize",
+    "Description": "Normal-type moves become Electric-type and powered."
+  },
+  "ABILITY_SURGE_SURFER": {
+    "AbilityId": 207,
+    "Name": "Surge Surfer",
+    "Description": "Doubles Speed on Electric Terrain."
+  },
+  "ABILITY_SCHOOLING": {
+    "AbilityId": 208,
+    "Name": "Schooling",
+    "Description": "Forms a powerful school while it has a lot of HP."
+  },
+  "ABILITY_DISGUISE": {
+    "AbilityId": 209,
+    "Name": "Disguise",
+    "Description": "Its shroud protects it from an attack just once."
+  },
+  "ABILITY_BATTLE_BOND": {
+    "AbilityId": 210,
+    "Name": "Battle Bond",
+    "Description": "Defeating a foe lets it become Ash-Greninja."
+  },
+  "ABILITY_POWER_CONSTRUCT": {
+    "AbilityId": 211,
+    "Name": "Power Construct",
+    "Description": "Changes with other Cells if HP becomes half or less."
+  },
+  "ABILITY_CORROSION": {
+    "AbilityId": 212,
+    "Name": "Corrosion",
+    "Description": "It can poison Steel- and Poison-type targets."
+  },
+  "ABILITY_COMATOSE": {
+    "AbilityId": 213,
+    "Name": "Comatose",
+    "Description": "It’s always drowsing, and attacks without waking."
+  },
+  "ABILITY_QUEENLY_MAJESTY": {
+    "AbilityId": 214,
+    "Name": "Queenly Majesty",
+    "Description": "Makes foes unable to use priority attacks."
+  },
+  "ABILITY_INNARDS_OUT": {
+    "AbilityId": 215,
+    "Name": "Innards Out",
+    "Description": "Damages an attacker that lands the finishing hit."
+  },
+  "ABILITY_DANCER": {
+    "AbilityId": 216,
+    "Name": "Dancer",
+    "Description": "Repeats another Pokémon’s dance move immediately."
+  },
+  "ABILITY_BATTERY": {
+    "AbilityId": 217,
+    "Name": "Battery",
+    "Description": "Powers up ally Pokémon’s special moves."
+  },
+  "ABILITY_FLUFFY": {
+    "AbilityId": 218,
+    "Name": "Fluffy",
+    "Description": "Resists contact damage but weaker to Fire-type."
+  },
+  "ABILITY_DAZZLING": {
+    "AbilityId": 219,
+    "Name": "Dazzling",
+    "Description": "Makes foes unable to use priority attacks."
+  },
+  "ABILITY_SOUL_HEART": {
+    "AbilityId": 220,
+    "Name": "Soul Heart",
+    "Description": "Boosts Sp. Atk each time a Pokémon faints."
+  },
+  "ABILITY_TANGLING_HAIR": {
+    "AbilityId": 221,
+    "Name": "Tangling Hair",
+    "Description": "Contact with it lowers the attacker’s Speed."
+  },
+  "ABILITY_RECEIVER": {
+    "AbilityId": 222,
+    "Name": "Receiver",
+    "Description": "Copies the Ability of a defeated ally."
+  },
+  "ABILITY_POWER_OF_ALCHEMY": {
+    "AbilityId": 223,
+    "Name": "Power Of Alchemy",
+    "Description": "Copies the Ability of a defeated ally."
+  },
+  "ABILITY_BEAST_BOOST": {
+    "AbilityId": 224,
+    "Name": "Beast Boost",
+    "Description": "Boosts its best stat each time it deals a KO."
+  },
+  "ABILITY_RKS_SYSTEM": {
+    "AbilityId": 225,
+    "Name": "Rks System",
+    "Description": "Its type matches the memory disc it holds."
+  },
+  "ABILITY_ELECTRIC_SURGE": {
+    "AbilityId": 226,
+    "Name": "Electric Surge",
+    "Description": "Turns the ground into Electric Terrain."
+  },
+  "ABILITY_PSYCHIC_SURGE": {
+    "AbilityId": 227,
+    "Name": "Psychic Surge",
+    "Description": "Turns the ground into Psychic Terrain."
+  },
+  "ABILITY_MISTY_SURGE": {
+    "AbilityId": 228,
+    "Name": "Misty Surge",
+    "Description": "Turns the ground into Misty Terrain."
+  },
+  "ABILITY_GRASSY_SURGE": {
+    "AbilityId": 229,
+    "Name": "Grassy Surge",
+    "Description": "Turns the ground into Grassy Terrain."
+  },
+  "ABILITY_FULL_METAL_BODY": {
+    "AbilityId": 230,
+    "Name": "Full Metal Body",
+    "Description": "Prevents other Pokémon from lowering its stats."
+  },
+  "ABILITY_SHADOW_SHIELD": {
+    "AbilityId": 231,
+    "Name": "Shadow Shield",
+    "Description": "Resists damage while its HP is full."
+  },
+  "ABILITY_PRISM_ARMOR": {
+    "AbilityId": 232,
+    "Name": "Prism Armor",
+    "Description": "Reduces damage from super-effective attacks."
+  },
+  "ABILITY_NEUROFORCE": {
+    "AbilityId": 233,
+    "Name": "Neuroforce",
+    "Description": "Powers up moves that are super-effective."
+  },
+  "ABILITY_INTREPID_SWORD": {
+    "AbilityId": 234,
+    "Name": "Intrepid Sword",
+    "Description": "Boosts Attack when entering a battle."
+  },
+  "ABILITY_DAUNTLESS_SHIELD": {
+    "AbilityId": 235,
+    "Name": "Dauntless Shield",
+    "Description": "Boosts Defense when entering a battle."
+  },
+  "ABILITY_LIBERO": {
+    "AbilityId": 236,
+    "Name": "Libero",
+    "Description": "It changes type to that of the move it’s about to use."
+  },
+  "ABILITY_BALL_FETCH": {
+    "AbilityId": 237,
+    "Name": "Ball Fetch",
+    "Description": "Retrieves the first thrown Poké Ball if it failed."
+  },
+  "ABILITY_COTTON_DOWN": {
+    "AbilityId": 238,
+    "Name": "Cotton Down",
+    "Description": "Scatters Speed-lowering cotton fluff when hit."
+  },
+  "ABILITY_PROPELLER_TAIL": {
+    "AbilityId": 239,
+    "Name": "Propeller Tail",
+    "Description": "This Pokémon’s moves cannot be redirected."
+  },
+  "ABILITY_MIRROR_ARMOR": {
+    "AbilityId": 240,
+    "Name": "Mirror Armor",
+    "Description": "Bounces back stat-lowering effects."
+  },
+  "ABILITY_GULP_MISSILE": {
+    "AbilityId": 241,
+    "Name": "Gulp Missile",
+    "Description": "Catches prey via Surf or Dive and spits it out when hit."
+  },
+  "ABILITY_STALWART": {
+    "AbilityId": 242,
+    "Name": "Stalwart",
+    "Description": "This Pokémon’s moves cannot be redirected."
+  },
+  "ABILITY_STEAM_ENGINE": {
+    "AbilityId": 243,
+    "Name": "Steam Engine",
+    "Description": "Boosts Speed drastically if hit by Fire or Water."
+  },
+  "ABILITY_PUNK_ROCK": {
+    "AbilityId": 244,
+    "Name": "Punk Rock",
+    "Description": "Powers up own sound moves. Resists other sound moves."
+  },
+  "ABILITY_SAND_SPIT": {
+    "AbilityId": 245,
+    "Name": "Sand Spit",
+    "Description": "Creates a sandstorm when hit by an attack."
+  },
+  "ABILITY_ICE_SCALES": {
+    "AbilityId": 246,
+    "Name": "Ice Scales",
+    "Description": "Halves the damage taken from special moves."
+  },
+  "ABILITY_RIPEN": {
+    "AbilityId": 247,
+    "Name": "Ripen",
+    "Description": "Ripens Berries and doubles their effect."
+  },
+  "ABILITY_ICE_FACE": {
+    "AbilityId": 248,
+    "Name": "Ice Face",
+    "Description": "Blocks a physical hit, but the ice head breaks."
+  },
+  "ABILITY_POWER_SPOT": {
+    "AbilityId": 249,
+    "Name": "Power Spot",
+    "Description": "Just being next to the Pokémon powers up moves."
+  },
+  "ABILITY_MIMICRY": {
+    "AbilityId": 250,
+    "Name": "Mimicry",
+    "Description": "Changes type depending on the terrain."
+  },
+  "ABILITY_SCREEN_CLEANER": {
+    "AbilityId": 251,
+    "Name": "Screen Cleaner",
+    "Description": "On entering battle, clears effects of Reflect, etc."
+  },
+  "ABILITY_STEELY_SPIRIT": {
+    "AbilityId": 252,
+    "Name": "Steely Spirit",
+    "Description": "Powers up ally Pokémon’s Steel-type moves."
+  },
+  "ABILITY_PERISH_BODY": {
+    "AbilityId": 253,
+    "Name": "Perish Body",
+    "Description": "Both Pokémon faint 3 turns after taking a contact hit."
+  },
+  "ABILITY_WANDERING_SPIRIT": {
+    "AbilityId": 254,
+    "Name": "Wandering Spirit",
+    "Description": "Swaps Abilities with contact-making Pokémon."
+  },
+  "ABILITY_GORILLA_TACTICS": {
+    "AbilityId": 255,
+    "Name": "Gorilla Tactics",
+    "Description": "Boosts Attack, but allows only one move to be used."
+  },
+  "ABILITY_NEUTRALIZING_GAS": {
+    "AbilityId": 256,
+    "Name": "Neutralizing Gas",
+    "Description": "Nullifies the effects of all other Abilities."
+  },
+  "ABILITY_PASTEL_VEIL": {
+    "AbilityId": 257,
+    "Name": "Pastel Veil",
+    "Description": "Protects the Pokémon and its allies from poisoning."
+  },
+  "ABILITY_HUNGER_SWITCH": {
+    "AbilityId": 258,
+    "Name": "Hunger Switch",
+    "Description": "Changes between Full Belly and Hangry Mode each turn."
+  },
+  "ABILITY_QUICK_DRAW": {
+    "AbilityId": 259,
+    "Name": "Quick Draw",
+    "Description": "Enables the Pokémon to move first occasionally."
+  },
+  "ABILITY_UNSEEN_FIST": {
+    "AbilityId": 260,
+    "Name": "Unseen Fist",
+    "Description": "The Pokémon’s contact moves ignore protections."
+  },
+  "ABILITY_CURIOUS_MEDICINE": {
+    "AbilityId": 261,
+    "Name": "Curious Medicine",
+    "Description": "Removes all allies’ stat changes on joining battle."
+  },
+  "ABILITY_TRANSISTOR": {
+    "AbilityId": 262,
+    "Name": "Transistor",
+    "Description": "Powers up Electric-type moves."
+  },
+  "ABILITY_DRAGONS_MAW": {
+    "AbilityId": 263,
+    "Name": "Dragons Maw",
+    "Description": "Powers up Dragon-type moves."
+  },
+  "ABILITY_CHILLING_NEIGH": {
+    "AbilityId": 264,
+    "Name": "Chilling Neigh",
+    "Description": "When knocking out a target, raises Attack."
+  },
+  "ABILITY_GRIM_NEIGH": {
+    "AbilityId": 265,
+    "Name": "Grim Neigh",
+    "Description": "When knocking out a target, raises Sp. Atk."
+  },
+  "ABILITY_AS_ONE_GLASTRIER": {
+    "AbilityId": 266,
+    "Name": "As One Glastrier",
+    "Description": "Combines Unnerve and Chilling Neigh."
+  },
+  "ABILITY_AS_ONE_SPECTRIER": {
+    "AbilityId": 267,
+    "Name": "As One Spectrier",
+    "Description": "Combines Unnerve and Grim Neigh."
+  },
+  "ABILITY_LINGERING_AROMA": {
+    "AbilityId": 268,
+    "Name": "Lingering Aroma",
+    "Description": "Contact with this Pokémon spreads this Ability."
+  },
+  "ABILITY_SEED_SOWER": {
+    "AbilityId": 269,
+    "Name": "Seed Sower",
+    "Description": "Turns the ground into Grassy Terrain if attacked."
+  },
+  "ABILITY_THERMAL_EXCHANGE": {
+    "AbilityId": 270,
+    "Name": "Thermal Exchange",
+    "Description": "Ups Attack if hit by Fire moves. Prevents burns."
+  },
+  "ABILITY_ANGER_SHELL": {
+    "AbilityId": 271,
+    "Name": "Anger Shell",
+    "Description": "Ups stats if a hit makes its HP half or less."
+  },
+  "ABILITY_PURIFYING_SALT": {
+    "AbilityId": 272,
+    "Name": "Purifying Salt",
+    "Description": "Prevents status problems. Weakens Ghost moves."
+  },
+  "ABILITY_WELL_BAKED_BODY": {
+    "AbilityId": 273,
+    "Name": "Well Baked Body",
+    "Description": "Raises Defense if hit by a Fire-type move."
+  },
+  "ABILITY_WIND_RIDER": {
+    "AbilityId": 274,
+    "Name": "Wind Rider",
+    "Description": "Raises Attack if hit by a wind-based move."
+  },
+  "ABILITY_GUARD_DOG": {
+    "AbilityId": 275,
+    "Name": "Guard Dog",
+    "Description": "Ups Attack if intimidated. Stops forced switching."
+  },
+  "ABILITY_ROCKY_PAYLOAD": {
+    "AbilityId": 276,
+    "Name": "Rocky Payload",
+    "Description": "Powers up Rock-type moves."
+  },
+  "ABILITY_WIND_POWER": {
+    "AbilityId": 277,
+    "Name": "Wind Power",
+    "Description": "Becomes charged if hit by a wind-based move."
+  },
+  "ABILITY_ZERO_TO_HERO": {
+    "AbilityId": 278,
+    "Name": "Zero To Hero",
+    "Description": "Becomes Hero Form upon switching out."
+  },
+  "ABILITY_COMMANDER": {
+    "AbilityId": 279,
+    "Name": "Commander",
+    "Description": "Enters the mouth of an ally Dondozo."
+  },
+  "ABILITY_ELECTROMORPHOSIS": {
+    "AbilityId": 280,
+    "Name": "Electromorphosis",
+    "Description": "Becomes charged when hit by an attack."
+  },
+  "ABILITY_PROTOSYNTHESIS": {
+    "AbilityId": 281,
+    "Name": "Protosynthesis",
+    "Description": "Boosts its best stat in harsh sunlight."
+  },
+  "ABILITY_QUARK_DRIVE": {
+    "AbilityId": 282,
+    "Name": "Quark Drive",
+    "Description": "Boosts its best stat in Electric Terrain."
+  },
+  "ABILITY_GOOD_AS_GOLD": {
+    "AbilityId": 283,
+    "Name": "Good As Gold",
+    "Description": "This Pokémon is immune to all status moves."
+  },
+  "ABILITY_VESSEL_OF_RUIN": {
+    "AbilityId": 284,
+    "Name": "Vessel Of Ruin",
+    "Description": "Lowers the Sp. Atk stat of other Pokémon."
+  },
+  "ABILITY_SWORD_OF_RUIN": {
+    "AbilityId": 285,
+    "Name": "Sword Of Ruin",
+    "Description": "Lowers the Defense stat of other Pokémon."
+  },
+  "ABILITY_TABLETS_OF_RUIN": {
+    "AbilityId": 286,
+    "Name": "Tablets Of Ruin",
+    "Description": "Lowers the Attack stat of other Pokémon."
+  },
+  "ABILITY_BEADS_OF_RUIN": {
+    "AbilityId": 287,
+    "Name": "Beads Of Ruin",
+    "Description": "Lowers the Sp. Def stat of other Pokémon."
+  },
+  "ABILITY_ORICHALCUM_PULSE": {
+    "AbilityId": 288,
+    "Name": "Orichalcum Pulse",
+    "Description": "Makes the weather sunny. Ups Attack in sun."
+  },
+  "ABILITY_HADRON_ENGINE": {
+    "AbilityId": 289,
+    "Name": "Hadron Engine",
+    "Description": "Makes Electric Terrain. Ups Sp. Atk on Electric Terrain."
+  },
+  "ABILITY_OPPORTUNIST": {
+    "AbilityId": 290,
+    "Name": "Opportunist",
+    "Description": "If foe raises a stat, boosts the stat itself."
+  },
+  "ABILITY_CUD_CHEW": {
+    "AbilityId": 291,
+    "Name": "Cud Chew",
+    "Description": "After eating a Berry, it’s eaten again next turn."
+  },
+  "ABILITY_SHARPNESS": {
+    "AbilityId": 292,
+    "Name": "Sharpness",
+    "Description": "Powers up slicing moves."
+  },
+  "ABILITY_SUPREME_OVERLORD": {
+    "AbilityId": 293,
+    "Name": "Supreme Overlord",
+    "Description": "Ups Attack and Sp. Atk if allies were defeated."
+  },
+  "ABILITY_COSTAR": {
+    "AbilityId": 294,
+    "Name": "Costar",
+    "Description": "Copies an ally’s stat changes when sent out."
+  },
+  "ABILITY_TOXIC_DEBRIS": {
+    "AbilityId": 295,
+    "Name": "Toxic Debris",
+    "Description": "Scatters poison spikes if hit by physical moves."
+  },
+  "ABILITY_ARMOR_TAIL": {
+    "AbilityId": 296,
+    "Name": "Armor Tail",
+    "Description": "Makes foes unable to use priority attacks."
+  },
+  "ABILITY_EARTH_EATER": {
+    "AbilityId": 297,
+    "Name": "Earth Eater",
+    "Description": "Restores HP if hit by a Ground-type move."
+  },
+  "ABILITY_MYCELIUM_MIGHT": {
+    "AbilityId": 298,
+    "Name": "Mycelium Might",
+    "Description": "Status moves go last but ignore abilities."
+  },
+  "ABILITY_HOSPITALITY": {
+    "AbilityId": 299,
+    "Name": "Hospitality",
+    "Description": "Upon entry, restores an allies HP."
+  },
+  "ABILITY_MINDS_EYE": {
+    "AbilityId": 300,
+    "Name": "Minds Eye",
+    "Description": "Ignores accuracy changes and Ghost type immunities."
+  },
+  "ABILITY_EMBODY_ASPECT": {
+    "AbilityId": 301,
+    "Name": "Embody Aspect",
+    "Description": "The Teal Mask shines, boosting the Speed stat."
+  },
+  "ABILITY_EMBODY_ASPECT_2": {
+    "AbilityId": 302,
+    "Name": "Embody Aspect 2",
+    "Description": "The Wellspring Mask shines, boosting the Sp. Def stat."
+  },
+  "ABILITY_EMBODY_ASPECT_3": {
+    "AbilityId": 303,
+    "Name": "Embody Aspect 3",
+    "Description": "The Hearthflame Mask shines, boosting the Attack stat."
+  },
+  "ABILITY_EMBODY_ASPECT_4": {
+    "AbilityId": 304,
+    "Name": "Embody Aspect 4",
+    "Description": "The Cornerstone Mask shines, boosting the Defense stat."
+  },
+  "ABILITY_TOXIC_CHAIN": {
+    "AbilityId": 305,
+    "Name": "Toxic Chain",
+    "Description": "May badly poison targets when a Pokémon makes contact."
+  },
+  "ABILITY_SUPERSWEET_SYRUP": {
+    "AbilityId": 306,
+    "Name": "Supersweet Syrup",
+    "Description": "Lowers evasiveness of Pokémon upon first entry."
+  },
+  "ABILITY_TERA_SHIFT": {
+    "AbilityId": 307,
+    "Name": "Tera Shift",
+    "Description": "Transforms into Terastal Form upon entering battle."
+  },
+  "ABILITY_TERA_SHELL": {
+    "AbilityId": 308,
+    "Name": "Tera Shell",
+    "Description": "Resists all damage when HP is full."
+  },
+  "ABILITY_TERAFORM_ZERO": {
+    "AbilityId": 309,
+    "Name": "Teraform Zero",
+    "Description": "Reduces effects of weather and terrain to zero."
+  },
+  "ABILITY_POISON_PUPPETEER": {
+    "AbilityId": 310,
+    "Name": "Poison Puppeteer",
+    "Description": "Poison-inflicting moves will also cause confusion."
+  },
+  "ABILITY_PIERCING_DRILL": {
+    "AbilityId": 311,
+    "Name": "Piercing Drill",
+    "Description": "The Pokémon’s contact moves ignore protections."
+  },
+  "ABILITY_DRAGONIZE": {
+    "AbilityId": 312,
+    "Name": "Dragonize",
+    "Description": "Normal-type moves become Dragon-type and powered up."
+  },
+  "ABILITY_EELEVATE": {
+    "AbilityId": 313,
+    "Name": "Eelevate",
+    "Description": "Placeholder"
+  },
+  "ABILITY_TEMP2": {
+    "AbilityId": 314,
+    "Name": "Temp2",
+    "Description": "Placeholder"
+  },
+  "ABILITY_MEGA_SOL": {
+    "AbilityId": 315,
+    "Name": "Mega Sol",
+    "Description": "All moves act as if Harsh Sunlight is active."
+  },
+  "ABILITY_FIRE_MANE": {
+    "AbilityId": 316,
+    "Name": "Fire Mane",
+    "Description": "Placeholder"
+  },
+  "ABILITY_TEMP4": {
+    "AbilityId": 317,
+    "Name": "Temp4",
+    "Description": "Placeholder"
+  },
+  "ABILITY_SPICY_SPRAY": {
+    "AbilityId": 318,
+    "Name": "Spicy Spray",
+    "Description": "Burns the attacker upon taking damage."
+  }
+}

@@ -18,9 +18,176 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 2em auto;
     padding: 0 15px;
+}
+
+.wiki-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.site-nav {
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.site-nav .nav-button.active {
+  color: var(--background-color);
+  border-color: var(--primary-color);
+  background: var(--primary-color);
+}
+
+.contextual-back { margin: -0.35rem 0 1rem; }
+
+.species-subnav {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+}
+
+.species-subnav a {
+  display: inline-block;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: #242424;
+  font-weight: 600;
+}
+
+.species-subnav a.active {
+  color: var(--background-color);
+  border-color: var(--secondary-color);
+  background: var(--secondary-color);
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: #242424;
+  font-weight: 600;
+}
+
+.wiki-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 0.8rem;
+  margin: 1.5rem 0;
+}
+
+.wiki-section-card {
+  display: block;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: #222;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.species-index-list { display: grid; gap: 0.65rem; }
+.species-index-row {
+  --type-accent: #777;
+  display: grid;
+  grid-template-columns: 54px 80px 1fr;
+  align-items: center;
+  min-height: 92px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  border-left: 6px solid var(--type-accent);
+  border-radius: 8px;
+  background: #222;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 100px;
+}
+.species-index-row:hover { background: #262626; }
+.species-index-id { padding-left: 0.7rem; color: #888; font-size: 0.8rem; }
+.species-index-sprite { width: 64px; height: 64px; overflow: hidden; }
+.species-index-sprite img { width: 128px; max-width: none; margin: 0; image-rendering: pixelated; }
+.species-index-info { padding: 0.55rem; }
+.species-index-name { font-size: 1.1rem; font-weight: 700; }
+.species-index-abilities, .species-index-stats { font-size: 0.78rem; }
+.type-accent-normal { --type-accent: #aaa999; } .type-accent-fire { --type-accent: #f42; }
+.type-accent-water { --type-accent: #39f; } .type-accent-electric { --type-accent: #fc3; }
+.type-accent-grass { --type-accent: #7c5; } .type-accent-ice { --type-accent: #6cf; }
+.type-accent-fighting { --type-accent: #82211b; } .type-accent-poison { --type-accent: #a59; }
+.type-accent-ground { --type-accent: #db5; } .type-accent-flying { --type-accent: #89f; }
+.type-accent-psychic { --type-accent: #f59; } .type-accent-bug { --type-accent: #ab2; }
+.type-accent-rock { --type-accent: #ba6; } .type-accent-ghost { --type-accent: #66b; }
+.type-accent-dragon { --type-accent: #76e; } .type-accent-dark { --type-accent: #754; }
+.type-accent-steel { --type-accent: #aab; } .type-accent-fairy { --type-accent: #e9e; }
+
+.ability-list { max-width: 560px; margin: 0 auto; }
+.ability-card { display: grid; grid-template-columns: 130px 1fr; gap: 0.8rem; padding: 0.55rem; border-bottom: 1px solid var(--border-color); text-align: left; }
+.evolution-lines { display: grid; gap: 0.7rem; margin-bottom: 1.5rem; }
+.evolution-path { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 0.5rem; }
+.evolution-mon { padding: 0.45rem 0.65rem; border: 1px solid var(--border-color); border-radius: 6px; }
+.evolution-mon.current { border-color: var(--primary-color); background: #29241d; }
+.evolution-arrow { display: flex; flex-direction: column; align-items: center; color: var(--primary-color); }
+.evolution-arrow small { max-width: 130px; color: var(--foreground-color); font-size: 0.65rem; text-align: center; }
+.encounter-note { padding: 0.7rem; border-left: 4px solid var(--error-color); background: #281d20; }
+.trainer-index-mon-details { width: 100%; font-size: 0.72rem; text-align: center; }
+.trainer-index-mon-details span { display: block; color: #929292; }
+
+.encounter-species-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+  gap: 0.55rem;
+}
+
+.encounter-area {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
+}
+
+.encounter-method { margin: 0 0 1.25rem; }
+.encounter-method h3 {
+  margin: 0 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.encounter-species {
+  margin: 0;
+  padding: 0.45rem;
+  border: 1px solid var(--border-color);
+  border-radius: 7px;
+  background: #222;
+  text-align: center;
+}
+
+.encounter-species:hover { background: #262626; }
+.encounter-species a { display: flex; flex-direction: column; align-items: center; }
+.encounter-sprite { display: block; width: 64px; height: 64px; overflow: hidden; }
+.encounter-sprite img {
+  width: 128px;
+  max-width: none;
+  margin: 0;
+  animation: none;
+  transform: translateX(0);
+  image-rendering: pixelated;
+}
+
+/* Trainer sprite sheets show their leftmost frame without cycling. */
+.trainer-mon .sprite-frame img,
+.trainer-index-sprite-frame img {
+  animation: none;
+  transform: translateX(0);
+}
+
+@media (max-width: 600px) {
+  .species-index-row { grid-template-columns: 42px 70px 1fr; }
+  .species-index-stats { display: none; }
+  table { display: block; overflow-x: auto; }
 }
 
 a {
@@ -248,4 +415,10 @@ a:hover {
   color: #000;
   font-weight: bold;
   line-height: 18px;
+}
+
+#searchBox {
+  width: 400px;
+  max-width: 100%;
+  box-sizing: border-box;
 }

@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Krabby</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/krabby.png' alt='krabby' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Hyper Cutter_(Ability)' target='_blank'>Hyper Cutter</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Battle Armor_(Ability)' target='_blank'>Battle Armor</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Hyper Cutter</strong><span>Prevents the Attack stat from being lowered.</span></div>
+<div class='ability-card'><strong>Battle Armor</strong><span>The Pokémon is protected against critical hits.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,10 +76,32 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='kingler.html'>KINGLER</a> via level up to <strong>32</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./krabby.html'>Krabby</a><span class='evolution-arrow' title='level up to 32'>→<small>level up to 32</small></span><a class='evolution-mon' href='./kingler.html'>Kingler</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 35</td><td>Surf</td><td>Any</td><td>20–25</td><td>91%</td></tr>
+<tr><td>Cianwood City</td><td>Surf</td><td>Any</td><td>28–30</td><td>4%</td></tr>
+<tr><td>Cliff Cave</td><td>Rock Smash</td><td>Any</td><td>42–45</td><td>80%</td></tr>
+<tr><td>Cliff Cave</td><td>Walk</td><td>Day</td><td>42</td><td>10%</td></tr>
+<tr><td>Cliff Cave</td><td>Walk</td><td>Morning</td><td>42</td><td>10%</td></tr>
+<tr><td>Cliff Cave</td><td>Walk</td><td>Night</td><td>42</td><td>10%</td></tr>
+<tr><td>Cinnabar Island</td><td>Surf</td><td>Any</td><td>65–69</td><td>35%</td></tr>
+<tr><td>Route 35</td><td>Surf Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Cinnabar Island</td><td>Surf Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+</tbody></table>
+
+            <h3 class='center'>Safari Zone Encounters</h3>
+<table>
+  <tr><th>Location</th><th>Method</th><th>Availability</th><th>Time</th><th>Level</th><th>Odds</th><th>Requirements</th></tr>
+  <tr><td>Rocky Beach</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>22–25</td><td>40%</td><td>—</td></tr>
+  <tr><td>Rocky Beach</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>13–15</td><td>30%</td><td>—</td></tr>
+  <tr><td>Rocky Beach</td><td>Old Rod</td><td>Bonus</td><td>Morning, Day, Night</td><td>17</td><td>10%</td><td>2 Water objects</td></tr>
+  <tr><td>Rocky Beach</td><td>Old Rod</td><td>Bonus</td><td>Morning, Day, Night</td><td>18</td><td>10%</td><td>3 Water objects</td></tr>
+</table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -98,74 +128,52 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Agility</td></tr>
-  <tr><td>Ally Switch</td></tr>
-  <tr><td>Amnesia</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Bide</td></tr>
-  <tr><td>Blizzard</td></tr>
-  <tr><td>Body Slam</td></tr>
-  <tr><td>Brick Break</td></tr>
-  <tr><td>Brine</td></tr>
-  <tr><td>Bubble</td></tr>
-  <tr><td>Bubble Beam</td></tr>
-  <tr><td>Captivate</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Curse</td></tr>
-  <tr><td>Cut</td></tr>
-  <tr><td>Dig</td></tr>
-  <tr><td>Dive</td></tr>
-  <tr><td>Double Edge</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>False Swipe</td></tr>
-  <tr><td>Fling</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Fury Cutter</td></tr>
-  <tr><td>Hail</td></tr>
-  <tr><td>Headbutt</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Hone Claws</td></tr>
-  <tr><td>Ice Beam</td></tr>
-  <tr><td>Icy Wind</td></tr>
-  <tr><td>Iron Defense</td></tr>
-  <tr><td>Liquidation</td></tr>
-  <tr><td>Mimic</td></tr>
-  <tr><td>Mud Shot</td></tr>
-  <tr><td>Mud Slap</td></tr>
-  <tr><td>Natural Gift</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Rage</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Razor Shell</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Rock Slide</td></tr>
-  <tr><td>Rock Smash</td></tr>
-  <tr><td>Rock Tomb</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Scald</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Strength</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Superpower</td></tr>
-  <tr><td>Surf</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Swords Dance</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Thief</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Vice Grip</td></tr>
-  <tr><td>Water Gun</td></tr>
-  <tr><td>Water Pulse</td></tr>
-  <tr><td>Whirlpool</td></tr>
-  <tr><td>X Scissor</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM01</td><td>Cut</td></tr>
+<tr><td>HM03</td><td>Surf</td></tr>
+<tr><td>HM04</td><td>Strength</td></tr>
+<tr><td>HM05</td><td>Whirlpool</td></tr>
+<tr><td>HM06</td><td>Rock Smash</td></tr>
+<tr><td>TM006</td><td>Scald</td></tr>
+<tr><td>TM007</td><td>Hail</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM013</td><td>Ice Beam</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM028</td><td>Dig</td></tr>
+<tr><td>TM031</td><td>Brick Break</td></tr>
+<tr><td>TM032</td><td>Body Slam</td></tr>
+<tr><td>TM039</td><td>Rock Tomb</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM046</td><td>Thief</td></tr>
+<tr><td>TM054</td><td>False Swipe</td></tr>
+<tr><td>TM055</td><td>Brine</td></tr>
+<tr><td>TM056</td><td>Fling</td></tr>
+<tr><td>TM078</td><td>Captivate</td></tr>
+<tr><td>TM081</td><td>X Scissor</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM083</td><td>Natural Gift</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM110</td><td>Liquidation</td></tr>
+<tr><td>TM114</td><td>Curse</td></tr>
+<tr><td>TM156</td><td>Double Edge</td></tr>
+<tr><td>TR00</td><td>Swords Dance</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR06</td><td>Blizzard</td></tr>
+<tr><td>TR11</td><td>Rock Slide</td></tr>
+<tr><td>TR12</td><td>Agility</td></tr>
+<tr><td>TR14</td><td>Water Pulse</td></tr>
+<tr><td>TR17</td><td>Amnesia</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR36</td><td>Iron Defense</td></tr>
+<tr><td>TR39</td><td>Superpower</td></tr>
+</tbody></table>
 
                 
 
@@ -183,30 +191,6 @@
   <tr><td>Ancient Power</td></tr>
   <tr><td>Agility</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Cliff Cave</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-  <li>Night</li>
-  <li>RockSmash</li>
-</ul>
-<h4 class='center'>Route 35</h4>
-<ul class='center'>
-  <li>Surf</li>
-  <li>SurfSwarm</li>
-</ul>
-<h4 class='center'>Cinnabar Island</h4>
-<ul class='center'>
-  <li>Surf</li>
-  <li>SurfSwarm</li>
-</ul>
-<h4 class='center'>Cianwood City</h4>
-<ul class='center'>
-  <li>Surf</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

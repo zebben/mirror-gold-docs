@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Poliwag</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/poliwag.png' alt='poliwag' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Water Absorb_(Ability)' target='_blank'>Water Absorb</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Damp_(Ability)' target='_blank'>Damp</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Water Absorb</strong><span>Restores HP if hit by a Water-type move.</span></div>
+<div class='ability-card'><strong>Damp</strong><span>Prevents combatants from self-destructing.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,10 +76,47 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='poliwhirl.html'>POLIWHIRL</a> via level up to <strong>16</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./poliwag.html'>Poliwag</a><span class='evolution-arrow' title='level up to 16'>→<small>level up to 16</small></span><a class='evolution-mon' href='./poliwhirl.html'>Poliwhirl</a><span class='evolution-arrow' title='stone (level 25+) Water Stone'>→<small>stone (level 25+) Water Stone</small></span><a class='evolution-mon' href='./poliwrath.html'>Poliwrath</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./poliwag.html'>Poliwag</a><span class='evolution-arrow' title='level up to 16'>→<small>level up to 16</small></span><a class='evolution-mon' href='./poliwhirl.html'>Poliwhirl</a><span class='evolution-arrow' title='held item (day level 25+) Kings Rock'>→<small>held item (day level 25+) Kings Rock</small></span><a class='evolution-mon' href='./politoed.html'>Politoed</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./poliwag.html'>Poliwag</a><span class='evolution-arrow' title='level up to 16'>→<small>level up to 16</small></span><a class='evolution-mon' href='./poliwhirl.html'>Poliwhirl</a><span class='evolution-arrow' title='held item (night level 25+) Kings Rock'>→<small>held item (night level 25+) Kings Rock</small></span><a class='evolution-mon' href='./politoed.html'>Politoed</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Ilex Forest</td><td>Old Rod</td><td>Any</td><td>10–14</td><td>15%</td></tr>
+<tr><td>Ilex Forest</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>30%</td></tr>
+<tr><td>Mt. Mortar Room Above Waterfall</td><td>Old Rod</td><td>Any</td><td>32–35</td><td>40%</td></tr>
+<tr><td>Mt. Mortar Room Above Waterfall</td><td>Good Rod</td><td>Any</td><td>35–38</td><td>40%</td></tr>
+<tr><td>Mt. Moon Outside Clefairy Active</td><td>Surf</td><td>Any</td><td>67–69</td><td>100%</td></tr>
+<tr><td>Mt. Silver Outside Pokemon Center</td><td>Super Rod</td><td>Any</td><td>74–78</td><td>25%</td></tr>
+<tr><td>Mt. Silver Outside Pokemon Center</td><td>Surf</td><td>Any</td><td>74–78</td><td>9%</td></tr>
+<tr><td>Cerulean Cave B2F</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Cerulean Cave B2F</td><td>Surf Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Seafoam Islands B2F</td><td>Land Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Ilex Forest</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Route 28</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Route 28</td><td>Surf Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Mt. Silver Outside Pokemon Center</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+</tbody></table>
+
+            <h3 class='center'>Safari Zone Encounters</h3>
+<table>
+  <tr><th>Location</th><th>Method</th><th>Availability</th><th>Time</th><th>Level</th><th>Odds</th><th>Requirements</th></tr>
+  <tr><td>Marshland</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–15</td><td>40%</td><td>—</td></tr>
+  <tr><td>Marshland</td><td>Old Rod</td><td>Bonus</td><td>Morning, Day, Night</td><td>16</td><td>10%</td><td>2 Water objects</td></tr>
+  <tr><td>Marshland</td><td>Old Rod</td><td>Bonus</td><td>Morning, Day, Night</td><td>18</td><td>10%</td><td>3 Water objects</td></tr>
+  <tr><td>Marshland</td><td>Surf</td><td>Normal</td><td>Morning, Day, Night</td><td>15–17</td><td>40%</td><td>—</td></tr>
+  <tr><td>Meadow</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>22–24</td><td>40%</td><td>—</td></tr>
+  <tr><td>Meadow</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–15</td><td>40%</td><td>—</td></tr>
+  <tr><td>Meadow</td><td>Super Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>35–36</td><td>40%</td><td>—</td></tr>
+  <tr><td>Rocky Beach</td><td>Surf</td><td>Normal</td><td>Morning, Day, Night</td><td>15–16</td><td>30%</td><td>—</td></tr>
+  <tr><td>Wetland</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>22–24</td><td>60%</td><td>—</td></tr>
+  <tr><td>Wetland</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–15</td><td>40%</td><td>—</td></tr>
+  <tr><td>Wetland</td><td>Super Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>35–37</td><td>40%</td><td>—</td></tr>
+  <tr><td>Wetland</td><td>Surf</td><td>Normal</td><td>Morning, Day, Night</td><td>16</td><td>20%</td><td>—</td></tr>
+</table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -97,75 +142,50 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Amnesia</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Bide</td></tr>
-  <tr><td>Blizzard</td></tr>
-  <tr><td>Body Slam</td></tr>
-  <tr><td>Bubble</td></tr>
-  <tr><td>Bubble Beam</td></tr>
-  <tr><td>Bulldoze</td></tr>
-  <tr><td>Captivate</td></tr>
-  <tr><td>Chilling Water</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Curse</td></tr>
-  <tr><td>Defense Curl</td></tr>
-  <tr><td>Dig</td></tr>
-  <tr><td>Dive</td></tr>
-  <tr><td>Double Edge</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Earth Power</td></tr>
-  <tr><td>Encore</td></tr>
-  <tr><td>Endeavor</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Focus Punch</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Hail</td></tr>
-  <tr><td>Haze</td></tr>
-  <tr><td>Headbutt</td></tr>
-  <tr><td>Helping Hand</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Hydro Pump</td></tr>
-  <tr><td>Ice Beam</td></tr>
-  <tr><td>Icy Wind</td></tr>
-  <tr><td>Liquidation</td></tr>
-  <tr><td>Low Kick</td></tr>
-  <tr><td>Mimic</td></tr>
-  <tr><td>Muddy Water</td></tr>
-  <tr><td>Mud Bomb</td></tr>
-  <tr><td>Mud Shot</td></tr>
-  <tr><td>Mud Slap</td></tr>
-  <tr><td>Natural Gift</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Psychic</td></tr>
-  <tr><td>Psywave</td></tr>
-  <tr><td>Rage</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Scald</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Skull Bash</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Surf</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Swift</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Thief</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Waterfall</td></tr>
-  <tr><td>Water Gun</td></tr>
-  <tr><td>Water Pulse</td></tr>
-  <tr><td>Weather Ball</td></tr>
-  <tr><td>Whirlpool</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM03</td><td>Surf</td></tr>
+<tr><td>HM05</td><td>Whirlpool</td></tr>
+<tr><td>HM07</td><td>Waterfall</td></tr>
+<tr><td>TM001</td><td>Focus Punch</td></tr>
+<tr><td>TM006</td><td>Scald</td></tr>
+<tr><td>TM007</td><td>Hail</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM013</td><td>Ice Beam</td></tr>
+<tr><td>TM015</td><td>Low Kick</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM028</td><td>Dig</td></tr>
+<tr><td>TM029</td><td>Psychic</td></tr>
+<tr><td>TM032</td><td>Body Slam</td></tr>
+<tr><td>TM038</td><td>Helping Hand</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM046</td><td>Thief</td></tr>
+<tr><td>TM078</td><td>Captivate</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM083</td><td>Natural Gift</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM105</td><td>Earth Power</td></tr>
+<tr><td>TM110</td><td>Liquidation</td></tr>
+<tr><td>TM114</td><td>Curse</td></tr>
+<tr><td>TM118</td><td>Encore</td></tr>
+<tr><td>TM132</td><td>Haze</td></tr>
+<tr><td>TM148</td><td>Weather Ball</td></tr>
+<tr><td>TM156</td><td>Double Edge</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR03</td><td>Hydro Pump</td></tr>
+<tr><td>TR06</td><td>Blizzard</td></tr>
+<tr><td>TR14</td><td>Water Pulse</td></tr>
+<tr><td>TR17</td><td>Amnesia</td></tr>
+<tr><td>TR20</td><td>Endeavor</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR35</td><td>Muddy Water</td></tr>
+</tbody></table>
 
                 
 
@@ -184,44 +204,6 @@
   <tr><td>Endeavor</td></tr>
   <tr><td>Encore</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Mt. Moon Outside Clefairy Active</h4>
-<ul class='center'>
-  <li>Surf</li>
-</ul>
-<h4 class='center'>Cerulean Cave B2F</h4>
-<ul class='center'>
-  <li>NightFish</li>
-  <li>SurfSwarm</li>
-</ul>
-<h4 class='center'>Seafoam Islands B2F</h4>
-<ul class='center'>
-  <li>LandSwarm</li>
-</ul>
-<h4 class='center'>Ilex Forest</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>NightFish</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Mt. Mortar Room Above Waterfall</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Route 28</h4>
-<ul class='center'>
-  <li>NightFish</li>
-  <li>SurfSwarm</li>
-</ul>
-<h4 class='center'>Mt. Silver Outside Pokemon Center</h4>
-<ul class='center'>
-  <li>NightFish</li>
-  <li>SuperRod</li>
-  <li>Surf</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

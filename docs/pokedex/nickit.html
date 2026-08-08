@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Nickit</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/nickit.png' alt='nickit' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Run Away_(Ability)' target='_blank'>Run Away</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Unburden_(Ability)' target='_blank'>Unburden</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Run Away</strong><span>Enables sure getaway from wild Pokémon.</span></div>
+<div class='ability-card'><strong>Unburden</strong><span>Raises Speed if a held item is used.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,10 +76,20 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='thievul.html'>THIEVUL</a> via level up to <strong>32</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./nickit.html'>Nickit</a><span class='evolution-arrow' title='level up to 32'>→<small>level up to 32</small></span><a class='evolution-mon' href='./thievul.html'>Thievul</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 31</td><td>Walk</td><td>Night</td><td>5</td><td>10%</td></tr>
+<tr><td>Bell Tower 7F</td><td>Walk</td><td>Night</td><td>31</td><td>20%</td></tr>
+<tr><td>Bell Tower 7F</td><td>Walk</td><td>Night</td><td>32</td><td>10%</td></tr>
+<tr><td>Bell Tower 7F</td><td>Walk</td><td>Night</td><td>33</td><td>5%</td></tr>
+<tr><td>Bell Tower 7F</td><td>Walk</td><td>Night</td><td>34</td><td>4%</td></tr>
+<tr><td>Route 1</td><td>Walk</td><td>Night</td><td>66</td><td>20%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -89,43 +107,29 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Agility</td></tr>
-  <tr><td>Assurance</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Baton Pass</td></tr>
-  <tr><td>Beat Up</td></tr>
-  <tr><td>Dig</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Fake Tears</td></tr>
-  <tr><td>Foul Play</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Mud Shot</td></tr>
-  <tr><td>Nasty Plot</td></tr>
-  <tr><td>Night Slash</td></tr>
-  <tr><td>Play Rough</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Quick Attack</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Screech</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snarl</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Sucker Punch</td></tr>
-  <tr><td>Swift</td></tr>
-  <tr><td>Tail Slap</td></tr>
-  <tr><td>Taunt</td></tr>
-  <tr><td>Thief</td></tr>
-  <tr><td>Torment</td></tr>
-  <tr><td>Toxic</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM014</td><td>Play Rough</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM028</td><td>Dig</td></tr>
+<tr><td>TM041</td><td>Torment</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM046</td><td>Thief</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM121</td><td>Baton Pass</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR12</td><td>Agility</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR37</td><td>Taunt</td></tr>
+<tr><td>TR38</td><td>Foul Play</td></tr>
+<tr><td>TR47</td><td>Nasty Plot</td></tr>
+</tbody></table>
 
                 
 
@@ -137,21 +141,6 @@
   <tr><td>Howl</td></tr>
   <tr><td>Torment</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Bell Tower 7F</h4>
-<ul class='center'>
-  <li>Night</li>
-</ul>
-<h4 class='center'>Route 01</h4>
-<ul class='center'>
-  <li>Night</li>
-</ul>
-<h4 class='center'>Route 31</h4>
-<ul class='center'>
-  <li>Night</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

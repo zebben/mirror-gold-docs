@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Magikarp</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/magikarp.png' alt='magikarp' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,9 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Swift Swim_(Ability)' target='_blank'>Swift Swim</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Swift Swim</strong><span>Boosts the Pokémon’s Speed in rain.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,10 +75,83 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='gyarados.html'>GYARADOS</a> via level up to <strong>32</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./magikarp.html'>Magikarp</a><span class='evolution-arrow' title='level up to 32'>→<small>level up to 32</small></span><a class='evolution-mon' href='./gyarados.html'>Gyarados</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Cerulean Cave B2F</td><td>Old Rod</td><td>Any</td><td>10–14</td><td>85%</td></tr>
+<tr><td>Ruins Of Alph Outside</td><td>Old Rod</td><td>Any</td><td>10–14</td><td>55%</td></tr>
+<tr><td>Mt. Silver Top Snowy Area</td><td>Old Rod</td><td>Any</td><td>10–14</td><td>85%</td></tr>
+<tr><td>Mt. Silver Moltres Room</td><td>Old Rod</td><td>Any</td><td>10–14</td><td>85%</td></tr>
+<tr><td>Mt. Silver 3F</td><td>Old Rod</td><td>Any</td><td>10–14</td><td>85%</td></tr>
+<tr><td>Mt. Silver 4F</td><td>Old Rod</td><td>Any</td><td>10–14</td><td>85%</td></tr>
+<tr><td>Safari Zone Placeholder Unused</td><td>Old Rod</td><td>Any</td><td>10–14</td><td>85%</td></tr>
+<tr><td>Safari Zone Placeholder Unused</td><td>Surf</td><td>Any</td><td>10–20</td><td>100%</td></tr>
+<tr><td>Mt. Silver Outside Pokemon Center</td><td>Old Rod</td><td>Any</td><td>10–14</td><td>85%</td></tr>
+<tr><td>Lake Of Rage</td><td>Old Rod</td><td>Any</td><td>20–25</td><td>30%</td></tr>
+<tr><td>Mt. Mortar B1F</td><td>Old Rod</td><td>Any</td><td>25–27</td><td>15%</td></tr>
+<tr><td>Lake Of Rage</td><td>Surf</td><td>Any</td><td>26–28</td><td>9%</td></tr>
+<tr><td>Cerulean Cave B2F</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>40%</td></tr>
+<tr><td>Ruins Of Alph Outside</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>85%</td></tr>
+<tr><td>Mt. Mortar B1F</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>30%</td></tr>
+<tr><td>Mt. Silver Top Snowy Area</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>40%</td></tr>
+<tr><td>Mt. Silver Moltres Room</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>40%</td></tr>
+<tr><td>Mt. Silver 3F</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>40%</td></tr>
+<tr><td>Mt. Silver 4F</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>40%</td></tr>
+<tr><td>Safari Zone Placeholder Unused</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>40%</td></tr>
+<tr><td>Lake Of Rage</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>55%</td></tr>
+<tr><td>Mt. Silver Outside Pokemon Center</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>40%</td></tr>
+<tr><td>Route 47</td><td>Old Rod</td><td>Any</td><td>40–42</td><td>75%</td></tr>
+<tr><td>Route 47</td><td>Good Rod</td><td>Any</td><td>42–45</td><td>40%</td></tr>
+<tr><td>Route 6</td><td>Old Rod</td><td>Any</td><td>50–54</td><td>30%</td></tr>
+<tr><td>Route 6</td><td>Good Rod</td><td>Any</td><td>55–60</td><td>10%</td></tr>
+<tr><td>Cerulean Cave B2F</td><td>Fishing Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Ruins Of Alph Outside</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Mt. Mortar B1F</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Mt. Silver 1F</td><td>Fishing Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Mt. Silver Top Snowy Area</td><td>Fishing Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Mt. Silver Moltres Room</td><td>Fishing Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Mt. Silver 3F</td><td>Fishing Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Mt. Silver 4F</td><td>Fishing Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Safari Zone Placeholder Unused</td><td>Surf Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Route 28</td><td>Fishing Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Route 47</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Lake Of Rage</td><td>Surf Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Mt. Silver Outside Pokemon Center</td><td>Fishing Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+</tbody></table>
+
+            <h3 class='center'>Safari Zone Encounters</h3>
+<table>
+  <tr><th>Location</th><th>Method</th><th>Availability</th><th>Time</th><th>Level</th><th>Odds</th><th>Requirements</th></tr>
+  <tr><td>Desert</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>23–24</td><td>20%</td><td>—</td></tr>
+  <tr><td>Desert</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–13</td><td>60%</td><td>—</td></tr>
+  <tr><td>Forest</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>22–24</td><td>40%</td><td>—</td></tr>
+  <tr><td>Forest</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–13</td><td>60%</td><td>—</td></tr>
+  <tr><td>Marshland</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>24</td><td>10%</td><td>—</td></tr>
+  <tr><td>Marshland</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–15</td><td>60%</td><td>—</td></tr>
+  <tr><td>Meadow</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>22–24</td><td>40%</td><td>—</td></tr>
+  <tr><td>Meadow</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–15</td><td>60%</td><td>—</td></tr>
+  <tr><td>Meadow</td><td>Surf</td><td>Normal</td><td>Morning, Day, Night</td><td>15–17</td><td>40%</td><td>—</td></tr>
+  <tr><td>Mountain</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>22–24</td><td>40%</td><td>—</td></tr>
+  <tr><td>Mountain</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–13</td><td>60%</td><td>—</td></tr>
+  <tr><td>Peak</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>22–24</td><td>30%</td><td>—</td></tr>
+  <tr><td>Peak</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–13</td><td>60%</td><td>—</td></tr>
+  <tr><td>Plains</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>22–24</td><td>40%</td><td>—</td></tr>
+  <tr><td>Plains</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–13</td><td>60%</td><td>—</td></tr>
+  <tr><td>Rocky Beach</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–14</td><td>40%</td><td>—</td></tr>
+  <tr><td>Rocky Beach</td><td>Surf</td><td>Normal</td><td>Morning, Day, Night</td><td>16</td><td>20%</td><td>—</td></tr>
+  <tr><td>Savannah</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>22–24</td><td>40%</td><td>—</td></tr>
+  <tr><td>Savannah</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–13</td><td>60%</td><td>—</td></tr>
+  <tr><td>Swamp</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>22–24</td><td>40%</td><td>—</td></tr>
+  <tr><td>Swamp</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–15</td><td>100%</td><td>—</td></tr>
+  <tr><td>Swamp</td><td>Surf</td><td>Normal</td><td>Morning, Day, Night</td><td>16–17</td><td>40%</td><td>—</td></tr>
+  <tr><td>Wasteland</td><td>Good Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>22–24</td><td>40%</td><td>—</td></tr>
+  <tr><td>Wasteland</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–13</td><td>60%</td><td>—</td></tr>
+  <tr><td>Wetland</td><td>Old Rod</td><td>Normal</td><td>Morning, Day, Night</td><td>12–15</td><td>60%</td><td>—</td></tr>
+</table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -82,13 +162,9 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Bounce</td></tr>
-  <tr><td>Hydro Pump</td></tr>
-  <tr><td>Splash</td></tr>
-  <tr><td>Struggle</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>TR03</td><td>Hydro Pump</td></tr>
+</tbody></table>
 
                 
 
@@ -97,90 +173,6 @@
   <tr><th>Egg Move</th></tr>
   <tr><td>(none)</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Cerulean Cave B2F</h4>
-<ul class='center'>
-  <li>FishSwarm</li>
-  <li>GoodRod</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Ruins Of Alph Outside</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>NightFish</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Mt. Mortar B1F</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>NightFish</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Mt. Silver 1F</h4>
-<ul class='center'>
-  <li>FishSwarm</li>
-</ul>
-<h4 class='center'>Mt. Silver Top Snowy Area</h4>
-<ul class='center'>
-  <li>FishSwarm</li>
-  <li>GoodRod</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Mt. Silver Moltres Room</h4>
-<ul class='center'>
-  <li>FishSwarm</li>
-  <li>GoodRod</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Mt. Silver 3F</h4>
-<ul class='center'>
-  <li>FishSwarm</li>
-  <li>GoodRod</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Mt. Silver 4F</h4>
-<ul class='center'>
-  <li>FishSwarm</li>
-  <li>GoodRod</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Safari Zone Placeholder Unused</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>OldRod</li>
-  <li>Surf</li>
-  <li>SurfSwarm</li>
-</ul>
-<h4 class='center'>Route 6</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Route 28</h4>
-<ul class='center'>
-  <li>FishSwarm</li>
-</ul>
-<h4 class='center'>Route 47</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>NightFish</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Lake Of Rage</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>OldRod</li>
-  <li>Surf</li>
-  <li>SurfSwarm</li>
-</ul>
-<h4 class='center'>Mt. Silver Outside Pokemon Center</h4>
-<ul class='center'>
-  <li>FishSwarm</li>
-  <li>GoodRod</li>
-  <li>OldRod</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

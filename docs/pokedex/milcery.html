@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Milcery</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/milcery.png' alt='milcery' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,9 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Inner Focus_(Ability)' target='_blank'>Inner Focus</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Inner Focus</strong><span>The Pokémon is protected from flinching.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,10 +75,18 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='alcremie.html'>ALCREMIE</a> via level up to <strong>32</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./milcery.html'>Milcery</a><span class='evolution-arrow' title='level up to 32'>→<small>level up to 32</small></span><a class='evolution-mon' href='./alcremie.html'>Alcremie</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 39</td><td>Walk</td><td>Day</td><td>24</td><td>10%</td></tr>
+<tr><td>Route 39</td><td>Walk</td><td>Morning</td><td>24</td><td>10%</td></tr>
+<tr><td>Route 1</td><td>Walk</td><td>Day</td><td>66</td><td>20%</td></tr>
+<tr><td>Route 1</td><td>Walk</td><td>Morning</td><td>66</td><td>20%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -93,32 +108,24 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Charm</td></tr>
-  <tr><td>Dazzling Gleam</td></tr>
-  <tr><td>Draining Kiss</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Fling</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Helping Hand</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Misty Terrain</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Stored Power</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Tackle</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Toxic</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM038</td><td>Helping Hand</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM056</td><td>Fling</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM116</td><td>Dazzling Gleam</td></tr>
+<tr><td>TM125</td><td>Misty Terrain</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+</tbody></table>
 
                 
 
@@ -127,19 +134,6 @@
   <tr><th>Egg Move</th></tr>
   <tr><td>Last Resort</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Route 01</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-</ul>
-<h4 class='center'>Route 39</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

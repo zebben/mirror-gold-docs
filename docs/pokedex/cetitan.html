@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Cetitan</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/cetitan.png' alt='cetitan' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Thick Fat_(Ability)' target='_blank'>Thick Fat</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Slush Rush_(Ability)' target='_blank'>Slush Rush</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Thick Fat</strong><span>Ups resistance to Fire- and Ice-type moves.</span></div>
+<div class='ability-card'><strong>Slush Rush</strong><span>Boosts the Pokémon’s Speed stat in a hailstorm.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,10 +76,15 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves From</h3>
-    <ul class='center'>
-      <li>Evolves from <a href='cetoddle.html'>CETODDLE</a> via stone (level 25+) <strong>Ice Stone</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon' href='./cetoddle.html'>Cetoddle</a><span class='evolution-arrow' title='stone (level 25+) Ice Stone'>→<small>stone (level 25+) Ice Stone</small></span><a class='evolution-mon current' href='./cetitan.html'>Cetitan</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Cinnabar Island</td><td>Surf</td><td>Any</td><td>65–69</td><td>1%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -94,57 +107,40 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Amnesia</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Avalanche</td></tr>
-  <tr><td>Blizzard</td></tr>
-  <tr><td>Body Press</td></tr>
-  <tr><td>Body Slam</td></tr>
-  <tr><td>Bulldoze</td></tr>
-  <tr><td>Charm</td></tr>
-  <tr><td>Chilling Water</td></tr>
-  <tr><td>Curse</td></tr>
-  <tr><td>Double Edge</td></tr>
-  <tr><td>Earthquake</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Giga Impact</td></tr>
-  <tr><td>Hard Press</td></tr>
-  <tr><td>Heavy Slam</td></tr>
-  <tr><td>Helping Hand</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>High Horsepower</td></tr>
-  <tr><td>Hyper Beam</td></tr>
-  <tr><td>Hyper Voice</td></tr>
-  <tr><td>Ice Beam</td></tr>
-  <tr><td>Ice Fang</td></tr>
-  <tr><td>Ice Punch</td></tr>
-  <tr><td>Ice Shard</td></tr>
-  <tr><td>Ice Spinner</td></tr>
-  <tr><td>Icicle Spear</td></tr>
-  <tr><td>Icy Wind</td></tr>
-  <tr><td>Knock Off</td></tr>
-  <tr><td>Liquidation</td></tr>
-  <tr><td>Play Rough</td></tr>
-  <tr><td>Powder Snow</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snowscape</td></tr>
-  <tr><td>Stomping Tantrum</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Tackle</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Water Pulse</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM013</td><td>Ice Beam</td></tr>
+<tr><td>TM014</td><td>Play Rough</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM032</td><td>Body Slam</td></tr>
+<tr><td>TM038</td><td>Helping Hand</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM072</td><td>Avalanche</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM107</td><td>Heavy Slam</td></tr>
+<tr><td>TM110</td><td>Liquidation</td></tr>
+<tr><td>TM114</td><td>Curse</td></tr>
+<tr><td>TM139</td><td>Knock Off</td></tr>
+<tr><td>TM144</td><td>High Horsepower</td></tr>
+<tr><td>TM145</td><td>Icicle Spear</td></tr>
+<tr><td>TM156</td><td>Double Edge</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR05</td><td>Hyper Beam</td></tr>
+<tr><td>TR06</td><td>Blizzard</td></tr>
+<tr><td>TR08</td><td>Giga Impact</td></tr>
+<tr><td>TR10</td><td>Earthquake</td></tr>
+<tr><td>TR14</td><td>Water Pulse</td></tr>
+<tr><td>TR17</td><td>Amnesia</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR33</td><td>Hyper Voice</td></tr>
+</tbody></table>
 
                 
 
@@ -157,13 +153,6 @@
   <tr><td>Superpower</td></tr>
   <tr><td>Yawn</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Cinnabar Island</h4>
-<ul class='center'>
-  <li>Surf</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

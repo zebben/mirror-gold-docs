@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Scatterbug</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/scatterbug.png' alt='scatterbug' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Shield Dust_(Ability)' target='_blank'>Shield Dust</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Compound Eyes_(Ability)' target='_blank'>Compound Eyes</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Shield Dust</strong><span>Blocks the added effects of attacks taken.</span></div>
+<div class='ability-card'><strong>Compound Eyes</strong><span>The Pokémon’s accuracy is boosted.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,10 +76,25 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='spewpa.html'>SPEWPA</a> via level up to <strong>16</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./scatterbug.html'>Scatterbug</a><span class='evolution-arrow' title='level up to 16'>→<small>level up to 16</small></span><a class='evolution-mon' href='./spewpa.html'>Spewpa</a><span class='evolution-arrow' title='level up to 36'>→<small>level up to 36</small></span><a class='evolution-mon' href='./vivillon.html'>Vivillon</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 31</td><td>Walk</td><td>Day</td><td>5</td><td>10%</td></tr>
+<tr><td>Route 31</td><td>Walk</td><td>Morning</td><td>5</td><td>10%</td></tr>
+<tr><td>Route 31</td><td>Walk</td><td>Night</td><td>5</td><td>5%</td></tr>
+</tbody></table>
+
+            <h3 class='center'>Safari Zone Encounters</h3>
+<table>
+  <tr><th>Location</th><th>Method</th><th>Availability</th><th>Time</th><th>Level</th><th>Odds</th><th>Requirements</th></tr>
+  <tr><td>Forest</td><td>Walk</td><td>Normal</td><td>Morning, Day, Night</td><td>15</td><td>10%</td><td>—</td></tr>
+  <tr><td>Forest</td><td>Walk</td><td>Bonus</td><td>Day, Night</td><td>42</td><td>10%</td><td>4 Forest objects</td></tr>
+  <tr><td>Forest</td><td>Walk</td><td>Bonus</td><td>Morning</td><td>47</td><td>10%</td><td>24 Plains objects</td></tr>
+</table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -83,15 +106,9 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Bug Bite</td></tr>
-  <tr><td>Pounce</td></tr>
-  <tr><td>Struggle</td></tr>
-  <tr><td>Struggle Bug</td></tr>
-  <tr><td>Tackle</td></tr>
-  <tr><td>Tera Blast</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>TM140</td><td>Bug Bite</td></tr>
+</tbody></table>
 
                 
 
@@ -102,15 +119,6 @@
   <tr><td>Poison Powder</td></tr>
   <tr><td>Rage Powder</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Route 31</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-  <li>Night</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Miraidon</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/miraidon.png' alt='miraidon' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,9 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Hadron Engine_(Ability)' target='_blank'>Hadron Engine</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Hadron Engine</strong><span>Makes Electric Terrain. Ups Sp. Atk on Electric Terrain.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,13 +75,22 @@
     </div>
     
             </div>
-    <h3 class='center'>Other Forms</h3>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./miraidon.html'>Miraidon</a></div>
+</div>    <h3 class='center'>Other Forms</h3>
     <ul class='center'>
       <li><a href='miraidon_aquatic_mode.html'>Miraidon Aquatic Mode</a></li>
       <li><a href='miraidon_drive_mode.html'>Miraidon Drive Mode</a></li>
       <li><a href='miraidon_glide_mode.html'>Miraidon Glide Mode</a></li>
       <li><a href='miraidon_low_power_mode.html'>Miraidon Low Power Mode</a></li>
     </ul>
+
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 28</td><td>Walk</td><td>Day</td><td>76</td><td>10%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -98,65 +114,52 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Acrobatics</td></tr>
-  <tr><td>Agility</td></tr>
-  <tr><td>Body Slam</td></tr>
-  <tr><td>Calm Mind</td></tr>
-  <tr><td>Charge</td></tr>
-  <tr><td>Charge Beam</td></tr>
-  <tr><td>Confuse Ray</td></tr>
-  <tr><td>Crunch</td></tr>
-  <tr><td>Dazzling Gleam</td></tr>
-  <tr><td>Draco Meteor</td></tr>
-  <tr><td>Dragon Cheer</td></tr>
-  <tr><td>Dragon Claw</td></tr>
-  <tr><td>Dragon Pulse</td></tr>
-  <tr><td>Dragon Tail</td></tr>
-  <tr><td>Eerie Impulse</td></tr>
-  <tr><td>Electric Terrain</td></tr>
-  <tr><td>Electro Ball</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Flash Cannon</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Giga Impact</td></tr>
-  <tr><td>Heavy Slam</td></tr>
-  <tr><td>Helping Hand</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Hyper Beam</td></tr>
-  <tr><td>Light Screen</td></tr>
-  <tr><td>Metal Sound</td></tr>
-  <tr><td>Outrage</td></tr>
-  <tr><td>Overheat</td></tr>
-  <tr><td>Power Gem</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Reflect</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Scary Face</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Shock Wave</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snarl</td></tr>
-  <tr><td>Solar Beam</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Supercell Slam</td></tr>
-  <tr><td>Swords Dance</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Taunt</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Thunder</td></tr>
-  <tr><td>Thunderbolt</td></tr>
-  <tr><td>Thunder Shock</td></tr>
-  <tr><td>Thunder Wave</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>U Turn</td></tr>
-  <tr><td>Volt Switch</td></tr>
-  <tr><td>Wild Charge</td></tr>
-  <tr><td>Zen Headbutt</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>TM002</td><td>Dragon Claw</td></tr>
+<tr><td>TM004</td><td>Calm Mind</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM016</td><td>Light Screen</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM024</td><td>Thunderbolt</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM032</td><td>Body Slam</td></tr>
+<tr><td>TM033</td><td>Reflect</td></tr>
+<tr><td>TM038</td><td>Helping Hand</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM052</td><td>Crunch</td></tr>
+<tr><td>TM057</td><td>Charge Beam</td></tr>
+<tr><td>TM059</td><td>Dragon Pulse</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM089</td><td>U Turn</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM091</td><td>Flash Cannon</td></tr>
+<tr><td>TM096</td><td>Supercell Slam</td></tr>
+<tr><td>TM101</td><td>Power Gem</td></tr>
+<tr><td>TM107</td><td>Heavy Slam</td></tr>
+<tr><td>TM115</td><td>Zen Headbutt</td></tr>
+<tr><td>TM116</td><td>Dazzling Gleam</td></tr>
+<tr><td>TM119</td><td>Metal Sound</td></tr>
+<tr><td>TM122</td><td>Electric Terrain</td></tr>
+<tr><td>TM126</td><td>Wild Charge</td></tr>
+<tr><td>TM131</td><td>Charge</td></tr>
+<tr><td>TR00</td><td>Swords Dance</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR04</td><td>Solar Beam</td></tr>
+<tr><td>TR05</td><td>Hyper Beam</td></tr>
+<tr><td>TR07</td><td>Thunder</td></tr>
+<tr><td>TR08</td><td>Giga Impact</td></tr>
+<tr><td>TR12</td><td>Agility</td></tr>
+<tr><td>TR13</td><td>Thunder Wave</td></tr>
+<tr><td>TR18</td><td>Shock Wave</td></tr>
+<tr><td>TR22</td><td>Overheat</td></tr>
+<tr><td>TR24</td><td>Outrage</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR27</td><td>Electro Ball</td></tr>
+<tr><td>TR37</td><td>Taunt</td></tr>
+</tbody></table>
 
                 
 
@@ -165,13 +168,6 @@
   <tr><th>Egg Move</th></tr>
   <tr><td>(none)</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Route 28</h4>
-<ul class='center'>
-  <li>Day</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

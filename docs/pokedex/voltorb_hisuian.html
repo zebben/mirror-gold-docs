@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Voltorb Hisuian</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/voltorb_hisuian.png' alt='voltorb_hisuian' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Soundproof_(Ability)' target='_blank'>Soundproof</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Static_(Ability)' target='_blank'>Static</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Soundproof</strong><span>Gives full immunity to all sound-based moves.</span></div>
+<div class='ability-card'><strong>Static</strong><span>Contact with the Pokémon may cause paralysis.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,14 +76,20 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='electrode_hisuian.html'>ELECTRODE_HISUIAN</a> via stone (level 25+) <strong>Leaf Stone</strong></li>
-    </ul>
-    <h3 class='center'>Other Forms</h3>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./voltorb_hisuian.html'>Voltorb Hisuian</a><span class='evolution-arrow' title='stone (level 25+) Leaf Stone'>→<small>stone (level 25+) Leaf Stone</small></span><a class='evolution-mon' href='./electrode_hisuian.html'>Electrode Hisuian</a></div>
+</div>    <h3 class='center'>Other Forms</h3>
     <ul class='center'>
       <li><a href='voltorb.html'>Voltorb</a></li>
     </ul>
+
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 27</td><td>Walk</td><td>Day</td><td>22</td><td>10%</td></tr>
+<tr><td>Route 27</td><td>Walk</td><td>Morning</td><td>22</td><td>10%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -99,54 +113,48 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Agility</td></tr>
-  <tr><td>Bullet Seed</td></tr>
-  <tr><td>Charge</td></tr>
-  <tr><td>Charge Beam</td></tr>
-  <tr><td>Double Edge</td></tr>
-  <tr><td>Electric Terrain</td></tr>
-  <tr><td>Electroweb</td></tr>
-  <tr><td>Electro Ball</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Energy Ball</td></tr>
-  <tr><td>Explosion</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Foul Play</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Giga Drain</td></tr>
-  <tr><td>Grassy Glide</td></tr>
-  <tr><td>Grassy Terrain</td></tr>
-  <tr><td>Grass Knot</td></tr>
-  <tr><td>Gyro Ball</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Leaf Storm</td></tr>
-  <tr><td>Natural Gift</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Recycle</td></tr>
-  <tr><td>Reflect</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Seed Bomb</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Solar Beam</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Swift</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Taunt</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Thief</td></tr>
-  <tr><td>Thunder</td></tr>
-  <tr><td>Thunderbolt</td></tr>
-  <tr><td>Thunder Wave</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Volt Switch</td></tr>
-  <tr><td>Wild Charge</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>TM009</td><td>Bullet Seed</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM024</td><td>Thunderbolt</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM033</td><td>Reflect</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM046</td><td>Thief</td></tr>
+<tr><td>TM053</td><td>Energy Ball</td></tr>
+<tr><td>TM057</td><td>Charge Beam</td></tr>
+<tr><td>TM064</td><td>Explosion</td></tr>
+<tr><td>TM067</td><td>Recycle</td></tr>
+<tr><td>TM074</td><td>Gyro Ball</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM083</td><td>Natural Gift</td></tr>
+<tr><td>TM086</td><td>Grass Knot</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM094</td><td>Seed Bomb</td></tr>
+<tr><td>TM122</td><td>Electric Terrain</td></tr>
+<tr><td>TM123</td><td>Grassy Terrain</td></tr>
+<tr><td>TM126</td><td>Wild Charge</td></tr>
+<tr><td>TM131</td><td>Charge</td></tr>
+<tr><td>TM149</td><td>Grassy Glide</td></tr>
+<tr><td>TM156</td><td>Double Edge</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR04</td><td>Solar Beam</td></tr>
+<tr><td>TR07</td><td>Thunder</td></tr>
+<tr><td>TR12</td><td>Agility</td></tr>
+<tr><td>TR13</td><td>Thunder Wave</td></tr>
+<tr><td>TR16</td><td>Giga Drain</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR27</td><td>Electro Ball</td></tr>
+<tr><td>TR37</td><td>Taunt</td></tr>
+<tr><td>TR38</td><td>Foul Play</td></tr>
+<tr><td>TR48</td><td>Leaf Storm</td></tr>
+</tbody></table>
 
                 
 
@@ -157,14 +165,6 @@
   <tr><td>Recycle</td></tr>
   <tr><td>Worry Seed</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Route 27</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

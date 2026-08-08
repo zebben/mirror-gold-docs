@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Silcoon</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/silcoon.png' alt='silcoon' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,9 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Shed Skin_(Ability)' target='_blank'>Shed Skin</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Shed Skin</strong><span>The Pokémon may heal its own status problems.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,14 +75,13 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves From</h3>
-    <ul class='center'>
-      <li>Evolves from <a href='wurmple.html'>WURMPLE</a> via EVO_LEVEL_PID_LO <strong>16</strong></li>
-    </ul>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='beautifly.html'>BEAUTIFLY</a> via level up to <strong>36</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon' href='./wurmple.html'>Wurmple</a><span class='evolution-arrow' title='EVO_LEVEL_PID_LO 16'>→<small>EVO_LEVEL_PID_LO 16</small></span><a class='evolution-mon current' href='./silcoon.html'>Silcoon</a><span class='evolution-arrow' title='level up to 36'>→<small>level up to 36</small></span><a class='evolution-mon' href='./beautifly.html'>Beautifly</a></div>
+<div class='evolution-path'><a class='evolution-mon' href='./wurmple.html'>Wurmple</a><span class='evolution-arrow' title='EVO_LEVEL_PID_HI 16'>→<small>EVO_LEVEL_PID_HI 16</small></span><a class='evolution-mon' href='./cascoon.html'>Cascoon</a><span class='evolution-arrow' title='level up to 36'>→<small>level up to 36</small></span><a class='evolution-mon' href='./dustox.html'>Dustox</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <p><em>Not found in the wild.</em></p>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -85,12 +91,9 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Bug Bite</td></tr>
-  <tr><td>Poison Sting</td></tr>
-  <tr><td>Struggle</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>TM140</td><td>Bug Bite</td></tr>
+</tbody></table>
 
                 
 
@@ -99,10 +102,6 @@
   <tr><th>Egg Move</th></tr>
   <tr><td>(none)</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <p><em>Not found in the wild.</em></p>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

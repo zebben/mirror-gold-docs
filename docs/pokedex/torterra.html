@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Torterra</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/torterra.png' alt='torterra' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,9 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Filter_(Ability)' target='_blank'>Filter</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Filter</strong><span>Reduces damage from supereffective attacks.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,10 +75,16 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves From</h3>
-    <ul class='center'>
-      <li>Evolves from <a href='grotle.html'>GROTLE</a> via level up to <strong>36</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon' href='./turtwig.html'>Turtwig</a><span class='evolution-arrow' title='level up to 16'>→<small>level up to 16</small></span><a class='evolution-mon' href='./grotle.html'>Grotle</a><span class='evolution-arrow' title='level up to 36'>→<small>level up to 36</small></span><a class='evolution-mon current' href='./torterra.html'>Torterra</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 11</td><td>Walk</td><td>Day</td><td>65</td><td>5%</td></tr>
+<tr><td>Route 11</td><td>Walk</td><td>Morning</td><td>65</td><td>5%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -98,91 +111,71 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Amnesia</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Bite</td></tr>
-  <tr><td>Body Press</td></tr>
-  <tr><td>Body Slam</td></tr>
-  <tr><td>Bulldoze</td></tr>
-  <tr><td>Bullet Seed</td></tr>
-  <tr><td>Captivate</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Crunch</td></tr>
-  <tr><td>Curse</td></tr>
-  <tr><td>Cut</td></tr>
-  <tr><td>Double Edge</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Earthquake</td></tr>
-  <tr><td>Earth Power</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Energy Ball</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Flash</td></tr>
-  <tr><td>Frenzy Plant</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Giga Drain</td></tr>
-  <tr><td>Giga Impact</td></tr>
-  <tr><td>Grassy Glide</td></tr>
-  <tr><td>Grassy Terrain</td></tr>
-  <tr><td>Grass Knot</td></tr>
-  <tr><td>Grass Pledge</td></tr>
-  <tr><td>Hard Press</td></tr>
-  <tr><td>Heavy Slam</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>High Horsepower</td></tr>
-  <tr><td>Hyper Beam</td></tr>
-  <tr><td>Hyper Voice</td></tr>
-  <tr><td>Iron Defense</td></tr>
-  <tr><td>Iron Head</td></tr>
-  <tr><td>Iron Tail</td></tr>
-  <tr><td>Leaf Storm</td></tr>
-  <tr><td>Light Screen</td></tr>
-  <tr><td>Magical Leaf</td></tr>
-  <tr><td>Mud Shot</td></tr>
-  <tr><td>Mud Slap</td></tr>
-  <tr><td>Natural Gift</td></tr>
-  <tr><td>Nature Power</td></tr>
-  <tr><td>Outrage</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Razor Leaf</td></tr>
-  <tr><td>Reflect</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Roar</td></tr>
-  <tr><td>Rock Blast</td></tr>
-  <tr><td>Rock Climb</td></tr>
-  <tr><td>Rock Polish</td></tr>
-  <tr><td>Rock Slide</td></tr>
-  <tr><td>Rock Smash</td></tr>
-  <tr><td>Rock Tomb</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Safeguard</td></tr>
-  <tr><td>Sandstorm</td></tr>
-  <tr><td>Sand Tomb</td></tr>
-  <tr><td>Scary Face</td></tr>
-  <tr><td>Scorching Sands</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Seed Bomb</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Smack Down</td></tr>
-  <tr><td>Solar Beam</td></tr>
-  <tr><td>Stealth Rock</td></tr>
-  <tr><td>Stomping Tantrum</td></tr>
-  <tr><td>Stone Edge</td></tr>
-  <tr><td>Strength</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Sunny Day</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Swords Dance</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Trailblaze</td></tr>
-  <tr><td>Work Up</td></tr>
-  <tr><td>Zen Headbutt</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM01</td><td>Cut</td></tr>
+<tr><td>HM04</td><td>Strength</td></tr>
+<tr><td>HM06</td><td>Rock Smash</td></tr>
+<tr><td>HM08</td><td>Rock Climb</td></tr>
+<tr><td>TM005</td><td>Roar</td></tr>
+<tr><td>TM009</td><td>Bullet Seed</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM011</td><td>Sunny Day</td></tr>
+<tr><td>TM016</td><td>Light Screen</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM020</td><td>Safeguard</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM032</td><td>Body Slam</td></tr>
+<tr><td>TM033</td><td>Reflect</td></tr>
+<tr><td>TM037</td><td>Sandstorm</td></tr>
+<tr><td>TM039</td><td>Rock Tomb</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM052</td><td>Crunch</td></tr>
+<tr><td>TM053</td><td>Energy Ball</td></tr>
+<tr><td>TM069</td><td>Rock Polish</td></tr>
+<tr><td>TM070</td><td>Flash</td></tr>
+<tr><td>TM076</td><td>Stealth Rock</td></tr>
+<tr><td>TM078</td><td>Captivate</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM083</td><td>Natural Gift</td></tr>
+<tr><td>TM086</td><td>Grass Knot</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM094</td><td>Seed Bomb</td></tr>
+<tr><td>TM099</td><td>Iron Head</td></tr>
+<tr><td>TM105</td><td>Earth Power</td></tr>
+<tr><td>TM107</td><td>Heavy Slam</td></tr>
+<tr><td>TM114</td><td>Curse</td></tr>
+<tr><td>TM115</td><td>Zen Headbutt</td></tr>
+<tr><td>TM123</td><td>Grassy Terrain</td></tr>
+<tr><td>TM130</td><td>Frenzy Plant</td></tr>
+<tr><td>TM134</td><td>Sand Tomb</td></tr>
+<tr><td>TM137</td><td>Smack Down</td></tr>
+<tr><td>TM138</td><td>Scorching Sands</td></tr>
+<tr><td>TM144</td><td>High Horsepower</td></tr>
+<tr><td>TM149</td><td>Grassy Glide</td></tr>
+<tr><td>TM156</td><td>Double Edge</td></tr>
+<tr><td>TR00</td><td>Swords Dance</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR04</td><td>Solar Beam</td></tr>
+<tr><td>TR05</td><td>Hyper Beam</td></tr>
+<tr><td>TR08</td><td>Giga Impact</td></tr>
+<tr><td>TR10</td><td>Earthquake</td></tr>
+<tr><td>TR11</td><td>Rock Slide</td></tr>
+<tr><td>TR16</td><td>Giga Drain</td></tr>
+<tr><td>TR17</td><td>Amnesia</td></tr>
+<tr><td>TR24</td><td>Outrage</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR30</td><td>Stone Edge</td></tr>
+<tr><td>TR31</td><td>Iron Tail</td></tr>
+<tr><td>TR33</td><td>Hyper Voice</td></tr>
+<tr><td>TR36</td><td>Iron Defense</td></tr>
+<tr><td>TR41</td><td>Work Up</td></tr>
+<tr><td>TR48</td><td>Leaf Storm</td></tr>
+</tbody></table>
 
                 
 
@@ -201,14 +194,6 @@
   <tr><td>Wide Guard</td></tr>
   <tr><td>Worry Seed</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Route 11</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

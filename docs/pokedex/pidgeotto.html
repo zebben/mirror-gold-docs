@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Pidgeotto</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/pidgeotto.png' alt='pidgeotto' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Keen Eye_(Ability)' target='_blank'>Keen Eye</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Tangled Feet_(Ability)' target='_blank'>Tangled Feet</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Keen Eye</strong><span>Prevents the Pokémon from losing accuracy.</span></div>
+<div class='ability-card'><strong>Tangled Feet</strong><span>Raises evasion if the Pokémon is confused.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,14 +76,21 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves From</h3>
-    <ul class='center'>
-      <li>Evolves from <a href='pidgey.html'>PIDGEY</a> via level up to <strong>16</strong></li>
-    </ul>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='pidgeot.html'>PIDGEOT</a> via level up to <strong>36</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon' href='./pidgey.html'>Pidgey</a><span class='evolution-arrow' title='level up to 16'>→<small>level up to 16</small></span><a class='evolution-mon current' href='./pidgeotto.html'>Pidgeotto</a><span class='evolution-arrow' title='level up to 36'>→<small>level up to 36</small></span><a class='evolution-mon' href='./pidgeot.html'>Pidgeot</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Bell Tower 9F</td><td>Walk</td><td>Day</td><td>30</td><td>10%</td></tr>
+<tr><td>Bell Tower 9F</td><td>Walk</td><td>Morning</td><td>30</td><td>10%</td></tr>
+<tr><td>Route 9</td><td>Walk</td><td>Day</td><td>60</td><td>20%</td></tr>
+<tr><td>Route 9</td><td>Walk</td><td>Morning</td><td>60</td><td>20%</td></tr>
+<tr><td>Route 9</td><td>Walk</td><td>Day</td><td>61</td><td>9%</td></tr>
+<tr><td>Route 9</td><td>Walk</td><td>Morning</td><td>61</td><td>9%</td></tr>
+<tr><td>Route 9</td><td>Land Swarm</td><td>Any</td><td>—</td><td>—</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -99,56 +114,37 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Aerial Ace</td></tr>
-  <tr><td>Air Cutter</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Bide</td></tr>
-  <tr><td>Captivate</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Curse</td></tr>
-  <tr><td>Defog</td></tr>
-  <tr><td>Detect</td></tr>
-  <tr><td>Double Edge</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Fly</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Headbutt</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Mimic</td></tr>
-  <tr><td>Mud Slap</td></tr>
-  <tr><td>Natural Gift</td></tr>
-  <tr><td>Pluck</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Rage</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Razor Wind</td></tr>
-  <tr><td>Reflect</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Roost</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Sky Attack</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Steel Wing</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Sunny Day</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Swift</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Thief</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Twister</td></tr>
-  <tr><td>U Turn</td></tr>
-  <tr><td>Whirlwind</td></tr>
-  <tr><td>Wing Attack</td></tr>
-  <tr><td>Work Up</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM02</td><td>Fly</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM011</td><td>Sunny Day</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM033</td><td>Reflect</td></tr>
+<tr><td>TM040</td><td>Aerial Ace</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM046</td><td>Thief</td></tr>
+<tr><td>TM047</td><td>Steel Wing</td></tr>
+<tr><td>TM051</td><td>Roost</td></tr>
+<tr><td>TM078</td><td>Captivate</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM083</td><td>Natural Gift</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM088</td><td>Pluck</td></tr>
+<tr><td>TM089</td><td>U Turn</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM114</td><td>Curse</td></tr>
+<tr><td>TM156</td><td>Double Edge</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR25</td><td>Razor Wind</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR41</td><td>Work Up</td></tr>
+</tbody></table>
 
                 
 
@@ -160,20 +156,6 @@
   <tr><td>Brave Bird</td></tr>
   <tr><td>Uproar</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Bell Tower 9F</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-</ul>
-<h4 class='center'>Route 9</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>LandSwarm</li>
-  <li>Morning</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

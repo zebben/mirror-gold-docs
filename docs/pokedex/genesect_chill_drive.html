@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Genesect Chill Drive</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/genesect_chill_drive.png' alt='genesect_chill_drive' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,9 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Download_(Ability)' target='_blank'>Download</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Download</strong><span>Adjusts power according to the foe’s ability.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,13 +75,19 @@
     </div>
     
             </div>
-    <h3 class='center'>Other Forms</h3>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./genesect_chill_drive.html'>Genesect Chill Drive</a></div>
+</div>    <h3 class='center'>Other Forms</h3>
     <ul class='center'>
       <li><a href='genesect.html'>Genesect</a></li>
       <li><a href='genesect_burn_drive.html'>Genesect Burn Drive</a></li>
       <li><a href='genesect_douse_drive.html'>Genesect Douse Drive</a></li>
       <li><a href='genesect_shock_drive.html'>Genesect Shock Drive</a></li>
     </ul>
+
+            <h3 class='center'>Wild Locations</h3>
+            <p><em>Not found in the wild.</em></p>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -104,74 +117,55 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Aerial Ace</td></tr>
-  <tr><td>Ally Switch</td></tr>
-  <tr><td>Assurance</td></tr>
-  <tr><td>Blaze Kick</td></tr>
-  <tr><td>Blizzard</td></tr>
-  <tr><td>Bug Buzz</td></tr>
-  <tr><td>Charge Beam</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Dark Pulse</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Electroweb</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Energy Ball</td></tr>
-  <tr><td>Explosion</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Flamethrower</td></tr>
-  <tr><td>Flame Charge</td></tr>
-  <tr><td>Flash</td></tr>
-  <tr><td>Flash Cannon</td></tr>
-  <tr><td>Fly</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Fury Cutter</td></tr>
-  <tr><td>Giga Drain</td></tr>
-  <tr><td>Giga Impact</td></tr>
-  <tr><td>Gunk Shot</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Hone Claws</td></tr>
-  <tr><td>Hyper Beam</td></tr>
-  <tr><td>Ice Beam</td></tr>
-  <tr><td>Infestation</td></tr>
-  <tr><td>Iron Defense</td></tr>
-  <tr><td>Iron Head</td></tr>
-  <tr><td>Leech Life</td></tr>
-  <tr><td>Light Screen</td></tr>
-  <tr><td>Magnet Bomb</td></tr>
-  <tr><td>Metal Claw</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Psychic</td></tr>
-  <tr><td>Recycle</td></tr>
-  <tr><td>Reflect</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Rock Polish</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Screech</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Self Destruct</td></tr>
-  <tr><td>Shadow Claw</td></tr>
-  <tr><td>Shock Wave</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Solar Beam</td></tr>
-  <tr><td>Struggle Bug</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Swift</td></tr>
-  <tr><td>Techno Blast</td></tr>
-  <tr><td>Thunder</td></tr>
-  <tr><td>Thunderbolt</td></tr>
-  <tr><td>Thunder Wave</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Tri Attack</td></tr>
-  <tr><td>U Turn</td></tr>
-  <tr><td>X Scissor</td></tr>
-  <tr><td>Zen Headbutt</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM02</td><td>Fly</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM013</td><td>Ice Beam</td></tr>
+<tr><td>TM016</td><td>Light Screen</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM022</td><td>Leech Life</td></tr>
+<tr><td>TM024</td><td>Thunderbolt</td></tr>
+<tr><td>TM025</td><td>Tri Attack</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM029</td><td>Psychic</td></tr>
+<tr><td>TM033</td><td>Reflect</td></tr>
+<tr><td>TM035</td><td>Flamethrower</td></tr>
+<tr><td>TM040</td><td>Aerial Ace</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM053</td><td>Energy Ball</td></tr>
+<tr><td>TM057</td><td>Charge Beam</td></tr>
+<tr><td>TM064</td><td>Explosion</td></tr>
+<tr><td>TM065</td><td>Shadow Claw</td></tr>
+<tr><td>TM067</td><td>Recycle</td></tr>
+<tr><td>TM069</td><td>Rock Polish</td></tr>
+<tr><td>TM070</td><td>Flash</td></tr>
+<tr><td>TM079</td><td>Dark Pulse</td></tr>
+<tr><td>TM081</td><td>X Scissor</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM089</td><td>U Turn</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM091</td><td>Flash Cannon</td></tr>
+<tr><td>TM099</td><td>Iron Head</td></tr>
+<tr><td>TM102</td><td>Bug Buzz</td></tr>
+<tr><td>TM115</td><td>Zen Headbutt</td></tr>
+<tr><td>TM120</td><td>Blaze Kick</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR04</td><td>Solar Beam</td></tr>
+<tr><td>TR05</td><td>Hyper Beam</td></tr>
+<tr><td>TR06</td><td>Blizzard</td></tr>
+<tr><td>TR07</td><td>Thunder</td></tr>
+<tr><td>TR08</td><td>Giga Impact</td></tr>
+<tr><td>TR13</td><td>Thunder Wave</td></tr>
+<tr><td>TR16</td><td>Giga Drain</td></tr>
+<tr><td>TR18</td><td>Shock Wave</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR29</td><td>Gunk Shot</td></tr>
+<tr><td>TR36</td><td>Iron Defense</td></tr>
+</tbody></table>
 
                 
 
@@ -180,10 +174,6 @@
   <tr><th>Egg Move</th></tr>
   <tr><td>(none)</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <p><em>Not found in the wild.</em></p>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         
