@@ -3159,7 +3159,7 @@
       },
       {
         "type": "TRMSG_DBL_LOSE_1",
-        "text": "Hmm. Seems as if my luck has run out...\\n."
+        "text": "Hmm. Seems as if my luck has run out...\\n"
       }
     ]
   },
@@ -9759,10 +9759,10 @@
         "species": "SPECIES_MILOTIC",
         "item": "ITEM_LEFTOVERS",
         "moves": [
+          "MOVE_HYDRO_PUMP",
           "MOVE_MOONBLAST",
-          "MOVE_DRAGON_PULSE",
-          "MOVE_FIRE_BLAST",
-          "MOVE_WHIRLWIND"
+          "MOVE_LIFE_DEW",
+          "MOVE_RAIN_DANCE"
         ],
         "ability": "ABILITY_MARVEL_SCALE",
         "setIvs": [
@@ -9972,7 +9972,7 @@
           "MOVE_FLAMETHROWER",
           "MOVE_CRUNCH"
         ],
-        "ability": "ABILITY_LEVITATE",
+        "ability": "ABILITY_DEFEATIST",
         "setIvs": [
           31,
           31,
@@ -10161,7 +10161,7 @@
           84,
           84
         ],
-        "nature": "NATURE_IMPISH",
+        "nature": "NATURE_BOLD",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -10616,7 +10616,7 @@
         "moves": [
           "MOVE_LEAF_STORM",
           "MOVE_DRAGON_PULSE",
-          "MOVE_NONE",
+          "MOVE_HIDDEN_POWER",
           "MOVE_HYPER_BEAM"
         ],
         "ability": "ABILITY_CONTRARY",
@@ -10868,7 +10868,7 @@
           84,
           84
         ],
-        "nature": "NATURE_MODEST",
+        "nature": "NATURE_ADAMANT",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
