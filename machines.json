@@ -660,8 +660,8 @@
     "Machine": "TM083",
     "Type": "TM",
     "Number": 83,
-    "Move": "MOVE_NATURAL_GIFT",
-    "MoveName": "Natural Gift"
+    "Move": "MOVE_VOLT_SWITCH",
+    "MoveName": "Volt Switch"
   },
   "ITEM_TM084": {
     "ItemId": 411,

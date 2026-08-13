@@ -102,8 +102,7 @@ body {
   align-items: center;
   min-height: 92px;
   overflow: hidden;
-  border: 1px solid var(--border-color);
-  border-left: 6px solid var(--type-accent);
+  border: 2px solid var(--type-accent);
   border-radius: 8px;
   background: #222;
   content-visibility: auto;
@@ -137,7 +136,6 @@ body {
 .encounter-note { padding: 0.7rem; border-left: 4px solid var(--error-color); background: #281d20; }
 .trainer-index-mon-details { width: 100%; font-size: 0.72rem; text-align: center; }
 .trainer-index-mon-details span { display: block; color: #929292; }
-
 .encounter-species-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
@@ -292,6 +290,20 @@ table th {
   font-weight: bold;
 }
 
+.item-inventory-table th,
+.item-inventory-table td,
+.hidden-item-table th,
+.hidden-item-table td {
+  padding: 0.45em 0.65em;
+  line-height: 1.45;
+  vertical-align: top;
+}
+
+.item-inventory-table th[scope="row"],
+.hidden-item-table th[scope="row"] {
+  width: 24%;
+}
+
 tbody tr:nth-child(even) {
   background-color: #181818; /* subtle zebra striping */
 }
@@ -421,4 +433,26 @@ a:hover {
   width: 400px;
   max-width: 100%;
   box-sizing: border-box;
+}
+
+.patch-cta {
+  display: block;
+  width: fit-content;
+  margin: 1.5rem auto;
+  padding: 0.85rem 1.25rem;
+  color: #1e1e1e;
+  background: var(--primary-color);
+  border: 2px solid #d7b77e;
+  border-radius: 6px;
+  box-shadow: 0 3px 12px rgba(176, 141, 87, 0.35);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.patch-cta:hover {
+  color: #1e1e1e;
+  background: #c5a36b;
+  text-decoration: none;
+  transform: translateY(-1px);
 }
