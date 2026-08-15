@@ -4666,15 +4666,29 @@
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 42,
-        "species": "SPECIES_ELECTABUZZ",
+        "species": "SPECIES_CARNIVINE",
         "moves": [
-          "MOVE_SCREECH",
-          "MOVE_DISCHARGE",
-          "MOVE_LIGHT_SCREEN",
-          "MOVE_WILD_CHARGE"
+          "MOVE_SLEEP_POWDER",
+          "MOVE_CRUNCH",
+          "MOVE_RAGE_POWDER",
+          "MOVE_POWER_WHIP"
         ],
         "ballSeal": 0,
         "partySlot": 1
+      },
+      {
+        "ivs": 60,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 42,
+        "species": "SPECIES_DUDUNSPARCE",
+        "moves": [
+          "MOVE_DRILL_RUN",
+          "MOVE_HYPER_DRILL",
+          "MOVE_ROOST",
+          "MOVE_COIL"
+        ],
+        "ballSeal": 0,
+        "partySlot": 2
       }
     ],
     "Text": [
@@ -4860,12 +4874,12 @@
         "ivs": 0,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 30,
-        "species": "SPECIES_MORPEKO",
+        "species": "SPECIES_KECLEON",
         "moves": [
-          "MOVE_SPARK",
-          "MOVE_SUCKER_PUNCH",
-          "MOVE_FLATTER",
-          "MOVE_BITE"
+          "MOVE_SHADOW_SNEAK",
+          "MOVE_THIEF",
+          "MOVE_FAKE_OUT",
+          "MOVE_FIRE_PUNCH"
         ],
         "ballSeal": 0,
         "partySlot": 1
@@ -11392,6 +11406,20 @@
         "ivs": 50,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 31,
+        "species": "SPECIES_CLAYDOL",
+        "moves": [
+          "MOVE_TELEPORT",
+          "MOVE_PSYCHIC",
+          "MOVE_EARTH_POWER",
+          "MOVE_HYPER_BEAM"
+        ],
+        "ballSeal": 0,
+        "partySlot": 1
+      },
+      {
+        "ivs": 50,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 31,
         "species": "SPECIES_VESPIQUEN",
         "moves": [
           "MOVE_DEFEND_ORDER",
@@ -11400,7 +11428,21 @@
           "MOVE_WING_ATTACK"
         ],
         "ballSeal": 0,
-        "partySlot": 1
+        "partySlot": 2
+      },
+      {
+        "ivs": 50,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 31,
+        "species": "SPECIES_MAWILE",
+        "moves": [
+          "MOVE_PLAY_ROUGH",
+          "MOVE_IRON_HEAD",
+          "MOVE_PROTECT",
+          "MOVE_SUCKER_PUNCH"
+        ],
+        "ballSeal": 0,
+        "partySlot": 3
       }
     ],
     "Text": [
@@ -11675,6 +11717,41 @@
         "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 1
+      },
+      {
+        "ivs": 50,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 32,
+        "species": "SPECIES_ORTHWORM",
+        "item": "ITEM_NONE",
+        "moves": [
+          "MOVE_IRON_HEAD",
+          "MOVE_BODY_PRESS",
+          "MOVE_ROCK_SLIDE",
+          "MOVE_IRON_DEFENSE"
+        ],
+        "ability": "ABILITY_FILTER",
+        "setIvs": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 2
       }
     ],
     "Text": [
@@ -12241,7 +12318,7 @@
       {
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 33,
+        "level": 35,
         "species": "SPECIES_CLOYSTER",
         "moves": [
           "MOVE_ICE_SHARD",
@@ -12269,7 +12346,7 @@
       {
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 33,
+        "level": 353,
         "species": "SPECIES_REMORAID",
         "moves": [
           "MOVE_BUBBLE_BEAM",
@@ -12284,12 +12361,12 @@
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 37,
-        "species": "SPECIES_CLOYSTER",
+        "species": "SPECIES_SMEARGLE",
         "moves": [
-          "MOVE_WHIRLPOOL",
-          "MOVE_SPIKES",
-          "MOVE_TOXIC_SPIKES",
-          "MOVE_ROCK_BLAST"
+          "MOVE_SPORE",
+          "MOVE_FOLLOW_ME",
+          "MOVE_FAKE_OUT",
+          "MOVE_SPIKY_SHIELD"
         ],
         "ballSeal": 0,
         "partySlot": 3
@@ -26486,13 +26563,13 @@
       {
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 33,
-        "species": "SPECIES_KOFFING",
+        "level": 58,
+        "species": "SPECIES_COMFEY",
         "moves": [
-          "MOVE_HAZE",
-          "MOVE_SELF_DESTRUCT",
-          "MOVE_GYRO_BALL",
-          "MOVE_SLUDGE_BOMB"
+          "MOVE_TAUNT",
+          "MOVE_MOONBLAST",
+          "MOVE_RECOVER",
+          "MOVE_LEECH_SEED"
         ],
         "ballSeal": 0,
         "partySlot": 0
@@ -26500,12 +26577,12 @@
       {
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 36,
-        "species": "SPECIES_MAGMAR",
+        "level": 58,
+        "species": "SPECIES_MAGMORTAR",
         "moves": [
-          "MOVE_CONFUSE_RAY",
-          "MOVE_SCARY_FACE",
-          "MOVE_FIRE_PUNCH",
+          "MOVE_SLUDGE_BOMB",
+          "MOVE_AGILITY",
+          "MOVE_FIRE_SPIN",
           "MOVE_LAVA_PLUME"
         ],
         "ballSeal": 0,
@@ -26514,30 +26591,16 @@
       {
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 33,
-        "species": "SPECIES_KOFFING",
+        "level": 58,
+        "species": "SPECIES_WEEZING",
         "moves": [
-          "MOVE_HAZE",
-          "MOVE_SELF_DESTRUCT",
-          "MOVE_GYRO_BALL",
-          "MOVE_SLUDGE_BOMB"
+          "MOVE_DAZZLING_GLEAM",
+          "MOVE_TOXIC",
+          "MOVE_SLUDGE_BOMB",
+          "MOVE_HEAT_WAVE"
         ],
         "ballSeal": 0,
         "partySlot": 2
-      },
-      {
-        "ivs": 60,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 38,
-        "species": "SPECIES_KOFFING",
-        "moves": [
-          "MOVE_SELF_DESTRUCT",
-          "MOVE_GYRO_BALL",
-          "MOVE_SLUDGE_BOMB",
-          "MOVE_TOXIC"
-        ],
-        "ballSeal": 0,
-        "partySlot": 3
       }
     ],
     "Text": [
@@ -32967,8 +33030,8 @@
       {
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 31,
-        "species": "SPECIES_SENTRET",
+        "level": 57,
+        "species": "SPECIES_FURRET",
         "moves": [
           "MOVE_FOLLOW_ME",
           "MOVE_SLAM",
@@ -32981,58 +33044,16 @@
       {
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 31,
-        "species": "SPECIES_SENTRET",
+        "level": 56,
+        "species": "SPECIES_HAWLUCHA",
         "moves": [
-          "MOVE_FOLLOW_ME",
-          "MOVE_SLAM",
-          "MOVE_REST",
-          "MOVE_SUCKER_PUNCH"
+          "MOVE_DETECT",
+          "MOVE_FLYING_PRESS",
+          "MOVE_DUAL_WINGBEAT",
+          "MOVE_BLAZE_KICK"
         ],
         "ballSeal": 0,
         "partySlot": 1
-      },
-      {
-        "ivs": 60,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 31,
-        "species": "SPECIES_SENTRET",
-        "moves": [
-          "MOVE_FOLLOW_ME",
-          "MOVE_SLAM",
-          "MOVE_REST",
-          "MOVE_SUCKER_PUNCH"
-        ],
-        "ballSeal": 0,
-        "partySlot": 2
-      },
-      {
-        "ivs": 60,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 36,
-        "species": "SPECIES_FURRET",
-        "moves": [
-          "MOVE_SLAM",
-          "MOVE_AGILITY",
-          "MOVE_AMNESIA",
-          "MOVE_EXTREME_SPEED"
-        ],
-        "ballSeal": 0,
-        "partySlot": 3
-      },
-      {
-        "ivs": 60,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 31,
-        "species": "SPECIES_SENTRET",
-        "moves": [
-          "MOVE_FOLLOW_ME",
-          "MOVE_SLAM",
-          "MOVE_REST",
-          "MOVE_SUCKER_PUNCH"
-        ],
-        "ballSeal": 0,
-        "partySlot": 4
       }
     ],
     "Text": [
@@ -36413,15 +36434,29 @@
         "ivs": 0,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
         "level": 18,
-        "species": "SPECIES_SLOWPOKE",
+        "species": "SPECIES_BIDOOF",
         "moves": [
           "MOVE_YAWN",
-          "MOVE_CONFUSION",
-          "MOVE_DISABLE",
-          "MOVE_WATER_PULSE"
+          "MOVE_HYPER_FANG",
+          "MOVE_ROLLOUT",
+          "MOVE_HEADBUTT"
         ],
         "ballSeal": 0,
         "partySlot": 1
+      },
+      {
+        "ivs": 0,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
+        "level": 18,
+        "species": "SPECIES_SKITTY",
+        "moves": [
+          "MOVE_SING",
+          "MOVE_ATTRACT",
+          "MOVE_COPYCAT",
+          "MOVE_DOUBLE_SLAP"
+        ],
+        "ballSeal": 0,
+        "partySlot": 2
       }
     ],
     "Text": [
@@ -38459,6 +38494,40 @@
         "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 1
+      },
+      {
+        "ivs": 50,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 32,
+        "species": "SPECIES_CACTURNE",
+        "moves": [
+          "MOVE_SPIKY_SHIELD",
+          "MOVE_SUCKER_PUNCH",
+          "MOVE_NEEDLE_ARM",
+          "MOVE_LEECH_SEED"
+        ],
+        "ability": "ABILITY_WATER_ABSORB",
+        "setIvs": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 2
       }
     ],
     "Text": [
@@ -39054,13 +39123,13 @@
       {
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 36,
-        "species": "SPECIES_MEOWTH",
+        "level": 57,
+        "species": "SPECIES_PERRSERKER",
         "moves": [
-          "MOVE_FEINT",
-          "MOVE_SCREECH",
-          "MOVE_ASSURANCE",
-          "MOVE_SLASH"
+          "MOVE_BULLET_PUNCH",
+          "MOVE_ICE_FANG",
+          "MOVE_THUNDER_FANG",
+          "MOVE_IRON_HEAD"
         ],
         "ballSeal": 0,
         "partySlot": 0
@@ -39068,27 +39137,28 @@
       {
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 36,
-        "species": "SPECIES_MEOWTH",
+        "level": 58,
+        "species": "SPECIES_PERSIAN_ALOLAN",
         "moves": [
-          "MOVE_FEINT",
-          "MOVE_SCREECH",
-          "MOVE_ASSURANCE",
-          "MOVE_SLASH"
+          "MOVE_DARK_PULSE",
+          "MOVE_POWER_GEM",
+          "MOVE_HYPER_VOICE",
+          "MOVE_PROTECT"
         ],
         "ballSeal": 0,
+        "speciesExpression": "MON_WITH_FORM(SPECIES_PERSIAN, 1)",
         "partySlot": 1
       },
       {
         "ivs": 60,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 36,
-        "species": "SPECIES_MEOWTH",
+        "level": 57,
+        "species": "SPECIES_PERSIAN",
         "moves": [
-          "MOVE_FEINT",
-          "MOVE_SCREECH",
-          "MOVE_ASSURANCE",
-          "MOVE_SLASH"
+          "MOVE_FAKE_OUT",
+          "MOVE_DOUBLE_EDGE",
+          "MOVE_CRUNCH",
+          "MOVE_PLAY_ROUGH"
         ],
         "ballSeal": 0,
         "partySlot": 2
