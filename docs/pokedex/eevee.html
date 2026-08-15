@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Eevee</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/eevee.png' alt='eevee' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Run Away_(Ability)' target='_blank'>Run Away</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Adaptability_(Ability)' target='_blank'>Adaptability</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Run Away</strong><span>Enables sure getaway from wild Pokémon.</span></div>
+<div class='ability-card'><strong>Adaptability</strong><span>Powers up moves of the same type.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,22 +76,36 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='leafeon.html'>LEAFEON</a> via stone (level 25+) <strong>Leaf Stone</strong></li>
-      <li>Evolves into <a href='glaceon.html'>GLACEON</a> via stone (level 25+) <strong>Ice Stone</strong></li>
-      <li>Evolves into <a href='jolteon.html'>JOLTEON</a> via stone (level 25+) <strong>Thunder Stone</strong></li>
-      <li>Evolves into <a href='vaporeon.html'>VAPOREON</a> via stone (level 25+) <strong>Water Stone</strong></li>
-      <li>Evolves into <a href='flareon.html'>FLAREON</a> via stone (level 25+) <strong>Fire Stone</strong></li>
-      <li>Evolves into <a href='sylveon.html'>SYLVEON</a> via EVO_HAS_MOVE_TYPE <strong>Fairy</strong></li>
-      <li>Evolves into <a href='espeon.html'>ESPEON</a> via EVO_FRIENDSHIP_DAY</li>
-      <li>Evolves into <a href='umbreon.html'>UMBREON</a> via EVO_FRIENDSHIP_NIGHT</li>
-    </ul>
-    <h3 class='center'>Other Forms</h3>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./eevee.html'>Eevee</a><span class='evolution-arrow' title='stone (level 25+) Leaf Stone'>→<small>stone (level 25+) Leaf Stone</small></span><a class='evolution-mon' href='./leafeon.html'>Leafeon</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./eevee.html'>Eevee</a><span class='evolution-arrow' title='stone (level 25+) Ice Stone'>→<small>stone (level 25+) Ice Stone</small></span><a class='evolution-mon' href='./glaceon.html'>Glaceon</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./eevee.html'>Eevee</a><span class='evolution-arrow' title='stone (level 25+) Thunder Stone'>→<small>stone (level 25+) Thunder Stone</small></span><a class='evolution-mon' href='./jolteon.html'>Jolteon</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./eevee.html'>Eevee</a><span class='evolution-arrow' title='stone (level 25+) Water Stone'>→<small>stone (level 25+) Water Stone</small></span><a class='evolution-mon' href='./vaporeon.html'>Vaporeon</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./eevee.html'>Eevee</a><span class='evolution-arrow' title='stone (level 25+) Fire Stone'>→<small>stone (level 25+) Fire Stone</small></span><a class='evolution-mon' href='./flareon.html'>Flareon</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./eevee.html'>Eevee</a><span class='evolution-arrow' title='EVO_HAS_MOVE_TYPE Fairy'>→<small>EVO_HAS_MOVE_TYPE Fairy</small></span><a class='evolution-mon' href='./sylveon.html'>Sylveon</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./eevee.html'>Eevee</a><span class='evolution-arrow' title='Friendship during the day'>→<small>Friendship during the day</small></span><a class='evolution-mon' href='./espeon.html'>Espeon</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./eevee.html'>Eevee</a><span class='evolution-arrow' title='Friendship at night'>→<small>Friendship at night</small></span><a class='evolution-mon' href='./umbreon.html'>Umbreon</a></div>
+</div>    <h3 class='center'>Other Forms</h3>
     <ul class='center'>
       <li><a href='eevee_partner.html'>Eevee Partner</a></li>
       <li><a href='gigantamax_eevee.html'>Gigantamax Eevee</a></li>
     </ul>
+
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 35</td><td>Walk</td><td>Night</td><td>12</td><td>10%</td></tr>
+<tr><td>Route 35</td><td>Walk</td><td>Day</td><td>13</td><td>10%</td></tr>
+<tr><td>Route 35</td><td>Walk</td><td>Morning</td><td>13</td><td>10%</td></tr>
+<tr><td>Route 35</td><td>Walk</td><td>Day</td><td>14</td><td>8%</td></tr>
+<tr><td>Route 35</td><td>Walk</td><td>Morning</td><td>14</td><td>8%</td></tr>
+<tr><td>Route 35</td><td>Walk</td><td>Day</td><td>15</td><td>1%</td></tr>
+<tr><td>Route 35</td><td>Walk</td><td>Morning</td><td>15</td><td>1%</td></tr>
+<tr><td>Bell Tower 5F</td><td>Walk</td><td>Day</td><td>31</td><td>10%</td></tr>
+<tr><td>Bell Tower 5F</td><td>Walk</td><td>Morning</td><td>31</td><td>10%</td></tr>
+<tr><td>Route 14</td><td>Walk</td><td>Night</td><td>64</td><td>10%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -109,66 +131,38 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Alluring Voice</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Baton Pass</td></tr>
-  <tr><td>Bide</td></tr>
-  <tr><td>Body Slam</td></tr>
-  <tr><td>Calm Mind</td></tr>
-  <tr><td>Captivate</td></tr>
-  <tr><td>Charm</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Curse</td></tr>
-  <tr><td>Detect</td></tr>
-  <tr><td>Dig</td></tr>
-  <tr><td>Double Edge</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Echoed Voice</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Fake Tears</td></tr>
-  <tr><td>Focus Energy</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Headbutt</td></tr>
-  <tr><td>Helping Hand</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Hyper Voice</td></tr>
-  <tr><td>Iron Tail</td></tr>
-  <tr><td>Last Resort</td></tr>
-  <tr><td>Mimic</td></tr>
-  <tr><td>Mud Slap</td></tr>
-  <tr><td>Natural Gift</td></tr>
-  <tr><td>Pay Day</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Quick Attack</td></tr>
-  <tr><td>Rage</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Reflect</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Retaliate</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Roar</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Shadow Ball</td></tr>
-  <tr><td>Skull Bash</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Stored Power</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Sunny Day</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Swift</td></tr>
-  <tr><td>Tackle</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Trailblaze</td></tr>
-  <tr><td>Weather Ball</td></tr>
-  <tr><td>Work Up</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>TM004</td><td>Calm Mind</td></tr>
+<tr><td>TM005</td><td>Roar</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM011</td><td>Sunny Day</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM028</td><td>Dig</td></tr>
+<tr><td>TM030</td><td>Shadow Ball</td></tr>
+<tr><td>TM032</td><td>Body Slam</td></tr>
+<tr><td>TM033</td><td>Reflect</td></tr>
+<tr><td>TM038</td><td>Helping Hand</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM078</td><td>Captivate</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM114</td><td>Curse</td></tr>
+<tr><td>TM121</td><td>Baton Pass</td></tr>
+<tr><td>TM148</td><td>Weather Ball</td></tr>
+<tr><td>TM156</td><td>Double Edge</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR31</td><td>Iron Tail</td></tr>
+<tr><td>TR33</td><td>Hyper Voice</td></tr>
+<tr><td>TR41</td><td>Work Up</td></tr>
+</tbody></table>
 
                 
 
@@ -186,24 +180,6 @@
   <tr><td>Covet</td></tr>
   <tr><td>Detect</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Bell Tower 5F</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-</ul>
-<h4 class='center'>Route 14</h4>
-<ul class='center'>
-  <li>Night</li>
-</ul>
-<h4 class='center'>Route 35</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-  <li>Night</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

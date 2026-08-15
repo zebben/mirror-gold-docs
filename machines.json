@@ -1,0 +1,1730 @@
+{
+  "ITEM_TM001": {
+    "ItemId": 328,
+    "Machine": "TM001",
+    "Type": "TM",
+    "Number": 1,
+    "Move": "MOVE_FOCUS_PUNCH",
+    "MoveName": "Focus Punch"
+  },
+  "ITEM_TM002": {
+    "ItemId": 329,
+    "Machine": "TM002",
+    "Type": "TM",
+    "Number": 2,
+    "Move": "MOVE_DRAGON_CLAW",
+    "MoveName": "Dragon Claw"
+  },
+  "ITEM_TM003": {
+    "ItemId": 330,
+    "Machine": "TM003",
+    "Type": "TM",
+    "Number": 3,
+    "Move": "MOVE_WATER_PULSE",
+    "MoveName": "Water Pulse"
+  },
+  "ITEM_TM004": {
+    "ItemId": 331,
+    "Machine": "TM004",
+    "Type": "TM",
+    "Number": 4,
+    "Move": "MOVE_CALM_MIND",
+    "MoveName": "Calm Mind"
+  },
+  "ITEM_TM005": {
+    "ItemId": 332,
+    "Machine": "TM005",
+    "Type": "TM",
+    "Number": 5,
+    "Move": "MOVE_ROAR",
+    "MoveName": "Roar"
+  },
+  "ITEM_TM006": {
+    "ItemId": 333,
+    "Machine": "TM006",
+    "Type": "TM",
+    "Number": 6,
+    "Move": "MOVE_SCALD",
+    "MoveName": "Scald"
+  },
+  "ITEM_TM007": {
+    "ItemId": 334,
+    "Machine": "TM007",
+    "Type": "TM",
+    "Number": 7,
+    "Move": "MOVE_HAIL",
+    "MoveName": "Hail"
+  },
+  "ITEM_TM008": {
+    "ItemId": 335,
+    "Machine": "TM008",
+    "Type": "TM",
+    "Number": 8,
+    "Move": "MOVE_BULK_UP",
+    "MoveName": "Bulk Up"
+  },
+  "ITEM_TM009": {
+    "ItemId": 336,
+    "Machine": "TM009",
+    "Type": "TM",
+    "Number": 9,
+    "Move": "MOVE_BULLET_SEED",
+    "MoveName": "Bullet Seed"
+  },
+  "ITEM_TM010": {
+    "ItemId": 337,
+    "Machine": "TM010",
+    "Type": "TM",
+    "Number": 10,
+    "Move": "MOVE_HIDDEN_POWER",
+    "MoveName": "Hidden Power"
+  },
+  "ITEM_TM011": {
+    "ItemId": 338,
+    "Machine": "TM011",
+    "Type": "TM",
+    "Number": 11,
+    "Move": "MOVE_SUNNY_DAY",
+    "MoveName": "Sunny Day"
+  },
+  "ITEM_TM012": {
+    "ItemId": 339,
+    "Machine": "TM012",
+    "Type": "TM",
+    "Number": 12,
+    "Move": "MOVE_TAUNT",
+    "MoveName": "Taunt"
+  },
+  "ITEM_TM013": {
+    "ItemId": 340,
+    "Machine": "TM013",
+    "Type": "TM",
+    "Number": 13,
+    "Move": "MOVE_ICE_BEAM",
+    "MoveName": "Ice Beam"
+  },
+  "ITEM_TM014": {
+    "ItemId": 341,
+    "Machine": "TM014",
+    "Type": "TM",
+    "Number": 14,
+    "Move": "MOVE_PLAY_ROUGH",
+    "MoveName": "Play Rough"
+  },
+  "ITEM_TM015": {
+    "ItemId": 342,
+    "Machine": "TM015",
+    "Type": "TM",
+    "Number": 15,
+    "Move": "MOVE_LOW_KICK",
+    "MoveName": "Low Kick"
+  },
+  "ITEM_TM016": {
+    "ItemId": 343,
+    "Machine": "TM016",
+    "Type": "TM",
+    "Number": 16,
+    "Move": "MOVE_LIGHT_SCREEN",
+    "MoveName": "Light Screen"
+  },
+  "ITEM_TM017": {
+    "ItemId": 344,
+    "Machine": "TM017",
+    "Type": "TM",
+    "Number": 17,
+    "Move": "MOVE_PROTECT",
+    "MoveName": "Protect"
+  },
+  "ITEM_TM018": {
+    "ItemId": 345,
+    "Machine": "TM018",
+    "Type": "TM",
+    "Number": 18,
+    "Move": "MOVE_RAIN_DANCE",
+    "MoveName": "Rain Dance"
+  },
+  "ITEM_TM019": {
+    "ItemId": 346,
+    "Machine": "TM019",
+    "Type": "TM",
+    "Number": 19,
+    "Move": "MOVE_GIGA_DRAIN",
+    "MoveName": "Giga Drain"
+  },
+  "ITEM_TM020": {
+    "ItemId": 347,
+    "Machine": "TM020",
+    "Type": "TM",
+    "Number": 20,
+    "Move": "MOVE_SAFEGUARD",
+    "MoveName": "Safeguard"
+  },
+  "ITEM_TM021": {
+    "ItemId": 348,
+    "Machine": "TM021",
+    "Type": "TM",
+    "Number": 21,
+    "Move": "MOVE_FRUSTRATION",
+    "MoveName": "Frustration"
+  },
+  "ITEM_TM022": {
+    "ItemId": 349,
+    "Machine": "TM022",
+    "Type": "TM",
+    "Number": 22,
+    "Move": "MOVE_LEECH_LIFE",
+    "MoveName": "Leech Life"
+  },
+  "ITEM_TM023": {
+    "ItemId": 350,
+    "Machine": "TM023",
+    "Type": "TM",
+    "Number": 23,
+    "Move": "MOVE_IRON_TAIL",
+    "MoveName": "Iron Tail"
+  },
+  "ITEM_TM024": {
+    "ItemId": 351,
+    "Machine": "TM024",
+    "Type": "TM",
+    "Number": 24,
+    "Move": "MOVE_THUNDERBOLT",
+    "MoveName": "Thunderbolt"
+  },
+  "ITEM_TM025": {
+    "ItemId": 352,
+    "Machine": "TM025",
+    "Type": "TM",
+    "Number": 25,
+    "Move": "MOVE_TRI_ATTACK",
+    "MoveName": "Tri Attack"
+  },
+  "ITEM_TM026": {
+    "ItemId": 353,
+    "Machine": "TM026",
+    "Type": "TM",
+    "Number": 26,
+    "Move": "MOVE_PSYSHOCK",
+    "MoveName": "Psyshock"
+  },
+  "ITEM_TM027": {
+    "ItemId": 354,
+    "Machine": "TM027",
+    "Type": "TM",
+    "Number": 27,
+    "Move": "MOVE_RETURN",
+    "MoveName": "Return"
+  },
+  "ITEM_TM028": {
+    "ItemId": 355,
+    "Machine": "TM028",
+    "Type": "TM",
+    "Number": 28,
+    "Move": "MOVE_DIG",
+    "MoveName": "Dig"
+  },
+  "ITEM_TM029": {
+    "ItemId": 356,
+    "Machine": "TM029",
+    "Type": "TM",
+    "Number": 29,
+    "Move": "MOVE_PSYCHIC",
+    "MoveName": "Psychic"
+  },
+  "ITEM_TM030": {
+    "ItemId": 357,
+    "Machine": "TM030",
+    "Type": "TM",
+    "Number": 30,
+    "Move": "MOVE_SHADOW_BALL",
+    "MoveName": "Shadow Ball"
+  },
+  "ITEM_TM031": {
+    "ItemId": 358,
+    "Machine": "TM031",
+    "Type": "TM",
+    "Number": 31,
+    "Move": "MOVE_BRICK_BREAK",
+    "MoveName": "Brick Break"
+  },
+  "ITEM_TM032": {
+    "ItemId": 359,
+    "Machine": "TM032",
+    "Type": "TM",
+    "Number": 32,
+    "Move": "MOVE_BODY_SLAM",
+    "MoveName": "Body Slam"
+  },
+  "ITEM_TM033": {
+    "ItemId": 360,
+    "Machine": "TM033",
+    "Type": "TM",
+    "Number": 33,
+    "Move": "MOVE_REFLECT",
+    "MoveName": "Reflect"
+  },
+  "ITEM_TM034": {
+    "ItemId": 361,
+    "Machine": "TM034",
+    "Type": "TM",
+    "Number": 34,
+    "Move": "MOVE_SHOCK_WAVE",
+    "MoveName": "Shock Wave"
+  },
+  "ITEM_TM035": {
+    "ItemId": 362,
+    "Machine": "TM035",
+    "Type": "TM",
+    "Number": 35,
+    "Move": "MOVE_FLAMETHROWER",
+    "MoveName": "Flamethrower"
+  },
+  "ITEM_TM036": {
+    "ItemId": 363,
+    "Machine": "TM036",
+    "Type": "TM",
+    "Number": 36,
+    "Move": "MOVE_SLUDGE_BOMB",
+    "MoveName": "Sludge Bomb"
+  },
+  "ITEM_TM037": {
+    "ItemId": 364,
+    "Machine": "TM037",
+    "Type": "TM",
+    "Number": 37,
+    "Move": "MOVE_SANDSTORM",
+    "MoveName": "Sandstorm"
+  },
+  "ITEM_TM038": {
+    "ItemId": 365,
+    "Machine": "TM038",
+    "Type": "TM",
+    "Number": 38,
+    "Move": "MOVE_HELPING_HAND",
+    "MoveName": "Helping Hand"
+  },
+  "ITEM_TM039": {
+    "ItemId": 366,
+    "Machine": "TM039",
+    "Type": "TM",
+    "Number": 39,
+    "Move": "MOVE_ROCK_TOMB",
+    "MoveName": "Rock Tomb"
+  },
+  "ITEM_TM040": {
+    "ItemId": 367,
+    "Machine": "TM040",
+    "Type": "TM",
+    "Number": 40,
+    "Move": "MOVE_AERIAL_ACE",
+    "MoveName": "Aerial Ace"
+  },
+  "ITEM_TM041": {
+    "ItemId": 368,
+    "Machine": "TM041",
+    "Type": "TM",
+    "Number": 41,
+    "Move": "MOVE_TORMENT",
+    "MoveName": "Torment"
+  },
+  "ITEM_TM042": {
+    "ItemId": 369,
+    "Machine": "TM042",
+    "Type": "TM",
+    "Number": 42,
+    "Move": "MOVE_FACADE",
+    "MoveName": "Facade"
+  },
+  "ITEM_TM043": {
+    "ItemId": 370,
+    "Machine": "TM043",
+    "Type": "TM",
+    "Number": 43,
+    "Move": "MOVE_SECRET_POWER",
+    "MoveName": "Secret Power"
+  },
+  "ITEM_TM044": {
+    "ItemId": 371,
+    "Machine": "TM044",
+    "Type": "TM",
+    "Number": 44,
+    "Move": "MOVE_REST",
+    "MoveName": "Rest"
+  },
+  "ITEM_TM045": {
+    "ItemId": 372,
+    "Machine": "TM045",
+    "Type": "TM",
+    "Number": 45,
+    "Move": "MOVE_ATTRACT",
+    "MoveName": "Attract"
+  },
+  "ITEM_TM046": {
+    "ItemId": 373,
+    "Machine": "TM046",
+    "Type": "TM",
+    "Number": 46,
+    "Move": "MOVE_THIEF",
+    "MoveName": "Thief"
+  },
+  "ITEM_TM047": {
+    "ItemId": 374,
+    "Machine": "TM047",
+    "Type": "TM",
+    "Number": 47,
+    "Move": "MOVE_STEEL_WING",
+    "MoveName": "Steel Wing"
+  },
+  "ITEM_TM048": {
+    "ItemId": 375,
+    "Machine": "TM048",
+    "Type": "TM",
+    "Number": 48,
+    "Move": "MOVE_SKILL_SWAP",
+    "MoveName": "Skill Swap"
+  },
+  "ITEM_TM049": {
+    "ItemId": 376,
+    "Machine": "TM049",
+    "Type": "TM",
+    "Number": 49,
+    "Move": "MOVE_SNATCH",
+    "MoveName": "Snatch"
+  },
+  "ITEM_TM050": {
+    "ItemId": 377,
+    "Machine": "TM050",
+    "Type": "TM",
+    "Number": 50,
+    "Move": "MOVE_OVERHEAT",
+    "MoveName": "Overheat"
+  },
+  "ITEM_TM051": {
+    "ItemId": 378,
+    "Machine": "TM051",
+    "Type": "TM",
+    "Number": 51,
+    "Move": "MOVE_ROOST",
+    "MoveName": "Roost"
+  },
+  "ITEM_TM052": {
+    "ItemId": 379,
+    "Machine": "TM052",
+    "Type": "TM",
+    "Number": 52,
+    "Move": "MOVE_CRUNCH",
+    "MoveName": "Crunch"
+  },
+  "ITEM_TM053": {
+    "ItemId": 380,
+    "Machine": "TM053",
+    "Type": "TM",
+    "Number": 53,
+    "Move": "MOVE_ENERGY_BALL",
+    "MoveName": "Energy Ball"
+  },
+  "ITEM_TM054": {
+    "ItemId": 381,
+    "Machine": "TM054",
+    "Type": "TM",
+    "Number": 54,
+    "Move": "MOVE_FALSE_SWIPE",
+    "MoveName": "False Swipe"
+  },
+  "ITEM_TM055": {
+    "ItemId": 382,
+    "Machine": "TM055",
+    "Type": "TM",
+    "Number": 55,
+    "Move": "MOVE_BRINE",
+    "MoveName": "Brine"
+  },
+  "ITEM_TM056": {
+    "ItemId": 383,
+    "Machine": "TM056",
+    "Type": "TM",
+    "Number": 56,
+    "Move": "MOVE_FLING",
+    "MoveName": "Fling"
+  },
+  "ITEM_TM057": {
+    "ItemId": 384,
+    "Machine": "TM057",
+    "Type": "TM",
+    "Number": 57,
+    "Move": "MOVE_CHARGE_BEAM",
+    "MoveName": "Charge Beam"
+  },
+  "ITEM_TM058": {
+    "ItemId": 385,
+    "Machine": "TM058",
+    "Type": "TM",
+    "Number": 58,
+    "Move": "MOVE_ENDURE",
+    "MoveName": "Endure"
+  },
+  "ITEM_TM059": {
+    "ItemId": 386,
+    "Machine": "TM059",
+    "Type": "TM",
+    "Number": 59,
+    "Move": "MOVE_DRAGON_PULSE",
+    "MoveName": "Dragon Pulse"
+  },
+  "ITEM_TM060": {
+    "ItemId": 387,
+    "Machine": "TM060",
+    "Type": "TM",
+    "Number": 60,
+    "Move": "MOVE_DRAIN_PUNCH",
+    "MoveName": "Drain Punch"
+  },
+  "ITEM_TM061": {
+    "ItemId": 388,
+    "Machine": "TM061",
+    "Type": "TM",
+    "Number": 61,
+    "Move": "MOVE_WILL_O_WISP",
+    "MoveName": "Will O Wisp"
+  },
+  "ITEM_TM062": {
+    "ItemId": 389,
+    "Machine": "TM062",
+    "Type": "TM",
+    "Number": 62,
+    "Move": "MOVE_SILVER_WIND",
+    "MoveName": "Silver Wind"
+  },
+  "ITEM_TM063": {
+    "ItemId": 390,
+    "Machine": "TM063",
+    "Type": "TM",
+    "Number": 63,
+    "Move": "MOVE_EMBARGO",
+    "MoveName": "Embargo"
+  },
+  "ITEM_TM064": {
+    "ItemId": 391,
+    "Machine": "TM064",
+    "Type": "TM",
+    "Number": 64,
+    "Move": "MOVE_EXPLOSION",
+    "MoveName": "Explosion"
+  },
+  "ITEM_TM065": {
+    "ItemId": 392,
+    "Machine": "TM065",
+    "Type": "TM",
+    "Number": 65,
+    "Move": "MOVE_SHADOW_CLAW",
+    "MoveName": "Shadow Claw"
+  },
+  "ITEM_TM066": {
+    "ItemId": 393,
+    "Machine": "TM066",
+    "Type": "TM",
+    "Number": 66,
+    "Move": "MOVE_PAYBACK",
+    "MoveName": "Payback"
+  },
+  "ITEM_TM067": {
+    "ItemId": 394,
+    "Machine": "TM067",
+    "Type": "TM",
+    "Number": 67,
+    "Move": "MOVE_RECYCLE",
+    "MoveName": "Recycle"
+  },
+  "ITEM_TM068": {
+    "ItemId": 395,
+    "Machine": "TM068",
+    "Type": "TM",
+    "Number": 68,
+    "Move": "MOVE_FUTURE_SIGHT",
+    "MoveName": "Future Sight"
+  },
+  "ITEM_TM069": {
+    "ItemId": 396,
+    "Machine": "TM069",
+    "Type": "TM",
+    "Number": 69,
+    "Move": "MOVE_ROCK_POLISH",
+    "MoveName": "Rock Polish"
+  },
+  "ITEM_TM070": {
+    "ItemId": 397,
+    "Machine": "TM070",
+    "Type": "TM",
+    "Number": 70,
+    "Move": "MOVE_FLASH",
+    "MoveName": "Flash"
+  },
+  "ITEM_TM071": {
+    "ItemId": 398,
+    "Machine": "TM071",
+    "Type": "TM",
+    "Number": 71,
+    "Move": "MOVE_FAIRY_WIND",
+    "MoveName": "Fairy Wind"
+  },
+  "ITEM_TM072": {
+    "ItemId": 399,
+    "Machine": "TM072",
+    "Type": "TM",
+    "Number": 72,
+    "Move": "MOVE_AVALANCHE",
+    "MoveName": "Avalanche"
+  },
+  "ITEM_TM073": {
+    "ItemId": 400,
+    "Machine": "TM073",
+    "Type": "TM",
+    "Number": 73,
+    "Move": "MOVE_THUNDER_WAVE",
+    "MoveName": "Thunder Wave"
+  },
+  "ITEM_TM074": {
+    "ItemId": 401,
+    "Machine": "TM074",
+    "Type": "TM",
+    "Number": 74,
+    "Move": "MOVE_GYRO_BALL",
+    "MoveName": "Gyro Ball"
+  },
+  "ITEM_TM075": {
+    "ItemId": 402,
+    "Machine": "TM075",
+    "Type": "TM",
+    "Number": 75,
+    "Move": "MOVE_SWORDS_DANCE",
+    "MoveName": "Swords Dance"
+  },
+  "ITEM_TM076": {
+    "ItemId": 403,
+    "Machine": "TM076",
+    "Type": "TM",
+    "Number": 76,
+    "Move": "MOVE_STEALTH_ROCK",
+    "MoveName": "Stealth Rock"
+  },
+  "ITEM_TM077": {
+    "ItemId": 404,
+    "Machine": "TM077",
+    "Type": "TM",
+    "Number": 77,
+    "Move": "MOVE_PSYCH_UP",
+    "MoveName": "Psych Up"
+  },
+  "ITEM_TM078": {
+    "ItemId": 405,
+    "Machine": "TM078",
+    "Type": "TM",
+    "Number": 78,
+    "Move": "MOVE_CAPTIVATE",
+    "MoveName": "Captivate"
+  },
+  "ITEM_TM079": {
+    "ItemId": 406,
+    "Machine": "TM079",
+    "Type": "TM",
+    "Number": 79,
+    "Move": "MOVE_DARK_PULSE",
+    "MoveName": "Dark Pulse"
+  },
+  "ITEM_TM080": {
+    "ItemId": 407,
+    "Machine": "TM080",
+    "Type": "TM",
+    "Number": 80,
+    "Move": "MOVE_ROCK_SLIDE",
+    "MoveName": "Rock Slide"
+  },
+  "ITEM_TM081": {
+    "ItemId": 408,
+    "Machine": "TM081",
+    "Type": "TM",
+    "Number": 81,
+    "Move": "MOVE_X_SCISSOR",
+    "MoveName": "X Scissor"
+  },
+  "ITEM_TM082": {
+    "ItemId": 409,
+    "Machine": "TM082",
+    "Type": "TM",
+    "Number": 82,
+    "Move": "MOVE_SLEEP_TALK",
+    "MoveName": "Sleep Talk"
+  },
+  "ITEM_TM083": {
+    "ItemId": 410,
+    "Machine": "TM083",
+    "Type": "TM",
+    "Number": 83,
+    "Move": "MOVE_VOLT_SWITCH",
+    "MoveName": "Volt Switch"
+  },
+  "ITEM_TM084": {
+    "ItemId": 411,
+    "Machine": "TM084",
+    "Type": "TM",
+    "Number": 84,
+    "Move": "MOVE_POISON_JAB",
+    "MoveName": "Poison Jab"
+  },
+  "ITEM_TM085": {
+    "ItemId": 412,
+    "Machine": "TM085",
+    "Type": "TM",
+    "Number": 85,
+    "Move": "MOVE_DREAM_EATER",
+    "MoveName": "Dream Eater"
+  },
+  "ITEM_TM086": {
+    "ItemId": 413,
+    "Machine": "TM086",
+    "Type": "TM",
+    "Number": 86,
+    "Move": "MOVE_GRASS_KNOT",
+    "MoveName": "Grass Knot"
+  },
+  "ITEM_TM087": {
+    "ItemId": 414,
+    "Machine": "TM087",
+    "Type": "TM",
+    "Number": 87,
+    "Move": "MOVE_SWAGGER",
+    "MoveName": "Swagger"
+  },
+  "ITEM_TM088": {
+    "ItemId": 415,
+    "Machine": "TM088",
+    "Type": "TM",
+    "Number": 88,
+    "Move": "MOVE_PLUCK",
+    "MoveName": "Pluck"
+  },
+  "ITEM_TM089": {
+    "ItemId": 416,
+    "Machine": "TM089",
+    "Type": "TM",
+    "Number": 89,
+    "Move": "MOVE_U_TURN",
+    "MoveName": "U Turn"
+  },
+  "ITEM_TM090": {
+    "ItemId": 417,
+    "Machine": "TM090",
+    "Type": "TM",
+    "Number": 90,
+    "Move": "MOVE_SUBSTITUTE",
+    "MoveName": "Substitute"
+  },
+  "ITEM_TM091": {
+    "ItemId": 418,
+    "Machine": "TM091",
+    "Type": "TM",
+    "Number": 91,
+    "Move": "MOVE_FLASH_CANNON",
+    "MoveName": "Flash Cannon"
+  },
+  "ITEM_TM092": {
+    "ItemId": 419,
+    "Machine": "TM092",
+    "Type": "TM",
+    "Number": 92,
+    "Move": "MOVE_TRICK_ROOM",
+    "MoveName": "Trick Room"
+  },
+  "ITEM_HM01": {
+    "ItemId": 420,
+    "Machine": "HM01",
+    "Type": "HM",
+    "Number": 1,
+    "Move": "MOVE_CUT",
+    "MoveName": "Cut"
+  },
+  "ITEM_HM02": {
+    "ItemId": 421,
+    "Machine": "HM02",
+    "Type": "HM",
+    "Number": 2,
+    "Move": "MOVE_FLY",
+    "MoveName": "Fly"
+  },
+  "ITEM_HM03": {
+    "ItemId": 422,
+    "Machine": "HM03",
+    "Type": "HM",
+    "Number": 3,
+    "Move": "MOVE_SURF",
+    "MoveName": "Surf"
+  },
+  "ITEM_HM04": {
+    "ItemId": 423,
+    "Machine": "HM04",
+    "Type": "HM",
+    "Number": 4,
+    "Move": "MOVE_STRENGTH",
+    "MoveName": "Strength"
+  },
+  "ITEM_HM05": {
+    "ItemId": 424,
+    "Machine": "HM05",
+    "Type": "HM",
+    "Number": 5,
+    "Move": "MOVE_WHIRLPOOL",
+    "MoveName": "Whirlpool"
+  },
+  "ITEM_HM06": {
+    "ItemId": 425,
+    "Machine": "HM06",
+    "Type": "HM",
+    "Number": 6,
+    "Move": "MOVE_ROCK_SMASH",
+    "MoveName": "Rock Smash"
+  },
+  "ITEM_HM07": {
+    "ItemId": 426,
+    "Machine": "HM07",
+    "Type": "HM",
+    "Number": 7,
+    "Move": "MOVE_WATERFALL",
+    "MoveName": "Waterfall"
+  },
+  "ITEM_HM08": {
+    "ItemId": 427,
+    "Machine": "HM08",
+    "Type": "HM",
+    "Number": 8,
+    "Move": "MOVE_ROCK_CLIMB",
+    "MoveName": "Rock Climb"
+  },
+  "ITEM_TM00": {
+    "ItemId": 1230,
+    "Machine": "TM00",
+    "Type": "TM",
+    "Number": 0,
+    "Move": "MOVE_MEGA_PUNCH",
+    "MoveName": "Mega Punch"
+  },
+  "ITEM_TM093": {
+    "ItemId": 618,
+    "Machine": "TM093",
+    "Type": "TM",
+    "Number": 93,
+    "Move": "MOVE_LEAF_BLADE",
+    "MoveName": "Leaf Blade"
+  },
+  "ITEM_TM094": {
+    "ItemId": 619,
+    "Machine": "TM094",
+    "Type": "TM",
+    "Number": 94,
+    "Move": "MOVE_SEED_BOMB",
+    "MoveName": "Seed Bomb"
+  },
+  "ITEM_TM095": {
+    "ItemId": 620,
+    "Machine": "TM095",
+    "Type": "TM",
+    "Number": 95,
+    "Move": "MOVE_DARKEST_LARIAT",
+    "MoveName": "Darkest Lariat"
+  },
+  "ITEM_TM096": {
+    "ItemId": 690,
+    "Machine": "TM096",
+    "Type": "TM",
+    "Number": 96,
+    "Move": "MOVE_SUPERCELL_SLAM",
+    "MoveName": "Supercell Slam"
+  },
+  "ITEM_TM097": {
+    "ItemId": 691,
+    "Machine": "TM097",
+    "Type": "TM",
+    "Number": 97,
+    "Move": "MOVE_PSYCHIC_FANGS",
+    "MoveName": "Psychic Fangs"
+  },
+  "ITEM_TM098": {
+    "ItemId": 692,
+    "Machine": "TM098",
+    "Type": "TM",
+    "Number": 98,
+    "Move": "MOVE_BREAKING_SWIPE",
+    "MoveName": "Breaking Swipe"
+  },
+  "ITEM_TM099": {
+    "ItemId": 693,
+    "Machine": "TM099",
+    "Type": "TM",
+    "Number": 99,
+    "Move": "MOVE_IRON_HEAD",
+    "MoveName": "Iron Head"
+  },
+  "ITEM_TM100": {
+    "ItemId": 694,
+    "Machine": "TM100",
+    "Type": "TM",
+    "Number": 100,
+    "Move": "MOVE_DRAGON_DANCE",
+    "MoveName": "Dragon Dance"
+  },
+  "ITEM_TM101": {
+    "ItemId": 2161,
+    "Machine": "TM101",
+    "Type": "TM",
+    "Number": 101,
+    "Move": "MOVE_POWER_GEM",
+    "MoveName": "Power Gem"
+  },
+  "ITEM_TM102": {
+    "ItemId": 2162,
+    "Machine": "TM102",
+    "Type": "TM",
+    "Number": 102,
+    "Move": "MOVE_BUG_BUZZ",
+    "MoveName": "Bug Buzz"
+  },
+  "ITEM_TM103": {
+    "ItemId": 2163,
+    "Machine": "TM103",
+    "Type": "TM",
+    "Number": 103,
+    "Move": "MOVE_TRIPLE_AXEL",
+    "MoveName": "Triple Axel"
+  },
+  "ITEM_TM104": {
+    "ItemId": 2164,
+    "Machine": "TM104",
+    "Type": "TM",
+    "Number": 104,
+    "Move": "MOVE_IRON_DEFENSE",
+    "MoveName": "Iron Defense"
+  },
+  "ITEM_TM105": {
+    "ItemId": 2165,
+    "Machine": "TM105",
+    "Type": "TM",
+    "Number": 105,
+    "Move": "MOVE_EARTH_POWER",
+    "MoveName": "Earth Power"
+  },
+  "ITEM_TM106": {
+    "ItemId": 2166,
+    "Machine": "TM106",
+    "Type": "TM",
+    "Number": 106,
+    "Move": "MOVE_DRILL_RUN",
+    "MoveName": "Drill Run"
+  },
+  "ITEM_TM107": {
+    "ItemId": 2167,
+    "Machine": "TM107",
+    "Type": "TM",
+    "Number": 107,
+    "Move": "MOVE_HEAVY_SLAM",
+    "MoveName": "Heavy Slam"
+  },
+  "ITEM_TM108": {
+    "ItemId": 2168,
+    "Machine": "TM108",
+    "Type": "TM",
+    "Number": 108,
+    "Move": "MOVE_HEAT_WAVE",
+    "MoveName": "Heat Wave"
+  },
+  "ITEM_TM109": {
+    "ItemId": 2169,
+    "Machine": "TM109",
+    "Type": "TM",
+    "Number": 109,
+    "Move": "MOVE_TRICK",
+    "MoveName": "Trick"
+  },
+  "ITEM_TM110": {
+    "ItemId": 2170,
+    "Machine": "TM110",
+    "Type": "TM",
+    "Number": 110,
+    "Move": "MOVE_LIQUIDATION",
+    "MoveName": "Liquidation"
+  },
+  "ITEM_TM111": {
+    "ItemId": 2171,
+    "Machine": "TM111",
+    "Type": "TM",
+    "Number": 111,
+    "Move": "MOVE_GIGA_DRAIN",
+    "MoveName": "Giga Drain"
+  },
+  "ITEM_TM112": {
+    "ItemId": 2172,
+    "Machine": "TM112",
+    "Type": "TM",
+    "Number": 112,
+    "Move": "MOVE_AURA_SPHERE",
+    "MoveName": "Aura Sphere"
+  },
+  "ITEM_TM113": {
+    "ItemId": 2173,
+    "Machine": "TM113",
+    "Type": "TM",
+    "Number": 113,
+    "Move": "MOVE_TAILWIND",
+    "MoveName": "Tailwind"
+  },
+  "ITEM_TM114": {
+    "ItemId": 2174,
+    "Machine": "TM114",
+    "Type": "TM",
+    "Number": 114,
+    "Move": "MOVE_CURSE",
+    "MoveName": "Curse"
+  },
+  "ITEM_TM115": {
+    "ItemId": 2175,
+    "Machine": "TM115",
+    "Type": "TM",
+    "Number": 115,
+    "Move": "MOVE_ZEN_HEADBUTT",
+    "MoveName": "Zen Headbutt"
+  },
+  "ITEM_TM116": {
+    "ItemId": 2176,
+    "Machine": "TM116",
+    "Type": "TM",
+    "Number": 116,
+    "Move": "MOVE_DAZZLING_GLEAM",
+    "MoveName": "Dazzling Gleam"
+  },
+  "ITEM_TM117": {
+    "ItemId": 2177,
+    "Machine": "TM117",
+    "Type": "TM",
+    "Number": 117,
+    "Move": "MOVE_ELECTRO_BALL",
+    "MoveName": "Electro Ball"
+  },
+  "ITEM_TM118": {
+    "ItemId": 2178,
+    "Machine": "TM118",
+    "Type": "TM",
+    "Number": 118,
+    "Move": "MOVE_ENCORE",
+    "MoveName": "Encore"
+  },
+  "ITEM_TM119": {
+    "ItemId": 2179,
+    "Machine": "TM119",
+    "Type": "TM",
+    "Number": 119,
+    "Move": "MOVE_METAL_SOUND",
+    "MoveName": "Metal Sound"
+  },
+  "ITEM_TM120": {
+    "ItemId": 2180,
+    "Machine": "TM120",
+    "Type": "TM",
+    "Number": 120,
+    "Move": "MOVE_BLAZE_KICK",
+    "MoveName": "Blaze Kick"
+  },
+  "ITEM_TM121": {
+    "ItemId": 2181,
+    "Machine": "TM121",
+    "Type": "TM",
+    "Number": 121,
+    "Move": "MOVE_BATON_PASS",
+    "MoveName": "Baton Pass"
+  },
+  "ITEM_TM122": {
+    "ItemId": 2182,
+    "Machine": "TM122",
+    "Type": "TM",
+    "Number": 122,
+    "Move": "MOVE_ELECTRIC_TERRAIN",
+    "MoveName": "Electric Terrain"
+  },
+  "ITEM_TM123": {
+    "ItemId": 2183,
+    "Machine": "TM123",
+    "Type": "TM",
+    "Number": 123,
+    "Move": "MOVE_GRASSY_TERRAIN",
+    "MoveName": "Grassy Terrain"
+  },
+  "ITEM_TM124": {
+    "ItemId": 2184,
+    "Machine": "TM124",
+    "Type": "TM",
+    "Number": 124,
+    "Move": "MOVE_PSYCHIC_TERRAIN",
+    "MoveName": "Psychic Terrain"
+  },
+  "ITEM_TM125": {
+    "ItemId": 2185,
+    "Machine": "TM125",
+    "Type": "TM",
+    "Number": 125,
+    "Move": "MOVE_MISTY_TERRAIN",
+    "MoveName": "Misty Terrain"
+  },
+  "ITEM_TM126": {
+    "ItemId": 2186,
+    "Machine": "TM126",
+    "Type": "TM",
+    "Number": 126,
+    "Move": "MOVE_WILD_CHARGE",
+    "MoveName": "Wild Charge"
+  },
+  "ITEM_TM127": {
+    "ItemId": 2187,
+    "Machine": "TM127",
+    "Type": "TM",
+    "Number": 127,
+    "Move": "MOVE_PHANTOM_FORCE",
+    "MoveName": "Phantom Force"
+  },
+  "ITEM_TM128": {
+    "ItemId": 2188,
+    "Machine": "TM128",
+    "Type": "TM",
+    "Number": 128,
+    "Move": "MOVE_BLAST_BURN",
+    "MoveName": "Blast Burn"
+  },
+  "ITEM_TM129": {
+    "ItemId": 2189,
+    "Machine": "TM129",
+    "Type": "TM",
+    "Number": 129,
+    "Move": "MOVE_HYDRO_CANNON",
+    "MoveName": "Hydro Cannon"
+  },
+  "ITEM_TM130": {
+    "ItemId": 2190,
+    "Machine": "TM130",
+    "Type": "TM",
+    "Number": 130,
+    "Move": "MOVE_FRENZY_PLANT",
+    "MoveName": "Frenzy Plant"
+  },
+  "ITEM_TM131": {
+    "ItemId": 2191,
+    "Machine": "TM131",
+    "Type": "TM",
+    "Number": 131,
+    "Move": "MOVE_CHARGE",
+    "MoveName": "Charge"
+  },
+  "ITEM_TM132": {
+    "ItemId": 2192,
+    "Machine": "TM132",
+    "Type": "TM",
+    "Number": 132,
+    "Move": "MOVE_HAZE",
+    "MoveName": "Haze"
+  },
+  "ITEM_TM133": {
+    "ItemId": 2193,
+    "Machine": "TM133",
+    "Type": "TM",
+    "Number": 133,
+    "Move": "MOVE_TOXIC",
+    "MoveName": "Toxic"
+  },
+  "ITEM_TM134": {
+    "ItemId": 2194,
+    "Machine": "TM134",
+    "Type": "TM",
+    "Number": 134,
+    "Move": "MOVE_SAND_TOMB",
+    "MoveName": "Sand Tomb"
+  },
+  "ITEM_TM135": {
+    "ItemId": 2195,
+    "Machine": "TM135",
+    "Type": "TM",
+    "Number": 135,
+    "Move": "MOVE_SPITE",
+    "MoveName": "Spite"
+  },
+  "ITEM_TM136": {
+    "ItemId": 2196,
+    "Machine": "TM136",
+    "Type": "TM",
+    "Number": 136,
+    "Move": "MOVE_GRAVITY",
+    "MoveName": "Gravity"
+  },
+  "ITEM_TM137": {
+    "ItemId": 2197,
+    "Machine": "TM137",
+    "Type": "TM",
+    "Number": 137,
+    "Move": "MOVE_SMACK_DOWN",
+    "MoveName": "Smack Down"
+  },
+  "ITEM_TM138": {
+    "ItemId": 2198,
+    "Machine": "TM138",
+    "Type": "TM",
+    "Number": 138,
+    "Move": "MOVE_SCORCHING_SANDS",
+    "MoveName": "Scorching Sands"
+  },
+  "ITEM_TM139": {
+    "ItemId": 2199,
+    "Machine": "TM139",
+    "Type": "TM",
+    "Number": 139,
+    "Move": "MOVE_KNOCK_OFF",
+    "MoveName": "Knock Off"
+  },
+  "ITEM_TM140": {
+    "ItemId": 2200,
+    "Machine": "TM140",
+    "Type": "TM",
+    "Number": 140,
+    "Move": "MOVE_BUG_BITE",
+    "MoveName": "Bug Bite"
+  },
+  "ITEM_TM141": {
+    "ItemId": 2201,
+    "Machine": "TM141",
+    "Type": "TM",
+    "Number": 141,
+    "Move": "MOVE_SUPER_FANG",
+    "MoveName": "Super Fang"
+  },
+  "ITEM_TM142": {
+    "ItemId": 2202,
+    "Machine": "TM142",
+    "Type": "TM",
+    "Number": 142,
+    "Move": "MOVE_VACUUM_WAVE",
+    "MoveName": "Vacuum Wave"
+  },
+  "ITEM_TM143": {
+    "ItemId": 2203,
+    "Machine": "TM143",
+    "Type": "TM",
+    "Number": 143,
+    "Move": "MOVE_LUNGE",
+    "MoveName": "Lunge"
+  },
+  "ITEM_TM144": {
+    "ItemId": 2204,
+    "Machine": "TM144",
+    "Type": "TM",
+    "Number": 144,
+    "Move": "MOVE_HIGH_HORSEPOWER",
+    "MoveName": "High Horsepower"
+  },
+  "ITEM_TM145": {
+    "ItemId": 2205,
+    "Machine": "TM145",
+    "Type": "TM",
+    "Number": 145,
+    "Move": "MOVE_ICICLE_SPEAR",
+    "MoveName": "Icicle Spear"
+  },
+  "ITEM_TM146": {
+    "ItemId": 2206,
+    "Machine": "TM146",
+    "Type": "TM",
+    "Number": 146,
+    "Move": "MOVE_HEAT_CRASH",
+    "MoveName": "Heat Crash"
+  },
+  "ITEM_TM147": {
+    "ItemId": 2207,
+    "Machine": "TM147",
+    "Type": "TM",
+    "Number": 147,
+    "Move": "MOVE_SOLAR_BLADE",
+    "MoveName": "Solar Blade"
+  },
+  "ITEM_TM148": {
+    "ItemId": 2208,
+    "Machine": "TM148",
+    "Type": "TM",
+    "Number": 148,
+    "Move": "MOVE_WEATHER_BALL",
+    "MoveName": "Weather Ball"
+  },
+  "ITEM_TM149": {
+    "ItemId": 2209,
+    "Machine": "TM149",
+    "Type": "TM",
+    "Number": 149,
+    "Move": "MOVE_GRASSY_GLIDE",
+    "MoveName": "Grassy Glide"
+  },
+  "ITEM_TM150": {
+    "ItemId": 2210,
+    "Machine": "TM150",
+    "Type": "TM",
+    "Number": 150,
+    "Move": "MOVE_BURNING_JEALOUSY",
+    "MoveName": "Burning Jealousy"
+  },
+  "ITEM_TM151": {
+    "ItemId": 2211,
+    "Machine": "TM151",
+    "Type": "TM",
+    "Number": 151,
+    "Move": "MOVE_FLIP_TURN",
+    "MoveName": "Flip Turn"
+  },
+  "ITEM_TM152": {
+    "ItemId": 2212,
+    "Machine": "TM152",
+    "Type": "TM",
+    "Number": 152,
+    "Move": "MOVE_DUAL_WINGBEAT",
+    "MoveName": "Dual Wingbeat"
+  },
+  "ITEM_TM153": {
+    "ItemId": 2213,
+    "Machine": "TM153",
+    "Type": "TM",
+    "Number": 153,
+    "Move": "MOVE_MISTY_EXPLOSION",
+    "MoveName": "Misty Explosion"
+  },
+  "ITEM_TM154": {
+    "ItemId": 2214,
+    "Machine": "TM154",
+    "Type": "TM",
+    "Number": 154,
+    "Move": "MOVE_PAIN_SPLIT",
+    "MoveName": "Pain Split"
+  },
+  "ITEM_TM155": {
+    "ItemId": 2215,
+    "Machine": "TM155",
+    "Type": "TM",
+    "Number": 155,
+    "Move": "MOVE_SLUDGE_WAVE",
+    "MoveName": "Sludge Wave"
+  },
+  "ITEM_TM156": {
+    "ItemId": 2216,
+    "Machine": "TM156",
+    "Type": "TM",
+    "Number": 156,
+    "Move": "MOVE_DOUBLE_EDGE",
+    "MoveName": "Double Edge"
+  },
+  "ITEM_TR00": {
+    "ItemId": 1130,
+    "Machine": "TR00",
+    "Type": "TR",
+    "Number": 0,
+    "Move": "MOVE_SWORDS_DANCE",
+    "MoveName": "Swords Dance"
+  },
+  "ITEM_TR01": {
+    "ItemId": 1131,
+    "Machine": "TR01",
+    "Type": "TR",
+    "Number": 1,
+    "Move": "MOVE_EXTREME_SPEED",
+    "MoveName": "Extreme Speed"
+  },
+  "ITEM_TR02": {
+    "ItemId": 1132,
+    "Machine": "TR02",
+    "Type": "TR",
+    "Number": 2,
+    "Move": "MOVE_TOXIC",
+    "MoveName": "Toxic"
+  },
+  "ITEM_TR03": {
+    "ItemId": 1133,
+    "Machine": "TR03",
+    "Type": "TR",
+    "Number": 3,
+    "Move": "MOVE_HYDRO_PUMP",
+    "MoveName": "Hydro Pump"
+  },
+  "ITEM_TR04": {
+    "ItemId": 1134,
+    "Machine": "TR04",
+    "Type": "TR",
+    "Number": 4,
+    "Move": "MOVE_SOLAR_BEAM",
+    "MoveName": "Solar Beam"
+  },
+  "ITEM_TR05": {
+    "ItemId": 1135,
+    "Machine": "TR05",
+    "Type": "TR",
+    "Number": 5,
+    "Move": "MOVE_HYPER_BEAM",
+    "MoveName": "Hyper Beam"
+  },
+  "ITEM_TR06": {
+    "ItemId": 1136,
+    "Machine": "TR06",
+    "Type": "TR",
+    "Number": 6,
+    "Move": "MOVE_BLIZZARD",
+    "MoveName": "Blizzard"
+  },
+  "ITEM_TR07": {
+    "ItemId": 1137,
+    "Machine": "TR07",
+    "Type": "TR",
+    "Number": 7,
+    "Move": "MOVE_THUNDER",
+    "MoveName": "Thunder"
+  },
+  "ITEM_TR08": {
+    "ItemId": 1138,
+    "Machine": "TR08",
+    "Type": "TR",
+    "Number": 8,
+    "Move": "MOVE_GIGA_IMPACT",
+    "MoveName": "Giga Impact"
+  },
+  "ITEM_TR09": {
+    "ItemId": 1139,
+    "Machine": "TR09",
+    "Type": "TR",
+    "Number": 9,
+    "Move": "MOVE_PETAL_BLIZZARD",
+    "MoveName": "Petal Blizzard"
+  },
+  "ITEM_TR10": {
+    "ItemId": 1140,
+    "Machine": "TR10",
+    "Type": "TR",
+    "Number": 10,
+    "Move": "MOVE_EARTHQUAKE",
+    "MoveName": "Earthquake"
+  },
+  "ITEM_TR11": {
+    "ItemId": 1141,
+    "Machine": "TR11",
+    "Type": "TR",
+    "Number": 11,
+    "Move": "MOVE_ROCK_SLIDE",
+    "MoveName": "Rock Slide"
+  },
+  "ITEM_TR12": {
+    "ItemId": 1142,
+    "Machine": "TR12",
+    "Type": "TR",
+    "Number": 12,
+    "Move": "MOVE_AGILITY",
+    "MoveName": "Agility"
+  },
+  "ITEM_TR13": {
+    "ItemId": 1143,
+    "Machine": "TR13",
+    "Type": "TR",
+    "Number": 13,
+    "Move": "MOVE_THUNDER_WAVE",
+    "MoveName": "Thunder Wave"
+  },
+  "ITEM_TR14": {
+    "ItemId": 1144,
+    "Machine": "TR14",
+    "Type": "TR",
+    "Number": 14,
+    "Move": "MOVE_WATER_PULSE",
+    "MoveName": "Water Pulse"
+  },
+  "ITEM_TR15": {
+    "ItemId": 1145,
+    "Machine": "TR15",
+    "Type": "TR",
+    "Number": 15,
+    "Move": "MOVE_FIRE_BLAST",
+    "MoveName": "Fire Blast"
+  },
+  "ITEM_TR16": {
+    "ItemId": 1146,
+    "Machine": "TR16",
+    "Type": "TR",
+    "Number": 16,
+    "Move": "MOVE_GIGA_DRAIN",
+    "MoveName": "Giga Drain"
+  },
+  "ITEM_TR17": {
+    "ItemId": 1147,
+    "Machine": "TR17",
+    "Type": "TR",
+    "Number": 17,
+    "Move": "MOVE_AMNESIA",
+    "MoveName": "Amnesia"
+  },
+  "ITEM_TR18": {
+    "ItemId": 1148,
+    "Machine": "TR18",
+    "Type": "TR",
+    "Number": 18,
+    "Move": "MOVE_SHOCK_WAVE",
+    "MoveName": "Shock Wave"
+  },
+  "ITEM_TR19": {
+    "ItemId": 1149,
+    "Machine": "TR19",
+    "Type": "TR",
+    "Number": 19,
+    "Move": "MOVE_FEATHER_DANCE",
+    "MoveName": "Feather Dance"
+  },
+  "ITEM_TR20": {
+    "ItemId": 1150,
+    "Machine": "TR20",
+    "Type": "TR",
+    "Number": 20,
+    "Move": "MOVE_ENDEAVOR",
+    "MoveName": "Endeavor"
+  },
+  "ITEM_TR21": {
+    "ItemId": 1151,
+    "Machine": "TR21",
+    "Type": "TR",
+    "Number": 21,
+    "Move": "MOVE_REVERSAL",
+    "MoveName": "Reversal"
+  },
+  "ITEM_TR22": {
+    "ItemId": 1152,
+    "Machine": "TR22",
+    "Type": "TR",
+    "Number": 22,
+    "Move": "MOVE_OVERHEAT",
+    "MoveName": "Overheat"
+  },
+  "ITEM_TR23": {
+    "ItemId": 1153,
+    "Machine": "TR23",
+    "Type": "TR",
+    "Number": 23,
+    "Move": "MOVE_SPIKES",
+    "MoveName": "Spikes"
+  },
+  "ITEM_TR24": {
+    "ItemId": 1154,
+    "Machine": "TR24",
+    "Type": "TR",
+    "Number": 24,
+    "Move": "MOVE_OUTRAGE",
+    "MoveName": "Outrage"
+  },
+  "ITEM_TR25": {
+    "ItemId": 1155,
+    "Machine": "TR25",
+    "Type": "TR",
+    "Number": 25,
+    "Move": "MOVE_RAZOR_WIND",
+    "MoveName": "Razor Wind"
+  },
+  "ITEM_TR26": {
+    "ItemId": 1156,
+    "Machine": "TR26",
+    "Type": "TR",
+    "Number": 26,
+    "Move": "MOVE_ENDURE",
+    "MoveName": "Endure"
+  },
+  "ITEM_TR27": {
+    "ItemId": 1157,
+    "Machine": "TR27",
+    "Type": "TR",
+    "Number": 27,
+    "Move": "MOVE_ELECTRO_BALL",
+    "MoveName": "Electro Ball"
+  },
+  "ITEM_TR28": {
+    "ItemId": 1158,
+    "Machine": "TR28",
+    "Type": "TR",
+    "Number": 28,
+    "Move": "MOVE_MEGAHORN",
+    "MoveName": "Megahorn"
+  },
+  "ITEM_TR29": {
+    "ItemId": 1159,
+    "Machine": "TR29",
+    "Type": "TR",
+    "Number": 29,
+    "Move": "MOVE_GUNK_SHOT",
+    "MoveName": "Gunk Shot"
+  },
+  "ITEM_TR30": {
+    "ItemId": 1160,
+    "Machine": "TR30",
+    "Type": "TR",
+    "Number": 30,
+    "Move": "MOVE_STONE_EDGE",
+    "MoveName": "Stone Edge"
+  },
+  "ITEM_TR31": {
+    "ItemId": 1161,
+    "Machine": "TR31",
+    "Type": "TR",
+    "Number": 31,
+    "Move": "MOVE_IRON_TAIL",
+    "MoveName": "Iron Tail"
+  },
+  "ITEM_TR32": {
+    "ItemId": 1162,
+    "Machine": "TR32",
+    "Type": "TR",
+    "Number": 32,
+    "Move": "MOVE_UPROAR",
+    "MoveName": "Uproar"
+  },
+  "ITEM_TR33": {
+    "ItemId": 1163,
+    "Machine": "TR33",
+    "Type": "TR",
+    "Number": 33,
+    "Move": "MOVE_HYPER_VOICE",
+    "MoveName": "Hyper Voice"
+  },
+  "ITEM_TR34": {
+    "ItemId": 1164,
+    "Machine": "TR34",
+    "Type": "TR",
+    "Number": 34,
+    "Move": "MOVE_COSMIC_POWER",
+    "MoveName": "Cosmic Power"
+  },
+  "ITEM_TR35": {
+    "ItemId": 1165,
+    "Machine": "TR35",
+    "Type": "TR",
+    "Number": 35,
+    "Move": "MOVE_MUDDY_WATER",
+    "MoveName": "Muddy Water"
+  },
+  "ITEM_TR36": {
+    "ItemId": 1166,
+    "Machine": "TR36",
+    "Type": "TR",
+    "Number": 36,
+    "Move": "MOVE_IRON_DEFENSE",
+    "MoveName": "Iron Defense"
+  },
+  "ITEM_TR37": {
+    "ItemId": 1167,
+    "Machine": "TR37",
+    "Type": "TR",
+    "Number": 37,
+    "Move": "MOVE_TAUNT",
+    "MoveName": "Taunt"
+  },
+  "ITEM_TR38": {
+    "ItemId": 1168,
+    "Machine": "TR38",
+    "Type": "TR",
+    "Number": 38,
+    "Move": "MOVE_FOUL_PLAY",
+    "MoveName": "Foul Play"
+  },
+  "ITEM_TR39": {
+    "ItemId": 1169,
+    "Machine": "TR39",
+    "Type": "TR",
+    "Number": 39,
+    "Move": "MOVE_SUPERPOWER",
+    "MoveName": "Superpower"
+  },
+  "ITEM_TR40": {
+    "ItemId": 1170,
+    "Machine": "TR40",
+    "Type": "TR",
+    "Number": 40,
+    "Move": "MOVE_EXPANDING_FORCE",
+    "MoveName": "Expanding Force"
+  },
+  "ITEM_TR41": {
+    "ItemId": 1171,
+    "Machine": "TR41",
+    "Type": "TR",
+    "Number": 41,
+    "Move": "MOVE_WORK_UP",
+    "MoveName": "Work Up"
+  },
+  "ITEM_TR42": {
+    "ItemId": 1172,
+    "Machine": "TR42",
+    "Type": "TR",
+    "Number": 42,
+    "Move": "MOVE_CLOSE_COMBAT",
+    "MoveName": "Close Combat"
+  },
+  "ITEM_TR43": {
+    "ItemId": 1173,
+    "Machine": "TR43",
+    "Type": "TR",
+    "Number": 43,
+    "Move": "MOVE_TOXIC_SPIKES",
+    "MoveName": "Toxic Spikes"
+  },
+  "ITEM_TR44": {
+    "ItemId": 1174,
+    "Machine": "TR44",
+    "Type": "TR",
+    "Number": 44,
+    "Move": "MOVE_FLARE_BLITZ",
+    "MoveName": "Flare Blitz"
+  },
+  "ITEM_TR45": {
+    "ItemId": 1175,
+    "Machine": "TR45",
+    "Type": "TR",
+    "Number": 45,
+    "Move": "MOVE_FOCUS_BLAST",
+    "MoveName": "Focus Blast"
+  },
+  "ITEM_TR46": {
+    "ItemId": 1176,
+    "Machine": "TR46",
+    "Type": "TR",
+    "Number": 46,
+    "Move": "MOVE_BRAVE_BIRD",
+    "MoveName": "Brave Bird"
+  },
+  "ITEM_TR47": {
+    "ItemId": 1177,
+    "Machine": "TR47",
+    "Type": "TR",
+    "Number": 47,
+    "Move": "MOVE_NASTY_PLOT",
+    "MoveName": "Nasty Plot"
+  },
+  "ITEM_TR48": {
+    "ItemId": 1178,
+    "Machine": "TR48",
+    "Type": "TR",
+    "Number": 48,
+    "Move": "MOVE_LEAF_STORM",
+    "MoveName": "Leaf Storm"
+  },
+  "ITEM_TR49": {
+    "ItemId": 1179,
+    "Machine": "TR49",
+    "Type": "TR",
+    "Number": 49,
+    "Move": "MOVE_POWER_WHIP",
+    "MoveName": "Power Whip"
+  },
+  "ITEM_TR50": {
+    "ItemId": 1180,
+    "Machine": "TR50",
+    "Type": "TR",
+    "Number": 50,
+    "Move": "MOVE_TRICK_ROOM",
+    "MoveName": "Trick Room"
+  }
+}

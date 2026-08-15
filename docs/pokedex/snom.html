@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Snom</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/snom.png' alt='snom' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,9 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Shield Dust_(Ability)' target='_blank'>Shield Dust</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Shield Dust</strong><span>Blocks the added effects of attacks taken.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,10 +75,21 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='frosmoth.html'>FROSMOTH</a> via EVO_FRIENDSHIP</li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./snom.html'>Snom</a><span class='evolution-arrow' title='Friendship'>→<small>Friendship</small></span><a class='evolution-mon' href='./frosmoth.html'>Frosmoth</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Ice Path 1F</td><td>Walk</td><td>Day</td><td>42</td><td>20%</td></tr>
+<tr><td>Ice Path 1F</td><td>Walk</td><td>Morning</td><td>42</td><td>20%</td></tr>
+<tr><td>Ice Path 1F</td><td>Walk</td><td>Night</td><td>42</td><td>20%</td></tr>
+<tr><td>Ice Path B3F</td><td>Walk</td><td>Day</td><td>43</td><td>10%</td></tr>
+<tr><td>Ice Path B3F</td><td>Walk</td><td>Morning</td><td>43</td><td>10%</td></tr>
+<tr><td>Ice Path B3F</td><td>Walk</td><td>Night</td><td>43</td><td>10%</td></tr>
+<tr><td>Route 2 North Above Viridian Forest</td><td>Walk</td><td>Night</td><td>66</td><td>10%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -81,33 +99,24 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Bug Bite</td></tr>
-  <tr><td>Bug Buzz</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Icicle Spear</td></tr>
-  <tr><td>Icy Wind</td></tr>
-  <tr><td>Lunge</td></tr>
-  <tr><td>Pounce</td></tr>
-  <tr><td>Powder Snow</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Skitter Smack</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Struggle Bug</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Toxic</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM102</td><td>Bug Buzz</td></tr>
+<tr><td>TM140</td><td>Bug Bite</td></tr>
+<tr><td>TM143</td><td>Lunge</td></tr>
+<tr><td>TM145</td><td>Icicle Spear</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+</tbody></table>
 
                 
 
@@ -117,19 +126,6 @@
   <tr><td>Mirror Coat</td></tr>
   <tr><td>Bug Bite</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Ice Path B3F</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-  <li>Night</li>
-</ul>
-<h4 class='center'>Route 2 North Above Viridian Forest</h4>
-<ul class='center'>
-  <li>Night</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Noctowl</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/noctowl.png' alt='noctowl' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Tinted Lens_(Ability)' target='_blank'>Tinted Lens</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Keen Eye_(Ability)' target='_blank'>Keen Eye</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Tinted Lens</strong><span>Powers up “not very effective” moves.</span></div>
+<div class='ability-card'><strong>Keen Eye</strong><span>Prevents the Pokémon from losing accuracy.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,120 +76,96 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves From</h3>
-    <ul class='center'>
-      <li>Evolves from <a href='hoothoot.html'>HOOTHOOT</a> via level up to <strong>32</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon' href='./hoothoot.html'>Hoothoot</a><span class='evolution-arrow' title='level up to 32'>→<small>level up to 32</small></span><a class='evolution-mon current' href='./noctowl.html'>Noctowl</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 6</td><td>Walk</td><td>Night</td><td>55</td><td>10%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
   <tr><th>Level</th><th>Move</th></tr>
   <tr><td>0</td><td>Dark Pulse</td></tr>
   <tr><td>0</td><td>Psychic</td></tr>
-  <tr><td>1</td><td>Dark Pulse</td></tr>
+  <tr><td>1</td><td>Confusion</td></tr>
   <tr><td>1</td><td>Growl</td></tr>
-  <tr><td>1</td><td>Peck</td></tr>
-  <tr><td>1</td><td>Psychic</td></tr>
-  <tr><td>1</td><td>Sky Attack</td></tr>
-  <tr><td>1</td><td>Tackle</td></tr>
-  <tr><td>9</td><td>Confusion</td></tr>
-  <tr><td>12</td><td>Reflect</td></tr>
-  <tr><td>18</td><td>Air Slash</td></tr>
-  <tr><td>23</td><td>Extrasensory</td></tr>
-  <tr><td>28</td><td>Take Down</td></tr>
-  <tr><td>33</td><td>Uproar</td></tr>
-  <tr><td>38</td><td>Roost</td></tr>
-  <tr><td>43</td><td>Moonblast</td></tr>
-  <tr><td>48</td><td>Hypnosis</td></tr>
-  <tr><td>53</td><td>Dream Eater</td></tr>
-  <tr><td>57</td><td>Razor Wind</td></tr>
-  <tr><td>62</td><td>Focus Blast</td></tr>
+  <tr><td>13</td><td>Tackle</td></tr>
+  <tr><td>16</td><td>Peck</td></tr>
+  <tr><td>25</td><td>Reflect</td></tr>
+  <tr><td>28</td><td>Hypnosis</td></tr>
+  <tr><td>31</td><td>Extrasensory</td></tr>
+  <tr><td>34</td><td>Air Slash</td></tr>
+  <tr><td>37</td><td>Roost</td></tr>
+  <tr><td>40</td><td>Dark Pulse</td></tr>
+  <tr><td>43</td><td>Razor Wind</td></tr>
+  <tr><td>46</td><td>Psychic</td></tr>
+  <tr><td>49</td><td>Sky Attack</td></tr>
+  <tr><td>52</td><td>Uproar</td></tr>
+  <tr><td>55</td><td>Moonblast</td></tr>
+  <tr><td>58</td><td>Focus Blast</td></tr>
+  <tr><td>61</td><td>Take Down</td></tr>
+  <tr><td>64</td><td>Dream Eater</td></tr>
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Acrobatics</td></tr>
-  <tr><td>Aerial Ace</td></tr>
-  <tr><td>Agility</td></tr>
-  <tr><td>Air Cutter</td></tr>
-  <tr><td>Air Slash</td></tr>
-  <tr><td>Amnesia</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Body Slam</td></tr>
-  <tr><td>Brave Bird</td></tr>
-  <tr><td>Calm Mind</td></tr>
-  <tr><td>Captivate</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Confuse Ray</td></tr>
-  <tr><td>Curse</td></tr>
-  <tr><td>Defog</td></tr>
-  <tr><td>Detect</td></tr>
-  <tr><td>Double Edge</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Dream Eater</td></tr>
-  <tr><td>Dual Wingbeat</td></tr>
-  <tr><td>Echoed Voice</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Extrasensory</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Feather Dance</td></tr>
-  <tr><td>Flash</td></tr>
-  <tr><td>Fly</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Future Sight</td></tr>
-  <tr><td>Giga Impact</td></tr>
-  <tr><td>Haze</td></tr>
-  <tr><td>Heat Wave</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Hurricane</td></tr>
-  <tr><td>Hyper Beam</td></tr>
-  <tr><td>Hyper Voice</td></tr>
-  <tr><td>Imprison</td></tr>
-  <tr><td>Mud Slap</td></tr>
-  <tr><td>Nasty Plot</td></tr>
-  <tr><td>Natural Gift</td></tr>
-  <tr><td>Nightmare</td></tr>
-  <tr><td>Night Shade</td></tr>
-  <tr><td>Pluck</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Psybeam</td></tr>
-  <tr><td>Psychic</td></tr>
-  <tr><td>Psychic Noise</td></tr>
-  <tr><td>Psych Up</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Recycle</td></tr>
-  <tr><td>Reflect</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Roost</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Scary Face</td></tr>
-  <tr><td>Screech</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Shadow Ball</td></tr>
-  <tr><td>Silver Wind</td></tr>
-  <tr><td>Skill Swap</td></tr>
-  <tr><td>Sky Attack</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Spite</td></tr>
-  <tr><td>Steel Wing</td></tr>
-  <tr><td>Stored Power</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Sunny Day</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Swift</td></tr>
-  <tr><td>Tailwind</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Thief</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Uproar</td></tr>
-  <tr><td>Wing Attack</td></tr>
-  <tr><td>Work Up</td></tr>
-  <tr><td>Zen Headbutt</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM02</td><td>Fly</td></tr>
+<tr><td>TM004</td><td>Calm Mind</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM011</td><td>Sunny Day</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM029</td><td>Psychic</td></tr>
+<tr><td>TM030</td><td>Shadow Ball</td></tr>
+<tr><td>TM032</td><td>Body Slam</td></tr>
+<tr><td>TM033</td><td>Reflect</td></tr>
+<tr><td>TM040</td><td>Aerial Ace</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM046</td><td>Thief</td></tr>
+<tr><td>TM047</td><td>Steel Wing</td></tr>
+<tr><td>TM048</td><td>Skill Swap</td></tr>
+<tr><td>TM051</td><td>Roost</td></tr>
+<tr><td>TM062</td><td>Silver Wind</td></tr>
+<tr><td>TM067</td><td>Recycle</td></tr>
+<tr><td>TM068</td><td>Future Sight</td></tr>
+<tr><td>TM070</td><td>Flash</td></tr>
+<tr><td>TM077</td><td>Psych Up</td></tr>
+<tr><td>TM078</td><td>Captivate</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM085</td><td>Dream Eater</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM088</td><td>Pluck</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM108</td><td>Heat Wave</td></tr>
+<tr><td>TM113</td><td>Tailwind</td></tr>
+<tr><td>TM114</td><td>Curse</td></tr>
+<tr><td>TM115</td><td>Zen Headbutt</td></tr>
+<tr><td>TM132</td><td>Haze</td></tr>
+<tr><td>TM135</td><td>Spite</td></tr>
+<tr><td>TM152</td><td>Dual Wingbeat</td></tr>
+<tr><td>TM156</td><td>Double Edge</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR05</td><td>Hyper Beam</td></tr>
+<tr><td>TR08</td><td>Giga Impact</td></tr>
+<tr><td>TR12</td><td>Agility</td></tr>
+<tr><td>TR17</td><td>Amnesia</td></tr>
+<tr><td>TR19</td><td>Feather Dance</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR32</td><td>Uproar</td></tr>
+<tr><td>TR33</td><td>Hyper Voice</td></tr>
+<tr><td>TR41</td><td>Work Up</td></tr>
+<tr><td>TR46</td><td>Brave Bird</td></tr>
+<tr><td>TR47</td><td>Nasty Plot</td></tr>
+</tbody></table>
 
                 
 
@@ -194,13 +178,6 @@
   <tr><td>Whirlwind</td></tr>
   <tr><td>Wing Attack</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Route 6</h4>
-<ul class='center'>
-  <li>Night</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

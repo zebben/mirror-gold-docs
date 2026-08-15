@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Clawitzer</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/clawitzer.png' alt='clawitzer' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Mega Launcher_(Ability)' target='_blank'>Mega Launcher</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Swift Swim_(Ability)' target='_blank'>Swift Swim</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Mega Launcher</strong><span>Powers up aura and pulse moves.</span></div>
+<div class='ability-card'><strong>Swift Swim</strong><span>Boosts the Pokémon’s Speed in rain.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,104 +76,91 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves From</h3>
-    <ul class='center'>
-      <li>Evolves from <a href='clauncher.html'>CLAUNCHER</a> via level up to <strong>32</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon' href='./clauncher.html'>Clauncher</a><span class='evolution-arrow' title='level up to 32'>→<small>level up to 32</small></span><a class='evolution-mon current' href='./clawitzer.html'>Clawitzer</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Dark Cave Route 31 Entrance</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>5%</td></tr>
+<tr><td>Dark Cave Route 31 Entrance</td><td>Super Rod</td><td>Any</td><td>55–65</td><td>5%</td></tr>
+<tr><td>Cerulean City</td><td>Good Rod</td><td>Any</td><td>55–60</td><td>15%</td></tr>
+<tr><td>Cerulean City</td><td>Super Rod</td><td>Any</td><td>55–65</td><td>70%</td></tr>
+<tr><td>Route 30</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Route 31</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
   <tr><th>Level</th><th>Move</th></tr>
   <tr><td>0</td><td>Aura Sphere</td></tr>
-  <tr><td>1</td><td>Aura Sphere</td></tr>
-  <tr><td>1</td><td>Aura Sphere</td></tr>
-  <tr><td>1</td><td>Dark Pulse</td></tr>
-  <tr><td>1</td><td>Dragon Pulse</td></tr>
-  <tr><td>1</td><td>Flail</td></tr>
-  <tr><td>1</td><td>Splash</td></tr>
-  <tr><td>1</td><td>Vice Grip</td></tr>
+  <tr><td>1</td><td>Hone Claws</td></tr>
   <tr><td>1</td><td>Water Gun</td></tr>
-  <tr><td>1</td><td>Water Sport</td></tr>
-  <tr><td>7</td><td>Water Sport</td></tr>
-  <tr><td>9</td><td>Vice Grip</td></tr>
-  <tr><td>12</td><td>Bubble</td></tr>
-  <tr><td>16</td><td>Flail</td></tr>
-  <tr><td>20</td><td>Bubble Beam</td></tr>
-  <tr><td>25</td><td>Hone Claws</td></tr>
-  <tr><td>30</td><td>Muddy Water</td></tr>
-  <tr><td>34</td><td>Water Pulse</td></tr>
-  <tr><td>42</td><td>Aura Sphere</td></tr>
-  <tr><td>47</td><td>Crabhammer</td></tr>
-  <tr><td>49</td><td>Dark Pulse</td></tr>
-  <tr><td>56</td><td>Muddy Water</td></tr>
-  <tr><td>60</td><td>Hydro Pump</td></tr>
+  <tr><td>10</td><td>Bubble</td></tr>
+  <tr><td>13</td><td>Flail</td></tr>
+  <tr><td>16</td><td>Vice Grip</td></tr>
+  <tr><td>19</td><td>Bubble Beam</td></tr>
+  <tr><td>22</td><td>Water Pulse</td></tr>
+  <tr><td>25</td><td>Splash</td></tr>
+  <tr><td>28</td><td>Water Sport</td></tr>
+  <tr><td>31</td><td>Aqua Cutter</td></tr>
+  <tr><td>34</td><td>Clamp</td></tr>
+  <tr><td>37</td><td>Aura Sphere</td></tr>
+  <tr><td>40</td><td>Dark Pulse</td></tr>
+  <tr><td>43</td><td>Dragon Pulse</td></tr>
+  <tr><td>46</td><td>Muddy Water</td></tr>
+  <tr><td>49</td><td>Hydro Pump</td></tr>
+  <tr><td>52</td><td>Crabhammer</td></tr>
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Aura Sphere</td></tr>
-  <tr><td>Blizzard</td></tr>
-  <tr><td>Body Slam</td></tr>
-  <tr><td>Bounce</td></tr>
-  <tr><td>Chilling Water</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Crabhammer</td></tr>
-  <tr><td>Cut</td></tr>
-  <tr><td>Dark Pulse</td></tr>
-  <tr><td>Dive</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Dragon Pulse</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Flash Cannon</td></tr>
-  <tr><td>Flip Turn</td></tr>
-  <tr><td>Focus Blast</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Giga Impact</td></tr>
-  <tr><td>Helping Hand</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Hydro Pump</td></tr>
-  <tr><td>Hyper Beam</td></tr>
-  <tr><td>Ice Beam</td></tr>
-  <tr><td>Icy Wind</td></tr>
-  <tr><td>Iron Tail</td></tr>
-  <tr><td>Liquidation</td></tr>
-  <tr><td>Muddy Water</td></tr>
-  <tr><td>Mud Shot</td></tr>
-  <tr><td>Mud Slap</td></tr>
-  <tr><td>Pounce</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Rock Slide</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Scald</td></tr>
-  <tr><td>Scary Face</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Shadow Ball</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Sludge Bomb</td></tr>
-  <tr><td>Sludge Wave</td></tr>
-  <tr><td>Smack Down</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Surf</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Swords Dance</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Thief</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>U Turn</td></tr>
-  <tr><td>Venoshock</td></tr>
-  <tr><td>Waterfall</td></tr>
-  <tr><td>Water Gun</td></tr>
-  <tr><td>Water Pulse</td></tr>
-  <tr><td>Weather Ball</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM01</td><td>Cut</td></tr>
+<tr><td>HM03</td><td>Surf</td></tr>
+<tr><td>HM07</td><td>Waterfall</td></tr>
+<tr><td>TM006</td><td>Scald</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM013</td><td>Ice Beam</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM030</td><td>Shadow Ball</td></tr>
+<tr><td>TM032</td><td>Body Slam</td></tr>
+<tr><td>TM036</td><td>Sludge Bomb</td></tr>
+<tr><td>TM038</td><td>Helping Hand</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM046</td><td>Thief</td></tr>
+<tr><td>TM059</td><td>Dragon Pulse</td></tr>
+<tr><td>TM079</td><td>Dark Pulse</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM089</td><td>U Turn</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM091</td><td>Flash Cannon</td></tr>
+<tr><td>TM110</td><td>Liquidation</td></tr>
+<tr><td>TM112</td><td>Aura Sphere</td></tr>
+<tr><td>TM137</td><td>Smack Down</td></tr>
+<tr><td>TM148</td><td>Weather Ball</td></tr>
+<tr><td>TM151</td><td>Flip Turn</td></tr>
+<tr><td>TM155</td><td>Sludge Wave</td></tr>
+<tr><td>TR00</td><td>Swords Dance</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR03</td><td>Hydro Pump</td></tr>
+<tr><td>TR05</td><td>Hyper Beam</td></tr>
+<tr><td>TR06</td><td>Blizzard</td></tr>
+<tr><td>TR08</td><td>Giga Impact</td></tr>
+<tr><td>TR11</td><td>Rock Slide</td></tr>
+<tr><td>TR14</td><td>Water Pulse</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR31</td><td>Iron Tail</td></tr>
+<tr><td>TR35</td><td>Muddy Water</td></tr>
+<tr><td>TR45</td><td>Focus Blast</td></tr>
+</tbody></table>
 
                 
 
@@ -176,27 +171,6 @@
   <tr><td>Bubble Beam</td></tr>
   <tr><td>Entrainment</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Dark Cave Route 31 Entrance</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>SuperRod</li>
-</ul>
-<h4 class='center'>Route 30</h4>
-<ul class='center'>
-  <li>NightFish</li>
-</ul>
-<h4 class='center'>Route 31</h4>
-<ul class='center'>
-  <li>NightFish</li>
-</ul>
-<h4 class='center'>Cerulean City</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>SuperRod</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Gourgeist Small</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/gourgeist_small.png' alt='gourgeist_small' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Pickup_(Ability)' target='_blank'>Pickup</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Frisk_(Ability)' target='_blank'>Frisk</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Pickup</strong><span>The Pokémon may pick up items.</span></div>
+<div class='ability-card'><strong>Sap Sipper</strong><span>Boosts Attack when hit by a Grass-type move.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,103 +76,94 @@
     </div>
     
             </div>
-    <h3 class='center'>Other Forms</h3>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./gourgeist_small.html'>Gourgeist Small</a></div>
+</div>    <h3 class='center'>Other Forms</h3>
     <ul class='center'>
       <li><a href='gourgeist.html'>Gourgeist</a></li>
       <li><a href='gourgeist_large.html'>Gourgeist Large</a></li>
       <li><a href='gourgeist_super.html'>Gourgeist Super</a></li>
     </ul>
 
+            <h3 class='center'>Wild Locations</h3>
+            <p><em>Not found in the wild.</em></p>
+
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
   <tr><th>Level</th><th>Move</th></tr>
-  <tr><td>1</td><td>Astonish</td></tr>
-  <tr><td>1</td><td>Confuse Ray</td></tr>
-  <tr><td>1</td><td>Explosion</td></tr>
-  <tr><td>1</td><td>Moonblast</td></tr>
-  <tr><td>1</td><td>Phantom Force</td></tr>
-  <tr><td>1</td><td>Scary Face</td></tr>
-  <tr><td>1</td><td>Shadow Sneak</td></tr>
-  <tr><td>1</td><td>Trick</td></tr>
-  <tr><td>13</td><td>Razor Leaf</td></tr>
-  <tr><td>14</td><td>Scary Face</td></tr>
-  <tr><td>17</td><td>Leech Seed</td></tr>
-  <tr><td>20</td><td>Worry Seed</td></tr>
-  <tr><td>22</td><td>Bullet Seed</td></tr>
-  <tr><td>30</td><td>Shadow Sneak</td></tr>
-  <tr><td>32</td><td>Iron Defense</td></tr>
-  <tr><td>36</td><td>Shadow Ball</td></tr>
-  <tr><td>39</td><td>Energy Ball</td></tr>
-  <tr><td>40</td><td>Rage Powder</td></tr>
-  <tr><td>40</td><td>Trick</td></tr>
-  <tr><td>43</td><td>Pain Split</td></tr>
-  <tr><td>55</td><td>Body Press</td></tr>
+  <tr><td>1</td><td>Hex</td></tr>
+  <tr><td>1</td><td>Leech Seed</td></tr>
+  <tr><td>7</td><td>Shadow Sneak</td></tr>
+  <tr><td>10</td><td>Razor Leaf</td></tr>
+  <tr><td>13</td><td>Astonish</td></tr>
+  <tr><td>16</td><td>Confuse Ray</td></tr>
+  <tr><td>19</td><td>Scary Face</td></tr>
+  <tr><td>22</td><td>Pain Split</td></tr>
+  <tr><td>25</td><td>Trick</td></tr>
+  <tr><td>28</td><td>Bullet Seed</td></tr>
+  <tr><td>31</td><td>Worry Seed</td></tr>
+  <tr><td>34</td><td>Body Press</td></tr>
+  <tr><td>37</td><td>Giga Drain</td></tr>
+  <tr><td>40</td><td>Shadow Ball</td></tr>
+  <tr><td>43</td><td>Iron Defense</td></tr>
+  <tr><td>46</td><td>Rage Powder</td></tr>
+  <tr><td>49</td><td>Energy Ball</td></tr>
+  <tr><td>52</td><td>Phantom Force</td></tr>
+  <tr><td>55</td><td>Moonblast</td></tr>
+  <tr><td>64</td><td>Explosion</td></tr>
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Ally Switch</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Brutal Swing</td></tr>
-  <tr><td>Bullet Seed</td></tr>
-  <tr><td>Charge Beam</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Dark Pulse</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Dream Eater</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Energy Ball</td></tr>
-  <tr><td>Explosion</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Fire Blast</td></tr>
-  <tr><td>Flamethrower</td></tr>
-  <tr><td>Flame Charge</td></tr>
-  <tr><td>Flash</td></tr>
-  <tr><td>Focus Blast</td></tr>
-  <tr><td>Foul Play</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Giga Drain</td></tr>
-  <tr><td>Giga Impact</td></tr>
-  <tr><td>Grass Knot</td></tr>
-  <tr><td>Gyro Ball</td></tr>
-  <tr><td>Hex</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Hyper Beam</td></tr>
-  <tr><td>Imprison</td></tr>
-  <tr><td>Incinerate</td></tr>
-  <tr><td>Light Screen</td></tr>
-  <tr><td>Mystical Fire</td></tr>
-  <tr><td>Nasty Plot</td></tr>
-  <tr><td>Nature Power</td></tr>
-  <tr><td>Phantom Force</td></tr>
-  <tr><td>Power Whip</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Psychic</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Rock Slide</td></tr>
-  <tr><td>Rock Smash</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Safeguard</td></tr>
-  <tr><td>Scary Face</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Seed Bomb</td></tr>
-  <tr><td>Shadow Ball</td></tr>
-  <tr><td>Skill Swap</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Sludge Bomb</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Solar Beam</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Sunny Day</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Thief</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Trick</td></tr>
-  <tr><td>Trick Room</td></tr>
-  <tr><td>Will O Wisp</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM06</td><td>Rock Smash</td></tr>
+<tr><td>TM009</td><td>Bullet Seed</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM011</td><td>Sunny Day</td></tr>
+<tr><td>TM016</td><td>Light Screen</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM020</td><td>Safeguard</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM029</td><td>Psychic</td></tr>
+<tr><td>TM030</td><td>Shadow Ball</td></tr>
+<tr><td>TM035</td><td>Flamethrower</td></tr>
+<tr><td>TM036</td><td>Sludge Bomb</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM046</td><td>Thief</td></tr>
+<tr><td>TM048</td><td>Skill Swap</td></tr>
+<tr><td>TM053</td><td>Energy Ball</td></tr>
+<tr><td>TM057</td><td>Charge Beam</td></tr>
+<tr><td>TM061</td><td>Will O Wisp</td></tr>
+<tr><td>TM064</td><td>Explosion</td></tr>
+<tr><td>TM070</td><td>Flash</td></tr>
+<tr><td>TM074</td><td>Gyro Ball</td></tr>
+<tr><td>TM079</td><td>Dark Pulse</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM085</td><td>Dream Eater</td></tr>
+<tr><td>TM086</td><td>Grass Knot</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM094</td><td>Seed Bomb</td></tr>
+<tr><td>TM109</td><td>Trick</td></tr>
+<tr><td>TM127</td><td>Phantom Force</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR04</td><td>Solar Beam</td></tr>
+<tr><td>TR05</td><td>Hyper Beam</td></tr>
+<tr><td>TR08</td><td>Giga Impact</td></tr>
+<tr><td>TR11</td><td>Rock Slide</td></tr>
+<tr><td>TR15</td><td>Fire Blast</td></tr>
+<tr><td>TR16</td><td>Giga Drain</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR38</td><td>Foul Play</td></tr>
+<tr><td>TR45</td><td>Focus Blast</td></tr>
+<tr><td>TR47</td><td>Nasty Plot</td></tr>
+<tr><td>TR49</td><td>Power Whip</td></tr>
+<tr><td>TR50</td><td>Trick Room</td></tr>
+</tbody></table>
 
                 
 
@@ -175,10 +174,6 @@
   <tr><td>Destiny Bond</td></tr>
   <tr><td>Disable</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <p><em>Not found in the wild.</em></p>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

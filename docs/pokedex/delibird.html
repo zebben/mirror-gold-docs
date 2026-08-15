@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Delibird</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/delibird.png' alt='delibird' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Insomnia_(Ability)' target='_blank'>Insomnia</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Hustle_(Ability)' target='_blank'>Hustle</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Insomnia</strong><span>Prevents the Pokémon from falling asleep.</span></div>
+<div class='ability-card'><strong>Hustle</strong><span>Boosts the Attack stat, but lowers accuracy.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,108 +76,95 @@
     </div>
     
             </div>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./delibird.html'>Delibird</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Bell Tower 4F</td><td>Walk</td><td>Night</td><td>30</td><td>20%</td></tr>
+<tr><td>Bell Tower 4F</td><td>Walk</td><td>Night</td><td>32</td><td>10%</td></tr>
+<tr><td>Bell Tower 4F</td><td>Walk</td><td>Night</td><td>33</td><td>5%</td></tr>
+<tr><td>Bell Tower 4F</td><td>Walk</td><td>Night</td><td>34</td><td>4%</td></tr>
+<tr><td>Ice Path 1F</td><td>Walk</td><td>Day</td><td>42</td><td>20%</td></tr>
+<tr><td>Ice Path 1F</td><td>Walk</td><td>Morning</td><td>42</td><td>20%</td></tr>
+<tr><td>Ice Path 1F</td><td>Walk</td><td>Night</td><td>42</td><td>20%</td></tr>
+<tr><td>Victory Road 2F</td><td>Walk</td><td>Night</td><td>48</td><td>20%</td></tr>
+<tr><td>Victory Road 2F</td><td>Walk</td><td>Night</td><td>49</td><td>4%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
   <tr><th>Level</th><th>Move</th></tr>
+  <tr><td>1</td><td>Gust</td></tr>
   <tr><td>1</td><td>Present</td></tr>
-  <tr><td>5</td><td>Gust</td></tr>
-  <tr><td>8</td><td>Icy Wind</td></tr>
-  <tr><td>25</td><td>Air Slash</td></tr>
-  <tr><td>28</td><td>Ice Beam</td></tr>
-  <tr><td>31</td><td>Water Pulse</td></tr>
-  <tr><td>33</td><td>Flip Turn</td></tr>
-  <tr><td>35</td><td>Roost</td></tr>
-  <tr><td>45</td><td>Hydro Pump</td></tr>
+  <tr><td>16</td><td>Icy Wind</td></tr>
+  <tr><td>25</td><td>Water Pulse</td></tr>
+  <tr><td>28</td><td>Flip Turn</td></tr>
+  <tr><td>34</td><td>Aurora Beam</td></tr>
+  <tr><td>40</td><td>Roost</td></tr>
+  <tr><td>49</td><td>Ice Beam</td></tr>
+  <tr><td>52</td><td>Air Slash</td></tr>
+  <tr><td>58</td><td>Hydro Pump</td></tr>
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Acrobatics</td></tr>
-  <tr><td>Aerial Ace</td></tr>
-  <tr><td>Agility</td></tr>
-  <tr><td>Air Cutter</td></tr>
-  <tr><td>Air Slash</td></tr>
-  <tr><td>Assurance</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Aurora Veil</td></tr>
-  <tr><td>Avalanche</td></tr>
-  <tr><td>Baton Pass</td></tr>
-  <tr><td>Blizzard</td></tr>
-  <tr><td>Body Slam</td></tr>
-  <tr><td>Bounce</td></tr>
-  <tr><td>Brave Bird</td></tr>
-  <tr><td>Brick Break</td></tr>
-  <tr><td>Brutal Swing</td></tr>
-  <tr><td>Captivate</td></tr>
-  <tr><td>Chilling Water</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Curse</td></tr>
-  <tr><td>Defog</td></tr>
-  <tr><td>Detect</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Drill Run</td></tr>
-  <tr><td>Dual Wingbeat</td></tr>
-  <tr><td>Endeavor</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Feather Dance</td></tr>
-  <tr><td>Fling</td></tr>
-  <tr><td>Fly</td></tr>
-  <tr><td>Focus Punch</td></tr>
-  <tr><td>Foul Play</td></tr>
-  <tr><td>Frost Breath</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Future Sight</td></tr>
-  <tr><td>Giga Impact</td></tr>
-  <tr><td>Gunk Shot</td></tr>
-  <tr><td>Hail</td></tr>
-  <tr><td>Haze</td></tr>
-  <tr><td>Headbutt</td></tr>
-  <tr><td>Helping Hand</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Hyper Beam</td></tr>
-  <tr><td>Ice Beam</td></tr>
-  <tr><td>Ice Punch</td></tr>
-  <tr><td>Ice Spinner</td></tr>
-  <tr><td>Icicle Spear</td></tr>
-  <tr><td>Icy Wind</td></tr>
-  <tr><td>Mega Kick</td></tr>
-  <tr><td>Mega Punch</td></tr>
-  <tr><td>Mud Slap</td></tr>
-  <tr><td>Natural Gift</td></tr>
-  <tr><td>Pluck</td></tr>
-  <tr><td>Power Up Punch</td></tr>
-  <tr><td>Present</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Quick Attack</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Recycle</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Reversal</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Seed Bomb</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Snowscape</td></tr>
-  <tr><td>Spikes</td></tr>
-  <tr><td>Steel Wing</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Swift</td></tr>
-  <tr><td>Tailwind</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Thief</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Trailblaze</td></tr>
-  <tr><td>Triple Axel</td></tr>
-  <tr><td>Water Pulse</td></tr>
-  <tr><td>Weather Ball</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM02</td><td>Fly</td></tr>
+<tr><td>TM00</td><td>Mega Punch</td></tr>
+<tr><td>TM001</td><td>Focus Punch</td></tr>
+<tr><td>TM007</td><td>Hail</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM013</td><td>Ice Beam</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM031</td><td>Brick Break</td></tr>
+<tr><td>TM032</td><td>Body Slam</td></tr>
+<tr><td>TM038</td><td>Helping Hand</td></tr>
+<tr><td>TM040</td><td>Aerial Ace</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM046</td><td>Thief</td></tr>
+<tr><td>TM047</td><td>Steel Wing</td></tr>
+<tr><td>TM056</td><td>Fling</td></tr>
+<tr><td>TM067</td><td>Recycle</td></tr>
+<tr><td>TM068</td><td>Future Sight</td></tr>
+<tr><td>TM072</td><td>Avalanche</td></tr>
+<tr><td>TM078</td><td>Captivate</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM088</td><td>Pluck</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM094</td><td>Seed Bomb</td></tr>
+<tr><td>TM103</td><td>Triple Axel</td></tr>
+<tr><td>TM106</td><td>Drill Run</td></tr>
+<tr><td>TM113</td><td>Tailwind</td></tr>
+<tr><td>TM114</td><td>Curse</td></tr>
+<tr><td>TM121</td><td>Baton Pass</td></tr>
+<tr><td>TM132</td><td>Haze</td></tr>
+<tr><td>TM145</td><td>Icicle Spear</td></tr>
+<tr><td>TM148</td><td>Weather Ball</td></tr>
+<tr><td>TM152</td><td>Dual Wingbeat</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR05</td><td>Hyper Beam</td></tr>
+<tr><td>TR06</td><td>Blizzard</td></tr>
+<tr><td>TR08</td><td>Giga Impact</td></tr>
+<tr><td>TR12</td><td>Agility</td></tr>
+<tr><td>TR14</td><td>Water Pulse</td></tr>
+<tr><td>TR19</td><td>Feather Dance</td></tr>
+<tr><td>TR20</td><td>Endeavor</td></tr>
+<tr><td>TR21</td><td>Reversal</td></tr>
+<tr><td>TR23</td><td>Spikes</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR29</td><td>Gunk Shot</td></tr>
+<tr><td>TR38</td><td>Foul Play</td></tr>
+<tr><td>TR46</td><td>Brave Bird</td></tr>
+</tbody></table>
 
                 
 
@@ -186,23 +181,6 @@
   <tr><td>Ice Punch</td></tr>
   <tr><td>Fake Out</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Bell Tower 4F</h4>
-<ul class='center'>
-  <li>Night</li>
-</ul>
-<h4 class='center'>Ice Path 1F</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-  <li>Night</li>
-</ul>
-<h4 class='center'>Victory Road 2F</h4>
-<ul class='center'>
-  <li>Night</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

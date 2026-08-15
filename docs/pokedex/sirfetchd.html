@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Sirfetchd</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/sirfetchd.png' alt='sirfetchd' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Steadfast_(Ability)' target='_blank'>Steadfast</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Scrappy_(Ability)' target='_blank'>Scrappy</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Steadfast</strong><span>Raises Speed each time the Pokémon flinches.</span></div>
+<div class='ability-card'><strong>Scrappy</strong><span>Enables moves to hit Ghost-type foes.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,80 +76,75 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves From</h3>
-    <ul class='center'>
-      <li>Evolves from <a href='farfetchd_galarian.html'>FARFETCHD_GALARIAN</a> via EVO_AMOUNT_OF_CRITICAL_HITS <strong>3</strong></li>
-      <li>Evolves from <a href='farfetchd_galarian.html'>FARFETCHD_GALARIAN</a> via level up to <strong>32</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon' href='./farfetchd_galarian.html'>Farfetchd Galarian</a><span class='evolution-arrow' title='EVO_AMOUNT_OF_CRITICAL_HITS 3'>→<small>EVO_AMOUNT_OF_CRITICAL_HITS 3</small></span><a class='evolution-mon current' href='./sirfetchd.html'>Sirfetchd</a></div>
+<div class='evolution-path'><a class='evolution-mon' href='./farfetchd_galarian.html'>Farfetchd Galarian</a><span class='evolution-arrow' title='level up to 32'>→<small>level up to 32</small></span><a class='evolution-mon current' href='./sirfetchd.html'>Sirfetchd</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 3</td><td>Walk</td><td>Day</td><td>67</td><td>20%</td></tr>
+<tr><td>Route 3</td><td>Walk</td><td>Morning</td><td>67</td><td>20%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
   <tr><th>Level</th><th>Move</th></tr>
-  <tr><td>1</td><td>First Impression</td></tr>
-  <tr><td>1</td><td>Fury Cutter</td></tr>
-  <tr><td>1</td><td>Iron Defense</td></tr>
   <tr><td>1</td><td>Leer</td></tr>
-  <tr><td>1</td><td>Peck</td></tr>
-  <tr><td>1</td><td>Sand Attack</td></tr>
-  <tr><td>15</td><td>Rock Smash</td></tr>
-  <tr><td>20</td><td>Brutal Swing</td></tr>
-  <tr><td>25</td><td>Detect</td></tr>
-  <tr><td>30</td><td>Knock Off</td></tr>
-  <tr><td>35</td><td>Defog</td></tr>
-  <tr><td>38</td><td>Roost</td></tr>
-  <tr><td>40</td><td>Brick Break</td></tr>
-  <tr><td>45</td><td>Swords Dance</td></tr>
-  <tr><td>48</td><td>Superpower</td></tr>
-  <tr><td>50</td><td>Slam</td></tr>
-  <tr><td>52</td><td>Poison Jab</td></tr>
-  <tr><td>55</td><td>Leaf Blade</td></tr>
-  <tr><td>58</td><td>Close Combat</td></tr>
-  <tr><td>65</td><td>Brave Bird</td></tr>
-  <tr><td>70</td><td>Meteor Assault</td></tr>
+  <tr><td>1</td><td>Rock Smash</td></tr>
+  <tr><td>7</td><td>Peck</td></tr>
+  <tr><td>10</td><td>Fury Cutter</td></tr>
+  <tr><td>13</td><td>Sand Attack</td></tr>
+  <tr><td>16</td><td>Defog</td></tr>
+  <tr><td>19</td><td>Detect</td></tr>
+  <tr><td>22</td><td>Brick Break</td></tr>
+  <tr><td>25</td><td>Iron Defense</td></tr>
+  <tr><td>28</td><td>Roost</td></tr>
+  <tr><td>31</td><td>Slam</td></tr>
+  <tr><td>34</td><td>Poison Jab</td></tr>
+  <tr><td>37</td><td>Brutal Swing</td></tr>
+  <tr><td>40</td><td>Swords Dance</td></tr>
+  <tr><td>43</td><td>Sacred Sword</td></tr>
+  <tr><td>46</td><td>Knock Off</td></tr>
+  <tr><td>49</td><td>Leaf Blade</td></tr>
+  <tr><td>52</td><td>Meteor Assault</td></tr>
+  <tr><td>55</td><td>First Impression</td></tr>
+  <tr><td>58</td><td>Superpower</td></tr>
+  <tr><td>61</td><td>Close Combat</td></tr>
+  <tr><td>64</td><td>Brave Bird</td></tr>
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Assurance</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Body Slam</td></tr>
-  <tr><td>Brave Bird</td></tr>
-  <tr><td>Brick Break</td></tr>
-  <tr><td>Brutal Swing</td></tr>
-  <tr><td>Close Combat</td></tr>
-  <tr><td>Counter</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Focus Energy</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Fury Cutter</td></tr>
-  <tr><td>Helping Hand</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Iron Defense</td></tr>
-  <tr><td>Leaf Blade</td></tr>
-  <tr><td>Night Slash</td></tr>
-  <tr><td>Poison Jab</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Retaliate</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Revenge</td></tr>
-  <tr><td>Rock Smash</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Snore</td></tr>
-  <tr><td>Solar Blade</td></tr>
-  <tr><td>Steel Wing</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Sunny Day</td></tr>
-  <tr><td>Superpower</td></tr>
-  <tr><td>Swords Dance</td></tr>
-  <tr><td>Throat Chop</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Work Up</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM06</td><td>Rock Smash</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM011</td><td>Sunny Day</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM031</td><td>Brick Break</td></tr>
+<tr><td>TM032</td><td>Body Slam</td></tr>
+<tr><td>TM038</td><td>Helping Hand</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM047</td><td>Steel Wing</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM084</td><td>Poison Jab</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM093</td><td>Leaf Blade</td></tr>
+<tr><td>TM147</td><td>Solar Blade</td></tr>
+<tr><td>TR00</td><td>Swords Dance</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR36</td><td>Iron Defense</td></tr>
+<tr><td>TR39</td><td>Superpower</td></tr>
+<tr><td>TR41</td><td>Work Up</td></tr>
+<tr><td>TR42</td><td>Close Combat</td></tr>
+<tr><td>TR46</td><td>Brave Bird</td></tr>
+</tbody></table>
 
                 
 
@@ -160,14 +163,6 @@
   <tr><td>Simple Beam</td></tr>
   <tr><td>Sky Attack</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Route 3</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Clamperl</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/clamperl.png' alt='clamperl' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,9 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Battle Armor_(Ability)' target='_blank'>Battle Armor</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Battle Armor</strong><span>The Pokémon is protected against critical hits.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,13 +75,26 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='huntail.html'>HUNTAIL</a> via held item (day level 25+) <strong>Deep Sea Tooth</strong></li>
-      <li>Evolves into <a href='huntail.html'>HUNTAIL</a> via held item (night level 25+) <strong>Deep Sea Tooth</strong></li>
-      <li>Evolves into <a href='gorebyss.html'>GOREBYSS</a> via held item (day level 25+) <strong>Deep Sea Scale</strong></li>
-      <li>Evolves into <a href='gorebyss.html'>GOREBYSS</a> via held item (night level 25+) <strong>Deep Sea Scale</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./clamperl.html'>Clamperl</a><span class='evolution-arrow' title='held item (day level 25+) Deep Sea Tooth'>→<small>held item (day level 25+) Deep Sea Tooth</small></span><a class='evolution-mon' href='./huntail.html'>Huntail</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./clamperl.html'>Clamperl</a><span class='evolution-arrow' title='held item (night level 25+) Deep Sea Tooth'>→<small>held item (night level 25+) Deep Sea Tooth</small></span><a class='evolution-mon' href='./huntail.html'>Huntail</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./clamperl.html'>Clamperl</a><span class='evolution-arrow' title='held item (day level 25+) Deep Sea Scale'>→<small>held item (day level 25+) Deep Sea Scale</small></span><a class='evolution-mon' href='./gorebyss.html'>Gorebyss</a></div>
+<div class='evolution-path'><a class='evolution-mon current' href='./clamperl.html'>Clamperl</a><span class='evolution-arrow' title='held item (night level 25+) Deep Sea Scale'>→<small>held item (night level 25+) Deep Sea Scale</small></span><a class='evolution-mon' href='./gorebyss.html'>Gorebyss</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>New Bark Town</td><td>Old Rod</td><td>Any</td><td>10–14</td><td>15%</td></tr>
+<tr><td>New Bark Town</td><td>Good Rod</td><td>Any</td><td>30–34</td><td>30%</td></tr>
+<tr><td>Route 44</td><td>Good Rod</td><td>Any</td><td>40–44</td><td>15%</td></tr>
+<tr><td>Route 44</td><td>Old Rod</td><td>Any</td><td>40–44</td><td>15%</td></tr>
+<tr><td>Route 22</td><td>Old Rod</td><td>Any</td><td>50–55</td><td>25%</td></tr>
+<tr><td>Route 22</td><td>Good Rod</td><td>Any</td><td>55–60</td><td>15%</td></tr>
+<tr><td>Route 22</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>Route 44</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+<tr><td>New Bark Town</td><td>Night Fishing</td><td>Any</td><td>—</td><td>—</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -87,40 +107,33 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Blizzard</td></tr>
-  <tr><td>Body Slam</td></tr>
-  <tr><td>Brine</td></tr>
-  <tr><td>Captivate</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Dive</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Hail</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Ice Beam</td></tr>
-  <tr><td>Natural Gift</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Scald</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Surf</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Waterfall</td></tr>
-  <tr><td>Water Gun</td></tr>
-  <tr><td>Water Pulse</td></tr>
-  <tr><td>Whirlpool</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM03</td><td>Surf</td></tr>
+<tr><td>HM05</td><td>Whirlpool</td></tr>
+<tr><td>HM07</td><td>Waterfall</td></tr>
+<tr><td>TM006</td><td>Scald</td></tr>
+<tr><td>TM007</td><td>Hail</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM013</td><td>Ice Beam</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM032</td><td>Body Slam</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM055</td><td>Brine</td></tr>
+<tr><td>TM078</td><td>Captivate</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR06</td><td>Blizzard</td></tr>
+<tr><td>TR14</td><td>Water Pulse</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+</tbody></table>
 
                 
 
@@ -136,27 +149,6 @@
   <tr><td>Aqua Ring</td></tr>
   <tr><td>Muddy Water</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Route 22</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>NightFish</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>Route 44</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>NightFish</li>
-  <li>OldRod</li>
-</ul>
-<h4 class='center'>New Bark Town</h4>
-<ul class='center'>
-  <li>GoodRod</li>
-  <li>NightFish</li>
-  <li>OldRod</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

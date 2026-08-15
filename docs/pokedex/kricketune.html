@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Kricketune</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/kricketune.png' alt='kricketune' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,10 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Adaptability_(Ability)' target='_blank'>Adaptability</a> / <a href='https://bulbapedia.bulbagarden.net/wiki/Technician_(Ability)' target='_blank'>Technician</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Adaptability</strong><span>Powers up moves of the same type.</span></div>
+<div class='ability-card'><strong>Technician</strong><span>Powers up the Pokémon’s weaker moves.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -28,14 +36,14 @@
     <div class="stat-bar">
         <span class="label">HP</span>
         <div class="bar-bg">
-            <div class="bar-fill" style="width: 66%; background-color: limegreen;">120</div>
+            <div class="bar-fill" style="width: 55%; background-color: yellow;">100</div>
         </div>
     </div>
     
     <div class="stat-bar">
         <span class="label">Attack</span>
         <div class="bar-bg">
-            <div class="bar-fill" style="width: 8%; background-color: red;">15</div>
+            <div class="bar-fill" style="width: 19%; background-color: red;">35</div>
         </div>
     </div>
     
@@ -68,97 +76,85 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves From</h3>
-    <ul class='center'>
-      <li>Evolves from <a href='kricketot.html'>KRICKETOT</a> via level up to <strong>32</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon' href='./kricketot.html'>Kricketot</a><span class='evolution-arrow' title='level up to 32'>→<small>level up to 32</small></span><a class='evolution-mon current' href='./kricketune.html'>Kricketune</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 7</td><td>Walk</td><td>Night</td><td>58</td><td>10%</td></tr>
+</tbody></table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
   <tr><th>Level</th><th>Move</th></tr>
-  <tr><td>1</td><td>Bide</td></tr>
   <tr><td>1</td><td>Growl</td></tr>
-  <tr><td>12</td><td>Bug Bite</td></tr>
-  <tr><td>14</td><td>Absorb</td></tr>
-  <tr><td>15</td><td>Quick Attack</td></tr>
-  <tr><td>18</td><td>Sing</td></tr>
-  <tr><td>22</td><td>Focus Energy</td></tr>
-  <tr><td>24</td><td>Covet</td></tr>
-  <tr><td>26</td><td>Sing</td></tr>
-  <tr><td>30</td><td>Bug Buzz</td></tr>
-  <tr><td>30</td><td>Hyper Voice</td></tr>
-  <tr><td>32</td><td>Rapid Spin</td></tr>
-  <tr><td>34</td><td>Screech</td></tr>
-  <tr><td>38</td><td>Taunt</td></tr>
-  <tr><td>40</td><td>U Turn</td></tr>
-  <tr><td>42</td><td>Snarl</td></tr>
-  <tr><td>44</td><td>Tailwind</td></tr>
-  <tr><td>46</td><td>Focus Blast</td></tr>
-  <tr><td>50</td><td>Perish Song</td></tr>
-  <tr><td>55</td><td>Giga Drain</td></tr>
+  <tr><td>1</td><td>Struggle Bug</td></tr>
+  <tr><td>4</td><td>Bide</td></tr>
+  <tr><td>7</td><td>Absorb</td></tr>
+  <tr><td>10</td><td>Rapid Spin</td></tr>
+  <tr><td>13</td><td>Quick Attack</td></tr>
+  <tr><td>16</td><td>Focus Energy</td></tr>
+  <tr><td>19</td><td>Bug Bite</td></tr>
+  <tr><td>22</td><td>Screech</td></tr>
+  <tr><td>25</td><td>Taunt</td></tr>
+  <tr><td>28</td><td>Giga Drain</td></tr>
+  <tr><td>31</td><td>Sing</td></tr>
+  <tr><td>34</td><td>Covet</td></tr>
+  <tr><td>37</td><td>U Turn</td></tr>
+  <tr><td>40</td><td>Snarl</td></tr>
+  <tr><td>43</td><td>Tailwind</td></tr>
+  <tr><td>46</td><td>Perish Song</td></tr>
+  <tr><td>49</td><td>Hyper Voice</td></tr>
+  <tr><td>52</td><td>Bug Buzz</td></tr>
+  <tr><td>58</td><td>Focus Blast</td></tr>
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Aerial Ace</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Baton Pass</td></tr>
-  <tr><td>Brick Break</td></tr>
-  <tr><td>Bug Bite</td></tr>
-  <tr><td>Bug Buzz</td></tr>
-  <tr><td>Captivate</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Cut</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Echoed Voice</td></tr>
-  <tr><td>Endeavor</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>False Swipe</td></tr>
-  <tr><td>Flash</td></tr>
-  <tr><td>Fly</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Fury Cutter</td></tr>
-  <tr><td>Giga Drain</td></tr>
-  <tr><td>Giga Impact</td></tr>
-  <tr><td>Helping Hand</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Hone Claws</td></tr>
-  <tr><td>Hyper Beam</td></tr>
-  <tr><td>Hyper Voice</td></tr>
-  <tr><td>Infestation</td></tr>
-  <tr><td>Knock Off</td></tr>
-  <tr><td>Leech Life</td></tr>
-  <tr><td>Lunge</td></tr>
-  <tr><td>Natural Gift</td></tr>
-  <tr><td>Pounce</td></tr>
-  <tr><td>Power Up Punch</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Rock Smash</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Silver Wind</td></tr>
-  <tr><td>Skitter Smack</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Strength</td></tr>
-  <tr><td>Struggle Bug</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Sunny Day</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Swords Dance</td></tr>
-  <tr><td>Take Down</td></tr>
-  <tr><td>Taunt</td></tr>
-  <tr><td>Tera Blast</td></tr>
-  <tr><td>Throat Chop</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>Trailblaze</td></tr>
-  <tr><td>Uproar</td></tr>
-  <tr><td>X Scissor</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM01</td><td>Cut</td></tr>
+<tr><td>HM02</td><td>Fly</td></tr>
+<tr><td>HM04</td><td>Strength</td></tr>
+<tr><td>HM06</td><td>Rock Smash</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM011</td><td>Sunny Day</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM022</td><td>Leech Life</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM031</td><td>Brick Break</td></tr>
+<tr><td>TM038</td><td>Helping Hand</td></tr>
+<tr><td>TM040</td><td>Aerial Ace</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM054</td><td>False Swipe</td></tr>
+<tr><td>TM062</td><td>Silver Wind</td></tr>
+<tr><td>TM070</td><td>Flash</td></tr>
+<tr><td>TM078</td><td>Captivate</td></tr>
+<tr><td>TM081</td><td>X Scissor</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TM102</td><td>Bug Buzz</td></tr>
+<tr><td>TM121</td><td>Baton Pass</td></tr>
+<tr><td>TM139</td><td>Knock Off</td></tr>
+<tr><td>TM140</td><td>Bug Bite</td></tr>
+<tr><td>TM143</td><td>Lunge</td></tr>
+<tr><td>TR00</td><td>Swords Dance</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR05</td><td>Hyper Beam</td></tr>
+<tr><td>TR08</td><td>Giga Impact</td></tr>
+<tr><td>TR16</td><td>Giga Drain</td></tr>
+<tr><td>TR20</td><td>Endeavor</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR32</td><td>Uproar</td></tr>
+<tr><td>TR33</td><td>Hyper Voice</td></tr>
+<tr><td>TR37</td><td>Taunt</td></tr>
+</tbody></table>
 
                 
 
@@ -167,13 +163,6 @@
   <tr><th>Egg Move</th></tr>
   <tr><td>(none)</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Route 7</h4>
-<ul class='center'>
-  <li>Night</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         

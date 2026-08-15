@@ -6,8 +6,13 @@
             <link rel='stylesheet' type='text/css' href='../style.css'>
           </head>
           <body>
-            <h1 class='center'>Mirror Gold Pokédex</h1>
-            <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
+            <nav class='wiki-nav site-nav' aria-label='Wiki sections'>
+              <a class='nav-button' href='../index.html'>Home</a><a class='nav-button active' href='./index.html'>Species</a>
+              <a class='nav-button' href='../trainers/index.html'>Trainers</a><a class='nav-button' href='../items/index.html'>Items</a>
+              <a class='nav-button' href='../gameplay-changes/index.html'>Gameplay Changes</a>
+            </nav>
+            <nav class='species-subnav' aria-label='Species views'><a href='./index.html'>Dex</a><a href='./encounters.html'>Location</a></nav>
+            <div class='center contextual-back'><a href='./index.html'>← Back to Pokédex Index</a></div>
             <h2 class='center'>Taillow</h2>
             <div class='sprite info-line'><div class='sprite-frame'><img src='sprites/taillow.png' alt='taillow' class='sprite crop'/></div></div>
             <div class='center info-line'>
@@ -20,7 +25,9 @@
               <strong>Abilities:</strong>
             </div>
             <div class='center info-line'>
-              <a href='https://bulbapedia.bulbagarden.net/wiki/Guts_(Ability)' target='_blank'>Guts</a>
+              <div class='ability-list'>
+<div class='ability-card'><strong>Guts</strong><span>Boosts Attack if there is a status problem.</span></div>
+</div>
             </div>
             <h3 class='center'>Base Stats</h3>
             <div class='center info-line'>
@@ -68,10 +75,23 @@
     </div>
     
             </div>
-    <h3 class='center'>Evolves To</h3>
-    <ul class='center'>
-      <li>Evolves into <a href='swellow.html'>SWELLOW</a> via level up to <strong>32</strong></li>
-    </ul>
+<h3 class='center'>Evolution Line</h3>
+<div class='evolution-lines'>
+<div class='evolution-path'><a class='evolution-mon current' href='./taillow.html'>Taillow</a><span class='evolution-arrow' title='level up to 32'>→<small>level up to 32</small></span><a class='evolution-mon' href='./swellow.html'>Swellow</a></div>
+</div>
+            <h3 class='center'>Wild Locations</h3>
+            <table class='encounter-table'>
+<thead><tr><th>Location</th><th>Method</th><th>Time</th><th>Level</th><th>Odds</th></tr></thead><tbody>
+<tr><td>Route 29</td><td>Walk</td><td>Day</td><td>3</td><td>20%</td></tr>
+<tr><td>Route 29</td><td>Walk</td><td>Morning</td><td>3</td><td>20%</td></tr>
+</tbody></table>
+
+            <h3 class='center'>Safari Zone Encounters</h3>
+<table>
+  <tr><th>Location</th><th>Method</th><th>Availability</th><th>Time</th><th>Level</th><th>Odds</th><th>Requirements</th></tr>
+  <tr><td>Desert</td><td>Walk</td><td>Normal</td><td>Morning, Day, Night</td><td>17</td><td>10%</td><td>—</td></tr>
+  <tr><td>Desert</td><td>Walk</td><td>Bonus</td><td>Morning, Day, Night</td><td>41</td><td>10%</td><td>6 Peak objects</td></tr>
+</table>
 
                 <h3 class='center'>Level-Up Moves</h3>
                 <table>
@@ -90,41 +110,32 @@
 </table>
 
                 <h3 class='center'>Machine Moves</h3>
-<table>
-  <tr><th>Machine Move</th></tr>
-  <tr><td>Aerial Ace</td></tr>
-  <tr><td>Attract</td></tr>
-  <tr><td>Captivate</td></tr>
-  <tr><td>Confide</td></tr>
-  <tr><td>Defog</td></tr>
-  <tr><td>Double Team</td></tr>
-  <tr><td>Echoed Voice</td></tr>
-  <tr><td>Endure</td></tr>
-  <tr><td>Facade</td></tr>
-  <tr><td>Fly</td></tr>
-  <tr><td>Frustration</td></tr>
-  <tr><td>Hidden Power</td></tr>
-  <tr><td>Natural Gift</td></tr>
-  <tr><td>Peck</td></tr>
-  <tr><td>Pluck</td></tr>
-  <tr><td>Protect</td></tr>
-  <tr><td>Quick Attack</td></tr>
-  <tr><td>Rain Dance</td></tr>
-  <tr><td>Rest</td></tr>
-  <tr><td>Return</td></tr>
-  <tr><td>Roost</td></tr>
-  <tr><td>Round</td></tr>
-  <tr><td>Secret Power</td></tr>
-  <tr><td>Sleep Talk</td></tr>
-  <tr><td>Steel Wing</td></tr>
-  <tr><td>Substitute</td></tr>
-  <tr><td>Sunny Day</td></tr>
-  <tr><td>Swagger</td></tr>
-  <tr><td>Thief</td></tr>
-  <tr><td>Toxic</td></tr>
-  <tr><td>U Turn</td></tr>
-  <tr><td>Work Up</td></tr>
-</table>
+<table><thead><tr><th>Machine</th><th>Move</th></tr></thead><tbody>
+<tr><td>HM02</td><td>Fly</td></tr>
+<tr><td>TM010</td><td>Hidden Power</td></tr>
+<tr><td>TM011</td><td>Sunny Day</td></tr>
+<tr><td>TM017</td><td>Protect</td></tr>
+<tr><td>TM018</td><td>Rain Dance</td></tr>
+<tr><td>TM021</td><td>Frustration</td></tr>
+<tr><td>TM027</td><td>Return</td></tr>
+<tr><td>TM040</td><td>Aerial Ace</td></tr>
+<tr><td>TM042</td><td>Facade</td></tr>
+<tr><td>TM043</td><td>Secret Power</td></tr>
+<tr><td>TM044</td><td>Rest</td></tr>
+<tr><td>TM045</td><td>Attract</td></tr>
+<tr><td>TM046</td><td>Thief</td></tr>
+<tr><td>TM047</td><td>Steel Wing</td></tr>
+<tr><td>TM051</td><td>Roost</td></tr>
+<tr><td>TM078</td><td>Captivate</td></tr>
+<tr><td>TM082</td><td>Sleep Talk</td></tr>
+<tr><td>TM087</td><td>Swagger</td></tr>
+<tr><td>TM088</td><td>Pluck</td></tr>
+<tr><td>TM089</td><td>U Turn</td></tr>
+<tr><td>TM090</td><td>Substitute</td></tr>
+<tr><td>TR02</td><td>Toxic</td></tr>
+<tr><td>TR26</td><td>Endure</td></tr>
+<tr><td>TR41</td><td>Work Up</td></tr>
+</tbody></table>
 
                 
 
@@ -140,14 +151,6 @@
   <tr><td>Whirlwind</td></tr>
   <tr><td>Brave Bird</td></tr>
 </table>
-
-            <h3 class='center'>Wild Locations</h3>
-            <h4 class='center'>Route 29</h4>
-<ul class='center'>
-  <li>Day</li>
-  <li>Morning</li>
-</ul>
-                <h3 class='center'><a href='./index.html'>Back to Pokédex Index</a></h3>
-          </body>
+                      </body>
         </html>
         
