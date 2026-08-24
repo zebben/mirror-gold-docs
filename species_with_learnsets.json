@@ -109248,6 +109248,10 @@
           "Move": "MOVE_HEAT_WAVE"
         },
         {
+          "Level": 55,
+          "Move": "MOVE_BEAT_UP"
+        },
+        {
           "Level": 64,
           "Move": "MOVE_EXPLOSION"
         }
@@ -137442,9 +137446,9 @@
         "baseStats": {
           "hp": 99,
           "attack": 55,
-          "defense": 99,
-          "spAttack": 115,
-          "spDefense": 79,
+          "defense": 69,
+          "spAttack": 125,
+          "spDefense": 99,
           "speed": 83
         },
         "types": [
@@ -137474,7 +137478,7 @@
           "EGG_GROUP_GRASS"
         ],
         "abilities": [
-          "ABILITY_WIND_RIDER",
+          "ABILITY_SHED_SKIN",
           "ABILITY_HARVEST"
         ],
         "safariFleeRate": 0,
@@ -137562,8 +137566,12 @@
           "Move": "MOVE_AIR_SLASH"
         },
         {
+          "Level": 45,
+          "Move": "MOVE_LEAF_STORM"
+        },
+        {
           "Level": 46,
-          "Move": "MOVE_WIDE_GUARD"
+          "Move": "MOVE_RAZOR_WIND"
         },
         {
           "Level": 49,
@@ -137584,6 +137592,10 @@
         {
           "Level": 61,
           "Move": "MOVE_SOLAR_BEAM"
+        },
+        {
+          "Level": 63,
+          "Move": "MOVE_HURRICANE"
         }
       ],
       "MachineMoves": [
@@ -199599,6 +199611,10 @@
         },
         {
           "Level": 52,
+          "Move": "MOVE_BEAT_UP"
+        },
+        {
+          "Level": 55,
           "Move": "MOVE_MEMENTO"
         }
       ],
