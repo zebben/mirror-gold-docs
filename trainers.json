@@ -6427,7 +6427,7 @@
           "MOVE_SUCKER_PUNCH",
           "MOVE_LOW_KICK"
         ],
-        "ability": "ABILITY_DEFIANT",
+        "ability": "ABILITY_SUPREME_OVERLORD",
         "setIvs": [
           31,
           31,
@@ -8395,7 +8395,7 @@
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 72,
         "species": "SPECIES_SEVIPER",
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "moves": [
           "MOVE_U_TURN",
           "MOVE_FIRE_FANG",
@@ -8430,7 +8430,7 @@
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 72,
         "species": "SPECIES_GENGAR",
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_FOCUS_SASH",
         "moves": [
           "MOVE_HAZE",
           "MOVE_SHADOW_BALL",
@@ -8463,16 +8463,16 @@
       {
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 72,
-        "species": "SPECIES_GRAFAIAI",
-        "item": "ITEM_FOCUS_SASH",
+        "level": 73,
+        "species": "SPECIES_AROMATISSE",
+        "item": "ITEM_SITRUS_BERRY",
         "moves": [
-          "MOVE_GUNK_SHOT",
-          "MOVE_KNOCK_OFF",
-          "MOVE_TAUNT",
-          "MOVE_PROTECT"
+          "MOVE_SLUDGE_BOMB",
+          "MOVE_MOONBLAST",
+          "MOVE_HELPING_HAND",
+          "MOVE_CALM_MIND"
         ],
-        "ability": "ABILITY_UNBURDEN",
+        "ability": "ABILITY_MAGIC_BOUNCE",
         "setIvs": [
           31,
           31,
@@ -8489,7 +8489,7 @@
           84,
           84
         ],
-        "nature": "NATURE_JOLLY",
+        "nature": "NATURE_MODEST",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -8625,10 +8625,10 @@
   },
   "87": {
     "TrainerId": 87,
-    "Name": "Mickey",
+    "Name": "Regina",
     "Data": {
-      "trainerType": "TRAINER_DATA_TYPE_MOVES",
-      "trainerClass": "TRAINERCLASS_SAGE",
+      "trainerType": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS",
+      "trainerClass": "TRAINERCLASS_LASS",
       "items": [
         "ITEM_NONE",
         "ITEM_NONE",
@@ -8640,30 +8640,72 @@
     },
     "Party": [
       {
-        "ivs": 0,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 22,
-        "species": "SPECIES_HAUNTER",
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
+        "level": 10,
+        "species": "SPECIES_SWINUB",
+        "item": "ITEM_BRIGHT_POWDER",
         "moves": [
-          "MOVE_SPITE",
-          "MOVE_CURSE",
-          "MOVE_PAYBACK",
-          "MOVE_CONFUSE_RAY"
+          "MOVE_MUD_SLAP",
+          "MOVE_POWDER_SNOW",
+          "MOVE_NONE",
+          "MOVE_NONE"
         ],
+        "ability": "ABILITY_WONDER_GUARD",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "nature": "NATURE_MODEST",
+        "shinyLock": 1,
+        "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 0
       },
       {
-        "ivs": 0,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 22,
-        "species": "SPECIES_HAUNTER",
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
+        "level": 10,
+        "species": "SPECIES_SLAKOTH",
+        "item": "ITEM_FOCUS_BAND",
         "moves": [
-          "MOVE_SPITE",
-          "MOVE_CURSE",
-          "MOVE_PAYBACK",
-          "MOVE_CONFUSE_RAY"
+          "MOVE_QUICK_ATTACK",
+          "MOVE_NONE",
+          "MOVE_NONE",
+          "MOVE_NONE"
         ],
+        "ability": "ABILITY_HUGE_POWER",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 1,
+        "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 1
       }
@@ -19475,6 +19517,41 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 66,
+        "species": "SPECIES_MEDICHAM",
+        "item": "ITEM_CHARIZARDITE_X",
+        "moves": [
+          "MOVE_PROTECT",
+          "MOVE_HIGH_JUMP_KICK",
+          "MOVE_ICE_PUNCH",
+          "MOVE_THUNDER_PUNCH"
+        ],
+        "ability": "ABILITY_CLEAR_BODY",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_JOLLY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 2
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 65,
         "species": "SPECIES_HYPNO",
         "item": "ITEM_SITRUS_BERRY",
@@ -19505,7 +19582,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 2
+        "partySlot": 3
       }
     ],
     "Text": [
@@ -19704,6 +19781,41 @@
         "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 2
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 62,
+        "species": "SPECIES_AMPHAROS",
+        "item": "ITEM_CHARIZARDITE_X",
+        "moves": [
+          "MOVE_THUNDERBOLT",
+          "MOVE_DRAGON_PULSE",
+          "MOVE_POWER_GEM",
+          "MOVE_FOCUS_BLAST"
+        ],
+        "ability": "ABILITY_FLUFFY",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_MODEST",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 3
       }
     ],
     "Text": [
@@ -20700,7 +20812,7 @@
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 62,
         "species": "SPECIES_DRAGONITE",
-        "item": "ITEM_CHOICE_SPECS",
+        "item": "ITEM_CHARIZARDITE_X",
         "moves": [
           "MOVE_DRAGON_PULSE",
           "MOVE_ICE_BEAM",
@@ -21158,7 +21270,7 @@
           "MOVE_PROTECT",
           "MOVE_SWORDS_DANCE"
         ],
-        "ability": "ABILITY_DEFIANT",
+        "ability": "ABILITY_SUPREME_OVERLORD",
         "setIvs": [
           31,
           31,
@@ -21894,41 +22006,6 @@
       {
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 74,
-        "species": "SPECIES_GOLEM",
-        "item": "ITEM_ROCKY_HELMET",
-        "moves": [
-          "MOVE_HAMMER_ARM",
-          "MOVE_PROTECT",
-          "MOVE_ROCK_SLIDE",
-          "MOVE_EARTHQUAKE"
-        ],
-        "ability": "ABILITY_FILTER",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_ADAMANT",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 0
-      },
-      {
-        "ivs": 200,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 73,
         "species": "SPECIES_GIGALITH",
         "item": "ITEM_SMOOTH_ROCK",
@@ -21948,18 +22025,18 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_IMPISH",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 1
+        "partySlot": 0
       },
       {
         "ivs": 200,
@@ -21983,54 +22060,19 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
         "speciesExpression": "MON_WITH_FORM(SPECIES_LYCANROC, 2)",
-        "partySlot": 2
-      },
-      {
-        "ivs": 200,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 73,
-        "species": "SPECIES_STEELIX",
-        "item": "ITEM_CHARIZARDITE_X",
-        "moves": [
-          "MOVE_PROTECT",
-          "MOVE_HEADLONG_RUSH",
-          "MOVE_WILD_CHARGE",
-          "MOVE_BODY_PRESS"
-        ],
-        "ability": "ABILITY_ROCK_HEAD",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_ADAMANT",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 3
+        "partySlot": 1
       },
       {
         "ivs": 200,
@@ -22054,18 +22096,18 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_ADAMANT",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 4
+        "partySlot": 2
       },
       {
         "ivs": 200,
@@ -22089,18 +22131,88 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
         "speciesExpression": "MON_WITH_FORM(SPECIES_ARCANINE, 1)",
+        "partySlot": 3
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 73,
+        "species": "SPECIES_DIANCIE",
+        "item": "ITEM_CHARIZARDITE_X",
+        "moves": [
+          "MOVE_DIAMOND_STORM",
+          "MOVE_MOONBLAST",
+          "MOVE_SUBSTITUTE",
+          "MOVE_PROTECT"
+        ],
+        "ability": "ABILITY_CLEAR_BODY",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_HASTY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 4
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 73,
+        "species": "SPECIES_STEELIX",
+        "item": "ITEM_ROCKY_HELMET",
+        "moves": [
+          "MOVE_PROTECT",
+          "MOVE_HEADLONG_RUSH",
+          "MOVE_WILD_CHARGE",
+          "MOVE_BODY_PRESS"
+        ],
+        "ability": "ABILITY_ROCK_HEAD",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
         "partySlot": 5
       }
     ],
@@ -22157,12 +22269,12 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_BOLD",
         "shinyLock": 0,
@@ -22192,12 +22304,12 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_MODEST",
         "shinyLock": 0,
@@ -22207,17 +22319,17 @@
       },
       {
         "ivs": 200,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 70,
-        "species": "SPECIES_CRAWDAUNT",
-        "item": "ITEM_FOCUS_SASH",
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
+        "level": 38,
+        "species": "SPECIES_GOODRA",
+        "item": "ITEM_TOXIC_ORB",
         "moves": [
-          "MOVE_KNOCK_OFF",
-          "MOVE_RAZOR_SHELL",
-          "MOVE_CLOSE_COMBAT",
-          "MOVE_ENDEAVOR"
+          "MOVE_GUNK_SHOT",
+          "MOVE_DRACO_METEOR",
+          "MOVE_THUNDER",
+          "MOVE_AQUA_TAIL"
         ],
-        "ability": "ABILITY_ADAPTABILITY",
+        "ability": "ABILITY_POISON_HEAL",
         "setIvs": [
           31,
           31,
@@ -22227,14 +22339,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_JOLLY",
+        "nature": "NATURE_QUIET",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -22244,43 +22356,8 @@
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 70,
-        "species": "SPECIES_ARMALDO",
-        "item": "ITEM_LUM_BERRY",
-        "moves": [
-          "MOVE_SWORDS_DANCE",
-          "MOVE_HIGH_HORSEPOWER",
-          "MOVE_X_SCISSOR",
-          "MOVE_LIQUIDATION"
-        ],
-        "ability": "ABILITY_SWIFT_SWIM",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_ADAMANT",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 3
-      },
-      {
-        "ivs": 200,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 70,
         "species": "SPECIES_SAMUROTT_HISUIAN",
-        "item": "ITEM_MYSTIC_WATER",
+        "item": "ITEM_LIFE_ORB",
         "moves": [
           "MOVE_SUCKER_PUNCH",
           "MOVE_FLIP_TURN",
@@ -22297,18 +22374,54 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
         "speciesExpression": "MON_WITH_FORM(SPECIES_SAMUROTT, 1)",
+        "partySlot": 3
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 70,
+        "species": "SPECIES_URSHIFU_RAPID_STRIKE",
+        "item": "ITEM_MYSTIC_WATER",
+        "moves": [
+          "MOVE_SURGING_STRIKES",
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_AQUA_JET",
+          "MOVE_SWORDS_DANCE"
+        ],
+        "ability": "ABILITY_UNSEEN_FIST",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "speciesExpression": "MON_WITH_FORM(SPECIES_URSHIFU, 1)",
         "partySlot": 4
       },
       {
@@ -22316,12 +22429,12 @@
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 73,
         "species": "SPECIES_STARMIE",
-        "item": "ITEM_LIFE_ORB",
+        "item": "ITEM_CHARIZARDITE_X",
         "moves": [
-          "MOVE_WATER_PULSE",
+          "MOVE_HYDRO_PUMP",
           "MOVE_RECOVER",
-          "MOVE_PSYCHIC",
-          "MOVE_POWER_GEM"
+          "MOVE_ZEN_HEADBUTT",
+          "MOVE_ROCK_SLIDE"
         ],
         "ability": "ABILITY_NATURAL_CURE",
         "setIvs": [
@@ -22333,14 +22446,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_TIMID",
+        "nature": "NATURE_HASTY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -22381,122 +22494,16 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 65,
-        "species": "SPECIES_RAICHU",
-        "item": "ITEM_MAGNET",
-        "moves": [
-          "MOVE_NASTY_PLOT",
-          "MOVE_THUNDERBOLT",
-          "MOVE_SURF",
-          "MOVE_FOCUS_BLAST"
-        ],
-        "ability": "ABILITY_COMPETITIVE",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_TIMID",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 0
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 64,
-        "species": "SPECIES_ROTOM_WASH",
-        "item": "ITEM_LEFTOVERS",
+        "species": "SPECIES_ZERAORA",
+        "item": "ITEM_ASSAULT_VEST",
         "moves": [
-          "MOVE_THUNDERBOLT",
-          "MOVE_PAIN_SPLIT",
-          "MOVE_WILL_O_WISP",
-          "MOVE_HYDRO_PUMP"
-        ],
-        "ability": "ABILITY_LEVITATE",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_TIMID",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "speciesExpression": "MON_WITH_FORM(SPECIES_ROTOM, 2)",
-        "partySlot": 1
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 64,
-        "species": "SPECIES_ZEBSTRIKA",
-        "item": "ITEM_SITRUS_BERRY",
-        "moves": [
-          "MOVE_WILD_CHARGE",
-          "MOVE_FLARE_BLITZ",
-          "MOVE_STOMP",
-          "MOVE_PROTECT"
-        ],
-        "ability": "ABILITY_SAP_SIPPER",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_JOLLY",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 2
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 63,
-        "species": "SPECIES_EELEKTROSS",
-        "item": "ITEM_LUM_BERRY",
-        "moves": [
+          "MOVE_FAKE_OUT",
+          "MOVE_PLASMA_FISTS",
           "MOVE_CLOSE_COMBAT",
-          "MOVE_WILD_CHARGE",
-          "MOVE_ZEN_HEADBUTT",
-          "MOVE_LEECH_LIFE"
+          "MOVE_SNARL"
         ],
-        "ability": "ABILITY_LEVITATE",
+        "ability": "ABILITY_VOLT_ABSORB",
         "setIvs": [
           31,
           31,
@@ -22506,18 +22513,18 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_ADAMANT",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 3
+        "partySlot": 0
       },
       {
         "ivs": 255,
@@ -22541,18 +22548,89 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_MODEST",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 4
+        "partySlot": 1
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 64,
+        "species": "SPECIES_ARCHALUDON",
+        "item": "ITEM_POWER_HERB",
+        "moves": [
+          "MOVE_IRON_DEFENSE",
+          "MOVE_BODY_PRESS",
+          "MOVE_ELECTRO_SHOT",
+          "MOVE_DRACO_METEOR"
+        ],
+        "ability": "ABILITY_STAMINA",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_MODEST",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 2
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 64,
+        "species": "SPECIES_ROTOM_WASH",
+        "item": "ITEM_LEFTOVERS",
+        "moves": [
+          "MOVE_THUNDERBOLT",
+          "MOVE_PAIN_SPLIT",
+          "MOVE_WILL_O_WISP",
+          "MOVE_HYDRO_PUMP"
+        ],
+        "ability": "ABILITY_LEVITATE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_TIMID",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "speciesExpression": "MON_WITH_FORM(SPECIES_ROTOM, 2)",
+        "partySlot": 3
       },
       {
         "ivs": 255,
@@ -22576,18 +22654,53 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_ADAMANT",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
         "speciesExpression": "MON_WITH_FORM(SPECIES_GOLEM, 1)",
+        "partySlot": 4
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 65,
+        "species": "SPECIES_RAICHU",
+        "item": "ITEM_CHARIZARDITE_X",
+        "moves": [
+          "MOVE_SPARK",
+          "MOVE_THUNDERBOLT",
+          "MOVE_LIQUIDATION",
+          "MOVE_CLOSE_COMBAT"
+        ],
+        "ability": "ABILITY_COMPETITIVE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_NAIVE",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
         "partySlot": 5
       }
     ],
@@ -22626,15 +22739,15 @@
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 70,
-        "species": "SPECIES_SUNFLORA",
-        "item": "ITEM_HEAT_ROCK",
+        "species": "SPECIES_TAPU_BULU",
+        "item": "ITEM_TERRAIN_EXTENDER",
         "moves": [
-          "MOVE_PROTECT",
-          "MOVE_SYNTHESIS",
-          "MOVE_GIGA_DRAIN",
-          "MOVE_FLAMETHROWER"
+          "MOVE_MEGAHORN",
+          "MOVE_HORN_LEECH",
+          "MOVE_ROCK_SLIDE",
+          "MOVE_PLAY_ROUGH"
         ],
-        "ability": "ABILITY_DROUGHT",
+        "ability": "ABILITY_GRASSY_SURGE",
         "setIvs": [
           31,
           31,
@@ -22644,14 +22757,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_BOLD",
+        "nature": "NATURE_ADAMANT",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -22660,16 +22773,16 @@
       {
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 69,
-        "species": "SPECIES_TROPIUS",
-        "item": "ITEM_LIFE_ORB",
+        "level": 68,
+        "species": "SPECIES_LOPUNNY",
+        "item": "ITEM_GRASSY_SEED",
         "moves": [
-          "MOVE_SOLAR_BEAM",
-          "MOVE_SYNTHESIS",
-          "MOVE_HEAT_WAVE",
-          "MOVE_ICY_WIND"
+          "MOVE_HIGH_JUMP_KICK",
+          "MOVE_ACROBATICS",
+          "MOVE_THUNDER_PUNCH",
+          "MOVE_RETURN"
         ],
-        "ability": "ABILITY_CHLOROPHYLL",
+        "ability": "ABILITY_UNBURDEN",
         "setIvs": [
           31,
           31,
@@ -22679,124 +22792,18 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_MODEST",
+        "nature": "NATURE_ADAMANT",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 1
-      },
-      {
-        "ivs": 200,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 68,
-        "species": "SPECIES_LILLIGANT_HISUIAN",
-        "item": "ITEM_FOCUS_SASH",
-        "moves": [
-          "MOVE_HIGH_JUMP_KICK",
-          "MOVE_SYNTHESIS",
-          "MOVE_SOLAR_BLADE",
-          "MOVE_SLEEP_POWDER"
-        ],
-        "ability": "ABILITY_CHLOROPHYLL",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_ADAMANT",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "speciesExpression": "MON_WITH_FORM(SPECIES_LILLIGANT, 1)",
-        "partySlot": 2
-      },
-      {
-        "ivs": 200,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 68,
-        "species": "SPECIES_TANGROWTH",
-        "item": "ITEM_SITRUS_BERRY",
-        "moves": [
-          "MOVE_KNOCK_OFF",
-          "MOVE_GIGA_DRAIN",
-          "MOVE_POWER_WHIP",
-          "MOVE_EARTHQUAKE"
-        ],
-        "ability": "ABILITY_REGENERATOR",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_BRAVE",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 3
-      },
-      {
-        "ivs": 200,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 68,
-        "species": "SPECIES_BRAMBLEGHAST",
-        "item": "ITEM_LEFTOVERS",
-        "moves": [
-          "MOVE_POWER_WHIP",
-          "MOVE_PAIN_SPLIT",
-          "MOVE_CURSE",
-          "MOVE_PHANTOM_FORCE"
-        ],
-        "ability": "ABILITY_INTIMIDATE",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_ADAMANT",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 4
       },
       {
         "ivs": 200,
@@ -22820,14 +22827,120 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_BOLD",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 2
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 69,
+        "species": "SPECIES_TROPIUS",
+        "item": "ITEM_SITRUS_BERRY",
+        "moves": [
+          "MOVE_HURRICANE",
+          "MOVE_GIGA_DRAIN",
+          "MOVE_HEAT_WAVE",
+          "MOVE_ICY_WIND"
+        ],
+        "ability": "ABILITY_HARVEST",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_MODEST",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 3
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 68,
+        "species": "SPECIES_SHAYMIN_SKY",
+        "item": "ITEM_LIFE_ORB",
+        "moves": [
+          "MOVE_SEED_FLARE",
+          "MOVE_TAILWIND",
+          "MOVE_AIR_SLASH",
+          "MOVE_PROTECT"
+        ],
+        "ability": "ABILITY_SERENE_GRACE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_TIMID",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "speciesExpression": "MON_WITH_FORM(SPECIES_SHAYMIN, 1)",
+        "partySlot": 4
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 68,
+        "species": "SPECIES_TANGROWTH",
+        "item": "ITEM_ASSAULT_VEST",
+        "moves": [
+          "MOVE_KNOCK_OFF",
+          "MOVE_GIGA_DRAIN",
+          "MOVE_POWER_WHIP",
+          "MOVE_EARTHQUAKE"
+        ],
+        "ability": "ABILITY_REGENERATOR",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_BRAVE",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -22869,42 +22982,6 @@
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 73,
-        "species": "SPECIES_MUK_ALOLAN",
-        "item": "ITEM_POISON_BARB",
-        "moves": [
-          "MOVE_KNOCK_OFF",
-          "MOVE_GUNK_SHOT",
-          "MOVE_PROTECT",
-          "MOVE_BODY_PRESS"
-        ],
-        "ability": "ABILITY_POISON_TOUCH",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_ADAMANT",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "speciesExpression": "MON_WITH_FORM(SPECIES_MUK, 1)",
-        "partySlot": 0
-      },
-      {
-        "ivs": 200,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 73,
         "species": "SPECIES_TENTACRUEL",
         "item": "ITEM_LUM_BERRY",
         "moves": [
@@ -22923,25 +23000,25 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_BOLD",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 1
+        "partySlot": 0
       },
       {
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 75,
         "species": "SPECIES_WEEZING",
-        "item": "ITEM_FOCUS_SASH",
+        "item": "ITEM_BLACK_SLUDGE",
         "moves": [
           "MOVE_PROTECT",
           "MOVE_TOXIC",
@@ -22958,25 +23035,25 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_BOLD",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 2
+        "partySlot": 1
       },
       {
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 73,
         "species": "SPECIES_DRAGALGE",
-        "item": "ITEM_LEFTOVERS",
+        "item": "ITEM_EJECT_PACK",
         "moves": [
           "MOVE_HYDRO_PUMP",
           "MOVE_DRACO_METEOR",
@@ -22993,18 +23070,18 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_TIMID",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 3
+        "partySlot": 2
       },
       {
         "ivs": 200,
@@ -23028,32 +23105,32 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_MODEST",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 4
+        "partySlot": 3
       },
       {
-        "ivs": 200,
+        "ivs": 250,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 73,
-        "species": "SPECIES_AROMATISSE",
-        "item": "ITEM_SITRUS_BERRY",
+        "level": 77,
+        "species": "SPECIES_NAGANADEL",
+        "item": "ITEM_FOCUS_SASH",
         "moves": [
+          "MOVE_DRACO_METEOR",
           "MOVE_SLUDGE_BOMB",
-          "MOVE_MOONBLAST",
-          "MOVE_HELPING_HAND",
-          "MOVE_CALM_MIND"
+          "MOVE_FIRE_BLAST",
+          "MOVE_TAILWIND"
         ],
-        "ability": "ABILITY_MAGIC_BOUNCE",
+        "ability": "ABILITY_BEAST_BOOST",
         "setIvs": [
           31,
           31,
@@ -23063,17 +23140,53 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_MODEST",
+        "nature": "NATURE_TIMID",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
+        "partySlot": 4
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 73,
+        "species": "SPECIES_MUK_ALOLAN",
+        "item": "ITEM_POISON_BARB",
+        "moves": [
+          "MOVE_KNOCK_OFF",
+          "MOVE_GUNK_SHOT",
+          "MOVE_PROTECT",
+          "MOVE_BODY_PRESS"
+        ],
+        "ability": "ABILITY_POISON_TOUCH",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "speciesExpression": "MON_WITH_FORM(SPECIES_MUK, 1)",
         "partySlot": 5
       }
     ],
@@ -23115,7 +23228,7 @@
         "species": "SPECIES_MR_MIME",
         "item": "ITEM_LIGHT_CLAY",
         "moves": [
-          "MOVE_SKILL_SWAP",
+          "MOVE_HELPING_HAND",
           "MOVE_REFLECT",
           "MOVE_LIGHT_SCREEN",
           "MOVE_DAZZLING_GLEAM"
@@ -23147,50 +23260,15 @@
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 66,
-        "species": "SPECIES_MEDICHAM",
-        "item": "ITEM_CHARIZARDITE_X",
+        "species": "SPECIES_CALYREX_SHADOW_RIDER",
+        "item": "ITEM_COVERT_CLOAK",
         "moves": [
           "MOVE_PROTECT",
-          "MOVE_HIGH_JUMP_KICK",
-          "MOVE_ICE_PUNCH",
-          "MOVE_THUNDER_PUNCH"
+          "MOVE_ASTRAL_BARRAGE",
+          "MOVE_DRAINING_KISS",
+          "MOVE_PSYCHIC"
         ],
-        "ability": "ABILITY_CLEAR_BODY",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_JOLLY",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 1
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 68,
-        "species": "SPECIES_ALAKAZAM",
-        "item": "ITEM_LIFE_ORB",
-        "moves": [
-          "MOVE_PSYCHIC",
-          "MOVE_ENERGY_BALL",
-          "MOVE_FOCUS_BLAST",
-          "MOVE_SHADOW_BALL"
-        ],
-        "ability": "ABILITY_MAGIC_GUARD",
+        "ability": "ABILITY_AS_ONE_SPECTRIER",
         "setIvs": [
           31,
           31,
@@ -23211,7 +23289,8 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 2
+        "speciesExpression": "MON_WITH_FORM(SPECIES_CALYREX, 2)",
+        "partySlot": 1
       },
       {
         "ivs": 255,
@@ -23246,7 +23325,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 3
+        "partySlot": 2
       },
       {
         "ivs": 255,
@@ -23281,7 +23360,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 4
+        "partySlot": 3
       },
       {
         "ivs": 255,
@@ -23317,6 +23396,41 @@
         "additionalFlags": 0,
         "ballSeal": 0,
         "speciesExpression": "MON_WITH_FORM(SPECIES_BRAVIARY, 1)",
+        "partySlot": 4
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 68,
+        "species": "SPECIES_ALAKAZAM",
+        "item": "ITEM_CHARIZARDITE_X",
+        "moves": [
+          "MOVE_PSYCHIC",
+          "MOVE_ENERGY_BALL",
+          "MOVE_FOCUS_BLAST",
+          "MOVE_SHADOW_BALL"
+        ],
+        "ability": "ABILITY_MAGIC_GUARD",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_TIMID",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
         "partySlot": 5
       }
     ],
@@ -23373,18 +23487,53 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_BRAVE",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 0
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 76,
+        "species": "SPECIES_MAGMORTAR",
+        "item": "ITEM_FOCUS_SASH",
+        "moves": [
+          "MOVE_LAVA_PLUME",
+          "MOVE_EARTH_POWER",
+          "MOVE_AURA_SPHERE",
+          "MOVE_DRAGON_PULSE"
+        ],
+        "ability": "ABILITY_MEGA_LAUNCHER",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_TIMID",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 1
       },
       {
         "ivs": 255,
@@ -23408,96 +23557,26 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
         "speciesExpression": "MON_WITH_FORM(SPECIES_DARMANITAN, 1)",
-        "partySlot": 1
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 76,
-        "species": "SPECIES_MAGMORTAR",
-        "item": "ITEM_CHOICE_SPECS",
-        "moves": [
-          "MOVE_LAVA_PLUME",
-          "MOVE_EARTH_POWER",
-          "MOVE_AURA_SPHERE",
-          "MOVE_DRAGON_PULSE"
-        ],
-        "ability": "ABILITY_MEGA_LAUNCHER",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_TIMID",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
         "partySlot": 2
       },
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 76,
-        "species": "SPECIES_RAPIDASH",
-        "item": "ITEM_SITRUS_BERRY",
-        "moves": [
-          "MOVE_FLARE_BLITZ",
-          "MOVE_BOUNCE",
-          "MOVE_PLAY_ROUGH",
-          "MOVE_ZEN_HEADBUTT"
-        ],
-        "ability": "ABILITY_MOLD_BREAKER",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_JOLLY",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 3
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 76,
         "species": "SPECIES_SKELEDIRGE",
-        "item": "ITEM_LEFTOVERS",
+        "item": "ITEM_SITRUS_BERRY",
         "moves": [
           "MOVE_PROTECT",
           "MOVE_WILL_O_WISP",
@@ -23514,14 +23593,49 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_BOLD",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 3
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 76,
+        "species": "SPECIES_CHI_YU",
+        "item": "ITEM_CHOICE_SPECS",
+        "moves": [
+          "MOVE_HEAT_WAVE",
+          "MOVE_DARK_PULSE",
+          "MOVE_FIRE_BLAST",
+          "MOVE_HIDDEN_POWER"
+        ],
+        "ability": "ABILITY_BEADS_OF_RUIN",
+        "setIvs": [
+          31,
+          31,
+          31,
+          30,
+          30,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_MODEST",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -23531,15 +23645,15 @@
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 76,
-        "species": "SPECIES_SALAZZLE",
-        "item": "ITEM_BLACK_SLUDGE",
+        "species": "SPECIES_RAPIDASH",
+        "item": "ITEM_LIFE_ORB",
         "moves": [
-          "MOVE_NASTY_PLOT",
-          "MOVE_FLAMETHROWER",
-          "MOVE_FOCUS_BLAST",
-          "MOVE_SLUDGE_BOMB"
+          "MOVE_FLARE_BLITZ",
+          "MOVE_BOUNCE",
+          "MOVE_PLAY_ROUGH",
+          "MOVE_ZEN_HEADBUTT"
         ],
-        "ability": "ABILITY_CORROSION",
+        "ability": "ABILITY_MOLD_BREAKER",
         "setIvs": [
           31,
           31,
@@ -23549,14 +23663,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_TIMID",
+        "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -23833,41 +23947,6 @@
     },
     "Party": [
       {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 79,
-        "species": "SPECIES_BLASTOISE",
-        "item": "ITEM_CHARIZARDITE_X",
-        "moves": [
-          "MOVE_SURF",
-          "MOVE_AURA_SPHERE",
-          "MOVE_DARK_PULSE",
-          "MOVE_CALM_MIND"
-        ],
-        "ability": "ABILITY_BATTLE_ARMOR",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_MODEST",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 0
-      },
-      {
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 77,
@@ -23889,12 +23968,47 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_QUIET",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 0
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 79,
+        "species": "SPECIES_BLASTOISE",
+        "item": "ITEM_CHARIZARDITE_X",
+        "moves": [
+          "MOVE_SURF",
+          "MOVE_AURA_SPHERE",
+          "MOVE_DARK_PULSE",
+          "MOVE_CALM_MIND"
+        ],
+        "ability": "ABILITY_BATTLE_ARMOR",
+        "setIvs": [
           31,
-          84,
-          84
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_QUIET",
         "shinyLock": 0,
@@ -23906,10 +24020,46 @@
         "ivs": 250,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 77,
-        "species": "SPECIES_ARCANINE",
-        "item": "ITEM_LIFE_ORB",
+        "species": "SPECIES_CALYREX_ICE_RIDER",
+        "item": "ITEM_WEAKNESS_POLICY",
         "moves": [
-          "MOVE_MORNING_SUN",
+          "MOVE_GLACIAL_LANCE",
+          "MOVE_HIGH_HORSEPOWER",
+          "MOVE_RECOVER",
+          "MOVE_SWORDS_DANCE"
+        ],
+        "ability": "ABILITY_AS_ONE_GLASTRIER",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_BRAVE",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "speciesExpression": "MON_WITH_FORM(SPECIES_CALYREX, 1)",
+        "partySlot": 2
+      },
+      {
+        "ivs": 250,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 77,
+        "species": "SPECIES_ARCANINE",
+        "item": "ITEM_ASSAULT_VEST",
+        "moves": [
+          "MOVE_PLAY_ROUGH",
           "MOVE_WILD_CHARGE",
           "MOVE_FLARE_BLITZ",
           "MOVE_EXTREME_SPEED"
@@ -23924,67 +24074,32 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          31,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_ADAMANT",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 2
-      },
-      {
-        "ivs": 250,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 77,
-        "species": "SPECIES_UMBREON",
-        "item": "ITEM_LUM_BERRY",
-        "moves": [
-          "MOVE_ACID_ARMOR",
-          "MOVE_BODY_PRESS",
-          "MOVE_HELPING_HAND",
-          "MOVE_MOONLIGHT"
-        ],
-        "ability": "ABILITY_OVERCOAT",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          31,
-          84,
-          84
-        ],
-        "nature": "NATURE_BOLD",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 3
       },
       {
-        "ivs": 255,
+        "ivs": 250,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 77,
-        "species": "SPECIES_ELECTIVIRE",
-        "item": "ITEM_MAGNET",
+        "species": "SPECIES_ZACIAN",
+        "item": "ITEM_FOCUS_SASH",
         "moves": [
-          "MOVE_THUNDER_PUNCH",
+          "MOVE_PLAY_ROUGH",
+          "MOVE_CRUNCH",
           "MOVE_CLOSE_COMBAT",
-          "MOVE_FIRE_PUNCH",
-          "MOVE_PROTECT"
+          "MOVE_WILD_CHARGE"
         ],
-        "ability": "ABILITY_IRON_FIST",
+        "ability": "ABILITY_INTREPID_SWORD",
         "setIvs": [
           31,
           31,
@@ -23994,12 +24109,12 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_JOLLY",
         "shinyLock": 0,
@@ -24008,18 +24123,18 @@
         "partySlot": 4
       },
       {
-        "ivs": 250,
+        "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 77,
-        "species": "SPECIES_HATTERENE",
-        "item": "ITEM_LEFTOVERS",
+        "species": "SPECIES_MEWTWO",
+        "item": "ITEM_LIFE_ORB",
         "moves": [
-          "MOVE_PSYCHIC",
-          "MOVE_DAZZLING_GLEAM",
-          "MOVE_AURA_SPHERE",
-          "MOVE_CALM_MIND"
+          "MOVE_PSYSTRIKE",
+          "MOVE_FOCUS_BLAST",
+          "MOVE_ICE_BEAM",
+          "MOVE_SHADOW_BALL"
         ],
-        "ability": "ABILITY_MAGIC_BOUNCE",
+        "ability": "ABILITY_PSYCHIC_SURGE",
         "setIvs": [
           31,
           31,
@@ -24029,12 +24144,12 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          31,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_MODEST",
         "shinyLock": 0,
@@ -24139,7 +24254,7 @@
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
         "level": 24,
-        "species": "SPECIES_DUSKNOIR",
+        "species": "SPECIES_DUSCLOPS",
         "item": "ITEM_EVIOLITE",
         "moves": [
           "MOVE_SHADOW_PUNCH",
@@ -24735,7 +24850,7 @@
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
         "level": 24,
-        "species": "SPECIES_DUSKNOIR",
+        "species": "SPECIES_DUSCLOPS",
         "item": "ITEM_EVIOLITE",
         "moves": [
           "MOVE_SHADOW_PUNCH",
@@ -25298,7 +25413,7 @@
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
         "level": 24,
-        "species": "SPECIES_DUSKNOIR",
+        "species": "SPECIES_DUSCLOPS",
         "item": "ITEM_EVIOLITE",
         "moves": [
           "MOVE_SHADOW_PUNCH",
@@ -28570,6 +28685,41 @@
         "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 3
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 70,
+        "species": "SPECIES_ARMALDO",
+        "item": "ITEM_LUM_BERRY",
+        "moves": [
+          "MOVE_SWORDS_DANCE",
+          "MOVE_HIGH_HORSEPOWER",
+          "MOVE_X_SCISSOR",
+          "MOVE_LIQUIDATION"
+        ],
+        "ability": "ABILITY_SWIFT_SWIM",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 4
       }
     ],
     "Text": [
@@ -29483,6 +29633,41 @@
         "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 4
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 74,
+        "species": "SPECIES_GOLEM",
+        "item": "ITEM_ROCKY_HELMET",
+        "moves": [
+          "MOVE_HAMMER_ARM",
+          "MOVE_PROTECT",
+          "MOVE_ROCK_SLIDE",
+          "MOVE_EARTHQUAKE"
+        ],
+        "ability": "ABILITY_FILTER",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 5
       }
     ],
     "Text": [
@@ -30823,6 +31008,77 @@
       {
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 70,
+        "species": "SPECIES_SUNFLORA",
+        "item": "ITEM_HEAT_ROCK",
+        "moves": [
+          "MOVE_PROTECT",
+          "MOVE_SYNTHESIS",
+          "MOVE_GIGA_DRAIN",
+          "MOVE_FLAMETHROWER"
+        ],
+        "ability": "ABILITY_DROUGHT",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_BOLD",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 0
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 68,
+        "species": "SPECIES_LILLIGANT_HISUIAN",
+        "item": "ITEM_FOCUS_SASH",
+        "moves": [
+          "MOVE_HIGH_JUMP_KICK",
+          "MOVE_SYNTHESIS",
+          "MOVE_SOLAR_BLADE",
+          "MOVE_SLEEP_POWDER"
+        ],
+        "ability": "ABILITY_CHLOROPHYLL",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "speciesExpression": "MON_WITH_FORM(SPECIES_LILLIGANT, 1)",
+        "partySlot": 1
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 66,
         "species": "SPECIES_DHELMISE",
         "item": "ITEM_LEFTOVERS",
@@ -30853,7 +31109,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 0
+        "partySlot": 2
       },
       {
         "ivs": 200,
@@ -30888,7 +31144,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 1
+        "partySlot": 3
       },
       {
         "ivs": 200,
@@ -30923,7 +31179,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 2
+        "partySlot": 4
       },
       {
         "ivs": 200,
@@ -30958,7 +31214,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 3
+        "partySlot": 5
       }
     ],
     "Text": [
@@ -32028,6 +32284,41 @@
         "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 2
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 63,
+        "species": "SPECIES_EELEKTROSS",
+        "item": "ITEM_CHARIZARDITE_X",
+        "moves": [
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_WILD_CHARGE",
+          "MOVE_ZEN_HEADBUTT",
+          "MOVE_LEECH_LIFE"
+        ],
+        "ability": "ABILITY_LEVITATE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 3
       }
     ],
     "Text": [
@@ -32573,6 +32864,41 @@
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 68,
+        "species": "SPECIES_BRAMBLEGHAST",
+        "item": "ITEM_LEFTOVERS",
+        "moves": [
+          "MOVE_POWER_WHIP",
+          "MOVE_PAIN_SPLIT",
+          "MOVE_CURSE",
+          "MOVE_PHANTOM_FORCE"
+        ],
+        "ability": "ABILITY_INTIMIDATE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 3
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 68,
         "species": "SPECIES_VILEPLUME",
         "item": "ITEM_SITRUS_BERRY",
         "moves": [
@@ -32602,7 +32928,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 3
+        "partySlot": 4
       }
     ],
     "Text": [
@@ -36788,8 +37114,44 @@
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 62,
-        "species": "SPECIES_MANECTRIC",
+        "species": "SPECIES_ELECTRODE_HISUIAN",
         "item": "ITEM_LIFE_ORB",
+        "moves": [
+          "MOVE_CHLOROBLAST",
+          "MOVE_FLASH",
+          "MOVE_THUNDERBOLT",
+          "MOVE_STUN_SPORE"
+        ],
+        "ability": "ABILITY_STATIC",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_TIMID",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "speciesExpression": "MON_WITH_FORM(SPECIES_ELECTRODE, 1)",
+        "partySlot": 2
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 62,
+        "species": "SPECIES_MANECTRIC",
+        "item": "ITEM_CHARIZARDITE_X",
         "moves": [
           "MOVE_PROTECT",
           "MOVE_FLAMETHROWER",
@@ -36817,7 +37179,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 2
+        "partySlot": 3
       }
     ],
     "Text": [
@@ -58353,6 +58715,41 @@
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 70,
+        "species": "SPECIES_WISHIWASHI",
+        "item": "ITEM_SITRUS_BERRY",
+        "moves": [
+          "MOVE_SURF",
+          "MOVE_REST",
+          "MOVE_SLEEP_TALK",
+          "MOVE_BEAT_UP"
+        ],
+        "ability": "ABILITY_SCHOOLING",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_QUIET",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 1
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 70,
         "species": "SPECIES_WHISCASH",
         "item": "ITEM_LEFTOVERS",
         "moves": [
@@ -58382,14 +58779,14 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 1
+        "partySlot": 2
       },
       {
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 69,
         "species": "SPECIES_ALOMOMOLA",
-        "item": "ITEM_ORAN_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "moves": [
           "MOVE_MOONBLAST",
           "MOVE_HELPING_HAND",
@@ -58417,21 +58814,21 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 2
+        "partySlot": 3
       },
       {
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 70,
-        "species": "SPECIES_WISHIWASHI",
-        "item": "ITEM_SITRUS_BERRY",
+        "species": "SPECIES_CRAWDAUNT",
+        "item": "ITEM_FOCUS_SASH",
         "moves": [
-          "MOVE_SURF",
-          "MOVE_REST",
-          "MOVE_SLEEP_TALK",
-          "MOVE_BEAT_UP"
+          "MOVE_KNOCK_OFF",
+          "MOVE_RAZOR_SHELL",
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_ENDEAVOR"
         ],
-        "ability": "ABILITY_DEFEATIST",
+        "ability": "ABILITY_ADAPTABILITY",
         "setIvs": [
           31,
           31,
@@ -58448,11 +58845,11 @@
           84,
           84
         ],
-        "nature": "NATURE_QUIET",
+        "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 3
+        "partySlot": 4
       }
     ],
     "Text": [
@@ -58688,7 +59085,7 @@
           "MOVE_SLEEP_TALK",
           "MOVE_ICE_BEAM"
         ],
-        "ability": "ABILITY_DEFEATIST",
+        "ability": "ABILITY_SCHOOLING",
         "setIvs": [
           31,
           31,
@@ -58710,6 +59107,41 @@
         "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 2
+      },
+      {
+        "ivs": 250,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 77,
+        "species": "SPECIES_UMBREON",
+        "item": "ITEM_LUM_BERRY",
+        "moves": [
+          "MOVE_ACID_ARMOR",
+          "MOVE_BODY_PRESS",
+          "MOVE_HELPING_HAND",
+          "MOVE_MOONLIGHT"
+        ],
+        "ability": "ABILITY_OVERCOAT",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          31,
+          84,
+          84
+        ],
+        "nature": "NATURE_BOLD",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 3
       },
       {
         "ivs": 255,
@@ -58745,7 +59177,7 @@
         "additionalFlags": 0,
         "ballSeal": 0,
         "speciesExpression": "MON_WITH_FORM(SPECIES_AVALUGG, 1)",
-        "partySlot": 3
+        "partySlot": 4
       }
     ],
     "Text": [
@@ -58852,6 +59284,41 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 77,
+        "species": "SPECIES_ELECTIVIRE",
+        "item": "ITEM_MAGNET",
+        "moves": [
+          "MOVE_THUNDER_PUNCH",
+          "MOVE_DRAIN_PUNCH",
+          "MOVE_FIRE_PUNCH",
+          "MOVE_SHIFT_GEAR"
+        ],
+        "ability": "ABILITY_IRON_FIST",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_JOLLY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 2
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 76,
         "species": "SPECIES_INDEEDEE",
         "item": "ITEM_ROCKY_HELMET",
@@ -58882,7 +59349,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 2
+        "partySlot": 3
       },
       {
         "ivs": 255,
@@ -58917,7 +59384,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 3
+        "partySlot": 4
       }
     ],
     "Text": [
@@ -58952,6 +59419,41 @@
     },
     "Party": [
       {
+        "ivs": 250,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 77,
+        "species": "SPECIES_HATTERENE",
+        "item": "ITEM_LEFTOVERS",
+        "moves": [
+          "MOVE_PSYCHIC",
+          "MOVE_DAZZLING_GLEAM",
+          "MOVE_AURA_SPHERE",
+          "MOVE_CALM_MIND"
+        ],
+        "ability": "ABILITY_MAGIC_BOUNCE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          31,
+          84,
+          84
+        ],
+        "nature": "NATURE_MODEST",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 0
+      },
+      {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 76,
@@ -58984,7 +59486,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 0
+        "partySlot": 1
       },
       {
         "ivs": 255,
@@ -59019,7 +59521,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 1
+        "partySlot": 2
       },
       {
         "ivs": 255,
@@ -59055,7 +59557,7 @@
         "additionalFlags": 0,
         "ballSeal": 0,
         "speciesExpression": "MON_WITH_FORM(SPECIES_TOXTRICITY, 1)",
-        "partySlot": 2
+        "partySlot": 3
       },
       {
         "ivs": 255,
@@ -59090,7 +59592,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 3
+        "partySlot": 4
       }
     ],
     "Text": [
@@ -59766,7 +60268,7 @@
     "TrainerId": 689,
     "Name": "Cary",
     "Data": {
-      "trainerType": "TRAINER_DATA_TYPE_MOVES",
+      "trainerType": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS",
       "trainerClass": "TRAINERCLASS_SUPER_NERD",
       "items": [
         "ITEM_NONE",
@@ -59779,47 +60281,145 @@
     },
     "Party": [
       {
-        "ivs": 120,
+        "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 76,
         "species": "SPECIES_BLAZIKEN",
+        "item": "ITEM_FOCUS_SASH",
         "moves": [
           "MOVE_BRAVE_BIRD",
           "MOVE_BLAZE_KICK",
           "MOVE_HIGH_JUMP_KICK",
           "MOVE_DETECT"
         ],
+        "ability": "ABILITY_SCRAPPY",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 0
       },
       {
-        "ivs": 120,
+        "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 75,
+        "level": 76,
         "species": "SPECIES_SIMISEAR",
+        "item": "ITEM_BLACK_SLUDGE",
         "moves": [
           "MOVE_FIRE_BLAST",
           "MOVE_DAZZLING_GLEAM",
-          "MOVE_NASTY_PLOT",
-          "MOVE_PROTECT"
+          "MOVE_FLAME_CHARGE",
+          "MOVE_CRUNCH"
         ],
+        "ability": "ABILITY_BLAZE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_HASTY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 1
       },
       {
-        "ivs": 120,
+        "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 75,
+        "level": 76,
         "species": "SPECIES_TAUROS_BLAZE",
+        "item": "ITEM_BLACK_SLUDGE",
         "moves": [
           "MOVE_CLOSE_COMBAT",
           "MOVE_FLARE_BLITZ",
           "MOVE_ZEN_HEADBUTT",
           "MOVE_SWORDS_DANCE"
         ],
+        "ability": "ABILITY_INTIMIDATE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_JOLLY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
         "ballSeal": 0,
         "speciesExpression": "MON_WITH_FORM(SPECIES_TAUROS, 2)",
         "partySlot": 2
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 76,
+        "species": "SPECIES_SALAZZLE",
+        "item": "ITEM_BLACK_SLUDGE",
+        "moves": [
+          "MOVE_NASTY_PLOT",
+          "MOVE_FLAMETHROWER",
+          "MOVE_FOCUS_BLAST",
+          "MOVE_SLUDGE_BOMB"
+        ],
+        "ability": "ABILITY_CORROSION",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          84,
+          84,
+          84,
+          84,
+          84,
+          84
+        ],
+        "nature": "NATURE_TIMID",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 3
       }
     ],
     "Text": [
@@ -60645,16 +61245,16 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 83,
-        "species": "SPECIES_CHARIZARD",
-        "item": "ITEM_CHARIZARDITE_Y",
+        "level": 78,
+        "species": "SPECIES_SERPERIOR",
+        "item": "ITEM_ASSAULT_VEST",
         "moves": [
-          "MOVE_HEAT_WAVE",
-          "MOVE_RAZOR_WIND",
-          "MOVE_PROTECT",
-          "MOVE_SOLAR_BEAM"
+          "MOVE_LEAF_STORM",
+          "MOVE_DRAGON_PULSE",
+          "MOVE_HIDDEN_POWER",
+          "MOVE_HYPER_BEAM"
         ],
-        "ability": "ABILITY_SOLAR_POWER",
+        "ability": "ABILITY_CONTRARY",
         "setIvs": [
           31,
           31,
@@ -60664,14 +61264,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_TIMID",
+        "nature": "NATURE_MODEST",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -60680,16 +61280,16 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 82,
-        "species": "SPECIES_HELIOLISK",
-        "item": "ITEM_AIR_BALLOON",
+        "level": 78,
+        "species": "SPECIES_ARCHEOPS",
+        "item": "ITEM_FOCUS_SASH",
         "moves": [
-          "MOVE_THUNDERBOLT",
-          "MOVE_HYPER_VOICE",
-          "MOVE_DARK_PULSE",
-          "MOVE_PROTECT"
+          "MOVE_TAILWIND",
+          "MOVE_POWER_GEM",
+          "MOVE_FLAMETHROWER",
+          "MOVE_CRUNCH"
         ],
-        "ability": "ABILITY_SOLAR_POWER",
+        "ability": "ABILITY_DEFEATIST",
         "setIvs": [
           31,
           31,
@@ -60699,14 +61299,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_MODEST",
+        "nature": "NATURE_HASTY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -60715,16 +61315,16 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 81,
-        "species": "SPECIES_DRUDDIGON",
-        "item": "ITEM_ROCKY_HELMET",
+        "level": 78,
+        "species": "SPECIES_AGGRON",
+        "item": "ITEM_CHOICE_SCARF",
         "moves": [
-          "MOVE_DRAGON_RUSH",
-          "MOVE_EARTHQUAKE",
-          "MOVE_ROCK_SLIDE",
-          "MOVE_PROTECT"
+          "MOVE_HEAD_SMASH",
+          "MOVE_WILD_CHARGE",
+          "MOVE_FLARE_BLITZ",
+          "MOVE_IRON_TAIL"
         ],
-        "ability": "ABILITY_ROUGH_SKIN",
+        "ability": "ABILITY_ROCK_HEAD",
         "setIvs": [
           31,
           31,
@@ -60734,14 +61334,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_IMPISH",
+        "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -60750,47 +61350,11 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 82,
-        "species": "SPECIES_EXEGGUTOR_ALOLAN",
-        "item": "ITEM_SITRUS_BERRY",
-        "moves": [
-          "MOVE_PROTECT",
-          "MOVE_DRACO_METEOR",
-          "MOVE_LEAF_STORM",
-          "MOVE_SLUDGE_BOMB"
-        ],
-        "ability": "ABILITY_HARVEST",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_MODEST",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "speciesExpression": "MON_WITH_FORM(SPECIES_EXEGGUTOR, 1)",
-        "partySlot": 3
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 82,
+        "level": 78,
         "species": "SPECIES_GYARADOS",
-        "item": "ITEM_FOCUS_SASH",
+        "item": "ITEM_LUM_BERRY",
         "moves": [
-          "MOVE_WATERFALL",
+          "MOVE_WAVE_CRASH",
           "MOVE_ICE_FANG",
           "MOVE_DRAGON_RUSH",
           "MOVE_DRAGON_DANCE"
@@ -60805,14 +61369,49 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_JOLLY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 3
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 78,
+        "species": "SPECIES_RAYQUAZA",
+        "item": "ITEM_LIFE_ORB",
+        "moves": [
+          "MOVE_DRAGON_ASCENT",
+          "MOVE_EARTH_POWER",
+          "MOVE_PROTECT",
+          "MOVE_EXTREME_SPEED"
+        ],
+        "ability": "ABILITY_SOLAR_POWER",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          128,
+          128,
+          128,
+          128,
+          128,
+          128
+        ],
+        "nature": "NATURE_TIMID",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -60821,14 +61420,14 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 85,
+        "level": 78,
         "species": "SPECIES_DRAGONITE",
         "item": "ITEM_CHOICE_SPECS",
         "moves": [
-          "MOVE_HEAT_WAVE",
+          "MOVE_DRAGON_PULSE",
           "MOVE_ICE_BEAM",
           "MOVE_THUNDERBOLT",
-          "MOVE_DRACO_METEOR"
+          "MOVE_HYDRO_PUMP"
         ],
         "ability": "ABILITY_THICK_FAT",
         "setIvs": [
@@ -60840,12 +61439,12 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_MODEST",
         "shinyLock": 0,
@@ -60888,16 +61487,16 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_MALAMAR",
+        "level": 75,
+        "species": "SPECIES_FARIGIRAF",
         "item": "ITEM_SITRUS_BERRY",
         "moves": [
-          "MOVE_HYPNOSIS",
-          "MOVE_TRICK_ROOM",
-          "MOVE_DARK_PULSE",
-          "MOVE_THUNDERBOLT"
+          "MOVE_PSYCHIC",
+          "MOVE_DAZZLING_GLEAM",
+          "MOVE_PROTECT",
+          "MOVE_HELPING_HAND"
         ],
-        "ability": "ABILITY_SUCTION_CUPS",
+        "ability": "ABILITY_ARMOR_TAIL",
         "setIvs": [
           31,
           31,
@@ -60907,14 +61506,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_BOLD",
+        "nature": "NATURE_MODEST",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -60923,16 +61522,16 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_VELUZA",
-        "item": "ITEM_CHOICE_BAND",
+        "level": 75,
+        "species": "SPECIES_LUNALA",
+        "item": "ITEM_POWER_HERB",
         "moves": [
-          "MOVE_FLIP_TURN",
-          "MOVE_PSYCHO_CUT",
-          "MOVE_WAVE_CRASH",
-          "MOVE_ICE_FANG"
+          "MOVE_MOONGEIST_BEAM",
+          "MOVE_METEOR_BEAM",
+          "MOVE_EXPANDING_FORCE",
+          "MOVE_PROTECT"
         ],
-        "ability": "ABILITY_SHARPNESS",
+        "ability": "ABILITY_SHADOW_SHIELD",
         "setIvs": [
           31,
           31,
@@ -60942,14 +61541,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_JOLLY",
+        "nature": "NATURE_MODEST",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -60958,16 +61557,16 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_FARIGIRAF",
-        "item": "ITEM_CHOICE_SPECS",
+        "level": 75,
+        "species": "SPECIES_MEOWSCARADA",
+        "item": "ITEM_CHOICE_SCARF",
         "moves": [
-          "MOVE_PSYCHIC",
-          "MOVE_DAZZLING_GLEAM",
-          "MOVE_ENERGY_BALL",
-          "MOVE_TRICK"
+          "MOVE_FLOWER_TRICK",
+          "MOVE_KNOCK_OFF",
+          "MOVE_TRIPLE_AXEL",
+          "MOVE_JUMP_KICK"
         ],
-        "ability": "ABILITY_FILTER",
+        "ability": "ABILITY_PROTEAN",
         "setIvs": [
           31,
           31,
@@ -60977,14 +61576,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_MODEST",
+        "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -60993,16 +61592,16 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_RAPIDASH_GALARIAN",
-        "item": "ITEM_LUM_BERRY",
+        "level": 75,
+        "species": "SPECIES_METAGROSS",
+        "item": "ITEM_LIFE_ORB",
         "moves": [
-          "MOVE_PSYCHO_CUT",
-          "MOVE_MEGAHORN",
-          "MOVE_FLARE_BLITZ",
-          "MOVE_PROTECT"
+          "MOVE_BULLET_PUNCH",
+          "MOVE_HAMMER_ARM",
+          "MOVE_ZEN_HEADBUTT",
+          "MOVE_PURSUIT"
         ],
-        "ability": "ABILITY_MOLD_BREAKER",
+        "ability": "ABILITY_TOUGH_CLAWS",
         "setIvs": [
           31,
           31,
@@ -61012,33 +61611,32 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "speciesExpression": "MON_WITH_FORM(SPECIES_RAPIDASH, 1)",
         "partySlot": 3
       },
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 80,
-        "species": "SPECIES_XATU",
-        "item": "ITEM_TWISTED_SPOON",
+        "level": 75,
+        "species": "SPECIES_PERSIAN",
+        "item": "ITEM_SILK_SCARF",
         "moves": [
-          "MOVE_PSYCHIC",
-          "MOVE_CALM_MIND",
-          "MOVE_ROOST",
-          "MOVE_FOCUS_BLAST"
+          "MOVE_FAKE_OUT",
+          "MOVE_DOUBLE_HIT",
+          "MOVE_CRUNCH",
+          "MOVE_ROCK_SLIDE"
         ],
-        "ability": "ABILITY_MAGIC_BOUNCE",
+        "ability": "ABILITY_TECHNICIAN",
         "setIvs": [
           31,
           31,
@@ -61048,12 +61646,12 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_CALM",
         "shinyLock": 0,
@@ -61064,16 +61662,16 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_INDEEDEE",
-        "item": "ITEM_LEFTOVERS",
+        "level": 75,
+        "species": "SPECIES_DELPHOX",
+        "item": "ITEM_CHARIZARDITE_X",
         "moves": [
-          "MOVE_PSYCHIC",
-          "MOVE_FOLLOW_ME",
-          "MOVE_TRICK_ROOM",
-          "MOVE_HELPING_HAND"
+          "MOVE_SHADOW_BALL",
+          "MOVE_FIRE_BLAST",
+          "MOVE_NASTY_PLOT",
+          "MOVE_PSYCHIC"
         ],
-        "ability": "ABILITY_PSYCHIC_SURGE",
+        "ability": "ABILITY_MAGIC_GUARD",
         "setIvs": [
           31,
           31,
@@ -61083,14 +61681,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
           255,
-          84
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_BOLD",
+        "nature": "NATURE_TIMID",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -61132,46 +61730,11 @@
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 78,
-        "species": "SPECIES_GLIMMORA",
-        "item": "ITEM_MENTAL_HERB",
+        "species": "SPECIES_SCOLIPEDE",
+        "item": "ITEM_BLACK_SLUDGE",
         "moves": [
           "MOVE_TOXIC_SPIKES",
-          "MOVE_STEALTH_ROCK",
-          "MOVE_SLUDGE_BOMB",
-          "MOVE_POWER_GEM"
-        ],
-        "ability": "ABILITY_CORROSION",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_TIMID",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 0
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_SCOLIPEDE",
-        "item": "ITEM_LEFTOVERS",
-        "moves": [
-          "MOVE_PROTECT",
-          "MOVE_BATON_PASS",
+          "MOVE_ROCK_CLIMB",
           "MOVE_MEGAHORN",
           "MOVE_GUNK_SHOT"
         ],
@@ -61185,14 +61748,49 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 0
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 73,
+        "species": "SPECIES_DARKRAI",
+        "item": "ITEM_BLACK_GLASSES",
+        "moves": [
+          "MOVE_DARK_VOID",
+          "MOVE_DARK_PULSE",
+          "MOVE_SLUDGE_BOMB",
+          "MOVE_NASTY_PLOT"
+        ],
+        "ability": "ABILITY_BAD_DREAMS",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_TIMID",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -61202,15 +61800,15 @@
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 78,
-        "species": "SPECIES_SEVIPER",
+        "species": "SPECIES_ARBOK",
         "item": "ITEM_CHOICE_SCARF",
         "moves": [
-          "MOVE_CRUNCH",
+          "MOVE_THUNDER_FANG",
           "MOVE_GUNK_SHOT",
-          "MOVE_PSYCHIC_FANGS",
-          "MOVE_FLAMETHROWER"
+          "MOVE_KNOCK_OFF",
+          "MOVE_ICE_FANG"
         ],
-        "ability": "ABILITY_SHED_SKIN",
+        "ability": "ABILITY_INTIMIDATE",
         "setIvs": [
           31,
           31,
@@ -61220,88 +61818,18 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_NAIVE",
+        "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 2
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_ZANGOOSE",
-        "item": "ITEM_TOXIC_ORB",
-        "moves": [
-          "MOVE_ICE_PUNCH",
-          "MOVE_CLOSE_COMBAT",
-          "MOVE_EXTREME_SPEED",
-          "MOVE_PROTECT"
-        ],
-        "ability": "ABILITY_TOXIC_BOOST",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_JOLLY",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 3
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 80,
-        "species": "SPECIES_CROBAT",
-        "item": "ITEM_BLACK_SLUDGE",
-        "moves": [
-          "MOVE_SWORDS_DANCE",
-          "MOVE_LEECH_LIFE",
-          "MOVE_BRAVE_BIRD",
-          "MOVE_POISON_JAB"
-        ],
-        "ability": "ABILITY_INFILTRATOR",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_JOLLY",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 4
       },
       {
         "ivs": 255,
@@ -61325,12 +61853,82 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_JOLLY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 3
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 80,
+        "species": "SPECIES_CROBAT",
+        "item": "ITEM_CHOICE_BAND",
+        "moves": [
+          "MOVE_ZEN_HEADBUTT",
+          "MOVE_LEECH_LIFE",
+          "MOVE_DUAL_WINGBEAT",
+          "MOVE_POISON_JAB"
+        ],
+        "ability": "ABILITY_INFILTRATOR",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_JOLLY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 4
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 78,
+        "species": "SPECIES_GRENINJA",
+        "item": "ITEM_CHARIZARDITE_X",
+        "moves": [
+          "MOVE_HYDRO_PUMP",
+          "MOVE_GUNK_SHOT",
+          "MOVE_DARK_PULSE",
+          "MOVE_SUBSTITUTE"
+        ],
+        "ability": "ABILITY_INFILTRATOR",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_JOLLY",
         "shinyLock": 0,
@@ -61373,14 +61971,49 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
+        "level": 57,
+        "species": "SPECIES_BUZZWOLE",
+        "item": "ITEM_FOCUS_SASH",
+        "moves": [
+          "MOVE_DRAIN_PUNCH",
+          "MOVE_ICE_PUNCH",
+          "MOVE_TOXIC",
+          "MOVE_ROOST"
+        ],
+        "ability": "ABILITY_BEAST_BOOST",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_IMPISH",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 0
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 57,
         "species": "SPECIES_MACHAMP",
         "item": "ITEM_FLAME_ORB",
         "moves": [
           "MOVE_BULLET_PUNCH",
-          "MOVE_ROCK_SLIDE",
-          "MOVE_DRAIN_PUNCH",
-          "MOVE_PROTECT"
+          "MOVE_KNOCK_OFF",
+          "MOVE_STRENGTH",
+          "MOVE_ROCK_SLIDE"
         ],
         "ability": "ABILITY_GUTS",
         "setIvs": [
@@ -61392,30 +62025,65 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          25,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_ADAMANT",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 0
+        "partySlot": 1
       },
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_KOMMO_O",
-        "item": "ITEM_LEFTOVERS",
+        "level": 57,
+        "species": "SPECIES_GREAT_TUSK",
+        "item": "ITEM_CHOICE_SCARF",
         "moves": [
-          "MOVE_DRACO_METEOR",
+          "MOVE_HEADLONG_RUSH",
           "MOVE_CLOSE_COMBAT",
-          "MOVE_FLAMETHROWER",
-          "MOVE_PROTECT"
+          "MOVE_EARTHQUAKE",
+          "MOVE_KNOCK_OFF"
+        ],
+        "ability": "ABILITY_PROTOSYNTHESIS",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          25,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_JOLLY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 2
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 58,
+        "species": "SPECIES_HAXORUS",
+        "item": "ITEM_FOCUS_SASH",
+        "moves": [
+          "MOVE_DRAGON_DANCE",
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_EARTHQUAKE",
+          "MOVE_DRAGON_RUSH"
         ],
         "ability": "ABILITY_BULLETPROOF",
         "setIvs": [
@@ -61427,84 +62095,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          25,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_SERIOUS",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 1
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_FLAMIGO",
-        "item": "ITEM_CHOICE_BAND",
-        "moves": [
-          "MOVE_LIQUIDATION",
-          "MOVE_BRAVE_BIRD",
-          "MOVE_U_TURN",
-          "MOVE_CLOSE_COMBAT"
-        ],
-        "ability": "ABILITY_SCRAPPY",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_JOLLY",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 2
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_HITMONCHAN",
-        "item": "ITEM_FOCUS_SASH",
-        "moves": [
-          "MOVE_MACH_PUNCH",
-          "MOVE_ICE_PUNCH",
-          "MOVE_THUNDER_PUNCH",
-          "MOVE_FIRE_PUNCH"
-        ],
-        "ability": "ABILITY_IRON_FIST",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_JOLLY",
+        "nature": "NATURE_ADAMANT",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -61513,13 +62111,13 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 80,
-        "species": "SPECIES_TAUROS_AQUA",
-        "item": "ITEM_LIFE_ORB",
+        "level": 59,
+        "species": "SPECIES_KORAIDON",
+        "item": "ITEM_CLEAR_AMULET",
         "moves": [
-          "MOVE_CLOSE_COMBAT",
-          "MOVE_WAVE_CRASH",
-          "MOVE_AQUA_JET",
+          "MOVE_COLLISION_COURSE",
+          "MOVE_FLARE_BLITZE",
+          "MOVE_FLAME_CHARGE",
           "MOVE_PROTECT"
         ],
         "ability": "ABILITY_INTIMIDATE",
@@ -61532,33 +62130,32 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          25,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "speciesExpression": "MON_WITH_FORM(SPECIES_TAUROS, 3)",
         "partySlot": 4
       },
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_STARAPTOR",
-        "item": "ITEM_CHOICE_SCARF",
+        "level": 58,
+        "species": "SPECIES_BARBARACLE",
+        "item": "ITEM_CHARIZARDITE_X",
         "moves": [
-          "MOVE_CLOSE_COMBAT",
-          "MOVE_BRAVE_BIRD",
-          "MOVE_WING_ATTACK",
-          "MOVE_U_TURN"
+          "MOVE_SHELL_SMASH",
+          "MOVE_RAZOR_SHELL",
+          "MOVE_STONE_EDGE",
+          "MOVE_CLOSE_COMBAT"
         ],
-        "ability": "ABILITY_INTIMIDATE",
+        "ability": "ABILITY_STURDY",
         "setIvs": [
           31,
           31,
@@ -61568,12 +62165,12 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          25,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_JOLLY",
         "shinyLock": 0,
@@ -61616,7 +62213,77 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
+        "level": 57,
+        "species": "SPECIES_MIMIKYU",
+        "item": "ITEM_MENTAL_HERB",
+        "moves": [
+          "MOVE_SHADOW_SNEAK",
+          "MOVE_TRICK_ROOM",
+          "MOVE_WILL_O_WISP",
+          "MOVE_PLAY_ROUGH"
+        ],
+        "ability": "ABILITY_DISGUISE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_BRAVE",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 0
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 58,
+        "species": "SPECIES_KINGAMBIT",
+        "item": "ITEM_ASSAULT_VEST",
+        "moves": [
+          "MOVE_SUCKER_PUNCH",
+          "MOVE_IRON_HEAD",
+          "MOVE_KOWTOW_CLEAVE",
+          "MOVE_GUILLOTINE"
+        ],
+        "ability": "ABILITY_SUPREME_OVERLORD",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_BRAVE",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 1
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 56,
         "species": "SPECIES_INCINEROAR",
         "item": "ITEM_SITRUS_BERRY",
         "moves": [
@@ -61635,84 +62302,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_CAREFUL",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 0
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 80,
-        "species": "SPECIES_KINGAMBIT",
-        "item": "ITEM_BLACK_GLASSES",
-        "moves": [
-          "MOVE_SUCKER_PUNCH",
-          "MOVE_IRON_HEAD",
-          "MOVE_PROTECT",
-          "MOVE_POISON_JAB"
-        ],
-        "ability": "ABILITY_DEFIANT",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_ADAMANT",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 1
-      },
-      {
-        "ivs": 255,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_UMBREON",
-        "item": "ITEM_LEFTOVERS",
-        "moves": [
-          "MOVE_HELPING_HAND",
-          "MOVE_MOONLIGHT",
-          "MOVE_DARK_PULSE",
-          "MOVE_BATON_PASS"
-        ],
-        "ability": "ABILITY_OVERCOAT",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
-        ],
-        "nature": "NATURE_CALM",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -61721,14 +62318,14 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_MABOSSTIFF",
-        "item": "ITEM_LUM_BERRY",
+        "level": 56,
+        "species": "SPECIES_CHANDELURE",
+        "item": "ITEM_CHOICE_SPECS",
         "moves": [
-          "MOVE_DESTINY_BOND",
-          "MOVE_CRUNCH",
-          "MOVE_PLAY_ROUGH",
-          "MOVE_PROTECT"
+          "MOVE_SHADOW_BALL",
+          "MOVE_FIRE_SPIN",
+          "MOVE_FIRE_BLAST",
+          "MOVE_AURA_SPHERE"
         ],
         "ability": "ABILITY_INTIMIDATE",
         "setIvs": [
@@ -61740,12 +62337,12 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
         "nature": "NATURE_ADAMANT",
         "shinyLock": 0,
@@ -61754,18 +62351,18 @@
         "partySlot": 3
       },
       {
-        "ivs": 255,
+        "ivs": 250,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 78,
-        "species": "SPECIES_HONCHKROW",
-        "item": "ITEM_LIFE_ORB",
+        "level": 77,
+        "species": "SPECIES_YVELTAL",
+        "item": "ITEM_BLACK_GLASSES",
         "moves": [
-          "MOVE_SUCKER_PUNCH",
-          "MOVE_BRAVE_BIRD",
-          "MOVE_ROOST",
-          "MOVE_PROTECT"
+          "MOVE_SNARL",
+          "MOVE_HYPER_BEAM",
+          "MOVE_OBLIVION_WING",
+          "MOVE_TAILWIND"
         ],
-        "ability": "ABILITY_MOXIE",
+        "ability": "ABILITY_DARK_AURA",
         "setIvs": [
           31,
           31,
@@ -61775,14 +62372,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_ADAMANT",
+        "nature": "NATURE_SERIOUS",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -61791,16 +62388,16 @@
       {
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 80,
-        "species": "SPECIES_HYDREIGON",
-        "item": "ITEM_CHOICE_SCARF",
+        "level": 56,
+        "species": "SPECIES_ABSOL",
+        "item": "ITEM_CHARIZARDITE_Y",
         "moves": [
-          "MOVE_DARK_PULSE",
-          "MOVE_U_TURN",
-          "MOVE_FIRE_BLAST",
-          "MOVE_DRACO_METEOR"
+          "MOVE_NIGHT_SLASH",
+          "MOVE_SUCKER_PUNCH",
+          "MOVE_PSYCHO_CUT",
+          "MOVE_SHADOW_CLAW"
         ],
-        "ability": "ABILITY_LEVITATE",
+        "ability": "ABILITY_JUSTIFIED",
         "setIvs": [
           31,
           31,
@@ -61810,14 +62407,14 @@
           31
         ],
         "setEvs": [
-          84,
-          84,
-          84,
-          84,
-          84,
-          84
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
         ],
-        "nature": "NATURE_MODEST",
+        "nature": "NATURE_JOLLY",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,

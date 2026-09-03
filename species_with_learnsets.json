@@ -14986,33 +14986,33 @@
     "AlternateForms": [],
     "Encounters": [
       {
-        "Location": "ENCDATA_R31_ROUTE_31",
+        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
         "Method": "Walk",
         "Time": "Day",
         "Level": 4,
-        "Rate": 25,
+        "Rate": 10,
         "Slots": [
           4
         ]
       },
       {
-        "Location": "ENCDATA_R31_ROUTE_31",
+        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
         "Method": "Walk",
         "Time": "Morning",
-        "Level": 4,
-        "Rate": 25,
+        "Level": 3,
+        "Rate": 10,
         "Slots": [
-          4
+          1
         ]
       },
       {
-        "Location": "ENCDATA_R31_ROUTE_31",
+        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
         "Method": "Walk",
         "Time": "Night",
-        "Level": 5,
-        "Rate": 25,
+        "Level": 3,
+        "Rate": 10,
         "Slots": [
-          7
+          3
         ]
       }
     ],
@@ -17013,6 +17013,10 @@
     },
     "Learnsets": {
       "LevelMoves": [
+        {
+          "Level": 1,
+          "Move": "MOVE_DOUBLE_HIT"
+        },
         {
           "Level": 1,
           "Move": "MOVE_FEINT"
@@ -49602,6 +49606,10 @@
           "Move": "MOVE_POWER_GEM"
         },
         {
+          "Level": 40,
+          "Move": "MOVE_ROCK_SLIDE"
+        },
+        {
           "Level": 43,
           "Move": "MOVE_SPOTLIGHT"
         },
@@ -49614,8 +49622,24 @@
           "Move": "MOVE_HYDRO_PUMP"
         },
         {
+          "Level": 49,
+          "Move": "MOVE_LIQUIDATION"
+        },
+        {
           "Level": 52,
           "Move": "MOVE_PSYCHIC"
+        },
+        {
+          "Level": 52,
+          "Move": "MOVE_ZEN_HEADBUTT"
+        },
+        {
+          "Level": 58,
+          "Move": "MOVE_FLIP_TURN"
+        },
+        {
+          "Level": 65,
+          "Move": "MOVE_ICE_SPINNER"
         }
       ],
       "MachineMoves": [
@@ -64467,7 +64491,7 @@
         ],
         "abilities": [
           "ABILITY_PRESSURE",
-          "ABILITY_NONE"
+          "ABILITY_PSYCHIC_SURGE"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_PURPLE",
@@ -103489,8 +103513,8 @@
           "EGG_GROUP_FIELD"
         ],
         "abilities": [
-          "ABILITY_SPEED_BOOST",
-          "ABILITY_SPEED_BOOST"
+          "ABILITY_SCRAPPY",
+          "ABILITY_SCRAPPY"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_RED",
@@ -114586,6 +114610,36 @@
     "AlternateForms": [],
     "Encounters": [
       {
+        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 3,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 4,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 4,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
         "Location": "ENCDATA_R08_ROUTE_8",
         "Method": "Walk",
         "Time": "Night",
@@ -114605,47 +114659,6 @@
           8,
           9,
           10
-        ]
-      },
-      {
-        "Location": "ENCDATA_R31_ROUTE_31",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 4,
-        "Rate": 25,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_R31_ROUTE_31",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 4,
-        "Rate": 25,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_R31_ROUTE_31",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 5,
-        "Rate": 25,
-        "Slots": [
-          6,
-          7
-        ]
-      },
-      {
-        "Location": "ENCDATA_R31_ROUTE_31",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 4,
-        "Rate": 25,
-        "Slots": [
-          3
         ]
       }
     ],
@@ -120120,12 +120133,20 @@
           "Move": "MOVE_SHIFT_GEAR"
         },
         {
+          "Level": 55,
+          "Move": "MOVE_FLARE_BLITZ"
+        },
+        {
+          "Level": 55,
+          "Move": "MOVE_WILD_CHARGE"
+        },
+        {
           "Level": 62,
           "Move": "MOVE_TAKE_DOWN"
         },
         {
           "Level": 64,
-          "Move": "MOVE_DOUBLE_EDGE"
+          "Move": "MOVE_HEAD_SMASH"
         }
       ],
       "MachineMoves": [
@@ -159258,6 +159279,10 @@
         {
           "Level": 52,
           "Move": "MOVE_HEALING_WISH"
+        },
+        {
+          "Level": 52,
+          "Move": "MOVE_ACROBATICS"
         }
       ],
       "MachineMoves": [
@@ -164966,8 +164991,16 @@
           "Move": "MOVE_CRUNCH"
         },
         {
-          "Level": 46,
+          "Level": 45,
+          "Move": "MOVE_NASTY_PLOT"
+        },
+        {
+          "Level": 47,
           "Move": "MOVE_EARTHQUAKE"
+        },
+        {
+          "Level": 47,
+          "Move": "MOVE_EARTH_POWER"
         },
         {
           "Level": 49,
@@ -164978,12 +165011,20 @@
           "Move": "MOVE_DRAGON_RUSH"
         },
         {
+          "Level": 54,
+          "Move": "MOVE_DRAGON_PULSE"
+        },
+        {
           "Level": 58,
           "Move": "MOVE_FIRE_BLAST"
         },
         {
           "Level": 64,
           "Move": "MOVE_TAKE_DOWN"
+        },
+        {
+          "Level": 64,
+          "Move": "MOVE_HYPER_BEAM"
         }
       ],
       "MachineMoves": [
@@ -192428,7 +192469,7 @@
           "defense": 32,
           "spAttack": 50,
           "spDefense": 32,
-          "speed": 76
+          "speed": 96
         },
         "types": [
           "TYPE_ELECTRIC",
@@ -192457,8 +192498,8 @@
           "EGG_GROUP_FIELD"
         ],
         "abilities": [
-          "ABILITY_LIGHTNING_ROD",
-          "ABILITY_MOTOR_DRIVE"
+          "ABILITY_SAP_SIPPER",
+          "ABILITY_LIGHTNING_ROD"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_BLACK",
@@ -192677,9 +192718,9 @@
         "baseStats": {
           "hp": 75,
           "attack": 120,
-          "defense": 70,
-          "spAttack": 79,
-          "spDefense": 70,
+          "defense": 60,
+          "spAttack": 74,
+          "spDefense": 85,
           "speed": 116
         },
         "types": [
@@ -192710,7 +192751,7 @@
         ],
         "abilities": [
           "ABILITY_SAP_SIPPER",
-          "ABILITY_MOTOR_DRIVE"
+          "ABILITY_RECKLESS"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_BLACK",
@@ -199397,53 +199438,53 @@
         ]
       },
       {
-        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
+        "Location": "ENCDATA_R06_ROUTE_6",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 55,
+        "Rate": 20,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_R06_ROUTE_6",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 55,
+        "Rate": 20,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_R31_ROUTE_31",
         "Method": "Walk",
         "Time": "Day",
         "Level": 4,
-        "Rate": 10,
+        "Rate": 25,
         "Slots": [
           4
         ]
       },
       {
-        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
+        "Location": "ENCDATA_R31_ROUTE_31",
         "Method": "Walk",
         "Time": "Morning",
         "Level": 4,
-        "Rate": 10,
+        "Rate": 25,
         "Slots": [
           4
         ]
       },
       {
-        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
+        "Location": "ENCDATA_R31_ROUTE_31",
         "Method": "Walk",
         "Time": "Night",
-        "Level": 3,
-        "Rate": 10,
+        "Level": 5,
+        "Rate": 25,
         "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_R06_ROUTE_6",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 55,
-        "Rate": 20,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_R06_ROUTE_6",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 55,
-        "Rate": 20,
-        "Slots": [
-          3
+          7
         ]
       }
     ],
@@ -199979,53 +200020,64 @@
     "AlternateForms": [],
     "Encounters": [
       {
-        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
+        "Location": "ENCDATA_D43R0102_VICTORY_ROAD_2F",
         "Method": "Walk",
         "Time": "Day",
-        "Level": 3,
+        "Level": 49,
         "Rate": 10,
         "Slots": [
-          1
+          5
         ]
       },
       {
-        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
+        "Location": "ENCDATA_D43R0102_VICTORY_ROAD_2F",
         "Method": "Walk",
         "Time": "Morning",
-        "Level": 3,
+        "Level": 49,
         "Rate": 10,
         "Slots": [
-          1
+          5
         ]
       },
       {
-        "Location": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
+        "Location": "ENCDATA_R31_ROUTE_31",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 4,
+        "Rate": 25,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_R31_ROUTE_31",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 4,
+        "Rate": 25,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_R31_ROUTE_31",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 5,
+        "Rate": 25,
+        "Slots": [
+          6,
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_R31_ROUTE_31",
         "Method": "Walk",
         "Time": "Night",
         "Level": 4,
-        "Rate": 10,
+        "Rate": 25,
         "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D43R0102_VICTORY_ROAD_2F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 49,
-        "Rate": 10,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D43R0102_VICTORY_ROAD_2F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 49,
-        "Rate": 10,
-        "Slots": [
-          5
+          3
         ]
       }
     ],
@@ -232303,8 +232355,8 @@
         "baseStats": {
           "hp": 72,
           "attack": 95,
-          "defense": 67,
-          "spAttack": 103,
+          "defense": 62,
+          "spAttack": 108,
           "spDefense": 71,
           "speed": 122
         },
@@ -252899,10 +252951,10 @@
         "baseStats": {
           "hp": 94,
           "attack": 60,
-          "defense": 74,
+          "defense": 64,
           "spAttack": 126,
           "spDefense": 116,
-          "speed": 60
+          "speed": 70
         },
         "types": [
           "TYPE_WATER",
@@ -269913,8 +269965,12 @@
           "Move": "MOVE_MEAN_LOOK"
         },
         {
-          "Level": 59,
+          "Level": 54,
           "Move": "MOVE_MEGAHORN"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_PLAY_ROUGH"
         },
         {
           "Level": 60,
@@ -338923,12 +338979,20 @@
           "Move": "MOVE_SHIFT_GEAR"
         },
         {
+          "Level": 55,
+          "Move": "MOVE_FLARE_BLITZ"
+        },
+        {
+          "Level": 55,
+          "Move": "MOVE_WILD_CHARGE"
+        },
+        {
           "Level": 62,
           "Move": "MOVE_TAKE_DOWN"
         },
         {
           "Level": 64,
-          "Move": "MOVE_DOUBLE_EDGE"
+          "Move": "MOVE_HEAD_SMASH"
         }
       ],
       "MachineMoves": [
@@ -343085,6 +343149,10 @@
         {
           "Level": 52,
           "Move": "MOVE_HEALING_WISH"
+        },
+        {
+          "Level": 52,
+          "Move": "MOVE_ACROBATICS"
         }
       ],
       "MachineMoves": [
@@ -343360,8 +343428,16 @@
           "Move": "MOVE_CRUNCH"
         },
         {
-          "Level": 46,
+          "Level": 45,
+          "Move": "MOVE_NASTY_PLOT"
+        },
+        {
+          "Level": 47,
           "Move": "MOVE_EARTHQUAKE"
+        },
+        {
+          "Level": 47,
+          "Move": "MOVE_EARTH_POWER"
         },
         {
           "Level": 49,
@@ -343372,12 +343448,20 @@
           "Move": "MOVE_DRAGON_RUSH"
         },
         {
+          "Level": 54,
+          "Move": "MOVE_DRAGON_PULSE"
+        },
+        {
           "Level": 58,
           "Move": "MOVE_FIRE_BLAST"
         },
         {
           "Level": 64,
           "Move": "MOVE_TAKE_DOWN"
+        },
+        {
+          "Level": 64,
+          "Move": "MOVE_HYPER_BEAM"
         }
       ],
       "MachineMoves": [
@@ -423448,6 +423532,10 @@
           "Move": "MOVE_POWER_GEM"
         },
         {
+          "Level": 40,
+          "Move": "MOVE_ROCK_SLIDE"
+        },
+        {
           "Level": 43,
           "Move": "MOVE_SPOTLIGHT"
         },
@@ -423460,8 +423548,24 @@
           "Move": "MOVE_HYDRO_PUMP"
         },
         {
+          "Level": 49,
+          "Move": "MOVE_LIQUIDATION"
+        },
+        {
           "Level": 52,
           "Move": "MOVE_PSYCHIC"
+        },
+        {
+          "Level": 52,
+          "Move": "MOVE_ZEN_HEADBUTT"
+        },
+        {
+          "Level": 58,
+          "Move": "MOVE_FLIP_TURN"
+        },
+        {
+          "Level": 65,
+          "Move": "MOVE_ICE_SPINNER"
         }
       ],
       "MachineMoves": [
@@ -425168,8 +425272,8 @@
       "speciesData": {
         "baseStats": {
           "hp": 65,
-          "attack": 140,
-          "defense": 67,
+          "attack": 120,
+          "defense": 77,
           "spAttack": 120,
           "spDefense": 67,
           "speed": 121
@@ -425201,8 +425305,8 @@
           "EGG_GROUP_FIELD"
         ],
         "abilities": [
-          "ABILITY_PRESSURE",
-          "ABILITY_PRESSURE"
+          "ABILITY_SHARPNESS",
+          "ABILITY_SHARPNESS"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_BLACK",
@@ -425731,8 +425835,8 @@
           "EGG_GROUP_DRAGON"
         ],
         "abilities": [
-          "ABILITY_SAND_VEIL",
-          "ABILITY_SAND_VEIL"
+          "ABILITY_LEVITATE",
+          "ABILITY_LEVITATE"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_BLUE",
@@ -425811,8 +425915,16 @@
           "Move": "MOVE_CRUNCH"
         },
         {
-          "Level": 46,
+          "Level": 45,
+          "Move": "MOVE_NASTY_PLOT"
+        },
+        {
+          "Level": 47,
           "Move": "MOVE_EARTHQUAKE"
+        },
+        {
+          "Level": 47,
+          "Move": "MOVE_EARTH_POWER"
         },
         {
           "Level": 49,
@@ -425823,12 +425935,20 @@
           "Move": "MOVE_DRAGON_RUSH"
         },
         {
+          "Level": 54,
+          "Move": "MOVE_DRAGON_PULSE"
+        },
+        {
           "Level": 58,
           "Move": "MOVE_FIRE_BLAST"
         },
         {
           "Level": 64,
           "Move": "MOVE_TAKE_DOWN"
+        },
+        {
+          "Level": 64,
+          "Move": "MOVE_HYPER_BEAM"
         }
       ],
       "MachineMoves": [
