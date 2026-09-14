@@ -10143,6 +10143,10 @@
           "Move": "MOVE_POISON_JAB"
         },
         {
+          "Level": 55,
+          "Move": "MOVE_CLOSE_COMBAT"
+        },
+        {
           "Level": 61,
           "Move": "MOVE_THRASH"
         },
@@ -13544,198 +13548,8 @@
         ]
       },
       {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          10
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 78,
-        "Rate": 20,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 78,
-        "Rate": 20,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 78,
-        "Rate": 20,
-        "Slots": [
-          6
-        ]
-      },
-      {
         "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
         "Method": "LandSwarm"
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 20,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 20,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 20,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          6
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          6
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          7
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 5,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 5,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 5,
-        "Slots": [
-          6
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          6
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          6
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          7
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          6
-        ]
       },
       {
         "Location": "ENCDATA_D50R0101_CLIFF_CAVE",
@@ -18109,186 +17923,6 @@
         ]
       },
       {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 5,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 5,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 5,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      },
-      {
         "Location": "ENCDATA_R12_ROUTE_12",
         "Method": "Surf",
         "MinLevel": 59,
@@ -19743,6 +19377,146 @@
     ],
     "Encounters": [
       {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
         "Location": "ENCDATA_R13_ROUTE_13",
         "Method": "Walk",
         "Time": "Day",
@@ -19762,6 +19536,26 @@
         "Slots": [
           9,
           10
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          8
         ]
       }
     ],
@@ -35476,36 +35270,6 @@
         ]
       },
       {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          2
-        ]
-      },
-      {
         "Location": "ENCDATA_D50R0101_CLIFF_CAVE",
         "Method": "Walk",
         "Time": "Day",
@@ -37536,6 +37300,10 @@
         {
           "Level": 48,
           "Move": "MOVE_MIRROR_COAT"
+        },
+        {
+          "Level": 52,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -37873,6 +37641,10 @@
         {
           "Level": 49,
           "Move": "MOVE_DISCHARGE"
+        },
+        {
+          "Level": 52,
+          "Move": "MOVE_HEAL_PULSE"
         },
         {
           "Level": 61,
@@ -50041,6 +49813,10 @@
         {
           "Level": 52,
           "Move": "MOVE_SUCKER_PUNCH"
+        },
+        {
+          "Level": 57,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -56612,9 +56388,9 @@
       "speciesData": {
         "baseStats": {
           "hp": 130,
-          "attack": 55,
+          "attack": 35,
           "defense": 95,
-          "spAttack": 95,
+          "spAttack": 115,
           "spDefense": 95,
           "speed": 60
         },
@@ -63381,6 +63157,53 @@
     "AlternateForms": [],
     "Encounters": [
       {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "GoodRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 50,
+        "Slots": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "OldRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 25,
+        "Slots": [
+          0,
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "SuperRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 75,
+        "Slots": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Surf",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 10,
+        "Slots": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
         "Location": "ENCDATA_D44R0102_DRAGONS_DEN",
         "Method": "FishSwarm"
       },
@@ -64442,7 +64265,168 @@
     "AlternateForms": [
       "SPECIES_MEGA_DRAGONITE"
     ],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 74,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 74,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 20,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 20,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 5,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 5,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          0
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_MEWTWO": {
@@ -65426,18 +65410,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 78,
-        "Rate": 25,
-        "Slots": [
-          11
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_CHIKORITA": {
@@ -69169,6 +69142,10 @@
         {
           "Level": 39,
           "Move": "MOVE_DREAM_EATER"
+        },
+        {
+          "Level": 46,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -69520,6 +69497,10 @@
         {
           "Level": 64,
           "Move": "MOVE_DREAM_EATER"
+        },
+        {
+          "Level": 66,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -75273,8 +75254,8 @@
       "speciesData": {
         "baseStats": {
           "hp": 80,
-          "attack": 75,
-          "defense": 95,
+          "attack": 90,
+          "defense": 80,
           "spAttack": 90,
           "spDefense": 140,
           "speed": 50
@@ -75394,6 +75375,10 @@
           "Move": "MOVE_MOONLIGHT"
         },
         {
+          "Level": 41,
+          "Move": "MOVE_PLAY_ROUGH"
+        },
+        {
           "Level": 43,
           "Move": "MOVE_LEAF_BLADE"
         },
@@ -75412,6 +75397,10 @@
         {
           "Level": 55,
           "Move": "MOVE_QUIVER_DANCE"
+        },
+        {
+          "Level": 57,
+          "Move": "MOVE_HEAL_PULSE"
         },
         {
           "Level": 64,
@@ -81177,166 +81166,16 @@
         ]
       },
       {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          3
-        ]
-      },
-      {
         "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
         "Method": "LandSwarm"
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          6
-        ]
       },
       {
         "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
         "Method": "LandSwarm"
       },
       {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 5,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 5,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 5,
-        "Slots": [
-          1
-        ]
-      },
-      {
         "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
         "Method": "LandSwarm"
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
       },
       {
         "Location": "ENCDATA_D50R0101_CLIFF_CAVE",
@@ -83359,6 +83198,10 @@
           "Move": "MOVE_PAYBACK"
         },
         {
+          "Level": 39,
+          "Move": "MOVE_DRAINING_KISS"
+        },
+        {
           "Level": 41,
           "Move": "MOVE_SHADOW_BALL"
         },
@@ -83542,56 +83385,6 @@
         "Rate": 5,
         "Slots": [
           1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 5,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          6
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          5
         ]
       },
       {
@@ -86611,36 +86404,6 @@
         "Slots": [
           5
         ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 5,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 5,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 5,
-        "Slots": [
-          2
-        ]
       }
     ],
     "SafariEncounters": []
@@ -89113,98 +88876,8 @@
         "Method": "LandSwarm"
       },
       {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      },
-      {
         "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
         "Method": "LandSwarm"
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
       },
       {
         "Location": "ENCDATA_R05_ROUTE_5",
@@ -93245,6 +92918,66 @@
         ]
       },
       {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          6
+        ]
+      },
+      {
         "Location": "ENCDATA_R45_ROUTE_45",
         "Method": "Walk",
         "Time": "Day",
@@ -94414,96 +94147,6 @@
     "AlternateForms": [],
     "Encounters": [
       {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
-      },
-      {
         "Location": "ENCDATA_D43R0102_VICTORY_ROAD_2F",
         "Method": "LandSwarm"
       },
@@ -94869,186 +94512,6 @@
         "Time": "Morning",
         "Level": 70,
         "Rate": 5,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 78,
-        "Rate": 20,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 5,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 5,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 5,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
         "Slots": [
           4
         ]
@@ -95669,6 +95132,72 @@
         "Rate": 15,
         "Slots": [
           1
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 25,
+        "Slots": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 25,
+        "Slots": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 25,
+        "Slots": [
+          9,
+          10,
+          11
         ]
       },
       {
@@ -99535,627 +99064,6 @@
           5,
           6
         ]
-      },
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 78,
-        "Rate": 20,
-        "Slots": [
-          6,
-          7,
-          8,
-          9,
-          10
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 79,
-        "Rate": 20,
-        "Slots": [
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 78,
-        "Rate": 20,
-        "Slots": [
-          6,
-          7,
-          8,
-          9,
-          10
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 79,
-        "Rate": 20,
-        "Slots": [
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 20,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 78,
-        "Rate": 20,
-        "Slots": [
-          7,
-          8,
-          9,
-          10
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 79,
-        "Rate": 20,
-        "Slots": [
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 20,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          6,
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 78,
-        "Rate": 20,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 20,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          6,
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 78,
-        "Rate": 20,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 20,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 20,
-        "Slots": [
-          6,
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 78,
-        "Rate": 20,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 5,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 5,
-        "Slots": [
-          6,
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 78,
-        "Rate": 5,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 5,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 5,
-        "Slots": [
-          6,
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 78,
-        "Rate": 5,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 5,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 5,
-        "Slots": [
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 78,
-        "Rate": 5,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          6,
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          6,
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          10,
-          11
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          7,
-          8,
-          9
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          10,
-          11
-        ]
       }
     ],
     "SafariEncounters": []
@@ -100457,36 +99365,6 @@
         "Rate": 10,
         "Slots": [
           2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          5
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          5
         ]
       },
       {
@@ -100885,7 +99763,239 @@
     "AlternateForms": [
       "SPECIES_MEGA_TYRANITAR"
     ],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          7,
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 5,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 5,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 25,
+        "Slots": [
+          10
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_LUGIA": {
@@ -101197,18 +100307,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          6
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_HO_OH": {
@@ -101774,18 +100873,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          1
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_TREECKO": {
@@ -107794,6 +106882,16 @@
       {
         "Location": "ENCDATA_D38R0104_MT_MORTAR_B1F",
         "Method": "SurfSwarm"
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "OldRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 25,
+        "Slots": [
+          2
+        ]
       }
     ],
     "SafariEncounters": []
@@ -108127,6 +107225,26 @@
       {
         "Location": "ENCDATA_R25_ROUTE_25",
         "Method": "SurfSwarm"
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "GoodRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 50,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Surf",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
       }
     ],
     "SafariEncounters": []
@@ -108453,6 +107571,16 @@
         "Slots": [
           2,
           3
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "SuperRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 75,
+        "Slots": [
+          1
         ]
       }
     ],
@@ -126579,8 +125707,12 @@
           "Move": "MOVE_SNORE"
         },
         {
-          "Level": 38,
+          "Level": 35,
           "Move": "MOVE_PSYSHOCK"
+        },
+        {
+          "Level": 38,
+          "Move": "MOVE_HEAL_PULSE"
         },
         {
           "Level": 40,
@@ -126891,6 +126023,10 @@
         {
           "Level": 37,
           "Move": "MOVE_PSYSHOCK"
+        },
+        {
+          "Level": 39,
+          "Move": "MOVE_HEAL_PULSE"
         },
         {
           "Level": 40,
@@ -128581,6 +127717,166 @@
         "Rate": 10,
         "Slots": [
           4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 5,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 5,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 25,
+        "Slots": [
+          10
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 25,
+        "Slots": [
+          10
         ]
       }
     ],
@@ -137967,6 +137263,10 @@
           "Move": "MOVE_HEALING_WISH"
         },
         {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
+        },
+        {
           "Level": 61,
           "Move": "MOVE_TAKE_DOWN"
         },
@@ -139854,6 +139154,16 @@
         "Method": "SurfSwarm"
       },
       {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "OldRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 25,
+        "Slots": [
+          4
+        ]
+      },
+      {
         "Location": "ENCDATA_R35_ROUTE_35",
         "Method": "Surf",
         "MinLevel": 20,
@@ -140194,6 +139504,26 @@
         ]
       },
       {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "GoodRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 50,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Surf",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
         "Location": "ENCDATA_R35_ROUTE_35",
         "Method": "Surf",
         "MinLevel": 20,
@@ -140502,6 +139832,16 @@
         "Rate": 10,
         "Slots": [
           0
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "SuperRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 75,
+        "Slots": [
+          2
         ]
       }
     ],
@@ -142953,7 +142293,168 @@
     "AlternateForms": [
       "SPECIES_MEGA_SALAMENCE"
     ],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 74,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 74,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 20,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 20,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 5,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 5,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          1
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_BELDUM": {
@@ -143707,7 +143208,248 @@
     "AlternateForms": [
       "SPECIES_MEGA_METAGROSS"
     ],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 74,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 79,
+        "Rate": 20,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 20,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 5,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 5,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 25,
+        "Slots": [
+          11
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_REGIROCK": {
@@ -143983,18 +143725,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          0
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_REGICE": {
@@ -144259,18 +143990,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          1
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_REGISTEEL": {
@@ -144554,18 +144274,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          4
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_LATIAS": {
@@ -144879,28 +144588,7 @@
     "AlternateForms": [
       "SPECIES_MEGA_LATIAS"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          8
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 74,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_LATIOS": {
@@ -145205,28 +144893,7 @@
     "AlternateForms": [
       "SPECIES_MEGA_LATIOS"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          7
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 74,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_KYOGRE": {
@@ -145463,18 +145130,7 @@
     "AlternateForms": [
       "SPECIES_KYOGRE_PRIMAL"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          4
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_GROUDON": {
@@ -145752,18 +145408,7 @@
     "AlternateForms": [
       "SPECIES_GROUDON_PRIMAL"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          5
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_RAYQUAZA": {
@@ -146053,18 +145698,7 @@
     "AlternateForms": [
       "SPECIES_MEGA_RAYQUAZA"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          6
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_JIRACHI": {
@@ -146360,18 +145994,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          0
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_DEOXYS": {
@@ -146651,18 +146274,7 @@
       "SPECIES_DEOXYS_DEFENSE",
       "SPECIES_DEOXYS_SPEED"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          2
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_TURTWIG": {
@@ -159580,7 +159192,11 @@
           "Move": "MOVE_DAZZLING_GLEAM"
         },
         {
-          "Level": 40,
+          "Level": 39,
+          "Move": "MOVE_DRAINING_KISS"
+        },
+        {
+          "Level": 41,
           "Move": "MOVE_AURA_SPHERE"
         },
         {
@@ -163152,6 +162768,10 @@
         {
           "Level": 52,
           "Move": "MOVE_TEETER_DANCE"
+        },
+        {
+          "Level": 57,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -165165,7 +164785,168 @@
       "SPECIES_MEGA_GARCHOMP",
       "SPECIES_MEGA_GARCHOMP_Z"
     ],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 5,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 5,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          2
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_MUNCHLAX": {
@@ -166194,6 +165975,146 @@
     ],
     "Encounters": [
       {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 79,
+        "Rate": 20,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 79,
+        "Rate": 20,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 5,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 5,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 10,
+        "Slots": [
+          11
+        ]
+      },
+      {
         "Location": "ENCDATA_R17_ROUTE_17",
         "Method": "Walk",
         "Time": "Night",
@@ -166201,6 +166122,26 @@
         "Rate": 20,
         "Slots": [
           2
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 25,
+        "Slots": [
+          11
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 25,
+        "Slots": [
+          11
         ]
       }
     ],
@@ -176910,18 +176851,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          8
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_MESPRIT": {
@@ -177205,18 +177135,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          9
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_AZELF": {
@@ -177501,18 +177420,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          10
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_DIALGA": {
@@ -177777,18 +177685,7 @@
     "AlternateForms": [
       "SPECIES_DIALGA_ORIGIN"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          3
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_PALKIA": {
@@ -178059,18 +177956,7 @@
     "AlternateForms": [
       "SPECIES_PALKIA_ORIGIN"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          4
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_HEATRAN": {
@@ -178348,18 +178234,7 @@
     "AlternateForms": [
       "SPECIES_MEGA_HEATRAN"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          6
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_REGIGIGAS": {
@@ -178644,18 +178519,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          3
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_GIRATINA": {
@@ -178936,18 +178800,7 @@
     "AlternateForms": [
       "SPECIES_GIRATINA_ORIGIN"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          5
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_CRESSELIA": {
@@ -179199,18 +179052,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          7
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_PHIONE": {
@@ -179411,104 +179253,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "GoodRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 50,
-        "Slots": [
-          0,
-          1,
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "OldRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 25,
-        "Slots": [
-          0,
-          1,
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "SuperRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 75,
-        "Slots": [
-          0,
-          1,
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Surf",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 10,
-        "Slots": [
-          0,
-          1,
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "GoodRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 50,
-        "Slots": [
-          0,
-          1,
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "OldRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 25,
-        "Slots": [
-          0,
-          1,
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "SuperRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 75,
-        "Slots": [
-          0,
-          1,
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Surf",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 10,
-        "Slots": [
-          0,
-          1,
-          2
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_MANAPHY": {
@@ -179737,96 +179482,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "GoodRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 50,
-        "Slots": [
-          3,
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "OldRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 25,
-        "Slots": [
-          3,
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "SuperRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 75,
-        "Slots": [
-          3,
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Surf",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 10,
-        "Slots": [
-          3,
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "GoodRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 50,
-        "Slots": [
-          3,
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "OldRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 25,
-        "Slots": [
-          3,
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "SuperRod",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 75,
-        "Slots": [
-          3,
-          4
-        ]
-      },
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Surf",
-        "MinLevel": 74,
-        "MaxLevel": 78,
-        "Rate": 10,
-        "Slots": [
-          3,
-          4
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_DARKRAI": {
@@ -180073,18 +179729,7 @@
     "AlternateForms": [
       "SPECIES_MEGA_DARKRAI"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          3
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_SHAYMIN": {
@@ -180295,18 +179940,7 @@
     "AlternateForms": [
       "SPECIES_SHAYMIN_SKY"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          4
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_ARCEUS": {
@@ -180658,18 +180292,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          5
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_EGG": {
@@ -184972,18 +184595,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          6
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_SNIVY": {
@@ -191195,6 +190807,10 @@
         {
           "Level": 42,
           "Move": "MOVE_DREAM_EATER"
+        },
+        {
+          "Level": 45,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -191551,8 +191167,12 @@
           "Move": "MOVE_CALM_MIND"
         },
         {
-          "Level": 46,
+          "Level": 45,
           "Move": "MOVE_PSYCHIC"
+        },
+        {
+          "Level": 47,
+          "Move": "MOVE_HEAL_PULSE"
         },
         {
           "Level": 49,
@@ -193891,8 +193511,12 @@
           "Move": "MOVE_PSYCHIC"
         },
         {
-          "Level": 43,
+          "Level": 41,
           "Move": "MOVE_FUTURE_SIGHT"
+        },
+        {
+          "Level": 43,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -194188,6 +193812,10 @@
         {
           "Level": 43,
           "Move": "MOVE_CALM_MIND"
+        },
+        {
+          "Level": 45,
+          "Move": "MOVE_HEAL_PULSE"
         },
         {
           "Level": 46,
@@ -195076,6 +194704,10 @@
         {
           "Level": 58,
           "Move": "MOVE_TAKE_DOWN"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         },
         {
           "Level": 64,
@@ -196451,6 +196083,17 @@
           1,
           2
         ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "OldRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 25,
+        "Slots": [
+          0,
+          1
+        ]
       }
     ],
     "SafariEncounters": [
@@ -196756,6 +196399,26 @@
       {
         "Location": "ENCDATA_D48R0101_CLIFF_EDGE_GATE",
         "Method": "SurfSwarm"
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "GoodRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 50,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Surf",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
       }
     ],
     "SafariEncounters": []
@@ -197044,6 +196707,16 @@
         "Rate": 15,
         "Slots": [
           2
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "SuperRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 75,
+        "Slots": [
+          0
         ]
       }
     ],
@@ -221165,6 +220838,66 @@
         ]
       },
       {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          5
+        ]
+      },
+      {
         "Location": "ENCDATA_R37_ROUTE_37",
         "Method": "Walk",
         "Time": "Day",
@@ -222252,6 +221985,66 @@
         "Rate": 10,
         "Slots": [
           4
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          2
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          7
         ]
       }
     ],
@@ -224447,6 +224240,66 @@
         ]
       },
       {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          8
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          1
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          8
+        ]
+      },
+      {
         "Location": "ENCDATA_R38_ROUTE_38",
         "Method": "Walk",
         "Time": "Night",
@@ -226251,7 +226104,168 @@
       ]
     },
     "AlternateForms": [],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 74,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 20,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 5,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 74,
+        "Rate": 25,
+        "Slots": [
+          0
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 25,
+        "Slots": [
+          9
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_LARVESTA": {
@@ -226818,7 +226832,168 @@
       ]
     },
     "AlternateForms": [],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          7
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          7
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_COBALION": {
@@ -227063,18 +227238,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          0
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_TERRAKION": {
@@ -227300,18 +227464,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          1
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_VIRIZION": {
@@ -227556,18 +227709,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          2
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_TORNADUS": {
@@ -227815,18 +227957,7 @@
     "AlternateForms": [
       "SPECIES_TORNADUS_THERIAN"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          6
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_THUNDURUS": {
@@ -228085,18 +228216,7 @@
     "AlternateForms": [
       "SPECIES_THUNDURUS_THERIAN"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          7
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_RESHIRAM": {
@@ -228347,18 +228467,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          9
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_ZEKROM": {
@@ -228617,18 +228726,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          10
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_LANDORUS": {
@@ -228869,18 +228967,7 @@
     "AlternateForms": [
       "SPECIES_LANDORUS_THERIAN"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          8
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_KYUREM": {
@@ -229121,18 +229208,7 @@
       "SPECIES_KYUREM_BLACK",
       "SPECIES_KYUREM_WHITE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 78,
-        "Rate": 25,
-        "Slots": [
-          11
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_KELDEO": {
@@ -229372,18 +229448,7 @@
     "AlternateForms": [
       "SPECIES_KELDEO_RESOLUTE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          7
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_MELOETTA": {
@@ -229651,18 +229716,7 @@
     "AlternateForms": [
       "SPECIES_MELOETTA_PIROUETTE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          8
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_GENESECT": {
@@ -229924,18 +229978,7 @@
       "SPECIES_GENESECT_DOUSE_DRIVE",
       "SPECIES_GENESECT_SHOCK_DRIVE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          9
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_CHESPIN": {
@@ -245098,7 +245141,11 @@
           "Move": "MOVE_DISCHARGE"
         },
         {
-          "Level": 40,
+          "Level": 39,
+          "Move": "MOVE_HEAL_PULSE"
+        },
+        {
+          "Level": 41,
           "Move": "MOVE_DRAINING_KISS"
         },
         {
@@ -245841,6 +245888,51 @@
         ]
       },
       {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "GoodRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 50,
+        "Slots": [
+          3,
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "OldRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 25,
+        "Slots": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "SuperRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 75,
+        "Slots": [
+          3,
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Surf",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 10,
+        "Slots": [
+          3,
+          4
+        ]
+      },
+      {
         "Location": "ENCDATA_D44R0102_DRAGONS_DEN",
         "Method": "Surf",
         "MinLevel": 45,
@@ -246424,7 +246516,168 @@
     "AlternateForms": [
       "SPECIES_GOODRA_HISUIAN"
     ],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 5,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 5,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          3
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_KLEFKI": {
@@ -249341,18 +249594,7 @@
     "AlternateForms": [
       "SPECIES_XERNEAS_ACTIVE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 74,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_YVELTAL": {
@@ -249588,18 +249830,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_ZYGARDE": {
@@ -249844,18 +250075,7 @@
       "SPECIES_ZYGARDE_50_COMPLETE",
       "SPECIES_ZYGARDE_50_POWER_CONSTRUCT"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_DIANCIE": {
@@ -250112,28 +250332,7 @@
     "AlternateForms": [
       "SPECIES_MEGA_DIANCIE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      },
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          10
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_HOOPA": {
@@ -250399,18 +250598,7 @@
     "AlternateForms": [
       "SPECIES_HOOPA_UNBOUND"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 78,
-        "Rate": 25,
-        "Slots": [
-          11
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_VOLCANION": {
@@ -250660,18 +250848,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 74,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_ROWLET": {
@@ -263985,11 +264162,11 @@
       "speciesData": {
         "baseStats": {
           "hp": 75,
-          "attack": 120,
+          "attack": 110,
           "defense": 110,
-          "spAttack": 75,
-          "spDefense": 90,
-          "speed": 60
+          "spAttack": 95,
+          "spDefense": 70,
+          "speed": 70
         },
         "types": [
           "TYPE_BUG",
@@ -265397,18 +265574,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          10
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_SILVALLY": {
@@ -265707,18 +265873,7 @@
       ]
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          11
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_MINIOR": {
@@ -269285,7 +269440,168 @@
     "AlternateForms": [
       "SPECIES_KOMMO_O_LARGE"
     ],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 5,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 5,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          4
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_TAPU_KOKO": {
@@ -269539,18 +269855,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          10
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_TAPU_LELE": {
@@ -269798,18 +270103,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          11
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_TAPU_BULU": {
@@ -270074,18 +270368,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          8
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_TAPU_FINI": {
@@ -270340,18 +270623,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          9
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_COSMOG": {
@@ -270454,18 +270726,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          4
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_COSMOEM": {
@@ -270580,18 +270841,7 @@
       ]
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          3
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_SOLGALEO": {
@@ -270852,18 +271102,7 @@
       ]
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          0
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_LUNALA": {
@@ -271122,18 +271361,7 @@
       ]
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          1
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_NIHILEGO": {
@@ -273044,18 +273272,7 @@
       "SPECIES_NECROZMA_ULTRA_DAWN_WINGS",
       "SPECIES_NECROZMA_ULTRA_DUSK_MANE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          2
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_MAGEARNA": {
@@ -273346,18 +273563,7 @@
       "SPECIES_MEGA_MAGEARNA",
       "SPECIES_MEGA_MAGEARNA_ORIGINAL"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          4
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_MARSHADOW": {
@@ -273628,18 +273834,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          5
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_POIPOLE": {
@@ -274765,18 +274960,7 @@
     "AlternateForms": [
       "SPECIES_MEGA_ZERAORA"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          6
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_MELTAN": {
@@ -274906,22 +275090,17 @@
     },
     "LearnsetSourceSpecies": "SPECIES_MELTAN",
     "Evolutions": {
-      "To": [],
+      "To": [
+        {
+          "Method": "EVO_LEVEL",
+          "Param": 60,
+          "Species": "SPECIES_MELMETAL"
+        }
+      ],
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          7
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_MELMETAL": {
@@ -275114,23 +275293,18 @@
     "LearnsetSourceSpecies": "SPECIES_MELMETAL",
     "Evolutions": {
       "To": [],
-      "From": []
+      "From": [
+        {
+          "Method": "EVO_LEVEL",
+          "Param": 60,
+          "Species": "SPECIES_MELTAN"
+        }
+      ]
     },
     "AlternateForms": [
       "SPECIES_GIGANTAMAX_MELMETAL"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          8
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_GROOKEY": {
@@ -281049,6 +281223,16 @@
         ]
       },
       {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "OldRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 25,
+        "Slots": [
+          3
+        ]
+      },
+      {
         "Location": "ENCDATA_T21_CHERRYGROVE_CITY",
         "Method": "GoodRod",
         "MinLevel": 30,
@@ -281364,6 +281548,36 @@
         "Rate": 5,
         "Slots": [
           5
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "GoodRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 50,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "SuperRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 75,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Surf",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 10,
+        "Slots": [
+          3
         ]
       },
       {
@@ -284036,6 +284250,36 @@
         "Slots": [
           3,
           4
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "GoodRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 50,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "SuperRod",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 75,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_R28_ROUTE_28",
+        "Method": "Surf",
+        "MinLevel": 74,
+        "MaxLevel": 78,
+        "Rate": 10,
+        "Slots": [
+          2
         ]
       },
       {
@@ -290154,6 +290398,10 @@
         {
           "Level": 52,
           "Move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -294929,7 +295177,168 @@
       ]
     },
     "AlternateForms": [],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 5,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          3
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          6
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_ZACIAN": {
@@ -295123,18 +295532,7 @@
     "AlternateForms": [
       "SPECIES_ZACIAN_CROWNED"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          7
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_ZAMAZENTA": {
@@ -295343,18 +295741,7 @@
     "AlternateForms": [
       "SPECIES_ZAMAZENTA_CROWNED"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          8
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_ETERNATUS": {
@@ -295556,18 +295943,7 @@
     "AlternateForms": [
       "SPECIES_ETERNATUS_ETERNAMAX"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          7
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_KUBFU": {
@@ -295772,18 +296148,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          5
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_URSHIFU": {
@@ -296023,18 +296388,7 @@
       "SPECIES_GIGANTAMAX_URSHIFU",
       "SPECIES_URSHIFU_RAPID_STRIKE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          6
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_ZARUDE": {
@@ -296268,18 +296622,7 @@
     "AlternateForms": [
       "SPECIES_ZARUDE_DADA"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          10
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_REGIELEKI": {
@@ -296470,18 +296813,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          2
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_REGIDRAGO": {
@@ -296665,18 +296997,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          5
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_GLASTRIER": {
@@ -297280,18 +297601,7 @@
       "SPECIES_CALYREX_ICE_RIDER",
       "SPECIES_CALYREX_SHADOW_RIDER"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          2
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_WYRDEER": {
@@ -299445,18 +299755,7 @@
     "AlternateForms": [
       "SPECIES_ENAMORUS_THERIAN"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          9
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_SPRIGATITO": {
@@ -311803,6 +312102,10 @@
         {
           "Level": 34,
           "Move": "MOVE_UPROAR"
+        },
+        {
+          "Level": 40,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -312055,6 +312358,10 @@
         {
           "Level": 58,
           "Move": "MOVE_STORED_POWER"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -323938,7 +324245,168 @@
     "AlternateForms": [
       "SPECIES_MEGA_BAXCALIBUR"
     ],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 20,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 5,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 75,
+        "Rate": 25,
+        "Slots": [
+          4
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Night",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          5
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_GIMMIGHOUL": {
@@ -324493,18 +324961,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          0
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_CHIEN_PAO": {
@@ -324703,18 +325160,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          1
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_TING_LU": {
@@ -324913,18 +325359,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          2
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_CHI_YU": {
@@ -325115,18 +325550,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          3
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_ROARING_MOON": {
@@ -326038,18 +326462,7 @@
       "SPECIES_KORAIDON_SPRINTING_BUILD",
       "SPECIES_KORAIDON_SWIMMING_BUILD"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          4
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_MIRAIDON": {
@@ -326257,18 +326670,7 @@
       "SPECIES_MIRAIDON_GLIDE_MODE",
       "SPECIES_MIRAIDON_LOW_POWER_MODE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          5
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_WALKING_WAKE": {
@@ -327626,18 +328028,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          6
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_MUNKIDORI": {
@@ -327823,18 +328214,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          7
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_FEZANDIPITI": {
@@ -328030,18 +328410,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          8
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_OGERPON": {
@@ -328255,18 +328624,7 @@
       "SPECIES_OGERPON_WELLSPRING_MASK",
       "SPECIES_OGERPON_WELLSPRING_MASK_TERASTAL"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          0
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_ARCHALUDON": {
@@ -328486,7 +328844,168 @@
       ]
     },
     "AlternateForms": [],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          6
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          6
+        ]
+      }
+    ],
     "SafariEncounters": []
   },
   "SPECIES_HYDRAPPLE": {
@@ -329928,18 +330447,7 @@
       "SPECIES_TERAPAGOS_STELLAR",
       "SPECIES_TERAPAGOS_TERASTAL"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          1
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_PECHARUNT": {
@@ -330113,18 +330621,7 @@
       "From": []
     },
     "AlternateForms": [],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          9
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": []
   },
   "SPECIES_MEGA_VENUSAUR": {
@@ -344787,6 +345284,10 @@
           "Move": "MOVE_TAKE_DOWN"
         },
         {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
+        },
+        {
           "Level": 64,
           "Move": "MOVE_LAST_RESORT"
         }
@@ -354686,6 +355187,10 @@
         {
           "Level": 55,
           "Move": "MOVE_HEALING_WISH"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -354942,6 +355447,10 @@
         {
           "Level": 58,
           "Move": "MOVE_TAKE_DOWN"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         },
         {
           "Level": 61,
@@ -356796,18 +357305,7 @@
     "AlternateForms": [
       "SPECIES_ARTICUNO"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          9
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_ARTICUNO"
   },
@@ -357016,18 +357514,7 @@
     "AlternateForms": [
       "SPECIES_ZAPDOS"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          10
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_ZAPDOS"
   },
@@ -357232,18 +357719,7 @@
     "AlternateForms": [
       "SPECIES_MOLTRES"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Day",
-        "Level": 77,
-        "Rate": 25,
-        "Slots": [
-          11
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_MOLTRES"
   },
@@ -369804,18 +370280,7 @@
     "AlternateForms": [
       "SPECIES_MELOETTA"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 74,
-        "Rate": 10,
-        "Slots": [
-          1
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_MELOETTA"
   },
@@ -383772,18 +384237,7 @@
       "SPECIES_ZYGARDE_50_COMPLETE",
       "SPECIES_ZYGARDE_50_POWER_CONSTRUCT"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          8
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_ZYGARDE"
   },
@@ -384029,18 +384483,7 @@
       "SPECIES_ZYGARDE_50_COMPLETE",
       "SPECIES_ZYGARDE_50_POWER_CONSTRUCT"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          9
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_ZYGARDE"
   },
@@ -384286,18 +384729,7 @@
       "SPECIES_ZYGARDE_10_POWER_CONSTRUCT",
       "SPECIES_ZYGARDE_50_COMPLETE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 77,
-        "Rate": 10,
-        "Slots": [
-          10
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_ZYGARDE"
   },
@@ -384543,18 +384975,7 @@
       "SPECIES_ZYGARDE_50_COMPLETE",
       "SPECIES_ZYGARDE_50_POWER_CONSTRUCT"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          11
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_ZYGARDE"
   },
@@ -384800,18 +385221,7 @@
       "SPECIES_ZYGARDE_10_POWER_CONSTRUCT",
       "SPECIES_ZYGARDE_50_POWER_CONSTRUCT"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          7
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_ZYGARDE"
   },
@@ -385076,18 +385486,7 @@
     "AlternateForms": [
       "SPECIES_HOOPA"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_HOOPA"
   },
@@ -390726,19 +391125,7 @@
       "SPECIES_NECROZMA_ULTRA_DAWN_WINGS",
       "SPECIES_NECROZMA_ULTRA_DUSK_MANE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 76,
-        "Rate": 25,
-        "Slots": [
-          5,
-          6
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_NECROZMA"
   },
@@ -393651,6 +394038,10 @@
         {
           "Level": 52,
           "Move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -393861,6 +394252,10 @@
         {
           "Level": 52,
           "Move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -394071,6 +394466,10 @@
         {
           "Level": 52,
           "Move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -394281,6 +394680,10 @@
         {
           "Level": 52,
           "Move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -394491,6 +394894,10 @@
         {
           "Level": 52,
           "Move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -394701,6 +395108,10 @@
         {
           "Level": 52,
           "Move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -396246,18 +396657,7 @@
     "AlternateForms": [
       "SPECIES_GIGANTAMAX_URSHIFU_RAPID_STRIKE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          2
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_URSHIFU"
   },
@@ -396492,18 +396892,7 @@
     "AlternateForms": [
       "SPECIES_ZARUDE"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 78,
-        "Rate": 10,
-        "Slots": [
-          11
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_ZARUDE"
   },
@@ -396810,18 +397199,7 @@
       "SPECIES_CALYREX",
       "SPECIES_CALYREX_SHADOW_RIDER"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 74,
-        "Rate": 25,
-        "Slots": [
-          3
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_CALYREX"
   },
@@ -397119,18 +397497,7 @@
       "SPECIES_CALYREX",
       "SPECIES_CALYREX_ICE_RIDER"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_R28_ROUTE_28",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 25,
-        "Slots": [
-          4
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_CALYREX"
   },
@@ -397904,6 +398271,166 @@
         "Rate": 15,
         "Slots": [
           10
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 25,
+        "Slots": [
+          9
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 25,
+        "Slots": [
+          9
         ]
       }
     ],
@@ -401152,7 +401679,168 @@
     "AlternateForms": [
       "SPECIES_GOODRA"
     ],
-    "Encounters": [],
+    "Encounters": [
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 78,
+        "Rate": 20,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 20,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 5,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0106_MT_SILVER_3F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_D41R0107_MT_SILVER_4F",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 77,
+        "Rate": 10,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Day",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          5
+        ]
+      },
+      {
+        "Location": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
+        "Method": "Walk",
+        "Time": "Morning",
+        "Level": 76,
+        "Rate": 25,
+        "Slots": [
+          5
+        ]
+      }
+    ],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_GOODRA"
   },
@@ -411132,18 +411820,7 @@
       "SPECIES_OGERPON_TEAL_MASK_TERASTAL",
       "SPECIES_OGERPON_WELLSPRING_MASK_TERASTAL"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          3
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_OGERPON"
   },
@@ -411358,18 +412035,7 @@
       "SPECIES_OGERPON_WELLSPRING_MASK",
       "SPECIES_OGERPON_WELLSPRING_MASK_TERASTAL"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 75,
-        "Rate": 10,
-        "Slots": [
-          4
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_OGERPON"
   },
@@ -411584,18 +412250,7 @@
       "SPECIES_OGERPON_WELLSPRING_MASK",
       "SPECIES_OGERPON_WELLSPRING_MASK_TERASTAL"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Night",
-        "Level": 76,
-        "Rate": 10,
-        "Slots": [
-          5
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_OGERPON"
   },
@@ -421060,6 +421715,10 @@
         {
           "Level": 52,
           "Move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         }
       ],
       "MachineMoves": [
@@ -425112,6 +425771,10 @@
         {
           "Level": 58,
           "Move": "MOVE_HEALING_WISH"
+        },
+        {
+          "Level": 60,
+          "Move": "MOVE_HEAL_PULSE"
         },
         {
           "Level": 61,
@@ -432655,10 +433318,10 @@
       "speciesData": {
         "baseStats": {
           "hp": 75,
-          "attack": 135,
+          "attack": 130,
           "defense": 120,
-          "spAttack": 80,
-          "spDefense": 90,
+          "spAttack": 95,
+          "spDefense": 80,
           "speed": 80
         },
         "types": [
@@ -432688,8 +433351,8 @@
           "EGG_GROUP_WATER_3"
         ],
         "abilities": [
-          "ABILITY_REGENERATOR",
-          "ABILITY_REGENERATOR"
+          "ABILITY_TOUGH_CLAWS",
+          "ABILITY_TOUGH_CLAWS"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_GRAY",
@@ -437389,18 +438052,7 @@
     "AlternateForms": [
       "SPECIES_SHAYMIN"
     ],
-    "Encounters": [
-      {
-        "Location": "ENCDATA_D41R0101_MT_SILVER_1F",
-        "Method": "Walk",
-        "Time": "Morning",
-        "Level": 74,
-        "Rate": 10,
-        "Slots": [
-          0
-        ]
-      }
-    ],
+    "Encounters": [],
     "SafariEncounters": [],
     "BaseSpecies": "SPECIES_SHAYMIN"
   },
