@@ -3180,7 +3180,7 @@
         "moves": [
           "MOVE_SHADOW_PUNCH",
           "MOVE_HIGH_HORSEPOWER",
-          "MOVE_CURSE",
+          "MOVE_IRON_DEFENSE",
           "MOVE_HEAVY_SLAM"
         ],
         "ability": "ABILITY_IRON_FIST",
@@ -8767,7 +8767,42 @@
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
         "level": 70,
-        "species": "SPECIES_GIRATINA",
+        "species": "SPECIES_TOGEKISS",
+        "item": "ITEM_SITRUS_BERRY",
+        "moves": [
+          "MOVE_AIR_SLASH",
+          "MOVE_THUNDER_WAVE",
+          "MOVE_MOONBLAST",
+          "MOVE_ROOST"
+        ],
+        "ability": "ABILITY_SERENE_GRACE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_TIMID",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 1
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
+        "level": 70,
+        "species": "SPECIES_GIRATINA_ORIGIN",
         "item": "ITEM_GRISEOUS_ORB",
         "moves": [
           "MOVE_DRACO_METEOR",
@@ -8796,21 +8831,22 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 1
+        "speciesExpression": "MON_WITH_FORM(SPECIES_GIRATINA, 1)",
+        "partySlot": 2
       },
       {
         "ivs": 200,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
         "level": 70,
-        "species": "SPECIES_PALKIA",
-        "item": "ITEM_LUSTROUS_GLOBE",
+        "species": "SPECIES_ROSERADE",
+        "item": "ITEM_BLACK_SLUDGE",
         "moves": [
-          "MOVE_SPACIAL_REND",
-          "MOVE_HYDRO_PUMP",
-          "MOVE_FIRE_BLAST",
-          "MOVE_POWER_GEM"
+          "MOVE_MAGICAL_LEAF",
+          "MOVE_CLEAR_SMOG",
+          "MOVE_LEECH_SEED",
+          "MOVE_PROTECT"
         ],
-        "ability": "ABILITY_PRESSURE",
+        "ability": "ABILITY_TECHNICIAN",
         "setIvs": [
           31,
           31,
@@ -8831,77 +8867,7 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
-        "partySlot": 2
-      },
-      {
-        "ivs": 200,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 70,
-        "species": "SPECIES_DIALGA",
-        "item": "ITEM_ADAMANT_CRYSTAL",
-        "moves": [
-          "MOVE_ROAR_OF_TIME",
-          "MOVE_AURA_SPHERE",
-          "MOVE_FLASH_CANNON",
-          "MOVE_EARTH_POWER"
-        ],
-        "ability": "ABILITY_PRESSURE",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          255,
-          255,
-          255,
-          255,
-          255,
-          255
-        ],
-        "nature": "NATURE_MODEST",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
         "partySlot": 3
-      },
-      {
-        "ivs": 200,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 70,
-        "species": "SPECIES_GARCHOMP",
-        "item": "ITEM_CHOICE_SCARF",
-        "moves": [
-          "MOVE_EARTHQUAKE",
-          "MOVE_OUTRAGE",
-          "MOVE_POISON_JAB",
-          "MOVE_CRUNCH"
-        ],
-        "ability": "ABILITY_ROUGH_SKIN",
-        "setIvs": [
-          31,
-          31,
-          31,
-          31,
-          31,
-          31
-        ],
-        "setEvs": [
-          255,
-          255,
-          255,
-          255,
-          255,
-          255
-        ],
-        "nature": "NATURE_JOLLY",
-        "shinyLock": 0,
-        "additionalFlags": 0,
-        "ballSeal": 0,
-        "partySlot": 4
       },
       {
         "ivs": 200,
@@ -8936,10 +8902,50 @@
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
+        "partySlot": 4
+      },
+      {
+        "ivs": 200,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
+        "level": 70,
+        "species": "SPECIES_GARCHOMP",
+        "item": "ITEM_CHOICE_SCARF",
+        "moves": [
+          "MOVE_EARTHQUAKE",
+          "MOVE_OUTRAGE",
+          "MOVE_POISON_JAB",
+          "MOVE_CRUNCH"
+        ],
+        "ability": "ABILITY_ROUGH_SKIN",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_JOLLY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
         "partySlot": 5
       }
     ],
-    "Text": []
+    "Text": [
+      {
+        "type": "TRMSG_DBL_LOSE_1",
+        "text": "That was beyond my expectation!\\n"
+      }
+    ]
   },
   "89": {
     "TrainerId": 89,
@@ -10178,13 +10184,13 @@
   },
   "105": {
     "TrainerId": 105,
-    "Name": "Mickey",
+    "Name": "Pryce",
     "Data": {
-      "trainerType": "TRAINER_DATA_TYPE_MOVES",
-      "trainerClass": "TRAINERCLASS_ACE_TRAINER_M",
+      "trainerType": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS",
+      "trainerClass": "TRAINERCLASS_LEADER_PRYCE",
       "items": [
-        "ITEM_NONE",
-        "ITEM_NONE",
+        "ITEM_FULL_RESTORE",
+        "ITEM_FULL_RESTORE",
         "ITEM_NONE",
         "ITEM_NONE"
       ],
@@ -10193,49 +10199,222 @@
     },
     "Party": [
       {
-        "ivs": 0,
+        "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 10,
-        "species": "SPECIES_BULBASAUR",
+        "level": 80,
+        "species": "SPECIES_IRON_BUNDLE",
+        "item": "ITEM_BOOSTER_ENERGY",
         "moves": [
-          "MOVE_TACKLE",
-          "MOVE_GROWL",
-          "MOVE_VINE_WHIP",
-          "MOVE_LEECH_SEED"
+          "MOVE_FREEZE_DRY",
+          "MOVE_HYDRO_PUMP",
+          "MOVE_BLIZZARD",
+          "MOVE_U_TURN"
         ],
+        "ability": "ABILITY_BATTLE_ARMOR",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_MODEST",
+        "shinyLock": 0,
+        "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 0
       },
       {
-        "ivs": 0,
+        "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 10,
-        "species": "SPECIES_CHARMANDER",
+        "level": 80,
+        "species": "SPECIES_FROSLASS",
+        "item": "ITEM_CHARIZARDITE_X",
         "moves": [
-          "MOVE_SCRATCH",
-          "MOVE_GROWL",
-          "MOVE_EMBER",
-          "MOVE_SMOKESCREEN"
+          "MOVE_BLIZZARD",
+          "MOVE_HEX",
+          "MOVE_WILL_O_WISP",
+          "MOVE_PROTECT"
         ],
+        "ability": "ABILITY_ADAPTABILITY",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_TIMID",
+        "shinyLock": 0,
+        "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 1
       },
       {
-        "ivs": 0,
+        "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 10,
-        "species": "SPECIES_SQUIRTLE",
+        "level": 80,
+        "species": "SPECIES_LAPRAS",
+        "item": "ITEM_ASSAULT_VEST",
         "moves": [
-          "MOVE_TACKLE",
-          "MOVE_WATER_GUN",
-          "MOVE_TAIL_WHIP",
-          "MOVE_WITHDRAW"
+          "MOVE_FREEZE_DRY",
+          "MOVE_SHEER_COLD",
+          "MOVE_MUDDY_WATER",
+          "MOVE_DRAGON_PULSE"
         ],
+        "ability": "ABILITY_BATTLE_ARMOR",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_BOLD",
+        "shinyLock": 0,
+        "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 2
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 80,
+        "species": "SPECIES_LUGIA",
+        "item": "ITEM_WEAKNESS_POLICY",
+        "moves": [
+          "MOVE_CALM_MIND",
+          "MOVE_AEROBLAST",
+          "MOVE_EARTH_POWER",
+          "MOVE_RECOVER"
+        ],
+        "ability": "ABILITY_MULTISCALE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_TIMID",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 3
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 80,
+        "species": "SPECIES_WYRDEER",
+        "item": "ITEM_CHOICE_BAND",
+        "moves": [
+          "MOVE_PSYSHIELD_BASH",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_MEGAHORN",
+          "MOVE_WILD_CHARGE"
+        ],
+        "ability": "ABILITY_INTIMIDATE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_ADAMANT",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 4
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 80,
+        "species": "SPECIES_MAMOSWINE",
+        "item": "ITEM_CHOICE_SCARF",
+        "moves": [
+          "MOVE_EARTHQUAKE",
+          "MOVE_ICICLE_CRASH",
+          "MOVE_ROCK_SLIDE",
+          "MOVE_BULLDOZE"
+        ],
+        "ability": "ABILITY_THICK_FAT",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_JOLLY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 5
       }
     ],
-    "Text": []
+    "Text": [
+      {
+        "type": "TRMSG_DBL_LOSE_1",
+        "text": "Magnificent!\\n"
+      }
+    ]
   },
   "106": {
     "TrainerId": 106,
@@ -23852,15 +24031,15 @@
         "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
         "level": 80,
-        "species": "SPECIES_LAPRAS",
-        "item": "ITEM_ASSAULT_VEST",
+        "species": "SPECIES_INFERNAPE",
+        "item": "ITEM_FOCUS_SASH",
         "moves": [
-          "MOVE_FREEZE_DRY",
-          "MOVE_SHEER_COLD",
-          "MOVE_MUDDY_WATER",
-          "MOVE_DRAGON_PULSE"
+          "MOVE_OVERHEAT",
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_MACH_PUNCH",
+          "MOVE_ICE_PUNCH"
         ],
-        "ability": "ABILITY_BATTLE_ARMOR",
+        "ability": "ABILITY_IRON_FIST",
         "setIvs": [
           31,
           31,
@@ -23877,7 +24056,7 @@
           255,
           255
         ],
-        "nature": "NATURE_BOLD",
+        "nature": "NATURE_NAIVE",
         "shinyLock": 0,
         "additionalFlags": 0,
         "ballSeal": 0,
@@ -61279,7 +61458,7 @@
     "TrainerId": 700,
     "Name": "Giovanni",
     "Data": {
-      "trainerType": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS",
+      "trainerType": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS",
       "trainerClass": "TRAINERCLASS_ROCKET_BOSS",
       "items": [
         "ITEM_FULL_RESTORE",
@@ -61292,64 +61471,215 @@
     },
     "Party": [
       {
-        "ivs": 100,
+        "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 42,
-        "species": "SPECIES_NIDOKING",
-        "item": "ITEM_NONE",
+        "level": 80,
+        "species": "SPECIES_DEOXYS_ATTACK",
+        "item": "ITEM_FOCUS_SASH",
         "moves": [
-          "MOVE_FOCUS_ENERGY",
-          "MOVE_FURY_ATTACK",
-          "MOVE_DOUBLE_KICK",
-          "MOVE_SHADOW_CLAW"
+          "MOVE_KNOCK_OFF",
+          "MOVE_SUPERPOWER",
+          "MOVE_PSYCHO_BOOST",
+          "MOVE_ROCK_SLIDE"
         ],
+        "ability": "ABILITY_PRESSURE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_NAIVE",
+        "shinyLock": 0,
+        "additionalFlags": 0,
         "ballSeal": 0,
+        "speciesExpression": "MON_WITH_FORM(SPECIES_DEOXYS, 1)",
         "partySlot": 0
       },
       {
-        "ivs": 100,
-        "abilitySlot": "TRAINER_POKEMON_ABILITY_2",
-        "level": 40,
-        "species": "SPECIES_KANGASKHAN",
-        "item": "ITEM_NONE",
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 80,
+        "species": "SPECIES_GLISCOR",
+        "item": "ITEM_TOXIC_ORB",
         "moves": [
-          "MOVE_DIZZY_PUNCH",
-          "MOVE_SUCKER_PUNCH",
-          "MOVE_LEER",
-          "MOVE_OUTRAGE"
+          "MOVE_TOXIC",
+          "MOVE_ROOST",
+          "MOVE_STEALTH_ROCK",
+          "MOVE_ROCK_SLIDE"
         ],
+        "ability": "ABILITY_POISON_HEAL",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_IMPISH",
+        "shinyLock": 0,
+        "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 1
       },
       {
-        "ivs": 100,
+        "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 43,
-        "species": "SPECIES_HONCHKROW",
-        "item": "ITEM_NONE",
+        "level": 80,
+        "species": "SPECIES_GUZZLORD",
+        "item": "ITEM_LEFTOVERS",
         "moves": [
-          "MOVE_DARK_PULSE",
-          "MOVE_NASTY_PLOT",
-          "MOVE_SWAGGER",
-          "MOVE_SHADOW_BALL"
+          "MOVE_RAGE_POWDER",
+          "MOVE_TOXIC",
+          "MOVE_RECOVER",
+          "MOVE_CRUNCH"
         ],
+        "ability": "ABILITY_BEAST_BOOST",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_IMPISH",
+        "shinyLock": 0,
+        "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 2
       },
       {
-        "ivs": 100,
+        "ivs": 255,
         "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
-        "level": 46,
-        "species": "SPECIES_NIDOQUEEN",
-        "item": "ITEM_NONE",
+        "level": 80,
+        "species": "SPECIES_PERSIAN",
+        "item": "ITEM_SILK_SCARF",
         "moves": [
-          "MOVE_EARTH_POWER",
-          "MOVE_SUPERPOWER",
+          "MOVE_FAKE_OUT",
+          "MOVE_DOUBLE_HIT",
           "MOVE_CRUNCH",
-          "MOVE_ROAR"
+          "MOVE_ROCK_SLIDE"
         ],
+        "ability": "ABILITY_TECHNICIAN",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_JOLLY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
         "ballSeal": 0,
         "partySlot": 3
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 80,
+        "species": "SPECIES_GENGAR",
+        "item": "ITEM_CHARIZARDITE_X",
+        "moves": [
+          "MOVE_SHADOW_BALL",
+          "MOVE_SLUDGE_BOMB",
+          "MOVE_FOCUS_BLAST",
+          "MOVE_PROTECT"
+        ],
+        "ability": "ABILITY_LEVITATE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_JOLLY",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 4
+      },
+      {
+        "ivs": 255,
+        "abilitySlot": "TRAINER_POKEMON_ABILITY_1",
+        "level": 80,
+        "species": "SPECIES_NIDOQUEEN",
+        "item": "ITEM_CHOICE_SPECS",
+        "moves": [
+          "MOVE_SCORCHING_SANDS",
+          "MOVE_SLUDGE_WAVE",
+          "MOVE_FOCUS_BLAST",
+          "MOVE_FIRE_BLAST"
+        ],
+        "ability": "ABILITY_SHEER_FORCE",
+        "setIvs": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "setEvs": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nature": "NATURE_TIMID",
+        "shinyLock": 0,
+        "additionalFlags": 0,
+        "ballSeal": 0,
+        "partySlot": 5
       }
     ],
     "Text": [

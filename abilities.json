@@ -1593,5 +1593,10 @@
     "AbilityId": 318,
     "Name": "Spicy Spray",
     "Description": "Burns the attacker upon taking damage."
+  },
+  "ABILITY_AURA_GUARD": {
+    "AbilityId": 319,
+    "Name": "Aura Guard",
+    "Description": "Halves damage taken from contact moves."
   }
 }
