@@ -1567,7 +1567,7 @@
   "ABILITY_EELEVATE": {
     "AbilityId": 313,
     "Name": "Eelevate",
-    "Description": "Placeholder"
+    "Description": "Levitate and Beast Boost."
   },
   "ABILITY_TEMP2": {
     "AbilityId": 314,
@@ -1582,7 +1582,7 @@
   "ABILITY_FIRE_MANE": {
     "AbilityId": 316,
     "Name": "Fire Mane",
-    "Description": "Placeholder"
+    "Description": "Powers up fire moves."
   },
   "ABILITY_TEMP4": {
     "AbilityId": 317,
@@ -1597,6 +1597,6 @@
   "ABILITY_AURA_GUARD": {
     "AbilityId": 319,
     "Name": "Aura Guard",
-    "Description": "Halves damage taken from contact moves."
+    "Description": "Halves the damage from contact moves."
   }
 }

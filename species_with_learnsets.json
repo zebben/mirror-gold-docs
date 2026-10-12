@@ -130977,7 +130977,7 @@
         ],
         "abilities": [
           "ABILITY_OBLIVIOUS",
-          "ABILITY_ANTICIPATION"
+          "ABILITY_OBLIVIOUS"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_GRAY",
@@ -167875,7 +167875,7 @@
           "EGG_GROUP_HUMAN_LIKE"
         ],
         "abilities": [
-          "ABILITY_ANTICIPATION",
+          "ABILITY_DRY_SKIN",
           "ABILITY_DRY_SKIN"
         ],
         "safariFleeRate": 0,
@@ -181286,7 +181286,7 @@
           "EGG_GROUP_BUG"
         ],
         "abilities": [
-          "ABILITY_ANTICIPATION",
+          "ABILITY_NONE",
           "ABILITY_NONE"
         ],
         "safariFleeRate": 0,
@@ -263348,7 +263348,7 @@
           "EGG_GROUP_GRASS"
         ],
         "abilities": [
-          "ABILITY_LEAF_GUARD",
+          "ABILITY_QUEENLY_MAJESTY",
           "ABILITY_INTIMIDATE"
         ],
         "safariFleeRate": 0,
@@ -287574,7 +287574,7 @@
         ],
         "abilities": [
           "ABILITY_HEALER",
-          "ABILITY_ANTICIPATION"
+          "ABILITY_HEALER"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_PINK",
@@ -287755,7 +287755,7 @@
         ],
         "abilities": [
           "ABILITY_HEALER",
-          "ABILITY_ANTICIPATION"
+          "ABILITY_HEALER"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_PINK",
@@ -312676,7 +312676,7 @@
           "EGG_GROUP_FLYING"
         ],
         "abilities": [
-          "ABILITY_ANTICIPATION",
+          "ABILITY_FRISK",
           "ABILITY_FRISK"
         ],
         "safariFleeRate": 0,
@@ -325249,7 +325249,7 @@
         ],
         "abilities": [
           "ABILITY_GOOD_AS_GOLD",
-          "ABILITY_MAGIC_BOUNCE"
+          "ABILITY_GOOD_AS_GOLD"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_YELLOW",
@@ -404514,7 +404514,7 @@
     "Evolutions": {
       "To": [
         {
-          "Method": "EVO_LEVEL_FEMALE",
+          "Method": "EVO_LEVEL",
           "Param": 32,
           "Species": "SPECIES_JELLICENT_FEMALE"
         }
@@ -404766,7 +404766,7 @@
       "To": [],
       "From": [
         {
-          "Method": "EVO_LEVEL_FEMALE",
+          "Method": "EVO_LEVEL",
           "Param": 32,
           "Species": "SPECIES_FRILLISH_FEMALE"
         }
@@ -421934,7 +421934,7 @@
         ],
         "abilities": [
           "ABILITY_HEALER",
-          "ABILITY_ANTICIPATION"
+          "ABILITY_HEALER"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_PINK",
@@ -441400,8 +441400,8 @@
           "EGG_GROUP_BUG"
         ],
         "abilities": [
-          "ABILITY_ANTICIPATION",
-          "ABILITY_NONE"
+          "ABILITY_FRIEND_GUARD",
+          "ABILITY_OVERCOAT"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_GRAY",
@@ -441710,8 +441710,8 @@
           "EGG_GROUP_BUG"
         ],
         "abilities": [
-          "ABILITY_ANTICIPATION",
-          "ABILITY_NONE"
+          "ABILITY_FRIEND_GUARD",
+          "ABILITY_OVERCOAT"
         ],
         "safariFleeRate": 0,
         "bodyColor": "BODY_COLOR_GRAY",
