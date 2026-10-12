@@ -7,24 +7,177 @@
   <a class="nav-button" href="../trainers/index.html">Trainers</a><a class="nav-button" href="../items/index.html">Items</a>
   <a class="nav-button active" href="./index.html">Gameplay Changes</a>
 </nav>
-<h3 class="center">EVs/IVs</h3>
+
+<h2 class="center">Configurable Changes</h2>
 <div class="card">
-  <p>These systems have been dramatically simplified. EVs are now rewarded uniformly for each foe fainted. 2 EVs in each stat to each participant. This incentivizes some amount of individual growth throughout gameplay but significantly cuts out any kind of grind or FOMO normally attached to EVs.
-    IVs no longer roll 0-31. By default, IVs are always 31. You can opt to have some randomization to IVs if you disable the associated setting.</p>
+  <p>
+    Many settings are available to tailor your gameplay experience. These settings are presented naturally during gameplay.
+    Speak to Elm's Lab Assistant to modify them.
+  </p>
+</div>
+
+<h3 class="center">EVs</h3>
+<div class="card">
+  <p>
+    This system has been simplified. EVs are now rewarded uniformly across each stat for each foe defeated. You'll receive 2 EVs in each stat to each participant.
+    This incentivizes some amount of individual growth throughout gameplay but significantly cuts out any kind of grind or FOMO normally attached to EVs.
+  </p>
+  <ul class='center'>
+    <li>
+      Spread (Default): 2 EVs in each stat per foe defeated. Each enemy trainer will have EV spreads matching natural progression.
+    </li>
+    <li>
+      Disabled: No EVs are rewarded. Trainers will have zero EVs.
+    </li>
+  </ul>
+</div>
+<h3 class="center">IVs</h3>
+<div class="card">
+  <p>
+    IVs no longer roll 0-31. By default, IVs are always 31. You can opt to have some randomization to IVs if you disable the associated setting.
+  </p>
+  <ul class='center'>
+    <li>
+      Perfect (Default): each mon received will have perfect 31 IVs in each stat.
+    </li>
+    <li>
+      Pseudo-random: weighted higher IVs rolls than vanilla.
+    </li>
+  </ul>
+</div>
+<h3 class="center">Difficulty</h3>
+<div class="card">
+  <p>
+    There are three main difficulty settings in this game. Casual, Standard, and Challenge.
+    These settings will affect various aspects and are detailed below. This is changeable at any time much like most non-randomizer settings.
+  </p>
+  <ul class='center'>
+    <li>
+      Standard (Default): the intended experience. Level scaling is applied at the standard rate to match your party.
+      Trainers will be as documented. Porta PC and porta healing are available during normal gameplay, but not during the Elite 4 gauntlet.
+    </li>
+    <li>
+      Casual: an easier experience. Level scaling is applied at the lower rate than your party.
+      Trainers will be as documented. Porta PC and porta healing are always available.
+    </li>
+    <li>
+      Challenge: a more challenging/hardcore experience. Level scaling is applied at the boss rate to match your party for all trainers.
+      Trainers will have new team members according to their intended difficulty. Regular trainers will receive up to one new party member and held items may be added.
+      Bosses are padded to 6 party members and held items may be added.
+      Gyms and the Elite 4 are now more gauntlet-like. In either case, your Bag will be disabled, as will the porta PC and porta healing.
+      If you opt to leave a gym early, your trainer progress will be reset and you'll have to battle them again.
+    </li>
+  </ul>
+</div>
+<h3 class="center">Randomizer Mode</h3>
+<div class="card">
+  <p>
+    Randomizer mode is enabled at starter selection. You will be presented with multiple options to customize the experience. These settings cannot be changed later.
+  </p>
+  <ul class='center'>
+    <li>
+      Disabled (Default): no gameplay changes.
+    </li>
+    <li>
+      Generation: enable or disable each generation of Pokémon to be included in gameplay.
+    </li>
+    <li>
+      Ability: enable or disable ability randomization. Some Pokémon remain ability-locked. Abilities are carried over on evolution.
+    </li>
+    <li>
+      Learnset: enable or disable learnset randomization. Moves are chosen randomly but with a damaging move bias and a bias towards lower power moves early on.
+    </li>
+    <li>
+      Legendaries: enable or disable legendary randomization. Disabling this will keep the scripted legends like the Ho-oh encounter intact.
+    </li>
+  </ul>
 </div>
 <h3 class="center">Nuzlocke Mode</h3>
 <div class="card">
   <p>
-    Encounters for an area are locked when you capture them. This is to better facilitate varying rules that people follow in nuzlockes.
+    Encounters for an area are locked when you capture them instead of encountering. This is to better facilitate varying rules that people follow in nuzlockes.
     Shiny mons should always be catchable but will still count as your encounter for the area if not already used.
-    Trades and gifts are not tracked.
+    Trades and gifts are not tracked and are left to your discretion.
   </p>
+  <ul class='center'>
+    <li>
+      Disabled (Default): no gameplay changes.
+    </li>
+    <li>
+      Enabled: basic nuzlocke rules apply. One mon per route. The game will track this for you on the map.
+      Hardcore mode is enabled with this setting, but you can toggle it off separately if you wish.
+    </li>
+  </ul>
 </div>
-<h3 class="center">Note on Encounters</h3>
+<h3 class="center">Hardcore Mode</h3>
 <div class="card">
   <p>
-    There is a 1% chance with the randomizer OFF to see a randomized wild encounter. This will not have randomized abilities or moves like the randomized mode does.
-    After 8 gym badges, the 1% slot will always roll a non-static legend. After 16, the chance increases to 5%.
+    This is enabled by default when enabling Nuzlocke mode. Your team members will be lost permanently on fainting.
+    Lost team members will be sent to the Hall of Infamy and cannot be recovered.
+    Disable this for a more casual experience.
+  </p>
+  <ul class='center'>
+    <li>
+      Disabled (Default): no gameplay changes.
+    </li>
+    <li>
+      Enabled: fainted team members are permanently lost and sent to the Hall of Infamy.
+    </li>
+  </ul>
+</div>
+<h3 class="center">Fast Gameplay</h3>
+<div class="card">
+  <p>
+    This is enabled by default and includes a few things to speed up gameplay without relying on emulator speed up settings and messing up audio.
+  </p>
+  <ul class='center'>
+    <li>
+      Enabled (Default): run speed is roughly doubled, wild Pokémon battles will use the existing animation skip setting.
+    </li>
+    <li>
+      Disabled: normal gameplay minus some speed ups you likely won't notice without a side-by-side comparison.
+    </li>
+  </ul>
+</div>
+<h3 class="center">Modern Exp Share</h3>
+<div class="card">
+  <p>
+    Modern Exp Share is available. You can toggle this by using the key item.
+  </p>
+</div>
+
+<h2 class="center">Overall Changes</h2>
+<div class="card">
+  <p>
+    These changes are not configurable and are targeted at improving gameplay overall.
+  </p>
+</div>
+
+<h3 class="center">Level Scaling</h3>
+<div class="card">
+  <p>
+    Level scaling is applied to both wild and trainer encounters. This is done to help smooth out the infamous Johto level curve and provide a more consistent experience.
+    Generally speaking, normal trainers will be below your party level whilst bosses will be on par with you. Wild encounters will hover several levels below you and are capped around 60.
+    Bounded randomization is done here to avoid levels feeling stale and having every mon be exactly your level.
+  </p>
+</div>
+
+<h3 class="center">Speed</h3>
+<div class="card">
+  <p>
+    Separate from the dedicated Fast Gameplay setting documented above, various aspects of the game have had their time cut.
+    This includes things like certain lengthy dialogues which have been trimmed while maintaining a majority of the wording and intent.
+    Battles have unlocked frames by default. Waits have been reduced, text has been sped up. Hit B twice to run from battle.
+  </p>
+</div>
+
+<h3 class="center">Encounters</h3>
+<div class="card">
+  <p>
+    There is a 1% chance with the randomizer OFF to see a randomized wild encounter at any given point.
+    This will not have randomized abilities or moves like the randomizer mode, but the species will be random.
+    After 8 gym badges, the 1% slot will always roll a non-static legend encounter until you've seen them all.
+    After 16, the chance to see this special encounter will increase to 5%.
   </p>
 </div>
 <h3 class="center">Mega Evolution</h3>
@@ -35,6 +188,13 @@
     Only non-legendary mega options are available to the player at this time.
   </p>
 </div>
+<h3 class="center">Shiny Odds</h3>
+<div class="card">
+  <p>
+    Shiny odds: 1/2048 by default, and 1/512 with Shiny Charm.
+  </p>
+</div>
+
 <h3 class="center">Type Changes</h3>
 <table>
   <thead>
